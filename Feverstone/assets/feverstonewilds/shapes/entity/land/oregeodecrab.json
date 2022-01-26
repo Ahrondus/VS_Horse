@@ -1,0 +1,2990 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"Geode Crab": "C:/Users/Jessica/Desktop/VS show/geodecrab"
+	},
+	"elements": [
+		{
+			"name": "Body",
+			"from": [ 6.0, 3.6, 4.5 ], 
+			"to": [ 9.0, 5.1, 11.5 ], 
+			"rotationOrigin": [ 7.0, 3.0, 8.5 ],
+			"faces": {
+				"north": { "texture": "#Geode Crab", "uv": [ 0.25, 5.5, 2.3125, 7.1875 ], "autoUv": false },
+				"east": { "texture": "#Geode Crab", "uv": [ 0.5, 13.5625, 7.5, 15.0625 ] },
+				"south": { "texture": "#Geode Crab", "uv": [ 0.375, 5.4375, 2.3125, 7.0625 ], "autoUv": false },
+				"west": { "texture": "#Geode Crab", "uv": [ 2.125, 13.8125, 9.125, 15.3125 ] },
+				"up": { "texture": "#Geode Crab", "uv": [ 1.1875, 6.9375, 4.1875, 13.9375 ] },
+				"down": { "texture": "#Geode Crab", "uv": [ 3.3125, 7.6875, 6.3125, 14.6875 ] }
+			},
+			"children": [
+				{
+					"name": "Body 2",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 0.0, 0.0 ], 
+					"faces": {
+						"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					},
+					"children": [
+						{
+							"name": "Cube28",
+							"from": [ -1.2, -0.6, 4.0 ], 
+							"to": [ 1.6, 0.4, 6.0 ], 
+							"rotationOrigin": [ 0.0, 0.0, 5.0 ],
+							"rotationY": 44.999996548644546,
+							"rotationZ": -22.499998202697345,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 4.6875, 10.6875, 7.4375, 11.6875 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 3.75, 9.6875, 5.75, 10.6875 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 1.8125, 8.4375, 4.5625, 9.4375 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 5.1875, 9.3125, 7.1875, 10.3125 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 4.25, 8.375, 7.0, 10.375 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 4.125, 8.5625, 6.875, 10.5625 ] }
+							}
+						},
+						{
+							"name": "Cube27",
+							"from": [ -1.2, -0.6, 1.0 ], 
+							"to": [ 1.6, 0.4, 3.0 ], 
+							"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+							"rotationY": -44.999996548644546,
+							"rotationZ": -22.499998202697345,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.8125, 7.25, 3.5625, 8.25 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.3125, 2.4375, 8.3125 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 1.75, 8.25, 4.5, 9.25 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 1.25, 6.6875, 3.25, 7.6875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 1.75, 7.3125, 4.5, 9.3125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 1.9375, 7.25, 4.6875, 9.25 ] }
+							}
+						},
+						{
+							"name": "Cube26",
+							"from": [ 1.0, -1.2, 3.0 ], 
+							"to": [ 3.8, -0.2, 5.0 ], 
+							"rotationOrigin": [ 1.0, -1.0, 5.0 ],
+							"rotationY": -44.999996548644546,
+							"rotationZ": 22.499998202697345,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.125, 8.125, 2.875, 9.125 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 1.0, 7.75, 3.0, 8.75 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 1.375, 7.125, 4.125, 8.125 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 1.8125, 6.9375, 3.8125, 7.9375 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 1.625, 8.375, 4.375, 10.375 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 1.625, 7.125, 4.375, 9.125 ] }
+							}
+						},
+						{
+							"name": "Cube25",
+							"from": [ 3.0, -0.7, 1.0 ], 
+							"to": [ 5.8, 0.3, 3.0 ], 
+							"rotationOrigin": [ 4.0, -1.0, 3.0 ],
+							"rotationY": 44.999996548644546,
+							"rotationZ": 22.499998202697345,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 1.0625, 7.0, 8.8125, 13.9375 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 1.0625, 6.8125, 8.6875, 14.4375 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 1.0625, 7.75, 9.0625, 14.5625 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 1.3125, 6.9375, 7.5, 12.625 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 1.4375, 6.75, 9.4375, 13.5 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 1.0625, 6.5625, 8.6875, 14.0625 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube24",
+							"from": [ 3.0, -0.8, 2.0 ], 
+							"to": [ 5.8, 0.2, 5.0 ], 
+							"rotationOrigin": [ 4.0, -1.0, 3.0 ],
+							"rotationZ": 19.99999788369719,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.75, 7.0, 8.375, 12.9375 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.6875, 6.75, 8.9375, 14.125 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 1.0625, 7.1875, 9.125, 15.125 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.4375, 6.625, 9.0625, 13.3125 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 1.0625, 6.625, 8.6875, 13.6875 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 1.0, 6.9375, 8.9375, 14.875 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube23",
+							"from": [ -3.0, -0.5, 2.0 ], 
+							"to": [ -0.2, 0.5, 5.0 ], 
+							"rotationOrigin": [ -2.0, -1.0, 3.0 ],
+							"rotationZ": -19.99999788369719,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.875, 7.375, 9.1875, 14.75 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.9375, 7.3125, 9.6875, 13.4375 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 2.0625, 7.1875, 8.9375, 13.8125 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 1.375, 7.0, 9.5, 15.0625 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 0.625, 6.625, 8.9375, 13.4375 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.625, 6.9375, 7.8125, 14.875 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube22",
+							"from": [ 1.6, 1.2, 1.4 ], 
+							"to": [ 4.6, 2.2, 4.4 ], 
+							"rotationOrigin": [ 2.5, 1.7083, 2.4 ],
+							"rotationY": 54.999992312920796,
+							"rotationZ": -14.999999765610442,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 7.1875, 3.375, 8.875, 4.5 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 6.25, 3.625, 9.25, 4.625 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 6.4375, 4.0625, 9.4375, 5.0625 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 6.6875, 3.1875, 9.6875, 4.1875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 6.5625, 2.9375, 9.5625, 5.9375 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 6.8125, 3.1875, 9.8125, 6.1875 ] }
+							}
+						},
+						{
+							"name": "Cube21",
+							"from": [ 0.2, 1.2, 3.6 ], 
+							"to": [ 3.2, 2.2, 6.6 ], 
+							"rotationOrigin": [ 2.5036, 1.7083, 4.4 ],
+							"rotationX": -179.99998926310653,
+							"rotationY": 59.99998809427091,
+							"rotationZ": -164.99999282503774,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 6.5625, 3.25, 9.5625, 6.25 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 3.0 ] }
+							}
+						},
+						{
+							"name": "Cube20",
+							"from": [ 2.1, 1.3, 2.0 ], 
+							"to": [ 5.3, 2.3, 5.0 ], 
+							"rotationOrigin": [ 3.2, 0.8, 3.0 ],
+							"rotationZ": -19.99999788369719,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.1875, 1.0 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.1875, 1.0 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 6.4375, 3.125, 9.625, 6.125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.1875, 3.0 ] }
+							}
+						},
+						{
+							"name": "Cube17",
+							"from": [ -1.3964, 1.0083, 0.0 ], 
+							"to": [ 1.6036, 2.0083, 3.0 ], 
+							"rotationOrigin": [ -0.4964, 1.7083, 1.4 ],
+							"rotationX": 8.04463542012146,
+							"rotationY": -60.36667294292622,
+							"rotationZ": 22.767959303940234,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 6.625, 3.125, 9.625, 6.125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 3.0 ] }
+							}
+						},
+						{
+							"name": "Cube18",
+							"from": [ -1.3964, 1.3183, 3.1 ], 
+							"to": [ 1.6036, 2.3183, 6.1 ], 
+							"rotationOrigin": [ -0.4964, 1.7083, 4.4 ],
+							"rotationX": 21.17690372965695,
+							"rotationY": -30.102441958552667,
+							"rotationZ": 10.59529680126508,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 6.5, 3.25, 9.5, 4.25 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 6.625, 3.25, 9.625, 4.25 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 6.5, 4.1875, 9.5, 5.1875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.25, 9.0, 4.8125 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 3.0 ] }
+							}
+						},
+						{
+							"name": "Cube19",
+							"from": [ -2.8, 0.5, 2.0 ], 
+							"to": [ -0.3, 1.5, 5.0 ], 
+							"rotationOrigin": [ -3.0, 2.0, 3.0 ],
+							"rotationZ": 22.5000003066977,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 2.5, 1.0 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 2.5, 1.0 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 7.0, 3.125, 9.5, 6.125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 2.5, 3.0 ] }
+							}
+						},
+						{
+							"name": "Cube15",
+							"from": [ 5.25, -0.1, 3.3 ], 
+							"to": [ 6.25, 1.56, 5.45 ], 
+							"rotationOrigin": [ 5.77, 0.6, 3.6 ],
+							"rotationY": -22.50000022689532,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.625 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.3125, 5.5625, 2.4375, 7.1875 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.625 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 2.125, 1.625 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 6.6875, 3.625, 7.6875, 5.75 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 10.9375, 8.875, 11.9375, 11.0 ] }
+							}
+						},
+						{
+							"name": "Cube14",
+							"from": [ 5.33, -0.1, 1.6 ], 
+							"to": [ 6.33, 1.56, 3.7 ], 
+							"rotationOrigin": [ 5.77, 0.6, 3.6 ],
+							"rotationY": 22.50000022689532,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.625 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0625, 5.625, 2.125, 7.25 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 8.8125, 7.0625, 9.8125, 8.6875 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 2.0625, 1.625 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 7.1875, 3.8125, 8.1875, 5.875 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 3.8125, 7.4375, 4.8125, 9.5 ] }
+							}
+						},
+						{
+							"name": "L eye",
+							"from": [ -2.79, -0.1, 3.2 ], 
+							"to": [ -1.79, 1.56, 5.3 ], 
+							"rotationOrigin": [ -2.23, 0.6, 4.6 ],
+							"rotationY": 22.50000022689532,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.625 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 2.0625, 1.625 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.625 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 11.25, 0.31, 15.8525, 2.6875 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 7.6875, 3.9375, 8.6875, 6.0 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 1.0, 10.3125, 2.0, 12.375 ] }
+							}
+						},
+						{
+							"name": "R eye",
+							"from": [ -2.23, -0.1, 1.6 ], 
+							"to": [ -1.23, 1.56, 3.8 ], 
+							"rotationOrigin": [ -2.0, 0.0, 1.0 ],
+							"rotationY": -22.50000022689532,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.625 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.25, 0.625, 2.4375, 2.25 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.625 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 6.3125, 0.3125, 11.4375, 2.8125 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 7.0625, 3.875, 8.0625, 6.0625 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 2.375, 11.125, 3.375, 13.3125 ] }
+							}
+						},
+						{
+							"name": "Cube11",
+							"from": [ 2.8, -0.1, 5.42 ], 
+							"to": [ 5.8, 1.59, 6.42 ], 
+							"rotationOrigin": [ 4.0, 0.5, 6.5 ],
+							"rotationY": 29.999998352813325,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.1875, 0.3125, 3.1875, 2.0 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.3125, 0.4375, 1.3125, 2.125 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 1.0, 5.375, 2.75, 7.0625 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.5625, 0.8125, 1.5625, 2.5 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 6.625, 4.375, 9.625, 5.375 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 2.5, 12.3125, 5.5, 13.3125 ] }
+							}
+						},
+						{
+							"name": "Cube10",
+							"from": [ -2.3, -0.1, 0.72 ], 
+							"to": [ 0.7, 1.59, 1.72 ], 
+							"rotationOrigin": [ -1.0, 0.5, 1.5 ],
+							"rotationY": 29.999998352813325,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.3125, 5.625, 2.1875, 7.25 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.6875 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.6875 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.75, 1.0625, 1.75, 2.75 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 7.5625, 3.5, 8.375, 4.875 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] }
+							}
+						},
+						{
+							"name": "Cube9",
+							"from": [ -2.7, -0.1, 5.65 ], 
+							"to": [ 0.3, 1.59, 6.65 ], 
+							"rotationOrigin": [ -0.5, 0.5, 6.5 ],
+							"rotationY": -29.999998352813325,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.6875 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.6875 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.5, 5.4375, 2.1875, 7.125 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.6875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 7.1875, 3.625, 8.5625, 4.6875 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] }
+							}
+						},
+						{
+							"name": "Cube8",
+							"from": [ 2.6, -0.1, -0.15 ], 
+							"to": [ 5.6, 1.59, 0.85 ], 
+							"rotationOrigin": [ 2.5, 0.5, 0.5 ],
+							"rotationY": -29.999998352813325,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.4375, 5.4375, 2.625, 7.3125 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.6875 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.6875 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.6875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 7.375, 3.875, 9.375, 5.1875 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 1.0 ] }
+							}
+						},
+						{
+							"name": "Cube6",
+							"from": [ 0.0, -0.9, 4.0 ], 
+							"to": [ 3.0, 1.1, 6.5 ], 
+							"rotationOrigin": [ 2.0, 0.5, 5.0 ],
+							"rotationX": -22.5000003066977,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 2.5, 2.0 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 6.375, 7.0, 9.375, 9.0 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 2.5, 2.0 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 2.5 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 5.625, 12.0, 8.625, 14.5 ] }
+							}
+						},
+						{
+							"name": "Cube5",
+							"from": [ 0.0, -0.9, 0.0 ], 
+							"to": [ 3.0, 1.1, 2.5 ], 
+							"rotationOrigin": [ 3.0, -0.5, 2.0 ],
+							"rotationX": 22.5000003066977,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 5.0625, 7.9375, 8.0625, 9.9375 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.3125, 8.75, 2.8125, 10.75 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 1.25, 8.125, 4.25, 10.125 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 2.4375, 8.0625, 4.9375, 10.0625 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 2.5625, 9.3125, 5.5625, 11.8125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 5.1875, 7.8125, 8.1875, 10.3125 ] }
+							}
+						},
+						{
+							"name": "Cube3",
+							"from": [ 0.0, 0.2, 3.7 ], 
+							"to": [ 3.0, 2.2, 6.9 ], 
+							"rotationOrigin": [ 2.0, 1.5, 5.0 ],
+							"rotationX": 14.99999550054569,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.1875, 2.0 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.1875, 2.0 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 6.75, 3.125, 9.75, 6.3125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.875, 7.25, 3.875, 10.4375 ] }
+							}
+						},
+						{
+							"name": "Cube2",
+							"from": [ 0.0, 0.4, 0.38 ], 
+							"to": [ 3.0, 2.4, 3.58 ], 
+							"rotationOrigin": [ 3.0, 0.5, 3.0 ],
+							"rotationX": -14.999997260396059,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.1875, 2.0 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.1875, 2.0 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 6.4375, 2.9375, 9.4375, 6.125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 3.0, 3.1875 ] }
+							}
+						},
+						{
+							"name": "Cube4",
+							"from": [ -0.3, -1.2, 2.0 ], 
+							"to": [ 2.9, 2.6, 5.0 ], 
+							"rotationOrigin": [ 0.0, -2.0, 3.0 ],
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 3.625, 2.6875, 5.1875, 5.75 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 3.6875, 2.1875, 5.625, 5.875 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 3.6875, 2.875, 5.4375, 5.1875 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 3.5, 2.3125, 5.125, 6.125 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 6.5625, 3.0, 9.75, 6.0 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 5.9375, 12.375, 9.125, 15.375 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "grass strains",
+					"from": [ 0.0, 2.0, 4.0 ], 
+					"to": [ 0.1, 3.0, 4.2 ], 
+					"rotationOrigin": [ 0.0, 2.0, 4.0 ],
+					"rotationX": 3.3757507855803184E-6,
+					"rotationY": -2.519628970091594E-6,
+					"rotationZ": -1.7609080487091001E-6,
+					"faces": {
+						"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+						"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+						"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+						"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+						"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+						"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+					},
+					"children": [
+						{
+							"name": "grass strain 65",
+							"from": [ 0.05, 1.0, 0.0 ], 
+							"to": [ 0.15, 2.0, 0.2 ], 
+							"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+							},
+							"children": [
+								{
+									"name": "grass strain 66",
+									"from": [ 0.05, 1.0, 0.0 ], 
+									"to": [ 0.15, 2.0, 0.2 ], 
+									"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 67",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 1.4, 0.2 ], 
+											"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 68",
+													"from": [ 0.03, 0.4, 0.0 ], 
+													"to": [ 0.13, 0.8, 0.2 ], 
+													"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 69",
+															"from": [ 0.07, 0.38, 0.0 ], 
+															"to": [ 0.18, 0.78, 0.2 ], 
+															"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "grass strain 2",
+							"from": [ 0.3, -1.0, 0.5 ], 
+							"to": [ 0.4, 0.0, 0.7 ], 
+							"rotationOrigin": [ 1.0, -1.0, 0.0 ],
+							"rotationX": 1.1551473541036E-7,
+							"rotationY": -22.499998378659544,
+							"rotationZ": -4.999999114428009,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+							},
+							"children": [
+								{
+									"name": "grass strain 71",
+									"from": [ 0.05, 1.0, 0.0 ], 
+									"to": [ 0.15, 2.0, 0.2 ], 
+									"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 72",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 73",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 1.4, 0.2 ], 
+													"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 74",
+															"from": [ 0.03, 0.4, 0.0 ], 
+															"to": [ 0.13, 0.8, 0.2 ], 
+															"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 75",
+																	"from": [ 0.07, 0.38, 0.0 ], 
+																	"to": [ 0.18, 0.78, 0.2 ], 
+																	"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "grass strain 3",
+							"from": [ 0.1, -1.0, -0.5 ], 
+							"to": [ 0.2, 0.0, -0.3 ], 
+							"rotationOrigin": [ 1.0, -1.0, -1.0 ],
+							"rotationY": 22.50000022689532,
+							"rotationZ": -9.99999955885553,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+							},
+							"children": [
+								{
+									"name": "grass strain 77",
+									"from": [ 0.05, 1.0, 0.0 ], 
+									"to": [ 0.15, 2.0, 0.2 ], 
+									"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 78",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 79",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 1.4, 0.2 ], 
+													"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 80",
+															"from": [ 0.03, 0.4, 0.0 ], 
+															"to": [ 0.13, 0.8, 0.2 ], 
+															"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 81",
+																	"from": [ 0.07, 0.38, 0.0 ], 
+																	"to": [ 0.18, 0.78, 0.2 ], 
+																	"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "grass strain 82",
+							"from": [ 2.0, -1.3, -2.0 ], 
+							"to": [ 2.1, -0.3, -1.8 ], 
+							"rotationOrigin": [ 2.0, -1.0, -2.0 ],
+							"rotationX": -9.999999511658972,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+							},
+							"children": [
+								{
+									"name": "grass strain 83",
+									"from": [ 0.05, 1.0, 0.0 ], 
+									"to": [ 0.15, 2.0, 0.2 ], 
+									"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 84",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 85",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 1.4, 0.2 ], 
+													"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 86",
+															"from": [ 0.03, 0.4, 0.0 ], 
+															"to": [ 0.13, 0.8, 0.2 ], 
+															"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 87",
+																	"from": [ 0.07, 0.38, 0.0 ], 
+																	"to": [ 0.18, 0.78, 0.2 ], 
+																	"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "grass strain 88",
+									"from": [ 0.3, -1.0, 0.5 ], 
+									"to": [ 0.4, 0.0, 0.7 ], 
+									"rotationOrigin": [ 1.0, -1.0, 0.0 ],
+									"rotationX": 1.1551473541036E-7,
+									"rotationY": -22.499998378659544,
+									"rotationZ": -4.999999114428009,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 89",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 90",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 2.0, 0.2 ], 
+													"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 91",
+															"from": [ 0.05, 1.0, 0.0 ], 
+															"to": [ 0.15, 1.4, 0.2 ], 
+															"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 92",
+																	"from": [ 0.03, 0.4, 0.0 ], 
+																	"to": [ 0.13, 0.8, 0.2 ], 
+																	"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "grass strain 93",
+																			"from": [ 0.07, 0.38, 0.0 ], 
+																			"to": [ 0.18, 0.78, 0.2 ], 
+																			"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																			"faces": {
+																				"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																				"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																				"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																				"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																				"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																				"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "grass strain 94",
+									"from": [ 0.1, -1.0, -0.5 ], 
+									"to": [ 0.2, 0.0, -0.3 ], 
+									"rotationOrigin": [ 1.0, -1.0, -1.0 ],
+									"rotationY": 22.50000022689532,
+									"rotationZ": -9.99999955885553,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 95",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 96",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 2.0, 0.2 ], 
+													"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 97",
+															"from": [ 0.05, 1.0, 0.0 ], 
+															"to": [ 0.15, 1.4, 0.2 ], 
+															"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 98",
+																	"from": [ 0.03, 0.4, 0.0 ], 
+																	"to": [ 0.13, 0.8, 0.2 ], 
+																	"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "grass strain 99",
+																			"from": [ 0.07, 0.38, 0.0 ], 
+																			"to": [ 0.18, 0.78, 0.2 ], 
+																			"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																			"faces": {
+																				"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																				"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																				"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																				"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																				"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																				"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "grass strain 100",
+							"from": [ 1.0, -1.0, 1.0 ], 
+							"to": [ 1.1, 0.0, 1.2 ], 
+							"rotationOrigin": [ 2.0, -1.0, 1.0 ],
+							"rotationX": 9.999999511658972,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+							},
+							"children": [
+								{
+									"name": "grass strain 101",
+									"from": [ 0.05, 1.0, 0.0 ], 
+									"to": [ 0.15, 2.0, 0.2 ], 
+									"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 102",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 103",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 1.4, 0.2 ], 
+													"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 104",
+															"from": [ 0.03, 0.4, 0.0 ], 
+															"to": [ 0.13, 0.8, 0.2 ], 
+															"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 105",
+																	"from": [ 0.07, 0.38, 0.0 ], 
+																	"to": [ 0.18, 0.78, 0.2 ], 
+																	"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "grass strain 106",
+									"from": [ 0.3, -1.0, 0.5 ], 
+									"to": [ 0.4, 0.0, 0.7 ], 
+									"rotationOrigin": [ 1.0, -1.0, 0.0 ],
+									"rotationX": 1.1551473541036E-7,
+									"rotationY": -22.499998378659544,
+									"rotationZ": -4.999999114428009,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 107",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 108",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 2.0, 0.2 ], 
+													"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 109",
+															"from": [ 0.05, 1.0, 0.0 ], 
+															"to": [ 0.15, 1.4, 0.2 ], 
+															"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 110",
+																	"from": [ 0.03, 0.4, 0.0 ], 
+																	"to": [ 0.13, 0.8, 0.2 ], 
+																	"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "grass strain 111",
+																			"from": [ 0.07, 0.38, 0.0 ], 
+																			"to": [ 0.18, 0.78, 0.2 ], 
+																			"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																			"faces": {
+																				"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																				"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																				"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																				"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																				"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																				"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "grass strain 112",
+									"from": [ 0.1, -1.0, -0.5 ], 
+									"to": [ 0.2, 0.0, -0.3 ], 
+									"rotationOrigin": [ 1.0, -1.0, -1.0 ],
+									"rotationY": 22.50000022689532,
+									"rotationZ": -9.99999955885553,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 113",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 114",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 2.0, 0.2 ], 
+													"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 115",
+															"from": [ 0.05, 1.0, 0.0 ], 
+															"to": [ 0.15, 1.4, 0.2 ], 
+															"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 116",
+																	"from": [ 0.03, 0.4, 0.0 ], 
+																	"to": [ 0.13, 0.8, 0.2 ], 
+																	"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "grass strain 117",
+																			"from": [ 0.07, 0.38, 0.0 ], 
+																			"to": [ 0.18, 0.78, 0.2 ], 
+																			"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																			"faces": {
+																				"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																				"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																				"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																				"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																				"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																				"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "grass strain 118",
+							"from": [ 3.0, -0.9, -1.0 ], 
+							"to": [ 3.1, 0.1, -0.8 ], 
+							"rotationOrigin": [ 4.0, 0.0, -1.0 ],
+							"rotationZ": -22.5000003066977,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+							},
+							"children": [
+								{
+									"name": "grass strain 119",
+									"from": [ 0.05, 1.0, 0.0 ], 
+									"to": [ 0.15, 2.0, 0.2 ], 
+									"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 120",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 121",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 1.4, 0.2 ], 
+													"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 122",
+															"from": [ 0.03, 0.4, 0.0 ], 
+															"to": [ 0.13, 0.8, 0.2 ], 
+															"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 123",
+																	"from": [ 0.07, 0.38, 0.0 ], 
+																	"to": [ 0.18, 0.78, 0.2 ], 
+																	"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "grass strain 124",
+									"from": [ 0.3, -1.0, 0.5 ], 
+									"to": [ 0.4, 0.0, 0.7 ], 
+									"rotationOrigin": [ 1.0, -1.0, 0.0 ],
+									"rotationX": 1.1551473541036E-7,
+									"rotationY": -22.499998378659544,
+									"rotationZ": -4.999999114428009,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 125",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 126",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 2.0, 0.2 ], 
+													"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 127",
+															"from": [ 0.05, 1.0, 0.0 ], 
+															"to": [ 0.15, 1.4, 0.2 ], 
+															"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 128",
+																	"from": [ 0.03, 0.4, 0.0 ], 
+																	"to": [ 0.13, 0.8, 0.2 ], 
+																	"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "grass strain 129",
+																			"from": [ 0.07, 0.38, 0.0 ], 
+																			"to": [ 0.18, 0.78, 0.2 ], 
+																			"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																			"faces": {
+																				"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																				"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																				"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																				"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																				"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																				"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "grass strain 130",
+									"from": [ 0.1, -1.0, -0.5 ], 
+									"to": [ 0.2, 0.0, -0.3 ], 
+									"rotationOrigin": [ 1.0, -1.0, -1.0 ],
+									"rotationY": 22.50000022689532,
+									"rotationZ": -9.99999955885553,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 131",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 132",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 2.0, 0.2 ], 
+													"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 133",
+															"from": [ 0.05, 1.0, 0.0 ], 
+															"to": [ 0.15, 1.4, 0.2 ], 
+															"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 134",
+																	"from": [ 0.03, 0.4, 0.0 ], 
+																	"to": [ 0.13, 0.8, 0.2 ], 
+																	"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "grass strain 135",
+																			"from": [ 0.07, 0.38, 0.0 ], 
+																			"to": [ 0.18, 0.78, 0.2 ], 
+																			"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																			"faces": {
+																				"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																				"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																				"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																				"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																				"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																				"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "grass strain 136",
+							"from": [ -0.5, -0.9, -1.7 ], 
+							"to": [ -0.4, 0.1, -1.5 ], 
+							"rotationOrigin": [ 0.0, 0.0, -2.0 ],
+							"rotationY": -22.50000022689532,
+							"rotationZ": 22.500000622717995,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+								"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+								"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+								"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+								"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+								"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+							},
+							"children": [
+								{
+									"name": "grass strain 137",
+									"from": [ 0.05, 1.0, 0.0 ], 
+									"to": [ 0.15, 2.0, 0.2 ], 
+									"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 138",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 139",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 1.4, 0.2 ], 
+													"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 140",
+															"from": [ 0.03, 0.4, 0.0 ], 
+															"to": [ 0.13, 0.8, 0.2 ], 
+															"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 141",
+																	"from": [ 0.07, 0.38, 0.0 ], 
+																	"to": [ 0.18, 0.78, 0.2 ], 
+																	"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "grass strain 142",
+									"from": [ 0.3, -1.0, 0.5 ], 
+									"to": [ 0.4, 0.0, 0.7 ], 
+									"rotationOrigin": [ 1.0, -1.0, 0.0 ],
+									"rotationX": 1.1551473541036E-7,
+									"rotationY": -22.499998378659544,
+									"rotationZ": -4.999999114428009,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 143",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 144",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 2.0, 0.2 ], 
+													"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 145",
+															"from": [ 0.05, 1.0, 0.0 ], 
+															"to": [ 0.15, 1.4, 0.2 ], 
+															"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 146",
+																	"from": [ 0.03, 0.4, 0.0 ], 
+																	"to": [ 0.13, 0.8, 0.2 ], 
+																	"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "grass strain 147",
+																			"from": [ 0.07, 0.38, 0.0 ], 
+																			"to": [ 0.18, 0.78, 0.2 ], 
+																			"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																			"faces": {
+																				"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																				"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																				"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																				"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																				"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																				"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "grass strain 148",
+									"from": [ 0.1, -1.0, -0.5 ], 
+									"to": [ 0.2, 0.0, -0.3 ], 
+									"rotationOrigin": [ 1.0, -1.0, -1.0 ],
+									"rotationY": 22.50000022689532,
+									"rotationZ": -9.99999955885553,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+										"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+										"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+										"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+										"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+										"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+									},
+									"children": [
+										{
+											"name": "grass strain 149",
+											"from": [ 0.05, 1.0, 0.0 ], 
+											"to": [ 0.15, 2.0, 0.2 ], 
+											"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+												"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+												"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+												"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+												"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+												"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+											},
+											"children": [
+												{
+													"name": "grass strain 150",
+													"from": [ 0.05, 1.0, 0.0 ], 
+													"to": [ 0.15, 2.0, 0.2 ], 
+													"rotationOrigin": [ -0.05, 1.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.9375 ] },
+														"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.75 ] },
+														"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.75 ] },
+														"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 6.1875 ] },
+														"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+														"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+													},
+													"children": [
+														{
+															"name": "grass strain 151",
+															"from": [ 0.05, 1.0, 0.0 ], 
+															"to": [ 0.15, 1.4, 0.2 ], 
+															"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+															},
+															"children": [
+																{
+																	"name": "grass strain 152",
+																	"from": [ 0.03, 0.4, 0.0 ], 
+																	"to": [ 0.13, 0.8, 0.2 ], 
+																	"rotationOrigin": [ -0.05, 0.0, 0.0 ],
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																		"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																		"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																		"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																		"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																		"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "grass strain 153",
+																			"from": [ 0.07, 0.38, 0.0 ], 
+																			"to": [ 0.18, 0.78, 0.2 ], 
+																			"rotationOrigin": [ -0.08, -0.4, 0.0 ],
+																			"faces": {
+																				"north": { "texture": "#Geode Crab", "uv": [ 7.3125, 3.9375, 7.375, 4.3125 ] },
+																				"east": { "texture": "#Geode Crab", "uv": [ 8.8125, 4.75, 9.0, 5.125 ] },
+																				"south": { "texture": "#Geode Crab", "uv": [ 8.25, 4.75, 8.3125, 5.125 ] },
+																				"west": { "texture": "#Geode Crab", "uv": [ 9.625, 5.1875, 9.8125, 5.5625 ] },
+																				"up": { "texture": "#Geode Crab", "uv": [ 9.1875, 5.625, 9.25, 5.8125 ] },
+																				"down": { "texture": "#Geode Crab", "uv": [ 8.5625, 5.25, 8.625, 5.4375 ] }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Copper",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 1.0, 1.0, 1.0 ], 
+					"faces": {
+						"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"up": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+					},
+					"children": [
+						{
+							"name": "Copper 160",
+							"from": [ 2.4, 1.8, 5.0 ], 
+							"to": [ 3.4, 2.8, 6.0 ], 
+							"rotationOrigin": [ 3.0, 2.0, 5.0 ],
+							"rotationX": 157.49998398975978,
+							"rotationY": 54.999986358886545,
+							"rotationZ": -157.49998398975978,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 10.375, 2.9375, 12.125, 6.125 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 10.25, 3.0625, 12.0625, 6.0 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 10.5, 3.0625, 12.1875, 6.125 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 10.25, 3.3125, 11.9375, 6.0625 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 10.125, 3.0625, 12.25, 6.0625 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 10.4375, 2.9375, 12.1875, 5.875 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Copper 161",
+									"from": [ 0.0, 0.4412, 1.3066 ], 
+									"to": [ 0.5, 0.9412, 1.8066 ], 
+									"rotationOrigin": [ -0.5, 0.9412, 1.3066 ],
+									"rotationX": 22.5000003066977,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 10.375, 2.9375, 12.125, 6.125 ], "autoUv": false },
+										"east": { "texture": "#Geode Crab", "uv": [ 10.25, 3.0625, 12.0625, 6.0 ], "autoUv": false },
+										"south": { "texture": "#Geode Crab", "uv": [ 10.5, 3.0625, 12.1875, 6.125 ], "autoUv": false },
+										"west": { "texture": "#Geode Crab", "uv": [ 10.25, 3.3125, 11.9375, 6.0625 ], "autoUv": false },
+										"up": { "texture": "#Geode Crab", "uv": [ 10.125, 3.0625, 12.25, 6.0625 ], "autoUv": false },
+										"down": { "texture": "#Geode Crab", "uv": [ 10.4375, 2.9375, 12.1875, 5.875 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Copper 162",
+											"from": [ -1.0, -1.0, -1.2 ], 
+											"to": [ -0.6, -0.6, -0.8 ], 
+											"rotationOrigin": [ -1.5, 0.5, -1.0 ],
+											"rotationX": -9.99999896971983,
+											"rotationY": -22.50000207513112,
+											"rotationZ": 22.500003037554503,
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 10.375, 2.9375, 12.125, 6.125 ], "autoUv": false },
+												"east": { "texture": "#Geode Crab", "uv": [ 10.25, 3.0625, 12.0625, 6.0 ], "autoUv": false },
+												"south": { "texture": "#Geode Crab", "uv": [ 10.5, 3.0625, 12.1875, 6.125 ], "autoUv": false },
+												"west": { "texture": "#Geode Crab", "uv": [ 10.25, 3.3125, 11.9375, 6.0625 ], "autoUv": false },
+												"up": { "texture": "#Geode Crab", "uv": [ 10.125, 3.0625, 12.25, 6.0625 ], "autoUv": false },
+												"down": { "texture": "#Geode Crab", "uv": [ 10.4375, 2.9375, 12.1875, 5.875 ], "autoUv": false }
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Copper 157",
+							"from": [ -1.0, 2.0, 4.0 ], 
+							"to": [ 0.0, 3.0, 5.0 ], 
+							"rotationOrigin": [ -1.0, 2.0, 4.0 ],
+							"rotationX": 22.500000622717995,
+							"rotationY": -22.50000022689532,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 10.375, 2.9375, 12.125, 6.125 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 10.25, 3.0625, 12.0625, 6.0 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 10.5, 3.0625, 12.1875, 6.125 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 10.25, 3.3125, 11.9375, 6.0625 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 10.125, 3.0625, 12.25, 6.0625 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 10.4375, 2.9375, 12.1875, 5.875 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Copper 158",
+									"from": [ 0.0, 0.4412, 1.3066 ], 
+									"to": [ 0.5, 0.9412, 1.8066 ], 
+									"rotationOrigin": [ -0.5, 0.9412, 1.3066 ],
+									"rotationX": 22.5000003066977,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 10.375, 2.9375, 12.125, 6.125 ], "autoUv": false },
+										"east": { "texture": "#Geode Crab", "uv": [ 10.25, 3.0625, 12.0625, 6.0 ], "autoUv": false },
+										"south": { "texture": "#Geode Crab", "uv": [ 10.5, 3.0625, 12.1875, 6.125 ], "autoUv": false },
+										"west": { "texture": "#Geode Crab", "uv": [ 10.25, 3.3125, 11.9375, 6.0625 ], "autoUv": false },
+										"up": { "texture": "#Geode Crab", "uv": [ 10.125, 3.0625, 12.25, 6.0625 ], "autoUv": false },
+										"down": { "texture": "#Geode Crab", "uv": [ 10.4375, 2.9375, 12.1875, 5.875 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Copper 159",
+											"from": [ -1.0, -1.0, -1.2 ], 
+											"to": [ -0.6, -0.6, -0.8 ], 
+											"rotationOrigin": [ -1.5, 0.5, -1.0 ],
+											"rotationX": -9.99999896971983,
+											"rotationY": -22.50000207513112,
+											"rotationZ": 22.500003037554503,
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 10.375, 2.9375, 12.125, 6.125 ], "autoUv": false },
+												"east": { "texture": "#Geode Crab", "uv": [ 10.25, 3.0625, 12.0625, 6.0 ], "autoUv": false },
+												"south": { "texture": "#Geode Crab", "uv": [ 10.5, 3.0625, 12.1875, 6.125 ], "autoUv": false },
+												"west": { "texture": "#Geode Crab", "uv": [ 10.25, 3.3125, 11.9375, 6.0625 ], "autoUv": false },
+												"up": { "texture": "#Geode Crab", "uv": [ 10.125, 3.0625, 12.25, 6.0625 ], "autoUv": false },
+												"down": { "texture": "#Geode Crab", "uv": [ 10.4375, 2.9375, 12.1875, 5.875 ], "autoUv": false }
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Copper 1",
+							"from": [ 0.5, 1.6, 1.0 ], 
+							"to": [ 1.5, 2.6, 2.0 ], 
+							"rotationOrigin": [ 0.0, 2.0, 1.0 ],
+							"rotationX": -22.5000003066977,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 10.375, 2.9375, 12.125, 6.125 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 10.25, 3.0625, 12.0625, 6.0 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 10.5, 3.0625, 12.1875, 6.125 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 10.25, 3.3125, 11.9375, 6.0625 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 10.125, 3.0625, 12.25, 6.0625 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 10.4375, 2.9375, 12.1875, 5.875 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Copper 2",
+									"from": [ 0.0, 0.4412, 1.3066 ], 
+									"to": [ 0.5, 0.9412, 1.8066 ], 
+									"rotationOrigin": [ -0.5, 0.9412, 1.3066 ],
+									"rotationX": 22.5000003066977,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 10.375, 2.9375, 12.125, 6.125 ], "autoUv": false },
+										"east": { "texture": "#Geode Crab", "uv": [ 10.25, 3.0625, 12.0625, 6.0 ], "autoUv": false },
+										"south": { "texture": "#Geode Crab", "uv": [ 10.5, 3.0625, 12.1875, 6.125 ], "autoUv": false },
+										"west": { "texture": "#Geode Crab", "uv": [ 10.25, 3.3125, 11.9375, 6.0625 ], "autoUv": false },
+										"up": { "texture": "#Geode Crab", "uv": [ 10.125, 3.0625, 12.25, 6.0625 ], "autoUv": false },
+										"down": { "texture": "#Geode Crab", "uv": [ 10.4375, 2.9375, 12.1875, 5.875 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Copper 3",
+											"from": [ -1.0, -1.0, -1.2 ], 
+											"to": [ -0.6, -0.6, -0.8 ], 
+											"rotationOrigin": [ -1.5, 0.5, -1.0 ],
+											"rotationX": -9.99999896971983,
+											"rotationY": -22.50000207513112,
+											"rotationZ": 22.500003037554503,
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 10.375, 2.9375, 12.125, 6.125 ], "autoUv": false },
+												"east": { "texture": "#Geode Crab", "uv": [ 10.25, 3.0625, 12.0625, 6.0 ], "autoUv": false },
+												"south": { "texture": "#Geode Crab", "uv": [ 10.5, 3.0625, 12.1875, 6.125 ], "autoUv": false },
+												"west": { "texture": "#Geode Crab", "uv": [ 10.25, 3.3125, 11.9375, 6.0625 ], "autoUv": false },
+												"up": { "texture": "#Geode Crab", "uv": [ 10.125, 3.0625, 12.25, 6.0625 ], "autoUv": false },
+												"down": { "texture": "#Geode Crab", "uv": [ 10.4375, 2.9375, 12.1875, 5.875 ], "autoUv": false }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Right Legs",
+					"from": [ 1.0, -0.17, 0.28 ], 
+					"to": [ 1.0, -0.17, 0.28 ], 
+					"rotationOrigin": [ 1.0, -0.1657, 0.2828 ],
+					"rotationX": -44.99999632180179,
+					"faces": {
+						"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] },
+						"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] },
+						"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] },
+						"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] },
+						"up": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] },
+						"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] }
+					},
+					"children": [
+						{
+							"name": "R mid Leg",
+							"from": [ 0.0, 0.0043, -1.4114 ], 
+							"to": [ 0.8, 0.8043, 0.5886 ], 
+							"rotationOrigin": [ 0.4, 0.6043, -1.2114 ],
+							"rotationX": -3.415094397496434E-6,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Cube30",
+									"from": [ 0.0, -0.9, -1.4142 ], 
+									"to": [ 0.8, -0.1, 0.5858 ], 
+									"rotationOrigin": [ 0.4, 0.7, -0.9142 ],
+									"rotationX": -89.99999164334537,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+										"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+										"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+										"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+										"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+										"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "foot",
+											"from": [ -0.15, 1.2858, -0.1142 ], 
+											"to": [ 1.05, 2.4858, 2.1858 ], 
+											"rotationOrigin": [ 0.0, 1.0858, 0.9 ],
+											"rotationX": 67.49999126988148,
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+												"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+												"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+												"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+												"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+												"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+											},
+											"children": [
+												{
+													"name": "foot 2",
+													"from": [ 0.25, 0.1173, 0.9281 ], 
+													"to": [ 1.05, 0.9173, 2.9281 ], 
+													"rotationOrigin": [ 0.15, -0.5827, 1.9381 ],
+													"rotationX": 22.499994757181433,
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+														"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+														"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+														"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+														"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+														"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+													},
+													"children": [
+														{
+															"name": "foot 32",
+															"from": [ -0.05, -2.3592, -3.2033 ], 
+															"to": [ 0.75, -1.5592, -1.2033 ], 
+															"rotationOrigin": [ 0.0, -0.7792, -3.0033 ],
+															"rotationX": -52.49998541389952,
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+															},
+															"children": [
+																{
+																	"name": "foot 33",
+																	"from": [ 0.15, -0.0562, -0.8988 ], 
+																	"to": [ 0.55, 0.4438, 0.6012 ], 
+																	"rotationOrigin": [ 0.05, 1.7646, -1.2021 ],
+																	"rotationX": -3.5000097414064557,
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																		"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																		"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																		"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																		"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																		"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "R back Leg",
+							"from": [ 3.4, -0.7028, -0.7043 ], 
+							"to": [ 4.2, 0.0972, 1.2957 ], 
+							"rotationOrigin": [ 4.4, -0.1028, -0.5043 ],
+							"rotationX": -3.2344126175738367E-6,
+							"rotationY": -22.50000022689532,
+							"rotationZ": -22.499998561526166,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Cube35",
+									"from": [ 0.0, -0.9, -1.4142 ], 
+									"to": [ 0.8, -0.1, 0.5858 ], 
+									"rotationOrigin": [ 0.4, 0.7, -0.9142 ],
+									"rotationX": -89.99999164334537,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+										"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+										"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+										"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+										"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+										"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "foot36",
+											"from": [ -0.15, 1.2858, -0.1142 ], 
+											"to": [ 1.05, 2.4858, 2.1858 ], 
+											"rotationOrigin": [ 0.0, 1.0858, 0.9 ],
+											"rotationX": 67.49999126988148,
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+												"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+												"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+												"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+												"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+												"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+											},
+											"children": [
+												{
+													"name": "foot 37",
+													"from": [ 0.25, 0.1173, 0.9281 ], 
+													"to": [ 1.05, 0.9173, 2.9281 ], 
+													"rotationOrigin": [ 0.15, -0.5827, 1.9381 ],
+													"rotationX": 22.499994757181433,
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+														"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+														"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+														"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+														"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+														"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+													},
+													"children": [
+														{
+															"name": "foot 38",
+															"from": [ -0.05, -2.3592, -3.2033 ], 
+															"to": [ 0.75, -1.5592, -1.2033 ], 
+															"rotationOrigin": [ 0.0, -0.7792, -3.0033 ],
+															"rotationX": -52.49998541389952,
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+															},
+															"children": [
+																{
+																	"name": "foot 39",
+																	"from": [ 0.15, -0.0562, -0.8988 ], 
+																	"to": [ 0.55, 0.4438, 0.6012 ], 
+																	"rotationOrigin": [ 0.05, 1.7646, -1.2021 ],
+																	"rotationX": -3.5000097414064557,
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																		"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																		"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																		"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																		"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																		"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "R front Leg",
+							"from": [ -3.0, -0.5028, -1.0043 ], 
+							"to": [ -2.2, 0.2972, 0.9957 ], 
+							"rotationOrigin": [ -2.6, -0.1028, -0.5043 ],
+							"rotationX": -3.2344126175738367E-6,
+							"rotationY": 22.50000022689532,
+							"rotationZ": 22.499998561526166,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Cube41",
+									"from": [ 0.0, -0.9, -1.4142 ], 
+									"to": [ 0.8, -0.1, 0.5858 ], 
+									"rotationOrigin": [ 0.4, 0.7, -0.9142 ],
+									"rotationX": -89.99999164334537,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+										"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+										"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+										"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+										"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+										"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "foot42",
+											"from": [ -0.15, 1.2858, -0.1142 ], 
+											"to": [ 1.05, 2.4858, 2.1858 ], 
+											"rotationOrigin": [ 0.0, 1.0858, 0.9 ],
+											"rotationX": 67.49999126988148,
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+												"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+												"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+												"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+												"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+												"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+											},
+											"children": [
+												{
+													"name": "foot 43",
+													"from": [ 0.25, 0.1173, 0.9281 ], 
+													"to": [ 1.05, 0.9173, 2.9281 ], 
+													"rotationOrigin": [ 0.15, -0.5827, 1.9381 ],
+													"rotationX": 22.499994757181433,
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+														"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+														"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+														"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+														"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+														"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+													},
+													"children": [
+														{
+															"name": "foot 44",
+															"from": [ -0.05, -2.3592, -3.2033 ], 
+															"to": [ 0.75, -1.5592, -1.2033 ], 
+															"rotationOrigin": [ 0.0, -0.7792, -3.0033 ],
+															"rotationX": -52.49998541389952,
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+															},
+															"children": [
+																{
+																	"name": "foot 45",
+																	"from": [ 0.15, -0.0562, -0.8988 ], 
+																	"to": [ 0.55, 0.4438, 0.6012 ], 
+																	"rotationOrigin": [ 0.05, 1.7646, -1.2021 ],
+																	"rotationX": -3.5000097414064557,
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																		"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																		"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																		"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																		"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																		"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Left Legs",
+					"from": [ 1.0, 0.4, 7.0 ], 
+					"to": [ 1.0, 0.4, 7.0 ], 
+					"rotationOrigin": [ 1.0, 0.4, 7.0 ],
+					"faces": {
+						"north": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] },
+						"east": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] },
+						"south": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] },
+						"west": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] },
+						"up": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] },
+						"down": { "texture": "#Geode Crab", "uv": [ 0.0, 0.0, 0.0625, 0.0625 ] }
+					},
+					"children": [
+						{
+							"name": "L front Leg",
+							"from": [ -3.0, -1.4, -0.5 ], 
+							"to": [ -2.2, -0.6, 1.5 ], 
+							"rotationOrigin": [ -2.6, -1.0, 0.0 ],
+							"rotationX": -134.9999952014603,
+							"rotationY": 22.499998378659544,
+							"rotationZ": 157.49996099112036,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Cube53",
+									"from": [ 0.0, -0.9, -1.4142 ], 
+									"to": [ 0.8, -0.1, 0.5858 ], 
+									"rotationOrigin": [ 0.4, 0.7, -0.9142 ],
+									"rotationX": -89.99999164334537,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+										"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+										"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+										"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+										"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+										"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "foot54",
+											"from": [ -0.15, 1.2858, -0.1142 ], 
+											"to": [ 1.05, 2.4858, 2.1858 ], 
+											"rotationOrigin": [ 0.0, 1.0858, 0.9 ],
+											"rotationX": 67.49999126988148,
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+												"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+												"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+												"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+												"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+												"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+											},
+											"children": [
+												{
+													"name": "foot 55",
+													"from": [ 0.25, 0.1173, 0.9281 ], 
+													"to": [ 1.05, 0.9173, 2.9281 ], 
+													"rotationOrigin": [ 0.15, -0.5827, 1.9381 ],
+													"rotationX": 22.499994757181433,
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+														"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+														"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+														"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+														"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+														"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+													},
+													"children": [
+														{
+															"name": "foot 56",
+															"from": [ -0.05, -2.3592, -3.2033 ], 
+															"to": [ 0.75, -1.5592, -1.2033 ], 
+															"rotationOrigin": [ 0.0, -0.7792, -3.0033 ],
+															"rotationX": -52.49998541389952,
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+															},
+															"children": [
+																{
+																	"name": "foot 57",
+																	"from": [ 0.15, -0.0562, -0.8988 ], 
+																	"to": [ 0.55, 0.4438, 0.6012 ], 
+																	"rotationOrigin": [ 0.05, 1.7646, -1.2021 ],
+																	"rotationX": -3.5000097414064557,
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																		"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																		"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																		"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																		"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																		"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "L mid Leg",
+							"from": [ 0.0, -1.4, 0.5 ], 
+							"to": [ 0.8, -0.6, 2.5 ], 
+							"rotationOrigin": [ 0.4, -1.0, 1.0 ],
+							"rotationX": -134.9999853431509,
+							"rotationY": 5.008952599064662E-6,
+							"rotationZ": -179.99995414470382,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Cube47",
+									"from": [ 0.0, -0.9, -1.4142 ], 
+									"to": [ 0.8, -0.1, 0.5858 ], 
+									"rotationOrigin": [ 0.4, 0.7, -0.9142 ],
+									"rotationX": -89.99999164334537,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+										"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+										"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+										"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+										"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+										"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "foot48",
+											"from": [ -0.15, 1.2858, -0.1142 ], 
+											"to": [ 1.05, 2.4858, 2.1858 ], 
+											"rotationOrigin": [ 0.0, 1.0858, 0.9 ],
+											"rotationX": 67.49999126988148,
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+												"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+												"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+												"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+												"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+												"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+											},
+											"children": [
+												{
+													"name": "foot 49",
+													"from": [ 0.25, 0.1173, 0.9281 ], 
+													"to": [ 1.05, 0.9173, 2.9281 ], 
+													"rotationOrigin": [ 0.15, -0.5827, 1.9381 ],
+													"rotationX": 22.499994757181433,
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+														"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+														"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+														"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+														"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+														"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+													},
+													"children": [
+														{
+															"name": "foot 50",
+															"from": [ -0.05, -2.3592, -3.2033 ], 
+															"to": [ 0.75, -1.5592, -1.2033 ], 
+															"rotationOrigin": [ 0.0, -0.7792, -3.0033 ],
+															"rotationX": -52.49998541389952,
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+															},
+															"children": [
+																{
+																	"name": "foot 51",
+																	"from": [ 0.15, -0.0562, -0.8988 ], 
+																	"to": [ 0.55, 0.4438, 0.6012 ], 
+																	"rotationOrigin": [ 0.05, 1.7646, -1.2021 ],
+																	"rotationX": -3.5000097414064557,
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																		"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																		"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																		"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																		"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																		"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "L back Leg",
+							"from": [ 3.0, -1.4, -0.65 ], 
+							"to": [ 3.8, -0.6, 1.35 ], 
+							"rotationOrigin": [ 3.4, -1.0, 0.0 ],
+							"rotationX": -134.9999952014603,
+							"rotationY": -22.499998378659544,
+							"rotationZ": -157.49996099112036,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Cube59",
+									"from": [ 0.0, -0.9, -1.4142 ], 
+									"to": [ 0.8, -0.1, 0.5858 ], 
+									"rotationOrigin": [ 0.4, 0.7, -0.9142 ],
+									"rotationX": -89.99999164334537,
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+										"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+										"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+										"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+										"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+										"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "foot60",
+											"from": [ -0.15, 1.2858, -0.1142 ], 
+											"to": [ 1.05, 2.4858, 2.1858 ], 
+											"rotationOrigin": [ 0.0, 1.0858, 0.9 ],
+											"rotationX": 67.49999126988148,
+											"faces": {
+												"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+												"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+												"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+												"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+												"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+												"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+											},
+											"children": [
+												{
+													"name": "foot 61",
+													"from": [ 0.25, 0.1173, 0.9281 ], 
+													"to": [ 1.05, 0.9173, 2.9281 ], 
+													"rotationOrigin": [ 0.15, -0.5827, 1.9381 ],
+													"rotationX": 22.499994757181433,
+													"faces": {
+														"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+														"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+														"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+														"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+														"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+														"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+													},
+													"children": [
+														{
+															"name": "foot 62",
+															"from": [ -0.05, -2.3592, -3.2033 ], 
+															"to": [ 0.75, -1.5592, -1.2033 ], 
+															"rotationOrigin": [ 0.0, -0.7792, -3.0033 ],
+															"rotationX": -52.49998541389952,
+															"faces": {
+																"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+															},
+															"children": [
+																{
+																	"name": "foot 63",
+																	"from": [ 0.15, -0.0562, -0.8988 ], 
+																	"to": [ 0.55, 0.4438, 0.6012 ], 
+																	"rotationOrigin": [ 0.05, 1.7646, -1.2021 ],
+																	"rotationX": -3.5000097414064557,
+																	"faces": {
+																		"north": { "texture": "#Geode Crab", "uv": [ 0.5625, 6.75, 9.125, 14.0 ], "autoUv": false },
+																		"east": { "texture": "#Geode Crab", "uv": [ 0.25, 6.6875, 8.9375, 14.5625 ], "autoUv": false },
+																		"south": { "texture": "#Geode Crab", "uv": [ 0.4375, 7.0, 8.625, 14.9375 ], "autoUv": false },
+																		"west": { "texture": "#Geode Crab", "uv": [ 0.75, 7.1875, 9.3125, 14.75 ], "autoUv": false },
+																		"up": { "texture": "#Geode Crab", "uv": [ 0.75, 6.8125, 9.3125, 14.375 ], "autoUv": false },
+																		"down": { "texture": "#Geode Crab", "uv": [ 0.3125, 7.0, 9.375, 15.0 ], "autoUv": false }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Mushrooms",
+					"from": [ 0.62, 2.0, 1.0 ], 
+					"to": [ 1.42, 2.8, 2.0 ], 
+					"renderInEditor": false,
+					"rotationOrigin": [ 0.0, 2.0, 1.0 ],
+					"rotationX": -22.5,
+					"faces": {
+						"north": { "texture": "#Geode Crab", "uv": [ 14.6875, 5.25, 14.3125, 6.125 ], "autoUv": false },
+						"east": { "texture": "#Geode Crab", "uv": [ 14.375, 5.375, 14.75, 6.1875 ], "autoUv": false },
+						"south": { "texture": "#Geode Crab", "uv": [ 14.375, 5.5, 14.6875, 6.3125 ], "autoUv": false },
+						"west": { "texture": "#Geode Crab", "uv": [ 14.1875, 5.375, 14.6875, 6.125 ], "autoUv": false },
+						"up": { "texture": "#Geode Crab", "uv": [ 14.25, 5.375, 14.8125, 6.0 ], "autoUv": false },
+						"down": { "texture": "#Geode Crab", "uv": [ 14.25, 5.25, 14.5, 6.25 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Cube167",
+							"from": [ -0.27, 0.5, -0.2 ], 
+							"to": [ 1.03, 1.7, 1.1 ], 
+							"rotationOrigin": [ -0.62, 0.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 14.125, 2.9375, 14.625, 3.375 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 14.25, 2.9375, 14.9375, 3.4375 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 14.0625, 2.9375, 14.9375, 3.6875 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 14.0625, 2.9375, 14.875, 3.4375 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 14.0625, 3.0, 14.8125, 3.25 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 14.0625, 2.875, 14.5625, 4.125 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Mushrooms168",
+							"from": [ 3.0, -0.7481, 2.7716 ], 
+							"to": [ 3.8, 0.0519, 3.7716 ], 
+							"rotationOrigin": [ 2.38, -1.1481, 2.7716 ],
+							"rotationX": 45.00000235889288,
+							"rotationY": -1.7075471987482165E-6,
+							"rotationZ": -22.500002210990633,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 14.6875, 5.25, 14.3125, 6.125 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 14.375, 5.375, 14.75, 6.1875 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 14.375, 5.5, 14.6875, 6.3125 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 14.1875, 5.375, 14.6875, 6.125 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 14.25, 5.375, 14.8125, 6.0 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 14.25, 5.25, 14.5, 6.25 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Cube169",
+									"from": [ -0.27, 0.5, -0.2 ], 
+									"to": [ 1.03, 1.7, 1.1 ], 
+									"rotationOrigin": [ -0.62, 0.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 14.125, 2.9375, 14.625, 3.375 ], "autoUv": false },
+										"east": { "texture": "#Geode Crab", "uv": [ 14.25, 2.9375, 14.9375, 3.4375 ], "autoUv": false },
+										"south": { "texture": "#Geode Crab", "uv": [ 14.0625, 2.9375, 14.9375, 3.6875 ], "autoUv": false },
+										"west": { "texture": "#Geode Crab", "uv": [ 14.0625, 2.9375, 14.875, 3.4375 ], "autoUv": false },
+										"up": { "texture": "#Geode Crab", "uv": [ 14.0625, 3.0, 14.8125, 3.25 ], "autoUv": false },
+										"down": { "texture": "#Geode Crab", "uv": [ 14.0625, 2.875, 14.5625, 4.125 ], "autoUv": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "Mushrooms170",
+							"from": [ -1.0, -1.5307, 3.3955 ], 
+							"to": [ -0.5, -1.0307, 3.8955 ], 
+							"rotationOrigin": [ -1.62, -1.5307, 3.6955 ],
+							"rotationX": 52.49999499060834,
+							"rotationY": -8.53773599374108E-7,
+							"rotationZ": 22.500000143335185,
+							"faces": {
+								"north": { "texture": "#Geode Crab", "uv": [ 14.6875, 5.25, 14.3125, 6.125 ], "autoUv": false },
+								"east": { "texture": "#Geode Crab", "uv": [ 14.375, 5.375, 14.75, 6.1875 ], "autoUv": false },
+								"south": { "texture": "#Geode Crab", "uv": [ 14.375, 5.5, 14.6875, 6.3125 ], "autoUv": false },
+								"west": { "texture": "#Geode Crab", "uv": [ 14.1875, 5.375, 14.6875, 6.125 ], "autoUv": false },
+								"up": { "texture": "#Geode Crab", "uv": [ 14.25, 5.375, 14.8125, 6.0 ], "autoUv": false },
+								"down": { "texture": "#Geode Crab", "uv": [ 14.25, 5.25, 14.5, 6.25 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Cube171",
+									"from": [ -0.02, 0.5, -0.05 ], 
+									"to": [ 0.58, 1.1, 0.55 ], 
+									"rotationOrigin": [ -0.62, 0.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#Geode Crab", "uv": [ 14.125, 2.9375, 14.625, 3.375 ], "autoUv": false },
+										"east": { "texture": "#Geode Crab", "uv": [ 14.25, 2.9375, 14.9375, 3.4375 ], "autoUv": false },
+										"south": { "texture": "#Geode Crab", "uv": [ 14.0625, 2.9375, 14.9375, 3.6875 ], "autoUv": false },
+										"west": { "texture": "#Geode Crab", "uv": [ 14.0625, 2.9375, 14.875, 3.4375 ], "autoUv": false },
+										"up": { "texture": "#Geode Crab", "uv": [ 14.0625, 3.0, 14.8125, 3.25 ], "autoUv": false },
+										"down": { "texture": "#Geode Crab", "uv": [ 14.0625, 2.875, 14.5625, 4.125 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+		{
+			"name": "dead",
+			"code": "dead",
+			"quantityframes": 15,
+			"onActivityStopped": "PlayTillEnd",
+			"onAnimationEnd": "Hold",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Body": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"Right Legs": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R back Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Left Legs": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 7,
+					"elements": {
+						"Body": { "offsetX": 0.0, "offsetY": 2.0, "offsetZ": 0.0 },
+						"Right Legs": { "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Left Legs": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"Body": { "offsetX": 0.0, "offsetY": -3.0, "offsetZ": 0.0 },
+						"Right Legs": { "rotationX": 35.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R front Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 22.5, "rotationZ": 0.0 },
+						"R back Leg": { "offsetX": 1.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 45.0 },
+						"Left Legs": { "rotationX": -35.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L front Leg": { "offsetX": 0.5, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 22.5, "rotationZ": 22.5 },
+						"L back Leg": { "offsetX": -1.0, "offsetY": 0.5, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "run",
+			"code": "run",
+			"quantityframes": 20,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Body": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"Right Legs": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R mid Leg": { "offsetX": 0.0, "offsetY": -0.2, "offsetZ": -0.2, "rotationX": -22.5, "rotationY": -10.0, "rotationZ": 22.5 },
+						"R back Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Cube35": {  },
+						"foot36": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R front Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.5 },
+						"Cube41": {  },
+						"foot42": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Left Legs": { "offsetX": 0.5, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 22.5, "rotationZ": 0.0 },
+						"L mid Leg": { "offsetX": 1.0, "offsetY": 1.0, "offsetZ": -1.0, "rotationX": -22.5, "rotationY": 35.0, "rotationZ": -22.5 },
+						"L back Leg": { "offsetX": 0.0, "offsetY": 0.5, "offsetZ": -1.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Cube59": { "offsetX": 0.0, "offsetY": 0.2, "offsetZ": -0.1, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"foot60": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L front Leg": { "offsetX": -0.4, "offsetY": -0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"Cube53": {  },
+						"foot54": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"grass strains": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 2,
+					"elements": {
+						"Body": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"grass strains": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Right Legs": { "offsetX": -0.5714285714285714, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R mid Leg": { "offsetX": 0.6, "offsetY": -0.2, "offsetZ": -0.4, "rotationX": -10.0, "rotationY": -22.5, "rotationZ": 22.5 },
+						"Cube30": { "offsetX": 0.0, "offsetY": 0.3, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"foot": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R back Leg": { "offsetX": -1.0, "offsetY": 0.5, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 22.5, "rotationZ": 0.0 },
+						"Cube35": {  },
+						"foot36": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R front Leg": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.6, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Cube41": {  },
+						"foot42": { "offsetX": -0.3, "offsetY": 0.0, "offsetZ": -0.11, "rotationX": 16.88, "rotationY": 16.88, "rotationZ": 0.0 },
+						"Left Legs": { "offsetX": 0.5, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 22.5, "rotationZ": 0.0 },
+						"L mid Leg": { "offsetX": 1.0, "offsetY": 1.0, "offsetZ": -0.4, "rotationX": -45.0, "rotationY": 22.5, "rotationZ": -22.5 },
+						"Cube47": { "offsetX": 0.0, "offsetY": 0.3, "offsetZ": -0.3, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"foot48": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L back Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L front Leg": { "offsetX": -1.5, "offsetY": -1.0, "offsetZ": -0.4, "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 0.0 },
+						"Cube53": {  },
+						"foot54": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.1, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 5,
+					"elements": {
+						"Body": { "offsetX": 0.0, "offsetY": 0.1, "offsetZ": 0.0 },
+						"Right Legs": { "offsetX": -1.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 15.0, "rotationZ": 5.0 },
+						"R back Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Cube35": {  },
+						"foot36": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R front Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.15 },
+						"Cube41": {  },
+						"foot42": { "offsetX": -0.4, "offsetY": 0.0, "offsetZ": -0.15, "rotationX": 22.5, "rotationY": 22.5, "rotationZ": 0.0 },
+						"R mid Leg": { "offsetX": 2.0, "offsetY": -0.9, "offsetZ": -0.5, "rotationX": 5.0, "rotationY": -35.0, "rotationZ": 22.5 },
+						"Cube30": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": -1.0, "rotationX": -67.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"foot": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Left Legs": { "offsetX": 1.3, "offsetY": 0.0, "offsetZ": 0.4 },
+						"L mid Leg": { "offsetX": 1.4, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 22.5, "rotationZ": -22.5 },
+						"Cube47": { "offsetX": 0.0, "offsetY": 0.4, "offsetZ": -0.1, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"grass strains": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"Body": {  },
+						"Right Legs": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R back Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 22.5 },
+						"Cube35": {  },
+						"foot36": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R front Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.8, "rotationX": -10.0, "rotationY": -22.5, "rotationZ": 0.0 },
+						"Cube41": {  },
+						"foot42": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R mid Leg": { "offsetX": 0.7, "offsetY": 1.0, "offsetZ": -0.4, "rotationX": 45.0, "rotationY": -22.5, "rotationZ": 0.0 },
+						"Cube30": {  },
+						"foot": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Left Legs": { "offsetX": -0.5, "offsetY": 0.5, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 5.0 },
+						"L mid Leg": { "offsetX": -1.0, "offsetY": -1.0, "offsetZ": -1.0, "rotationX": 22.5, "rotationY": -22.5, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 11,
+					"elements": {
+						"Body": {  },
+						"Right Legs": { "offsetX": 1.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -10.0, "rotationZ": -15.0 },
+						"R front Leg": { "offsetX": 0.1, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 0.0 },
+						"R back Leg": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 45.0 },
+						"Cube35": { "offsetX": 0.0, "offsetY": 0.4, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"foot36": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R mid Leg": { "offsetX": -2.0, "offsetY": 1.0, "offsetZ": -1.0, "rotationX": 45.0, "rotationY": 22.5, "rotationZ": 0.0 },
+						"Left Legs": { "offsetX": -0.3, "offsetY": 0.2, "offsetZ": 0.5, "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 0.0 },
+						"L mid Leg": { "offsetX": -3.0, "offsetY": -0.4, "offsetZ": -1.0, "rotationX": 0.0, "rotationY": -45.0, "rotationZ": 22.5 },
+						"L back Leg": { "offsetX": 0.0, "offsetY": -1.0, "offsetZ": 1.0 },
+						"L front Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"Cube53": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"foot54": { "offsetX": 0.0, "offsetY": 0.4, "offsetZ": 0.0, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"Body": {  },
+						"Right Legs": {  },
+						"R front Leg": {  },
+						"Cube41": {  },
+						"foot42": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R back Leg": { "offsetX": 0.0, "offsetY": 0.5, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Cube35": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"foot36": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"R mid Leg": { "offsetX": -2.0, "offsetY": 0.4, "offsetZ": -0.4, "rotationX": 0.0, "rotationY": 22.5, "rotationZ": 22.5 },
+						"Cube30": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Left Legs": {  },
+						"L mid Leg": { "offsetX": -1.0, "offsetY": -0.4, "offsetZ": 0.4 },
+						"L front Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": -22.5 },
+						"Cube53": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -1.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"foot54": { "offsetX": 0.0, "offsetY": 0.3, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "idle",
+			"code": "idle",
+			"quantityframes": 1,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Body": { "offsetX": 0.0, "offsetY": -2.9, "offsetZ": 0.0 },
+						"Right Legs": {  },
+						"R front Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 1.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Cube41": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.6, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R back Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 1.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Cube35": { "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R mid Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.7, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Cube30": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.1, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Left Legs": {  },
+						"L front Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 1.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Cube53": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.6, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L mid Leg": { "offsetX": 0.0, "offsetY": -0.4, "offsetZ": 0.7, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Cube47": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 1.0, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L back Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 1.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Cube59": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.4, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		}
+	]
+}
