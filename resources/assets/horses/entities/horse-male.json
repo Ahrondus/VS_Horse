@@ -1,0 +1,396 @@
+{
+    "code": "horse-male",
+    "class": "EntityMount",
+    "hitboxSize": {
+        "x": 2,
+        "y": 1.4
+    },
+    "deadHitboxSize": {
+        "x": 2,
+        "y": 1
+    },
+    "eyeHeight": 1.4,
+    "drops": [],
+    "attributes": {
+        "riderIdleAnimation": "rideidle",
+        "mountHeight": 1,
+        "mountAnimations": {
+            "walk": {
+                "code": "walk",
+                "animation": "walk",
+                "blendMode": "Average",
+                "mulWithWalkSpeed": true,
+                "animationSpeed": 1.1
+            },
+            "sprint": {
+                "code": "idle",
+                "animation": "idle",
+                "blendMode": "Average",
+                "mulWithWalkSpeed": true,
+                "animationSpeed": 3.3
+            },
+            "backward": {
+                "code": "walk",
+                "animation": "walk",
+                "blendMode": "Average",
+                "mulWithWalkSpeed": true,
+                "animationSpeed": 0.6
+            }
+        }
+    },
+    "client": {
+        "renderer": "Shape",
+        "shape": {
+            "base": "horse"
+        },
+        "behaviors": [
+            {
+                "code": "nametag"
+            },
+            {
+                "code": "receivecommand",
+                "availableCommands": [
+                    {
+                        "commandName": "followmaster",
+                        "commandType": "COMPLEX",
+                        "minObedience": 0.6
+                    },
+                    {
+                        "commandName": "stay",
+                        "commandType": "COMPLEX",
+                        "minObedience": 0.1
+                    }
+                ]
+            },
+            {
+                "code": "tameable",
+                "treat": [
+                    {
+                        "code": "vegetable-carrot",
+                        "progress": 0.5,
+                        "cooldown": 1
+                    }
+                ]
+            },
+            {
+                "code": "mouthinventory",
+                "acceptStacks": [
+                    {
+                        "type": "item",
+                        "code": "vegetable-carrot"
+                    }
+                ]
+            },
+            {
+                "code": "repulseagents"
+            },
+            {
+                "code": "controlledphysics",
+                "stepHeight": 1.1251
+            },
+            {
+                "code": "floatupwhenstuck",
+                "onlyWhenDead": true
+            },
+            {
+                "code": "interpolateposition"
+            },
+            {
+                "code": "harvestable"
+            },
+            {
+                "code": "despawn",
+                "minPlayerDistance": 8,
+                "belowLightLevel": 8,
+                "minSeconds": 300
+            },
+            {
+                "code": "ropetieable",
+                "minGeneration": 2
+            }
+        ],
+        "animations": [
+            {
+                "code": "hurt",
+                "animation": "hurt",
+                "animationSpeed": 2.2,
+                "weight": 10,
+                "blendMode": "addAverage"
+            },
+            {
+                "code": "die",
+                "animation": "death",
+                "animationSpeed": 1.25,
+                "weight": 10,
+                "blendMode": "average",
+                "triggeredBy": {
+                    "onControls": [
+                        "dead"
+                    ]
+                }
+            },
+            {
+                "code": "idle",
+                "animation": "idle",
+                "blendMode": "addAverage",
+                "easeOutSpeed": 4,
+                "triggeredBy": {
+                    "defaultAnim": true
+                }
+            },
+            {
+                "code": "sleep",
+                "animation": "sleep",
+                "easeInSpeed": 4,
+                "easeOutSpeed": 4,
+                "blendMode": "average"
+            },
+            {
+                "code": "walk",
+                "animation": "walk",
+                "blendMode": "average",
+                "mulWithWalkSpeed": true,
+                "animationSpeed": 1.1
+            }
+        ]
+    },
+    "server": {
+        "behaviors": [
+            {
+                "code": "selfdefence"
+            },
+            {
+                "code": "nametag"
+            },
+            {
+                "code": "tameable",
+                "disobediencePerDay": 0.1,
+                "treat": [
+                    {
+                        "code": "vegetable-carrot",
+                        "progress": 0.5,
+                        "cooldown": 1
+                    }
+                ]
+            },
+            {
+                "code": "mouthinventory",
+                "acceptStacks": [
+                    {
+                        "type": "item",
+                        "code": "vegetable-carrot"
+                    }
+                ]
+            },
+            {
+                "code": "receivecommand",
+                "availableCommands": [
+                    {
+                        "commandName": "followmaster",
+                        "commandType": "COMPLEX",
+                        "minObedience": 0.6
+                    },
+                    {
+                        "commandName": "stay",
+                        "commandType": "COMPLEX",
+                        "minObedience": 0.1
+                    }
+                ]
+            },
+            {
+                "code": "repulseagents"
+            },
+            {
+                "code": "controlledphysics",
+                "stepHeight": 1.1251
+            },
+            {
+                "code": "despawn",
+                "minPlayerDistance": 8,
+                "belowLightLevel": 8,
+                "minSeconds": 300
+            },
+            {
+                "code": "health",
+                "currenthealth": 25,
+                "maxhealth": 25
+            },
+            {
+                "code": "deaddecay",
+                "hoursToDecay": 96,
+                "decayedBlock": "carcass-medium"
+            },
+            {
+                "code": "floatupwhenstuck",
+                "onlyWhenDead": true
+            },
+            {
+                "code": "harvestable",
+                "drops": [
+                    {
+                        "type": "item",
+                        "code": "redmeat-raw",
+                        "quantity": {
+                            "avg": 13,
+                            "var": 4
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "hide-raw-huge",
+                        "quantity": {
+                            "avg": 1.5,
+                            "var": 0
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "fat",
+                        "quantity": {
+                            "avg": 3,
+                            "var": 1
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "bone",
+                        "quantity": {
+                            "avg": 5,
+                            "var": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "code": "breathe"
+            },
+            {
+                "code": "emotionstates",
+                "states": [
+                    {
+                        "code": "fleeondamage",
+                        "duration": 60,
+                        "chance": 1,
+                        "slot": 2,
+                        "priority": 5,
+                        "accumType": "max",
+                        "whenHealthRelBelow": 1
+                    },
+                    {
+                        "code": "saturated",
+                        "duration": 1200,
+                        "chance": 1,
+                        "slot": 0,
+                        "priority": 1,
+                        "accumType": "sum",
+                        "belowTempDuration": 600,
+                        "belowTempThreshold": -5
+                    }
+                ]
+            },
+            {
+                "code": "taskai",
+                "aitasks": [
+                    {
+                        "code": "fleeentity",
+                        "entityCodes": [
+                            "player"
+                        ],
+                        "priority": 3,
+                        "movespeed": 0.03,
+                        "fleeingDistance": 8,
+                        "seekingRange": 5,
+                        "animation": "Run",
+                        "animationSpeed": 1.5,
+                        "whenInEmotionState": "fleeondamage"
+                    },
+                    {
+                        "code": "beamount",
+                        "priority": 8,
+                        "priorityForCancel": 8,
+                        "movespeed": 0.045,
+                        "animationSpeed": 2.2,
+                        "maxDistance": 8,
+                        "searchRange": 40,
+                        "animation": "idle"
+                    },
+                    {
+                        "code": "followmaster",
+                        "priority": 2,
+                        "priorityForCancel": 1.9,
+                        "command": "followmaster",
+                        "movespeed": 0.045,
+                        "animationSpeed": 2.2,
+                        "maxDistance": 8,
+                        "searchRange": 40,
+                        "animation": "Run"
+                    },
+                    {
+                        "code": "stay",
+                        "priority": 2,
+                        "priorityForCancel": 1.9,
+                        "command": "stay",
+                        "movespeed": 0.006,
+                        "maxDistance": 10,
+                        "searchRange": 40,
+                        "animation": "Walk"
+                    },
+                    {
+                        "code": "getoutofwater",
+                        "priority": 1.4,
+                        "movespeed": 0.015,
+                        "animation": "Walk",
+                        "animationSpeed": 2.2
+                    },
+                    {
+                        "code": "wander",
+                        "priority": 1.0,
+                        "priorityForCancel": 1.35,
+                        "movespeed": 0.006,
+                        "animation": "Walk",
+                        "preferredLightLevel": 20
+                    },
+                    {
+                        "code": "useinventory",
+                        "animation": "eat",
+                        "animationSpeed": 0.75,
+                        "priority": 1.6,
+                        "priorityForCancel": 1.7,
+                        "eatItemCategories": [
+                            "Vegetable",
+                            "Grain"
+                        ],
+                        "eatItemCodes": [
+                            "vegetable-carrot"
+                        ],
+                        "useTime": 1.5,
+                        "mincooldownHours": 1,
+                        "maxcooldownHours": 1.5
+                    },
+					{
+						"code": "seekfoodandeat",
+						"movespeed": 0.006,
+						"priority": 1.25,
+						"eatSound": "player/eat",
+						"eatTime": 1.5,
+						"animationSpeed": 1.4,
+						"animation": "Walk",	
+						"eatAnimation": "Eat",
+						"mincooldownHours": 1,
+						"maxcooldownHours": 4
+					}
+                ]
+            },
+            {
+                "code": "ropetieable",
+                "minGeneration": 2
+            }
+        ]
+    },
+    "sounds": {
+        "hurt": null,
+        "death": null,
+        "idle": null
+    },
+    "idleSoundChance": 0
+}
