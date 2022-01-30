@@ -313,7 +313,7 @@
                         "maxcooldown": 3000,
                         "attackDurationMs": 750,
                         "damagePlayerAtMs": 400,
-                        "animation": "rear",
+                        "animation": "attackfront",
                         "animationSpeed": 1.2,
                         "whenNotInEmotionState": "fleeondamage",
                         "whenInEmotionState": "aggressiveondamage"
