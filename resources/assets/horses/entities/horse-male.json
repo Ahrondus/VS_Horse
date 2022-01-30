@@ -157,9 +157,6 @@
     "server": {
         "behaviors": [
             {
-                "code": "selfdefence"
-            },
-            {
                 "code": "nametag"
             },
             {
@@ -388,9 +385,6 @@
         ]
     },
     "sounds": {
-        "hurt": null,
-        "death": null,
-        "idle": null
     },
     "idleSoundChance": 0
 }
