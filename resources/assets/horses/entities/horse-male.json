@@ -14,6 +14,8 @@
     "attributes": {
         "riderIdleAnimation": "rideidle",
         "mountHeight": 1,
+        "mountRunningSpeed": 0.09,
+        "mountWalkingSpeed": 0.02,
         "mountAnimations": {
             "walk": {
                 "code": "walk",
