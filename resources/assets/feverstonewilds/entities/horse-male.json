@@ -25,8 +25,8 @@
                 "animationSpeed": 1.1
             },
             "sprint": {
-                "code": "idle",
-                "animation": "idle",
+                "code": "run",
+                "animation": "run",
                 "blendMode": "Average",
                 "mulWithWalkSpeed": true,
                 "animationSpeed": 3.3
@@ -47,20 +47,7 @@
         },
         "texture": {
             "base": "entity/horse/horse1",
-            "alternates": [
-                {
-                    "base": "entity/horse/horse2"
-                },
-                {
-                    "base": "entity/horse/horse3"
-                },
-                {
-                    "base": "entity/horse/horse4"
-                },
-                {
-                    "base": "entity/horse/horse5"
-                }
-            ]
+            "alternates": []
         },
         "behaviors": [
             {
