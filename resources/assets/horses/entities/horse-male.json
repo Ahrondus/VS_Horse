@@ -387,6 +387,9 @@
         ]
     },
     "sounds": {
+		"hurt": "game:creature/sheep/hurt",
+		"death": "game:creature/sheep/hurt",
+		"idle": "game:creature/sheep/idle"
     },
     "idleSoundChance": 0
 }
