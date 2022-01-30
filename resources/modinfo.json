@@ -1,13 +1,12 @@
 {
     "type": "content",
-    "modid": "horses",
-    "name": "Horses",
-    "side": "universal",
-    "author": "Verlia & Ahrondus",
-    "description": "Horses in Vintage Story, how awesome is that?",
-    "version": "1.0.0",
-    "dependency": {
-        "game": "1.16.1",
-        "petai": "1.3.0"
+    "modid": "feverstonewilds",
+    "name": "Feverstone Wilds",
+    "description" : "A creature modpack made by the Feverstone Modding Team",
+    "authors": ["Feverstone", "Ahrondus and Verlia"],
+    "version": "1.1.2",
+    "dependencies": { 
+      "game": "1.16.0"
     }
-}
+  }
+  

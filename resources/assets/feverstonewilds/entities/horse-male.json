@@ -2,14 +2,14 @@
     "code": "horse-male",
     "class": "EntityMount",
     "hitboxSize": {
-        "x": 2,
-        "y": 1.4
+        "x": 0.8,
+        "y": 1.7
     },
     "deadHitboxSize": {
-        "x": 2,
-        "y": 1
+        "x": 1.7,
+        "y": 0.5
     },
-    "eyeHeight": 1.4,
+    "eyeHeight": 1.6,
     "drops": [],
     "attributes": {
         "riderIdleAnimation": "rideidle",
@@ -43,7 +43,24 @@
     "client": {
         "renderer": "Shape",
         "shape": {
-            "base": "horse"
+            "base": "entity/land/horse"
+        },
+        "texture": {
+            "base": "entity/horse/horse1",
+            "alternates": [
+                {
+                    "base": "entity/horse/horse2"
+                },
+                {
+                    "base": "entity/horse/horse3"
+                },
+                {
+                    "base": "entity/horse/horse4"
+                },
+                {
+                    "base": "entity/horse/horse5"
+                }
+            ]
         },
         "behaviors": [
             {
@@ -113,39 +130,33 @@
         ],
         "animations": [
             {
-                "code": "hurt",
-                "animation": "hurt",
-                "animationSpeed": 2.2,
-                "weight": 10,
-                "blendMode": "addAverage"
+                "code": "idle",
+                "animation": "idle",
+                "blendMode": "AddAverage",
+                "easeOutSpeed": 3,
+                "triggeredBy": {
+                    "defaultAnim": true
+                },
+                "animationSpeed": 0.5
+            },
+            {
+                "code": "sit",
+                "animation": "sit",
+                "easeInSpeed": 4,
+                "easeOutSpeed": 3,
+                "blendMode": "Average"
             },
             {
                 "code": "die",
-                "animation": "death",
-                "animationSpeed": 1.25,
+                "animation": "dead",
+                "easeInSpeed": 2,
                 "weight": 10,
-                "blendMode": "average",
+                "blendMode": "Average",
                 "triggeredBy": {
                     "onControls": [
                         "dead"
                     ]
                 }
-            },
-            {
-                "code": "idle",
-                "animation": "idle",
-                "blendMode": "addAverage",
-                "easeOutSpeed": 4,
-                "triggeredBy": {
-                    "defaultAnim": true
-                }
-            },
-            {
-                "code": "sleep",
-                "animation": "sleep",
-                "easeInSpeed": 4,
-                "easeOutSpeed": 4,
-                "blendMode": "average"
             },
             {
                 "code": "walk",
@@ -157,6 +168,12 @@
         ]
     },
     "server": {
+        "attributes": {
+            "pathfinder": {
+                "minTurnAnglePerSec": 90,
+                "maxTurnAnglePerSec": 135
+            }
+        },
         "behaviors": [
             {
                 "code": "nametag"
@@ -269,21 +286,27 @@
                     {
                         "code": "fleeondamage",
                         "duration": 60,
-                        "chance": 1,
-                        "slot": 2,
+                        "chance": 0.85,
+                        "slot": 0,
                         "priority": 5,
                         "accumType": "max",
-                        "whenHealthRelBelow": 1
+                        "whenHealthRelBelow": 0.4
                     },
                     {
-                        "code": "saturated",
-                        "duration": 1200,
+                        "code": "aggressiveondamage",
+                        "duration": 30,
+                        "chance": 0.95,
+                        "slot": 0,
+                        "priority": 2,
+                        "accumType": "noaccum"
+                    },
+                    {
+                        "code": "fleeondamage",
+                        "duration": 30,
                         "chance": 1,
                         "slot": 0,
                         "priority": 1,
-                        "accumType": "sum",
-                        "belowTempDuration": 600,
-                        "belowTempThreshold": -5
+                        "accumType": "max"
                     }
                 ]
             },
@@ -291,16 +314,47 @@
                 "code": "taskai",
                 "aitasks": [
                     {
+                        "code": "meleeattack",
+                        "entityCodes": [
+                            "player"
+                        ],
+                        "priority": 2,
+                        "slot": 1,
+                        "damage": 2,
+                        "damageTier": 1,
+                        "mincooldown": 2000,
+                        "maxcooldown": 3000,
+                        "attackDurationMs": 750,
+                        "damagePlayerAtMs": 400,
+                        "animation": "rear",
+                        "animationSpeed": 1.2,
+                        "whenNotInEmotionState": "fleeondamage",
+                        "whenInEmotionState": "aggressiveondamage"
+                    },
+                    {
+                        "code": "seekentity",
+                        "entityCodes": [
+                            "player"
+                        ],
+                        "priority": 1.5,
+                        "mincooldown": 1000,
+                        "maxcooldown": 1500,
+                        "seekingRange": 20,
+                        "movespeed": 0.035,
+                        "animation": "run",
+                        "animationSpeed": 2,
+                        "whenInEmotionState": "aggressiveondamage"
+                    },
+                    {
                         "code": "fleeentity",
                         "entityCodes": [
                             "player"
                         ],
-                        "priority": 3,
-                        "movespeed": 0.03,
-                        "fleeingDistance": 8,
-                        "seekingRange": 5,
-                        "animation": "Run",
-                        "animationSpeed": 1.5,
+                        "priority": 1.5,
+                        "movespeed": 0.045,
+                        "seekingRange": 12,
+                        "animation": "run",
+                        "animationSpeed": 2.2,
                         "whenInEmotionState": "fleeondamage"
                     },
                     {
@@ -342,14 +396,6 @@
                         "animationSpeed": 2.2
                     },
                     {
-                        "code": "wander",
-                        "priority": 1.0,
-                        "priorityForCancel": 1.35,
-                        "movespeed": 0.006,
-                        "animation": "Walk",
-                        "preferredLightLevel": 20
-                    },
-                    {
                         "code": "useinventory",
                         "animation": "eat",
                         "animationSpeed": 0.75,
@@ -366,30 +412,145 @@
                         "mincooldownHours": 1,
                         "maxcooldownHours": 1.5
                     },
-					{
-						"code": "seekfoodandeat",
-						"movespeed": 0.006,
-						"priority": 1.25,
-						"eatSound": "player/eat",
-						"eatTime": 1.5,
-						"animationSpeed": 1.4,
-						"animation": "Walk",	
-						"eatAnimation": "Eat",
-						"mincooldownHours": 1,
-						"maxcooldownHours": 4
-					}
+                    {
+                        "code": "idle",
+                        "priority": 1.35,
+                        "priorityForCancel": 1.35,
+                        "minduration": 5000000,
+                        "maxduration": 5000000,
+                        "mincooldown": 10000,
+                        "maxcooldown": 30000,
+                        "animation": " ",
+                        "whenNotInEmotionState": "aggressiveondamage",
+                        "duringDayTimeFrames": [
+                            {
+                                "fromHour": 22,
+                                "toHour": 24
+                            },
+                            {
+                                "fromHour": 0,
+                                "toHour": 5
+                            }
+                        ],
+                        "stopOnNearbyEntityCodes": [
+                            "player"
+                        ],
+                        "stopRange": 6,
+                        "stopOnHurt": true
+                    },
+                    {
+                        "code": "seekfoodandeat",
+                        "movespeed": 0.004,
+                        "priority": 1.35,
+                        "eatSound": " ",
+                        "eatTime": 1.5,
+                        "animationSpeed": 1.4,
+                        "animation": "walk",
+                        "mincooldownHours": 1,
+                        "maxcooldownHours": 4
+                    },
+                    {
+                        "code": "idle",
+                        "priority": 1.1,
+                        "priorityForCancel": 1.35,
+                        "minduration": 16000,
+                        "maxduration": 24000,
+                        "mincooldown": 9000,
+                        "maxcooldown": 160000,
+                        "animation": "idleFlick",
+                        "stopOnNearbyEntityCodes": [
+                            "player"
+                        ],
+                        "stopRange": 5,
+                        "animationSpeed": 0.75,
+                        "whenNotInEmotionState": "aggressiveondamage"
+                    },
+                    {
+                        "code": "wander",
+                        "priority": 1.0,
+                        "priorityForCancel": 1.35,
+                        "movespeed": 0.005,
+                        "animationSpeed": 1.4,
+                        "animation": "walk",
+                        "preferredLightLevel": 10
+                    },
+                    {
+                        "code": "idle",
+                        "priority": 0.9,
+                        "minduration": 7000,
+                        "maxduration": 45000,
+                        "mincooldown": 6000,
+                        "maxcooldown": 120000,
+                        "priorityForCancel": 1.33,
+                        "stopOnHurt": true,
+                        "animation": "idleLook",
+                        "animationSpeed": 0.75
+                    },
+                    {
+                        "code": "lookaround",
+                        "priority": 0.5
+                    }
                 ]
             },
             {
                 "code": "ropetieable",
                 "minGeneration": 2
             }
-        ]
+        ],
+        "spawnconditions": {
+            "worldgen": {
+                "TriesPerChunk": {
+                    "avg": 0.08,
+                    "var": 0
+                },
+                "tryOnlySurface": true,
+                "minLightLevel": 7,
+                "groupSize": {
+                    "dist": "verynarrowgaussian",
+                    "avg": 1,
+                    "var": 2
+                },
+                "insideBlockCodes": [
+                    "game:air",
+                    "game:tallgrass-*"
+                ],
+                "minTemp": -2,
+                "maxTemp": 25,
+                "minRain": 0.25,
+                "minForest": 0.25,
+                "companions": [
+                    " "
+                ]
+            },
+            "runtime": {
+                "group": "neutral",
+                "tryOnlySurface": true,
+                "chance": 0.0006,
+                "maxQuantity": 3,
+                "minLightLevel": 7,
+                "groupSize": {
+                    "dist": "verynarrowgaussian",
+                    "avg": 1,
+                    "var": 2
+                },
+                "insideBlockCodes": [
+                    "game:air",
+                    "game:tallgrass-*"
+                ],
+                "minTemp": -2,
+                "maxTemp": 25,
+                "minRain": 0.25,
+                "minForest": 0.25,
+                "companions": [
+                    " "
+                ]
+            }
+        }
     },
     "sounds": {
-		"hurt": "game:creature/sheep/hurt",
-		"death": "game:creature/sheep/hurt",
-		"idle": "game:creature/sheep/idle"
+        "hurt": "game:creature/sheep/hurt",
+        "death": "game:creature/sheep/hurt",
+        "idle": "game:creature/sheep/idle"
     },
     "idleSoundChance": 0
 }
