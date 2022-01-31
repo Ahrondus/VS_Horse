@@ -97,7 +97,7 @@
             },
             {
                 "code": "controlledphysics",
-                "stepHeight": 1.1251
+                "stepHeight": 1.5
             },
             {
                 "code": "floatupwhenstuck",
@@ -210,7 +210,7 @@
             },
             {
                 "code": "controlledphysics",
-                "stepHeight": 1.1251
+                "stepHeight": 1.5
             },
             {
                 "code": "despawn",
