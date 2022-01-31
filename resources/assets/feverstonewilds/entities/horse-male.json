@@ -2,14 +2,14 @@
     "code": "horse-male",
     "class": "EntityMount",
     "hitboxSize": {
-        "x": 0.8,
-        "y": 1.7
+        "x": 2.6,
+        "y": 1.9
     },
     "deadHitboxSize": {
-        "x": 1.7,
-        "y": 0.5
+        "x": 2.4,
+        "y": 0.7
     },
-    "eyeHeight": 1.6,
+    "eyeHeight": 1.8,
     "drops": [],
     "attributes": {
         "riderIdleAnimation": "rideidle",
@@ -162,8 +162,8 @@
     "server": {
         "attributes": {
             "pathfinder": {
-                "minTurnAnglePerSec": 90,
-                "maxTurnAnglePerSec": 135
+                "minTurnAnglePerSec": 95,
+                "maxTurnAnglePerSec": 145
             }
         },
         "behaviors": [
@@ -245,10 +245,10 @@
                     },
                     {
                         "type": "item",
-                        "code": "hide-raw-huge",
+                        "code": "hide-raw-large",
                         "quantity": {
                             "avg": 1.5,
-                            "var": 0
+                            "var": 0.5
                         }
                     },
                     {
