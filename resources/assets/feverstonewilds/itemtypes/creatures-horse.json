@@ -19,10 +19,11 @@
 		},
 		
 	"guiTransform": {
-		"translation": { "x": 0, "y": 2, "z": 0 },
-		"rotation": { "x": 0, "y": -120, "z": -163 },
-		"origin": { "x": 0.5, "y": 0.8, "z": 0.5 },
-		"scale": 0.8
+		"rotate": "true",
+		"translation": { "x": 0, "y": 15, "z": 0 },
+		"rotation": { "x": 180, "y": -115, "z": 6 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+		"scale": 0.6
 	},
 	"fpHandTransform": {
 		"translation": { "x": 0.9, "y": 0.9, "z": 0.7 },
