@@ -47,7 +47,12 @@
         },
         "texture": {
             "base": "entity/horse/horse1",
-            "alternates": []
+            "alternates": [ { "base": "entity/horse/horse2" },
+                            { "base": "entity/horse/horse3" },
+                            { "base": "entity/horse/horse4" },
+                            { "base": "entity/horse/horse5" },
+                            { "base": "entity/horse/horse6" },
+                          ]
         },
         "behaviors": [
             {
@@ -303,18 +308,18 @@
                     {
                         "code": "meleeattack",
                         "entityCodes": [
-                            "player"
+                            "player", "wolf-*"
                         ],
                         "priority": 2,
                         "slot": 1,
-                        "damage": 2,
-                        "damageTier": 1,
+                        "damage": 4,
+                        "damageTier": 2,
                         "mincooldown": 2000,
                         "maxcooldown": 3000,
                         "attackDurationMs": 750,
-                        "damagePlayerAtMs": 400,
-                        "animation": "attackfront",
-                        "animationSpeed": 1.2,
+                        "damagePlayerAtMs": 500,
+                        "animation": "attackFront",
+                        "animationSpeed": 1.1,
                         "whenNotInEmotionState": "fleeondamage",
                         "whenInEmotionState": "aggressiveondamage"
                     },
@@ -363,7 +368,7 @@
                         "animationSpeed": 2.2,
                         "maxDistance": 8,
                         "searchRange": 40,
-                        "animation": "Run"
+                        "animation": "run"
                     },
                     {
                         "code": "stay",
@@ -373,13 +378,13 @@
                         "movespeed": 0.006,
                         "maxDistance": 10,
                         "searchRange": 40,
-                        "animation": "Walk"
+                        "animation": "walk"
                     },
                     {
                         "code": "getoutofwater",
                         "priority": 1.4,
                         "movespeed": 0.015,
-                        "animation": "Walk",
+                        "animation": "walk",
                         "animationSpeed": 2.2
                     },
                     {
@@ -445,18 +450,14 @@
                         "mincooldown": 9000,
                         "maxcooldown": 160000,
                         "animation": "idleFlick",
-                        "stopOnNearbyEntityCodes": [
-                            "player"
-                        ],
-                        "stopRange": 5,
-                        "animationSpeed": 0.75,
+                        "animationSpeed": 0.85,
                         "whenNotInEmotionState": "aggressiveondamage"
                     },
                     {
                         "code": "wander",
                         "priority": 1.0,
                         "priorityForCancel": 1.35,
-                        "movespeed": 0.005,
+                        "movespeed": 0.006,
                         "animationSpeed": 1.4,
                         "animation": "walk",
                         "preferredLightLevel": 10
