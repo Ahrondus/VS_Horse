@@ -5,8 +5,11 @@
 	"item-creature-cat": "Cat",
 	"item-dead-creature-cat": "Dead Cat",
 	
-	"item-creature-horse": "Horse",
-	"item-dead-creature-horse": "Dead Horse",
+	"item-creature-horse-male": "Male Horse",
+	"item-dead-creature-horse-male": "Dead Male Horse",
+	
+	"item-creature-horse-female": "Female Horse",
+	"item-dead-creature-horse-female": "Dead Female Horse",
 	
 	"item-creature-faunling": "Female Faunling",
 	"item-dead-creature-faunling": "Dead Faunling",
