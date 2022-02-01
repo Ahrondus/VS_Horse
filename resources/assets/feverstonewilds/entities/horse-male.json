@@ -2,12 +2,12 @@
     "code": "horse-male",
     "class": "EntityMount",
     "hitboxSize": {
-        "x": 2.6,
+        "x": 1.4,
         "y": 1.9
     },
     "deadHitboxSize": {
-        "x": 2.4,
-        "y": 0.7
+        "x": 1.9,
+        "y": 0.8
     },
     "eyeHeight": 1.8,
     "drops": [],
@@ -18,22 +18,22 @@
         "mountWalkingSpeed": 0.02,
         "mountAnimations": {
             "walk": {
-                "code": "walk",
-                "animation": "walk",
+                "code": "idle",
+                "animation": "idle",
                 "blendMode": "Average",
                 "mulWithWalkSpeed": true,
                 "animationSpeed": 1.1
             },
             "sprint": {
-                "code": "run",
-                "animation": "run",
+                "code": "idle",
+                "animation": "idle",
                 "blendMode": "Average",
                 "mulWithWalkSpeed": true,
                 "animationSpeed": 3.3
             },
             "backward": {
-                "code": "walk",
-                "animation": "walk",
+                "code": "idle",
+                "animation": "idle",
                 "blendMode": "Average",
                 "mulWithWalkSpeed": true,
                 "animationSpeed": 0.6
@@ -51,7 +51,7 @@
                             { "base": "entity/horse/horse3" },
                             { "base": "entity/horse/horse4" },
                             { "base": "entity/horse/horse5" },
-                            { "base": "entity/horse/horse6" },
+                            { "base": "entity/horse/horse6" }
                           ]
         },
         "behaviors": [
@@ -80,7 +80,12 @@
                         "code": "vegetable-carrot",
                         "progress": 0.5,
                         "cooldown": 1
-                    }
+                    },
+					{
+						"code": "game:drygrass",
+						"progress": 0.1,
+						"cooldown": 0.25
+					}
                 ]
             },
             {
@@ -89,7 +94,11 @@
                     {
                         "type": "item",
                         "code": "vegetable-carrot"
-                    }
+                    },
+					{
+						"type": "item",
+						"code": "game:drygrass"
+					}
                 ]
             },
             {
@@ -104,10 +113,7 @@
                 "onlyWhenDead": true
             },
             {
-                "code": "interpolateposition"
-            },
-            {
-                "code": "harvestable"
+                "code": "interpolatemount"
             },
             {
                 "code": "despawn",
@@ -155,7 +161,16 @@
                 "animation": "walk",
                 "blendMode": "average",
                 "mulWithWalkSpeed": true,
-                "animationSpeed": 1.1
+                "animationSpeed": 1.1,
+				"triggeredBy": {"onControls": ["Move"], "matchExact": true } 
+            },
+            {
+                "code": "run",
+                "animation": "run",
+                "blendMode": "average",
+                "mulWithWalkSpeed": true,
+                "animationSpeed": 1.1,
+				"triggeredBy": {"onControls": ["Move", "SprintMode"], "matchExact": true } 
             }
         ]
     },
@@ -178,7 +193,12 @@
                         "code": "vegetable-carrot",
                         "progress": 0.5,
                         "cooldown": 1
-                    }
+                    },
+					{
+						"code": "game:drygrass",
+						"progress": 0.1,
+						"cooldown": 0.25
+					}
                 ]
             },
             {
@@ -187,7 +207,11 @@
                     {
                         "type": "item",
                         "code": "vegetable-carrot"
-                    }
+                    },
+					{
+						"type": "item",
+						"code": "game:drygrass"
+					}
                 ]
             },
             {
@@ -299,7 +323,17 @@
                         "slot": 0,
                         "priority": 1,
                         "accumType": "max"
-                    }
+                    }, 
+					{
+						"code": "saturated",
+						"duration": 900,
+						"chance": 1,
+						"slot": 0,
+						"priority": 1,
+						"accumType": "sum",
+						"belowTempDuration": 600,
+						"belowTempThreshold": -7
+					}
                 ]
             },
             {
@@ -332,18 +366,32 @@
                         "mincooldown": 1000,
                         "maxcooldown": 1500,
                         "seekingRange": 20,
-                        "movespeed": 0.035,
+                        "movespeed": 0.045,
                         "animation": "run",
                         "animationSpeed": 2,
                         "whenInEmotionState": "aggressiveondamage"
                     },
+					{
+						"code": "seekentity",
+						"entityCodes": [
+							"wolf-*"
+						],
+						"priority": 1.5,
+						"mincooldown": 1000,
+						"maxcooldown": 1500,
+						"seekingRange": 6,
+						"movespeed": 0.045,
+						"animation": "run",
+						"animationSpeed": 2,
+						"whenInEmotionState": "aggressiveondamage"
+					},
                     {
                         "code": "fleeentity",
                         "entityCodes": [
                             "player"
                         ],
                         "priority": 1.5,
-                        "movespeed": 0.045,
+                        "movespeed": 0.05,
                         "seekingRange": 12,
                         "animation": "run",
                         "animationSpeed": 2.2,
@@ -399,6 +447,7 @@
                         ],
                         "eatItemCodes": [
                             "vegetable-carrot"
+							"drygrass"
                         ],
                         "useTime": 1.5,
                         "mincooldownHours": 1,
@@ -412,7 +461,7 @@
                         "maxduration": 5000000,
                         "mincooldown": 10000,
                         "maxcooldown": 30000,
-                        "animation": " ",
+                        "animation": "sleeplay",
                         "whenNotInEmotionState": "aggressiveondamage",
                         "duringDayTimeFrames": [
                             {
@@ -461,19 +510,7 @@
                         "animationSpeed": 1.4,
                         "animation": "walk",
                         "preferredLightLevel": 10
-                    },
-                    {
-                        "code": "idle",
-                        "priority": 0.9,
-                        "minduration": 7000,
-                        "maxduration": 45000,
-                        "mincooldown": 6000,
-                        "maxcooldown": 120000,
-                        "priorityForCancel": 1.33,
-                        "stopOnHurt": true,
-                        "animation": "idleLook",
-                        "animationSpeed": 0.75
-                    },
+                    }
                     {
                         "code": "lookaround",
                         "priority": 0.5
