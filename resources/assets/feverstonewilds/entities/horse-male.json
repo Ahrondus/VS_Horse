@@ -82,8 +82,8 @@
                         "cooldown": 1
                     },
 					{
-						"code": "game:drygrass",
-						"progress": 0.1,
+						"code": "drygrass",
+						"progress": 0.05,
 						"cooldown": 0.25
 					}
                 ]
@@ -97,7 +97,19 @@
                     },
 					{
 						"type": "item",
-						"code": "game:drygrass"
+						"code": "drygrass"
+					},
+					{
+						"type": "item",
+						"code": "fruit-pinkapple"
+					},
+					{
+						"type": "item",
+						"code": "fruit-redapple"
+					},
+					{
+						"type": "item",
+						"code": "fruit-yellowapple"
 					}
                 ]
             },
@@ -161,7 +173,7 @@
                 "animation": "walk",
                 "blendMode": "average",
                 "mulWithWalkSpeed": true,
-                "animationSpeed": 1.1,
+                "animationSpeed": 0.8,
 				"triggeredBy": {"onControls": ["Move"], "matchExact": true } 
             },
             {
@@ -195,8 +207,8 @@
                         "cooldown": 1
                     },
 					{
-						"code": "game:drygrass",
-						"progress": 0.1,
+						"code": "drygrass",
+						"progress": 0.05,
 						"cooldown": 0.25
 					}
                 ]
@@ -210,7 +222,19 @@
                     },
 					{
 						"type": "item",
-						"code": "game:drygrass"
+						"code": "drygrass"
+					},
+					{
+						"type": "item",
+						"code": "fruit-pinkapple"
+					},
+					{
+						"type": "item",
+						"code": "fruit-redapple"
+					},
+					{
+						"type": "item",
+						"code": "fruit-yellowapple"
 					}
                 ]
             },
@@ -330,9 +354,7 @@
 						"chance": 1,
 						"slot": 0,
 						"priority": 1,
-						"accumType": "sum",
-						"belowTempDuration": 600,
-						"belowTempThreshold": -7
+						"accumType": "sum"
 					}
                 ]
             },
@@ -348,8 +370,8 @@
                         "slot": 1,
                         "damage": 4,
                         "damageTier": 2,
-                        "mincooldown": 2000,
-                        "maxcooldown": 3000,
+                        "mincooldown": 1500,
+                        "maxcooldown": 2500,
                         "attackDurationMs": 750,
                         "damagePlayerAtMs": 500,
                         "animation": "attackFront",
@@ -388,7 +410,7 @@
                     {
                         "code": "fleeentity",
                         "entityCodes": [
-                            "player"
+                            "player", "wolf-*"
                         ],
                         "priority": 1.5,
                         "movespeed": 0.05,
@@ -438,18 +460,18 @@
                     {
                         "code": "useinventory",
                         "animation": "eat",
-                        "animationSpeed": 0.75,
+                        "animationSpeed": 1,
                         "priority": 1.6,
                         "priorityForCancel": 1.7,
-                        "eatItemCategories": [
-                            "Vegetable",
-                            "Grain"
-                        ],
+						"eatItemCategories": [
+							"Vegetable",
+							"Grain",
+							"Fruit"
+						],
                         "eatItemCodes": [
-                            "vegetable-carrot"
 							"drygrass"
                         ],
-                        "useTime": 1.5,
+                        "useTime": 3,
                         "mincooldownHours": 1,
                         "maxcooldownHours": 1.5
                     },
@@ -510,7 +532,7 @@
                         "animationSpeed": 1.4,
                         "animation": "walk",
                         "preferredLightLevel": 10
-                    }
+                    },
                     {
                         "code": "lookaround",
                         "priority": 0.5
