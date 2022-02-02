@@ -81,11 +81,11 @@
                         "progress": 0.5,
                         "cooldown": 1
                     },
-					{
-						"code": "drygrass",
-						"progress": 0.05,
-						"cooldown": 0.25
-					}
+		    {
+			"code": "drygrass",
+			"progress": 0.05,
+			"cooldown": 0.25
+		    }
                 ]
             },
             {
@@ -95,22 +95,22 @@
                         "type": "item",
                         "code": "vegetable-carrot"
                     },
-					{
-						"type": "item",
-						"code": "drygrass"
-					},
-					{
-						"type": "item",
-						"code": "fruit-pinkapple"
-					},
-					{
-						"type": "item",
-						"code": "fruit-redapple"
-					},
-					{
-						"type": "item",
-						"code": "fruit-yellowapple"
-					}
+		    {
+			"type": "item",
+			"code": "drygrass"
+		    },
+		    {
+			"type": "item",
+			"code": "fruit-pinkapple"
+		    },
+		    {
+			"type": "item",
+			"code": "fruit-redapple"
+		    },
+		    {
+			"type": "item",
+			"code": "fruit-yellowapple"
+		    }
                 ]
             },
             {
@@ -174,7 +174,7 @@
                 "blendMode": "average",
                 "mulWithWalkSpeed": true,
                 "animationSpeed": 0.8,
-				"triggeredBy": {"onControls": ["Move"], "matchExact": true } 
+		"triggeredBy": {"onControls": ["Move"], "matchExact": true } 
             },
             {
                 "code": "run",
@@ -182,7 +182,7 @@
                 "blendMode": "average",
                 "mulWithWalkSpeed": true,
                 "animationSpeed": 1.1,
-				"triggeredBy": {"onControls": ["Move", "SprintMode"], "matchExact": true } 
+		"triggeredBy": {"onControls": ["Move", "SprintMode"], "matchExact": true } 
             }
         ]
     },
@@ -206,11 +206,11 @@
                         "progress": 0.5,
                         "cooldown": 1
                     },
-					{
-						"code": "drygrass",
-						"progress": 0.05,
-						"cooldown": 0.25
-					}
+		    {
+			"code": "drygrass",
+			"progress": 0.05,
+			"cooldown": 0.25
+		    }
                 ]
             },
             {
@@ -220,22 +220,22 @@
                         "type": "item",
                         "code": "vegetable-carrot"
                     },
-					{
-						"type": "item",
-						"code": "drygrass"
-					},
-					{
-						"type": "item",
-						"code": "fruit-pinkapple"
-					},
-					{
-						"type": "item",
-						"code": "fruit-redapple"
-					},
-					{
-						"type": "item",
-						"code": "fruit-yellowapple"
-					}
+		    {
+			"type": "item",
+			"code": "drygrass"
+		    },
+		    {
+			"type": "item",
+			"code": "fruit-pinkapple"
+		    },
+		    {
+			"type": "item",
+			"code": "fruit-redapple"
+		    },
+		    {
+			"type": "item",
+			"code": "fruit-yellowapple"
+		    }
                 ]
             },
             {
@@ -348,14 +348,14 @@
                         "priority": 1,
                         "accumType": "max"
                     }, 
-					{
-						"code": "saturated",
-						"duration": 900,
-						"chance": 1,
-						"slot": 0,
-						"priority": 1,
-						"accumType": "sum"
-					}
+		    {
+			"code": "saturated",
+			"duration": 900,
+			"chance": 1,
+			"slot": 0,
+			"priority": 1,
+			"accumType": "sum"
+		    }
                 ]
             },
             {
@@ -393,20 +393,20 @@
                         "animationSpeed": 2,
                         "whenInEmotionState": "aggressiveondamage"
                     },
-					{
-						"code": "seekentity",
-						"entityCodes": [
-							"wolf-*"
-						],
-						"priority": 1.5,
-						"mincooldown": 1000,
-						"maxcooldown": 1500,
-						"seekingRange": 6,
-						"movespeed": 0.045,
-						"animation": "run",
-						"animationSpeed": 2,
-						"whenInEmotionState": "aggressiveondamage"
-					},
+		    {
+			"code": "seekentity",
+			"entityCodes": [
+				"wolf-*"
+			],
+			"priority": 1.5,
+			"mincooldown": 1000,
+			"maxcooldown": 1500,
+			"seekingRange": 6,
+			"movespeed": 0.045,
+			"animation": "run",
+			"animationSpeed": 2,
+			"whenInEmotionState": "aggressiveondamage"
+		    },
                     {
                         "code": "fleeentity",
                         "entityCodes": [
@@ -463,13 +463,13 @@
                         "animationSpeed": 1,
                         "priority": 1.6,
                         "priorityForCancel": 1.7,
-						"eatItemCategories": [
-							"Vegetable",
-							"Grain",
-							"Fruit"
-						],
+			"eatItemCategories": [
+				"Vegetable",
+				"Grain",
+				"Fruit"
+			],
                         "eatItemCodes": [
-							"drygrass"
+				"drygrass"
                         ],
                         "useTime": 3,
                         "mincooldownHours": 1,
