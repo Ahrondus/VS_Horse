@@ -1,0 +1,25 @@
+{	
+	"item-creature-horse-male": "Male Horse",
+	"item-dead-creature-horse-male": "Dead Male Horse",
+	"itemdesc-creature-horse-male": "A reliable and swift steed.",
+	"itemdesc-dead-creature-horse-male": "A not-so-reliable steed.",
+	
+	"item-creature-horse-female": "Female Horse",
+	"item-dead-creature-horse-female": "Dead Female Horse",
+	"itemdesc-creature-horse-female": "A reliable and swift steed.",
+	"itemdesc-dead-creature-horse-female": "A not-so-reliable steed.",
+	
+	"item-creature-horse-foal": "Foal",
+	"item-dead-creature-horse-foal": "Dead Foal",
+	"itemdesc-creature-horse-foal": "A young horse.",
+	"itemdesc-creature-dead-horse-foal": "A dead young horse.",
+	
+	"item-carrotbundle": "Carrot Bundle",
+	"itemdesc-carrotbundle": "A small bundle of carrots for taming! Horses like these!",
+	
+	"item-haybundle": "Hay Bundle",
+	"itemdesc-haybundle": "A bundle of dry grass used for taming. Horses will eat these!",
+
+	"horsetamingguide-title": "Taming Horses",
+	"horsetamingguide-text": "<strong>A Guide to Horse Taming:\n-----by Verlia</strong>\n\nTaming a horse is fairly simple!\nFirst, you will need to find a food that horses will enjoy! Dry grass is a good start, but other foods will be preferred.\nTry out a variety!\n\nRight clicking a wild horse with a compatible food item will start the taming process.\nEach feed will increase taming percentage until the process is complete. Now you can name your new horse!\nFeeding your horse after taming is complete will increase its obedience, so when you give it a command it will be more inclined to listen.\n\n<strong>--Now you're ready for adventure!--</strong>\nMount up on your new horse by right clicking on it! An empty hand is needed.\nDismount your horse by sneaking/crouching.\n\nHorses can eat from troughs and breed just like other domesticated animals.\nSome of their favorite foods are carrots, apples, and grains, and each will affect them differently!\n\n\n<strong>Keep an eye out for more saddles, saddlebags, and attachments in the future!</strong>"
+}
