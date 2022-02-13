@@ -233,7 +233,6 @@
                 "portionsEatenForMultiply": 12
             },
             { "code": "repulseagents" },			
-			{ "code": "harvestable" },
             {
                 "code": "controlledphysics",
                 "stepHeight": 1.1251
