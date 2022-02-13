@@ -104,25 +104,11 @@
             },
             { "code": "repulseagents" },
 			{ "code": "harvestable" },
-            { 
-                "code": "controlledphysics",
-                "stepHeight": 1.5
-            },
-            { 
-                "code": "floatupwhenstuck",
-                "onlyWhenDead": true
-            },
+            { "code": "controlledphysics", "stepHeight": 1.5 },
+            { "code": "floatupwhenstuck", "onlyWhenDead": true },
             { "code": "interpolatemount"  },
-            {   
-                "code": "despawn",
-                "minPlayerDistance": 8,
-                "belowLightLevel": 8,
-                "minSeconds": 300
-            },
-            {
-                "code": "ropetieable",
-                "minGeneration": 2
-            }
+            { "code": "despawn", "minPlayerDistance": 8, "belowLightLevel": 8, "minSeconds": 300 },
+            { "code": "ropetieable", "minGeneration": 2 }
         ],
         "animations": [
             {
@@ -176,8 +162,7 @@
         },
         "behaviors": [
             { "code": "nametag" },
-            {
-                "code": "tameable",
+            { "code": "tameable",
                 "disobediencePerDay": 0.1,
                 "treat": [
                     { "code": "vegetable-carrot", "progress": 0.075, "cooldown": 0.6 },
@@ -191,8 +176,7 @@
 					{ "code": "grain-spelt", "progress": 0.2, "cooldown": 0.8 }
                 ]
             },
-            {
-                "code": "mouthinventory",
+            { "code": "mouthinventory",
                 "acceptStacks": [
                     { "type": "item", "code": "vegetable-carrot" },
 					{ "type": "item", "code": "feverstonehorses:carrotbundle" },
@@ -205,8 +189,7 @@
                     { "type": "item", "code": "grain-spelt" }
 				]
             },
-            {
-                "code": "receivecommand",
+            { "code": "receivecommand",
                 "availableCommands": [
                     {
                         "commandName": "followmaster",
@@ -232,61 +215,38 @@
                 "multiplyCooldownDaysMax": 14,
                 "portionsEatenForMultiply": 12
             },
-            { "code": "repulseagents" },			
-            {
-                "code": "controlledphysics",
-                "stepHeight": 1.1251
-            },
+            { "code": "repulseagents" },
+            { "code": "controlledphysics", "stepHeight": 1.1251 },
             {
                 "code": "despawn",
                 "minPlayerDistance": 8,
                 "belowLightLevel": 8,
                 "minSeconds": 300
             },
-            {
-                "code": "health",
-                "currenthealth": 25,
-                "maxhealth": 25
-            },
-            {
-                "code": "deaddecay",
-                "hoursToDecay": 96,
-                "decayedBlock": "carcass-medium"
-            },
-            {
-                "code": "floatupwhenstuck",
-                "onlyWhenDead": true
-            },
-            {
-                "code": "harvestable",
+            { "code": "health", "currenthealth": 25, "maxhealth": 25 },
+            { "code": "deaddecay", "hoursToDecay": 96, "decayedBlock": "carcass-medium" },
+            { "code": "floatupwhenstuck", "onlyWhenDead": true },
+            { "code": "harvestable",
                 "drops": [
-                    {
-                        "type": "item",
-                        "code": "redmeat-raw",
+                    { "type": "item", "code": "redmeat-raw",
                         "quantity": {
                             "avg": 13,
                             "var": 4
                         }
                     },
-                    {
-                        "type": "item",
-                        "code": "hide-raw-large",
+                    { "type": "item", "code": "hide-raw-large",
                         "quantity": {
                             "avg": 1.5,
                             "var": 0.5
                         }
                     },
-                    {
-                        "type": "item",
-                        "code": "fat",
+                    { "type": "item", "code": "fat",
                         "quantity": {
                             "avg": 3,
                             "var": 1
                         }
                     },
-                    {
-                        "type": "item",
-                        "code": "bone",
+                    { "type": "item", "code": "bone",
                         "quantity": {
                             "avg": 5,
                             "var": 1
@@ -295,8 +255,7 @@
                 ]
             },
             { "code": "breathe" },
-            {
-                "code": "emotionstates",
+            { "code": "emotionstates",
                 "states": [
                     {
                         "code": "fleeondamage",
@@ -329,9 +288,7 @@
 						"chance": 1,
 						"slot": 0,
 						"priority": 1,
-						"accumType": "sum",
-						"belowTempDuration": 600,
-						"belowTempThreshold": -7
+						"accumType": "sum"
 					}
                 ]
             },
@@ -340,9 +297,7 @@
                 "aitasks": [
                     {
                         "code": "meleeattack",
-                        "entityCodes": [
-                            "player", "wolf-*"
-                        ],
+                        "entityCodes": [ "player", "wolf-*" ],
                         "priority": 2,
                         "slot": 1,
                         "damage": 4,
@@ -358,9 +313,7 @@
                     },
                     {
                         "code": "seekentity",
-                        "entityCodes": [
-                            "player"
-                        ],
+                        "entityCodes": [ "player" ],
                         "priority": 1.5,
                         "mincooldown": 1000,
                         "maxcooldown": 1500,
@@ -372,9 +325,7 @@
                     },
 					{
 						"code": "seekentity",
-						"entityCodes": [
-							"wolf-*"
-						],
+						"entityCodes": [ "wolf-*" ],
 						"priority": 1.5,
 						"mincooldown": 1000,
 						"maxcooldown": 1500,
@@ -386,9 +337,7 @@
 					},
                     {
                         "code": "fleeentity",
-                        "entityCodes": [
-                            "player", "wolf-*"
-                        ],
+                        "entityCodes": [ "player", "wolf-*" ],
                         "priority": 1.5,
                         "movespeed": 0.05,
                         "seekingRange": 12,
@@ -533,71 +482,55 @@
                         "animation": "walk",
                         "preferredLightLevel": 10
                     },
-                    {
-                        "code": "lookaround",
-                        "priority": 0.5
-                    }
+                    { "code": "lookaround", "priority": 0.5 }
                 ]
             },
-            {
-                "code": "ropetieable",
-                "minGeneration": 2
-            }
+            { "code": "ropetieable", "minGeneration": 2 }
         ],
         "spawnconditions": {
             "worldgen": {
                 "TriesPerChunk": {
-                    "avg": 0.08,
-                    "var": 0
+                    "avg": 0.06,
+                    "var": 0.01
                 },
                 "tryOnlySurface": true,
-                "minLightLevel": 7,
+                "minLightLevel": 10,
                 "groupSize": {
                     "dist": "verynarrowgaussian",
                     "avg": 1,
                     "var": 2
                 },
-                "insideBlockCodes": [
-                    "game:air",
-                    "game:tallgrass-*"
-                ],
+                "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                 "minTemp": -2,
                 "maxTemp": 25,
                 "minRain": 0.25,
-                "minForest": 0.25,
-                "companions": [
-                    "horse-male", "horse-foal"
-                ]
+                "minForest": 0.15,
+                "companions": [ "horse-male", "horse-foal" ]
             },
             "runtime": {
                 "group": "neutral",
                 "tryOnlySurface": true,
-                "chance": 0.0006,
+                "chance": 0.0005,
                 "maxQuantity": 3,
-                "minLightLevel": 7,
+                "minLightLevel": 10,
                 "groupSize": {
                     "dist": "verynarrowgaussian",
                     "avg": 1,
                     "var": 2
                 },
-                "insideBlockCodes": [
-                    "game:air",
-                    "game:tallgrass-*"
-                ],
+                "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                 "minTemp": -2,
                 "maxTemp": 25,
                 "minRain": 0.25,
-                "minForest": 0.25,
-                "companions": [
-                    "horse-male", "horse-foal"
-                ]
+                "minForest": 0.15,
+                "companions": [ "horse-male", "horse-foal" ]
             }
         }
     },
     "sounds": {
-        "hurt": "feverstonehorses:creatures/horse/horsedamage",
-        "death": "feverstonehorses:creatures/horse/horsedamage",
-        "idle": "feverstonehorses:creatures/horse/neigh"
+        "hurt": "feverstonehorses:horse/horsedamage",
+        "death": "feverstonehorses:horse/horsedamage",
+        "idle": "feverstonehorses:horse/neigh"
     },
-    "idleSoundChance": 0.05
+    "idleSoundChance": 0.025
 }

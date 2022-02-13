@@ -405,9 +405,7 @@
                                 "toHour": 5
                             }
                         ],
-                        "stopOnNearbyEntityCodes": [
-                            "player", "wolf-*"
-                        ],
+                        "stopOnNearbyEntityCodes": [ "player", "wolf-*" ],
                         "stopRange": 6,
                         "stopOnHurt": true
                     },
@@ -469,47 +467,47 @@
         "spawnconditions": {
             "worldgen": {
                 "TriesPerChunk": {
-                    "avg": 0.08,
-                    "var": 0
+                    "avg": 0.06,
+                    "var": 0.01
                 },
                 "tryOnlySurface": true,
-                "minLightLevel": 7,
+                "minLightLevel": 10,
                 "groupSize": {
                     "dist": "verynarrowgaussian",
                     "avg": 1,
                     "var": 2
                 },
-                "insideBlockCodes": [ "game:air", "game:tallgrass-*" ],
+                "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                 "minTemp": -2,
                 "maxTemp": 25,
                 "minRain": 0.25,
-                "minForest": 0.25,
+                "minForest": 0.15,
                 "companions": [ "horse-female", "horse-foal" ]
             },
             "runtime": {
                 "group": "neutral",
                 "tryOnlySurface": true,
-                "chance": 0.0006,
+                "chance": 0.0005,
                 "maxQuantity": 3,
-                "minLightLevel": 7,
+                "minLightLevel": 10,
                 "groupSize": {
                     "dist": "verynarrowgaussian",
                     "avg": 1,
                     "var": 2
                 },
-                "insideBlockCodes": [ "game:air", "game:tallgrass-*" ],
+                "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                 "minTemp": -2,
                 "maxTemp": 25,
                 "minRain": 0.25,
-                "minForest": 0.25,
+                "minForest": 0.15,
                 "companions": [ "horse-female", "horse-foal" ]
             }
         }
     },
     "sounds": {
-        "hurt": "feverstonehorses:creatures/horse/horsedamage",
-        "death": "feverstonehorses:creatures/horse/horsedamage",
-        "idle": "feverstonehorses:creatures/horse/neigh"
+        "hurt": "feverstonehorses:horse/horsedamage",
+        "death": "feverstonehorses:horse/horsedamage",
+        "idle": "feverstonehorses:horse/neigh"
     },
-    "idleSoundChance": 0.05
+    "idleSoundChance": 0.025
 }
