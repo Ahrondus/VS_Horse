@@ -1,18 +1,15 @@
 {	
-	"item-creature-horse-male": "Male Horse",
-	"item-dead-creature-horse-male": "Dead Male Horse",
-	"itemdesc-creature-horse-male": "A reliable and swift steed.",
-	"itemdesc-dead-creature-horse-male": "A not-so-reliable steed.",
+	"item-creature-horse-male": "Stallion",
+	"item-dead-creature-horsemale": "Dead Stallion",
+	"itemdesc-creature-horsemale": "A reliable and swift steed.",	
 	
-	"item-creature-horse-female": "Female Horse",
-	"item-dead-creature-horse-female": "Dead Female Horse",
+	"item-creature-horse-female": "Mare",	
+	"item-dead-creature-horse-female": "Dead Mare",
 	"itemdesc-creature-horse-female": "A reliable and swift steed.",
-	"itemdesc-dead-creature-horse-female": "A not-so-reliable steed.",
 	
 	"item-creature-horse-foal": "Foal",
 	"item-dead-creature-horse-foal": "Dead Foal",
 	"itemdesc-creature-horse-foal": "A young horse.",
-	"itemdesc-creature-dead-horse-foal": "A dead young horse.",
 	
 	"item-carrotbundle": "Carrot Bundle",
 	"itemdesc-carrotbundle": "A small bundle of carrots for taming! Horses like these!",

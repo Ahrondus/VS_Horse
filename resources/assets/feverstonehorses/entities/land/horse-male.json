@@ -245,21 +245,13 @@
             { "code": "emotionstates",
                 "states": [
                     {
-                        "code": "fleeondamage",
-                        "duration": 60,
-                        "chance": 0.85,
-                        "slot": 0,
-                        "priority": 5,
-                        "accumType": "max",
-                        "whenHealthRelBelow": 0.4
-                    },
-                    {
                         "code": "aggressiveondamage",
                         "duration": 30,
-                        "chance": 0.95,
+                        "chance": 0.80,
                         "slot": 0,
                         "priority": 2,
-                        "accumType": "noaccum"
+                        "accumType": "noaccum",
+                        "whenHealthRelBelow": 0.4
                     },
                     {
                         "code": "fleeondamage",
@@ -294,8 +286,7 @@
                         "attackDurationMs": 750,
                         "damagePlayerAtMs": 500,
                         "animation": "attackFront",
-                        "animationSpeed": 1.1,
-                        "whenNotInEmotionState": "fleeondamage",
+                        "animationSpeed": 1.4,
                         "whenInEmotionState": "aggressiveondamage"
                     },
                     {
@@ -326,7 +317,7 @@
                         "code": "fleeentity",
                         "entityCodes": [ "player", "wolf-*" ],
                         "priority": 1.5,
-                        "movespeed": 0.05,
+                        "movespeed": 0.055,
                         "seekingRange": 12,
                         "animation": "run",
                         "animationSpeed": 2.2,
@@ -467,7 +458,7 @@
         "spawnconditions": {
             "worldgen": {
                 "TriesPerChunk": {
-                    "avg": 0.06,
+                    "avg": 0.04,
                     "var": 0.01
                 },
                 "tryOnlySurface": true,
@@ -475,7 +466,7 @@
                 "groupSize": {
                     "dist": "verynarrowgaussian",
                     "avg": 1,
-                    "var": 2
+                    "var": 1
                 },
                 "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                 "minTemp": -2,
@@ -487,13 +478,13 @@
             "runtime": {
                 "group": "neutral",
                 "tryOnlySurface": true,
-                "chance": 0.0005,
+                "chance": 0.0004,
                 "maxQuantity": 3,
                 "minLightLevel": 10,
                 "groupSize": {
                     "dist": "verynarrowgaussian",
                     "avg": 1,
-                    "var": 2
+                    "var": 1
                 },
                 "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                 "minTemp": -2,
@@ -509,5 +500,6 @@
         "death": "feverstonehorses:horse/horsedamage",
         "idle": "feverstonehorses:horse/neigh"
     },
-    "idleSoundChance": 0.025
+    "idleSoundChance": 0.025,
+    "hurtSoundChance": 0.05
 }
