@@ -4,7 +4,14 @@
 	
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	
-	"maxStackSize": 16,
+	"maxStackSize": 32,
+	"transitionableProps": [{
+		"type'": "Perish",
+		"freshHours": { "avg": 168 },
+		"transitionHours": { "avg": 36 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 1
+	}],
 	
 	"groundTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },

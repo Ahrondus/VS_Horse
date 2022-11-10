@@ -5,17 +5,17 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": ["horse-male", "horse-female", "horse-foal"]	
+			"states": ["horse-male-draft", "horse-female-draft", "horse-foal"]	
 		}
 	],
 	"shapeByType": {
-		"*-horse-male": { "base": "entity/land/horse" },
-		"*-horse-female": { "base": "entity/land/horse" },
+		"*-horse-male-draft": { "base": "entity/land/horse" },
+		"*-horse-female-draft": { "base": "entity/land/horse" },
 		"*-horse-foal": { "base": "entity/land/foal" }
 		},
 	"texturesByType": {
-		"*-horse-male": { "skin": { "base": "entity/horse/horse5" } },
-		"*-horse-female": { "skin": { "base": "entity/horse/horse20" } },
+		"*-horse-male-draft": { "skin": { "base": "entity/horse/horse5" } },
+		"*-horse-female-draft": { "skin": { "base": "entity/horse/horse20" } },
 		"*-horse-foal": {"skin": { "base": "entity/horse/horse15" } }
 		},
 		
@@ -26,14 +26,14 @@
 		},
 		
 	"guiTransformByType": {
-		"creature-horse-male": {
+		"creature-horse-male-draft": {
 			"rotate": "true",
 			"translation": { "x": 0, "y": 15, "z": 0 },
 			"rotation": { "x": 180, "y": -115, "z": 6 },
 			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
 			"scale": 0.6
 		},
-		"creature-horse-female": {
+		"creature-horse-female-draft": {
 			"rotate": "true",
 			"translation": { "x": 0, "y": 15, "z": 0 },
 			"rotation": { "x": 180, "y": -115, "z": 6 },

@@ -1,11 +1,11 @@
 {	
-	"item-creature-horse-male": "Stallion",
-	"item-dead-creature-horsemale": "Dead Stallion",
-	"itemdesc-creature-horsemale": "A reliable and swift steed.",	
+	"item-creature-horse-male-draft": "Stallion",
+	"item-dead-creature-horse-male-draft": "Dead Stallion",
+	"itemdesc-creature-horse-male-draft": "A reliable and swift steed.",	
 	
-	"item-creature-horse-female": "Mare",	
-	"item-dead-creature-horse-female": "Dead Mare",
-	"itemdesc-creature-horse-female": "A reliable and swift steed.",
+	"item-creature-horse-female-draft": "Mare",	
+	"item-dead-creature-horse-female-draft": "Dead Mare",
+	"itemdesc-creature-horse-female-draft": "A reliable and swift steed.",
 	
 	"item-creature-horse-foal": "Foal",
 	"item-dead-creature-horse-foal": "Dead Foal",
@@ -17,6 +17,16 @@
 	"item-haybundle": "Hay Bundle",
 	"itemdesc-haybundle": "A bundle of dry grass used for taming. Horses will eat these!",
 
+	"item-horsesaddle": "Horse Saddle",
+	"itemdesc-horsesaddle": "A sturdy leather saddle for your steed, with saddlebags!",
+
 	"horsetamingguide-title": "Taming Horses",
-	"horsetamingguide-text": "<strong>A Guide to Horse Taming:\n-----by Verlia</strong>\n\nTaming a horse is fairly simple!\nFirst, you will need to find a food that horses will enjoy! Dry grass is a good start, but other foods will be preferred.\nTry out a variety!\n\nRight clicking a wild horse with a compatible food item will start the taming process.\nEach feed will increase taming percentage until the process is complete. Now you can name your new horse!\nFeeding your horse after taming is complete will increase its obedience, so when you give it a command it will be more inclined to listen.\n\n<strong>--Now you're ready for adventure!--</strong>\nMount up on your new horse by right clicking on it! An empty hand is needed.\nDismount your horse by sneaking/crouching.\n\nHorses can eat from troughs and breed just like other domesticated animals.\nSome of their favorite foods are carrots, apples, and grains, and each will affect them differently!\n\n\n<strong>Keep an eye out for more saddles, saddlebags, and attachments in the future!</strong>"
+	"horsetamingguide-text": "<strong>A Guide to Horse Taming:\n-----by Verlia</strong>\n\nTaming a horse is fairly simple!\nFirst, you will need to find a food that horses will enjoy! Dry grass is a good start, but other foods will be preferred.\nTry out a variety!\n\nRight clicking a wild horse with a compatible food item will start the taming process.\nEach feed will increase taming percentage until the process is complete. Now you can name your new horse!\nFeeding your horse after taming is complete will increase its obedience, so when you give it a command it will be more inclined to listen.\n\n<strong>--Now you're ready for adventure!--</strong>\nMount up on your new horse by right clicking on it! An empty hand is needed.\nDismount your horse by sneaking/crouching.\n\nHorses can eat from troughs and breed just like other domesticated animals.\nSome of their favorite foods are carrots, apples, and grains, and each will affect them differently!\n\n\n<strong>Keep an eye out for more saddles, saddlebags, and attachments in the future!</strong>",
+
+	"deathmsg-horsemale-1": "Player {0} was trampled by a horse.",
+	"deathmsg-horsemale-2": "Player {0} was kicked to death.",
+	"deathmsg-horsefemale-1": "Player {0} was trampled by a horse.",
+	"deathmsg-horsefemale-2": "Player {0} was kicked to death.",
+
+	"deadcreature-horsetrampled": "Appears to be trampled by a horse."
 }
