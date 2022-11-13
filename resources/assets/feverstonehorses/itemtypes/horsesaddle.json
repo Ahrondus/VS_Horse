@@ -1,57 +1,45 @@
 {
 	"code": "horsesaddle",
 	"class": "ItemPetAccessory",
-	"shape": {
-		"base": "item/equipment/back/horsesaddle"
+	"variantgroups": [ { "code": "type", "states": ["draft", "arabian"] } ],
+
+	"shapeByType": {
+		"horsesaddle-draft": { "base": "item/equipment/back/horsesaddle-draft" },
+		"horsesaddle-arabian": { "base": "item/equipment/back/horsesaddle-arabian" }		
 	},
-	"attributes": {
-		"wearableAttachment": true,
-		"cothingType": "midbody",
-		"validPets": [
-			"horse-female-draft",
-			"horse-male-draft"
-		],
+	"textures": { "skin": { "base": "items/horsesaddle" } },
+	"attributesByType": {
+		"horsesaddle-draft": {
+			"wearableAttachment": true,
+			"cothingType": "midbody",
+			"validPets": [ "horse-female-draft", "horse-male-draft" ],
 		"backpackslots": 12
+		},
+		"horsesaddle-arabian": {
+			"wearableAttachment": true,
+			"cothingType": "midbody",
+			"validPets": [ "horse-female-arabian", "horse-male-arabian" ],
+			"backpackslots": 8
+		}
 	},
+	"heldTpIdleAnimation": "holdunderarm",	
 	"maxstacksize": 1,
 	"creativeinventory": {
-		"general": [
-			"*"
-		],
-		"items": [
-			"*"
-		],
-		"clothing": [
-			"*"
-		]
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"clothing": [ "*" ]
 	},
 	"guiTransform": {
-		"translation": {
-			"x": -8,
-			"y": 5,
-			"z": -15
-		},
-		"rotation": {
-			"x": -21,
-			"y": -50,
-			"z": 180
-		},
-		"origin": {
-			"x": 0.52,
-			"y": 0.26,
-			"z": 0.5
-		},
+		"translation": { "x": -8, "y": 5, "z": -15 },
+		"rotation": { "x": -21, "y": -50, "z": 180 },
+		"origin": { "x": 0.52, "y": 0.26, "z": 0.5 },
 		"scale": 0.85
 	},
 	"groundTransform": {
 		"scale": 2
 	},
 	"fpHandTransform": {
-		"rotation": {
-			"x": 180,
-			"y": -1,
-			"z": 180
-		},
+		"rotation": { "x": 180, "y": -1, "z": 180 },
 		"scale": 1.5
 	},
 	"tpHandTransform": {

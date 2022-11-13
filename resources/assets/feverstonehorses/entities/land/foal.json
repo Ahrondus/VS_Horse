@@ -1,6 +1,10 @@
 {
-    "code": "horse-foal",
+    "code": "foal",
     "class": "EntityPet",
+    "variantgroups": [
+        { "code": "gender", "states": ["male", "female"] },
+        { "code": "type", "states": ["draft", "arabian"] }
+    ],
     "hitboxSize": {
         "x": 0.7,
         "y": 1.0
@@ -255,7 +259,7 @@
             },
 			{
 				"hoursToGrow": 336,
-				"adultEntityCodes": [ "feverstonehorses:horse-male", "feverstonehorses:horse-female" ],
+				"adultEntityCodes": [ "feverstonehorses:horse-male-{type}", "feverstonehorses:horse-female-{type}" ],
 				"code": "raisable"
 			},
             {
@@ -276,7 +280,7 @@
                     {
                         "code": "stayclosetoentity",
                         "priority": 1.3,
-                        "entityCodes": [ "horse-male", "horse-female" ],
+                        "entityCodes": [ "horse-male-{type}", "horse-female-{type}" ],
                         "maxDistance": 12,
                         "searchRange": 30,
                         "moveSpeed": 0.02,
