@@ -1,15 +1,35 @@
 {	
-	"item-creature-horse-male-draft": "Stallion",
+	"item-creature-horse-male-draft": "Draft Stallion",
 	"item-dead-creature-horse-male-draft": "Dead Stallion",
-	"itemdesc-creature-horse-male-draft": "A reliable and swift steed.",	
+	"itemdesc-creature-horse-male-draft": "A reliable and hefty steed.",	
 	
-	"item-creature-horse-female-draft": "Mare",	
+	"item-creature-horse-female-draft": "Draft Mare",	
 	"item-dead-creature-horse-female-draft": "Dead Mare",
-	"itemdesc-creature-horse-female-draft": "A reliable and swift steed.",
+	"itemdesc-creature-horse-female-draft": "A reliable and hefty steed.",
+
+	"item-creature-horse-male-arabian": "Arabian Stallion",
+	"item-dead-creature-horse-male-arabian": "Dead Stallion",
+	"itemdesc-creature-horse-male-arabian": "A reliable and swift steed, found in arid climates.",	
 	
-	"item-creature-horse-foal": "Foal",
-	"item-dead-creature-horse-foal": "Dead Foal",
-	"itemdesc-creature-horse-foal": "A young horse.",
+	"item-creature-horse-female-arabian": "Arabian Mare",	
+	"item-dead-creature-horse-female-arabian": "Dead Mare",
+	"itemdesc-creature-horse-female-arabian": "A reliable and swift steed, found in arid climates.",
+	
+	"item-creature-foal-male-draft": "Male Draft Foal",
+	"item-dead-creature-foal-male-draft": "Dead Foal",
+	"itemdesc-creature-foal-male-draft": "A young male draft horse.",
+	
+	"item-creature-foal-female-draft": "Female Draft Foal",
+	"item-dead-creature-foal-female-draft": "Dead Foal",
+	"itemdesc-creature-foal-female-draft": "A young female draft horse.",
+	
+	"item-creature-foal-male-arabian": "Male Arabian Foal",
+	"item-dead-creature-foal-male-arabian": "Dead Foal",
+	"itemdesc-creature-foal-male-arabian": "A young male arabian horse.",
+	
+	"item-creature-foal-female-arabian": "Female Arabian Foal",
+	"item-dead-creature-foal-female-arabian": "Dead Foal",
+	"itemdesc-creature-foal-female-arabian": "A young female arabian horse.",
 	
 	"item-carrotbundle": "Carrot Bundle",
 	"itemdesc-carrotbundle": "A small bundle of carrots for taming! Horses like these!",
@@ -17,8 +37,11 @@
 	"item-haybundle": "Hay Bundle",
 	"itemdesc-haybundle": "A bundle of dry grass used for taming. Horses will eat these!",
 
-	"item-horsesaddle": "Horse Saddle",
-	"itemdesc-horsesaddle": "A sturdy leather saddle for your steed, with saddlebags!",
+	"item-horsesaddle-draft": "Draft Horse Saddle",
+	"itemdesc-horsesaddle-draft": "A sturdy leather saddle for your steed, with saddlebags!",
+
+	"item-horsesaddle-arabian": "Arabian Horse Saddle",
+	"itemdesc-horsesaddle-arabian": "A sturdy leather saddle for your steed, with saddlebags!",
 
 	"horsetamingguide-title": "Taming Horses",
 	"horsetamingguide-text": "<strong>A Guide to Horse Taming:\n-----by Verlia</strong>\n\nTaming a horse is fairly simple!\nFirst, you will need to find a food that horses will enjoy! Dry grass is a good start, but other foods will be preferred.\nTry out a variety!\n\nRight clicking a wild horse with a compatible food item will start the taming process.\nEach feed will increase taming percentage until the process is complete. Now you can name your new horse!\nFeeding your horse after taming is complete will increase its obedience, so when you give it a command it will be more inclined to listen.\n\n<strong>--Now you're ready for adventure!--</strong>\nMount up on your new horse by right clicking on it! An empty hand is needed.\nDismount your horse by sneaking/crouching.\n\nHorses can eat from troughs and breed just like other domesticated animals.\nSome of their favorite foods are carrots, apples, and grains, and each will affect them differently!\n\n\n<strong>Keep an eye out for more saddles, saddlebags, and attachments in the future!</strong>",

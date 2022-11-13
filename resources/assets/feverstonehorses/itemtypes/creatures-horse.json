@@ -5,18 +5,30 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": ["horse-male-draft", "horse-female-draft", "horse-foal"]	
+			"states": ["horse-male-draft", "horse-female-draft",
+			"horse-male-arabian", "horse-female-arabian", "foal-male-draft", "foal-female-draft"
+			, "foal-male-arabian", "foal-female-arabian"]	
 		}
 	],
 	"shapeByType": {
-		"*-horse-male-draft": { "base": "entity/land/horse" },
-		"*-horse-female-draft": { "base": "entity/land/horse" },
-		"*-horse-foal": { "base": "entity/land/foal" }
+		"*-foal-male-draft": { "base": "entity/land/foal" },
+		"*-foal-female-draft": { "base": "entity/land/foal" },
+		"*-foal-male-arabian": { "base": "entity/land/foal" },
+		"*-foal-female-arabian": { "base": "entity/land/foal" },
+		"*-horse-male-draft": { "base": "entity/land/horse-draft" },
+		"*-horse-female-draft": { "base": "entity/land/horse-draft" },
+		"*-horse-male-arabian": { "base": "entity/land/horse-arabian" },
+		"*-horse-female-arabian": { "base": "entity/land/horse-arabian" }
 		},
 	"texturesByType": {
+		"*-foal-male-draft": { "skin": { "base": "entity/horse/horse18" } },
+		"*-foal-female-draft": { "skin": { "base": "entity/horse/horse18" } },
+		"*-foal-male-arabian": { "skin": { "base": "entity/horse/horse15" } },
+		"*-foal-female-arabian": { "skin": { "base": "entity/horse/horse15" } },
 		"*-horse-male-draft": { "skin": { "base": "entity/horse/horse5" } },
 		"*-horse-female-draft": { "skin": { "base": "entity/horse/horse20" } },
-		"*-horse-foal": {"skin": { "base": "entity/horse/horse15" } }
+		"*-horse-male-arabian": { "skin": { "base": "entity/horse/horse14" } },
+		"*-horse-female-arabian": { "skin": { "base": "entity/horse/horse13" } }
 		},
 		
 	"creativeinventory": {
@@ -26,26 +38,40 @@
 		},
 		
 	"guiTransformByType": {
+		"creature-foal-*": {
+			"rotate": "true",
+			"translation": { "x": 0, "y": 12, "z": 0 },
+			"rotation": { "x": 180, "y": -115, "z": 6 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+			"scale": 1.2
+		},
 		"creature-horse-male-draft": {
 			"rotate": "true",
-			"translation": { "x": 0, "y": 15, "z": 0 },
+			"translation": { "x": 0, "y": 12, "z": 0 },
 			"rotation": { "x": 180, "y": -115, "z": 6 },
 			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
 			"scale": 0.6
 		},
 		"creature-horse-female-draft": {
 			"rotate": "true",
-			"translation": { "x": 0, "y": 15, "z": 0 },
+			"translation": { "x": 0, "y": 12, "z": 0 },
 			"rotation": { "x": 180, "y": -115, "z": 6 },
 			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
 			"scale": 0.6
 		},
-		"creature-horse-foal": {
+		"creature-horse-male-arabian": {
 			"rotate": "true",
-			"translation": { "x": 0, "y": 15, "z": 0 },
+			"translation": { "x": 0, "y": 12, "z": 0 },
 			"rotation": { "x": 180, "y": -115, "z": 6 },
 			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
-			"scale": 1.2
+			"scale": 0.6
+		},
+		"creature-horse-female-arabian": {
+			"rotate": "true",
+			"translation": { "x": 0, "y": 12, "z": 0 },
+			"rotation": { "x": 180, "y": -115, "z": 6 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+			"scale": 0.6
 		}
 	},
 	"fpHandTransform": {

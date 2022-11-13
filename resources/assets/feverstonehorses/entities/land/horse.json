@@ -3,24 +3,33 @@
     "class": "EntityMount",
     "variantgroups": [
         { "code": "gender", "states": ["male", "female"] },
-        { "code": "type", "states": ["draft"] }
+        { "code": "type", "states": ["draft", "arabian"] }
     ],
     "collisionBoxSizeByType": {
-        "horse-male-draft": { "x": 1.4, "y": 1.9 },
-        "horse-female-draft": { "x":1.4, "y": 1.9 }
+        "horse-male-draft": { "x": 1.75, "y": 1.9 },
+        "horse-female-draft": { "x":1.65, "y": 1.9 },
+
+        "horse-male-arabian": { "x": 1.4, "y": 1.55 },
+        "horse-female-arabian": { "x": 1.3, "y": 1.5 }
     },
     "deadCollisionBoxSizeByType": {
         "horse-male-draft": { "x": 1.9, "y": 0.8 },
-        "horse-female-draft": { "x": 1.9, "y": 0.8 }
+        "horse-female-draft": { "x": 1.9, "y": 0.8 },
+
+        "horse-male-arabian": { "x": 1.55, "y": 0.7 },
+        "horse-female-arabian": { "x": 1.5, "y": 0.7 }
     },
     "selectionBoxSizeByType": {
-        "*-draft": { "x": 1.5, "y": 2.0 }
+        "*-draft": { "x": 1.7, "y": 2.0 },
+        "*-arabian": { "x": 1.5, "y": 1.6 }
     },
     "deadSelectionBoxSizeByType": {        
-        "*-draft": { "x": 1.9, "y": 1 }
+        "*-draft": { "x": 1.9, "y": 1 },
+        "*-arabian": { "x": 1.5, "y": 0.75 }
     },
     "knockbackResistanceByType": {
-        "*-draft": 0.25
+        "*-draft": 0.25,
+        "*-arabian": 0.15
     },
     "eyeHeight": 1.7,
     "drops": [],
@@ -28,9 +37,18 @@
     "attributes": {
         "killedbyInfoText": "deadcreature-horsetrampled",
         "riderIdleAnimation": "rideidle",
-        "mountHeight": 1,
-        "mountRunningSpeed": 0.09,
-        "mountWalkingSpeed": 0.02,
+        "mountHeightByType":{
+            "*-draft": 1.05,
+            "*-arabian": 0.85
+        },
+        "mountRunningSpeedByType":{
+            "*-draft": 0.09,
+            "*-arabian": 0.12
+        },
+        "mountWalkingSpeedByType":{
+            "*-draft": 0.02,
+            "*-arabian": 0.35
+        },
         "mountAnimations": {
             "walk": {
                 "code": "idle",
@@ -58,30 +76,30 @@
     "client": {
         "renderer": "Shape",
         "shapeByType":{
-            "*-draft": { "base": "entity/land/horse" }
+            "*-draft": { "base": "entity/land/horse-draft" },
+            "*-arabian": { "base": "entity/land/horse-arabian" }
         },
         "textureByType": {
             "*-draft": { "base": "entity/horse/horse10",
                          "alternates": [ { "base": "entity/horse/horse2" }, { "base": "entity/horse/horse3" },
-                            { "base": "entity/horse/horse4" }, { "base": "entity/horse/horse5" },
-                            { "base": "entity/horse/horse6" }, { "base": "entity/horse/horse7" },
-                            { "base": "entity/horse/horse8" }, { "base": "entity/horse/horse9" },
-							{ "base": "entity/horse/horse1" }, { "base": "entity/horse/horse11" },
-							{ "base": "entity/horse/horse12" }, { "base": "entity/horse/horse13" },
-                            { "base": "entity/horse/horse14" }, { "base": "entity/horse/horse15" },
-							{ "base": "entity/horse/horse16" }, { "base": "entity/horse/horse17" },
-                            { "base": "entity/horse/horse18" }, { "base": "entity/horse/horse19" },
-							{ "base": "entity/horse/horse20" }
+                            { "base": "entity/horse/horse5" }, { "base": "entity/horse/horse6" }, { "base": "entity/horse/horse7" },
+                            { "base": "entity/horse/horse8" }, { "base": "entity/horse/horse9" }, { "base": "entity/horse/horse1" }, 
+                            { "base": "entity/horse/horse11" }, { "base": "entity/horse/horse12" }, { "base": "entity/horse/horse15" },
+							{ "base": "entity/horse/horse16" }, { "base": "entity/horse/horse18" },	{ "base": "entity/horse/horse20" }
                           ] },
+            "*-arabian": { "base": "entity/horse/horse14", 
+                           "alternates": [ { "base": "entity/horse/horse4" }, { "base": "entity/horse/horse13" },
+                            { "base": "entity/horse/horse17" }, { "base": "entity/horse/horse19" } ]},
 
             "__comment": "More horse breeds to come!"
             
         },
         "sizeByType": {
             "horse-male-draft": 1,
-            "horse-female-draft": 0.95
+            "horse-female-draft": 0.95,
 
-
+            "horse-male-arabian": 1,
+            "horse-female-arabian": 0.925
         },
         "behaviorsByType": {
             "horse-female-*": [ 
@@ -241,8 +259,8 @@
                 { "code": "nametag" },
                 {
                     "code": "multiply",
-                    "spawnEntityCode": "feverstonehorses:horse-foal",
-                    "requiresNearbyEntityCode": "feverstonehorses:horse-male-*",
+                    "spawnEntityCode": "feverstonehorses:foal-*-{type}",
+                    "requiresNearbyEntityCode": "feverstonehorses:horse-male-{type}",
                     "requiresNearbyEntityRange": 10,
                     "spawnQuantityMax": 1,
                     "eatAnyway": true,
@@ -299,34 +317,39 @@
                 { "code": "floatupwhenstuck", "onlyWhenDead": true },
                 { "code": "health", 
                         "maxhealthByType": {
-                            "*-draft": 28
+                            "*-draft": 28,
+                            "*-arabian": 21
                         }
                     },
                 { "code": "harvestable",
                     "drops": [
                         { "type": "item", "code": "redmeat-raw",
                             "quantityByType": {
-                                "*-draft": { "avg": 15, "var": 4 }
+                                "*-draft": { "avg": 15, "var": 4 },
+                                "*-arabian": { "avg": 13, "var": 3 }
                                 
                             }
                         },
                         { "type": "item", "code": "hide-raw-large",
-                        "quantityByType": {
-                            "*-draft": { "avg": 1.5, "var": 0.5 }
+                            "quantityByType": {
+                                "*-draft": { "avg": 1.5, "var": 0.5 },
+                                "*-arabian": { "avg": 1, "var": 0.5 }
                             
-                        }
+                            }
                         },
                         { "type": "item", "code": "fat",
-                        "quantityByType": {
-                            "*-draft": { "avg": 3, "var": 1 }
+                            "quantityByType": {
+                                "*-draft": { "avg": 3, "var": 1 },
+                                "*-arabian": { "avg": 2, "var": 1 }
                             
-                        }
+                            }
                         },
                         { "type": "item", "code": "bone",
-                        "quantityByType": {
-                            "*-draft": { "avg": 5, "var": 1 }
+                            "quantityByType": {
+                                "*-draft": { "avg": 5, "var": 1 },
+                                "*-arabian": { "avg": 3, "var": 1 }
                             
-                        }
+                            }
                         }
                     ]
                 },
@@ -335,7 +358,7 @@
                     "states": [
                         { "code": "aggressiveondamage", "duration": 30, "chance": 0.20, "slot": 0, "priority": 2, "accumType": "noaccum", "whenHealthRelBelow": 0.4 },
                         { "code": "fleeondamage", "duration": 30, "chance": 0.80, "slot": 0, "priority": 1, "accumType": "max" }, 
-                        { "code": "saturated", "duration": 900, "chance": 1, "slot": 0, "priority": 1, "accumType": "sum" },
+                        { "code": "saturated", "duration": 600, "chance": 0.4, "slot": 0, "priority": 1, "accumType": "sum" },
                         { "code": "alarmherdondamage", "chance": 1, "slot": 1, "priority": 1, "accumType": "max" }
                     ]
                 },
@@ -347,7 +370,10 @@
                             "entityCodes": [ "player", "wolf-*" ],
                             "priority": 2,
                             "slot": 1,
-                            "damage": 4,
+                            "damageByType":{
+                                "*-draft": 4,
+                                "*-arabian": 2.5
+                            },
                             "damageTier": 2,
                             "mincooldown": 1500,
                             "maxcooldown": 2500,
@@ -521,47 +547,57 @@
                 "groupSize": { "dist": "verynarrowgaussian", "avg": 1, "var": 1 },
                 "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                 "minTempByType": {
-                    "*-draft": -5
+                    "*-draft": -10,
+                    "*-arabian": 0
                 },
                 "maxTempByType": {
-                    "*-draft": 25
+                    "*-draft": 20,
+                    "*-arabian": 27
                 },
                 "minRainByType": {
-                    "*-draft": 0.25
+                    "*-draft": 0.25,
+                    "*-arabian": 0
                 },
-                "minForestByType": {
-                    "*-draft": 0.1
+                "minForestOrShrubsByType": {
+                    "*-draft": 0.1,
+                    "*-arabian": 0.1
                 },
                 "maxForestByType": {
-                    "*-draft": 0.25
+                    "*-draft": 0.25,
+                    "*-arabian": 0.25
                 },
-                "companions": [ "horse-female-{type}", "feverstonehorses:horse-foal" ]
+                "companions": [ "horse-female-{type}", "feverstonehorses:foal-*-{type}" ]
             },
             "runtime": {
                 "group": "neutral",
                 "tryOnlySurface": true,
-                "chance": 0.00006,
+                "chance": 0.00004,
                 "maxQuantity": 3,
                 "minLightLevel": 12,
                 "lightLevelType": "onlyBlockLight",
                 "groupSize": { "dist": "verynarrowgaussian", "avg": 1, "var": 1 },
                 "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                 "minTempByType": {
-                    "*-draft": -5
+                    "*-draft": -10,
+                    "*-arabian": 0
                 },
                 "maxTempByType": {
-                    "*-draft": 25
+                    "*-draft": 20,
+                    "*-arabian": 27
                 },
                 "minRainByType": {
-                    "*-draft": 0.25
+                    "*-draft": 0.25,
+                    "*-arabian": 0
                 },
-                "minForestByType": {
-                    "*-draft": 0.1
+                "minForestOrShrubsByType": {
+                    "*-draft": 0.1,
+                    "*-arabian": 0.1
                 },
                 "maxForestByType": {
-                    "*-draft": 0.25
+                    "*-draft": 0.25,
+                    "*-arabian": 0.25
                 },
-                "companions": [ "horse-female-{type}", "feverstonehorses:horse-foal" ]
+                "companions": [ "horse-female-{type}", "feverstonehorses:foal-*-{type}" ]
             }
             }
             
