@@ -2,20 +2,18 @@
 	"code": "horsesaddle",
 	"class": "ItemPetAccessory",
 	"variantgroups": [ { "code": "type", "states": ["draft", "arabian"] } ],
-
 	"shapeByType": {
-		"horsesaddle-draft": { "base": "item/equipment/back/horsesaddle-draft" },
-		"horsesaddle-arabian": { "base": "item/equipment/back/horsesaddle-arabian" }		
+		"*-draft": { "base": "item/equipment/back/horsesaddle-draft" },
+		"*-arabian": { "base": "item/equipment/back/horsesaddle-arabian" }		
 	},
-	"textures": { "skin": { "base": "items/horsesaddle" } },
 	"attributesByType": {
-		"horsesaddle-draft": {
+		"*-draft": {
 			"wearableAttachment": true,
 			"cothingType": "midbody",
 			"validPets": [ "horse-female-draft", "horse-male-draft" ],
 		"backpackslots": 12
 		},
-		"horsesaddle-arabian": {
+		"*-arabian": {
 			"wearableAttachment": true,
 			"cothingType": "midbody",
 			"validPets": [ "horse-female-arabian", "horse-male-arabian" ],

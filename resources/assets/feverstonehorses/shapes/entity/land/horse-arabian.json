@@ -220,9 +220,9 @@
 				},
 				{
 					"name": "Neck1",
-					"from": [ 1.5622, 5.2003, 2.4 ], 
-					"to": [ 10.0622, 22.3003, 8.1 ], 
-					"rotationOrigin": [ 5.7305, 8.1003, 5.3 ],
+					"from": [ 1.56, 6.0, 2.4 ], 
+					"to": [ 10.06, 23.1, 8.1 ], 
+					"rotationOrigin": [ 7.73, 8.1, 5.3 ],
 					"rotationZ": 50.0,
 					"faces": {
 						"north": { "texture": "#skin", "uv": [ 1.3507, 0.3655, 1.9835, 0.097 ], "rotation": 90, "autoUv": false },
@@ -235,9 +235,9 @@
 					"children": [
 						{
 							"name": "Neck2",
-							"from": [ -1.19, 2.17, 0.6 ], 
-							"to": [ 5.11, 16.27, 5.1 ], 
-							"rotationOrigin": [ 2.5122, 11.9737, 3.4 ],
+							"from": [ -1.49, -0.83, 0.6 ], 
+							"to": [ 4.81, 13.27, 5.1 ], 
+							"rotationOrigin": [ 2.5122, 8.9737, 3.4 ],
 							"rotationZ": -11.09998504774752,
 							"faces": {
 								"north": { "texture": "#skin", "uv": [ 0.999, 5.5403, 2.1305, 4.3268 ], "rotation": 270, "autoUv": false },
@@ -923,14 +923,14 @@
 					"frame": 8,
 					"elements": {
 						"Body": {  },
-						"Neck1": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 }
+						"Neck1": { "offsetX": -0.5, "offsetY": 2.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 }
 					}
 				},
 				{
 					"frame": 16,
 					"elements": {
 						"Body": {  },
-						"Neck1": { "offsetX": 0.0, "offsetY": 2.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"Neck1": { "offsetX": -0.5, "offsetY": 3.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
 						"Skull": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"R_Shoulder": { "offsetX": 0.0, "offsetY": 0.5, "offsetZ": 0.0 },
 						"Mid Body": {  },
@@ -941,7 +941,7 @@
 					"frame": 24,
 					"elements": {
 						"Body": {  },
-						"Neck1": { "offsetX": 0.0, "offsetY": 3.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 64.0 },
+						"Neck1": { "offsetX": 0.0, "offsetY": 4.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 64.0 },
 						"Skull": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
 						"Bot mouth": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
 					}
@@ -950,7 +950,7 @@
 					"frame": 32,
 					"elements": {
 						"Body": { "offsetX": -1.0, "offsetY": 0.0, "offsetZ": 0.0 },
-						"Neck1": { "offsetX": 0.0, "offsetY": 4.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 72.0 },
+						"Neck1": { "offsetX": 0.0, "offsetY": 6.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 72.0 },
 						"Skull": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
 						"Bot mouth": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 14.0 },
 						"Mid Body": {  },
@@ -970,7 +970,7 @@
 					"frame": 40,
 					"elements": {
 						"Body": {  },
-						"Neck1": { "offsetX": 0.0, "offsetY": 4.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 70.0 },
+						"Neck1": { "offsetX": 0.0, "offsetY": 6.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 70.0 },
 						"Skull": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
 						"Bot mouth": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
 					}
@@ -979,7 +979,7 @@
 					"frame": 44,
 					"elements": {
 						"Body": {  },
-						"Neck1": { "offsetX": 0.0, "offsetY": 4.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 68.0 },
+						"Neck1": { "offsetX": 0.0, "offsetY": 6.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 68.0 },
 						"Skull": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
 						"Bot mouth": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
 					}
@@ -988,7 +988,7 @@
 					"frame": 48,
 					"elements": {
 						"Body": {  },
-						"Neck1": { "offsetX": 0.0, "offsetY": 4.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 72.0 },
+						"Neck1": { "offsetX": 0.0, "offsetY": 6.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 72.0 },
 						"Skull": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
 						"Bot mouth": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 12.0 }
 					}
@@ -997,7 +997,7 @@
 					"frame": 52,
 					"elements": {
 						"Body": { "offsetX": -1.0, "offsetY": 0.0, "offsetZ": 0.0 },
-						"Neck1": { "offsetX": 0.0, "offsetY": 4.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 71.0 },
+						"Neck1": { "offsetX": 0.0, "offsetY": 6.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 71.0 },
 						"Skull": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
 						"Bot mouth": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Mid Body": {  },
