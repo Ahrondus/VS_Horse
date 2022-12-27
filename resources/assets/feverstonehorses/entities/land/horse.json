@@ -43,11 +43,11 @@
         },
         "mountRunningSpeedByType": {
             "*-draft": 0.09,
-            "*-arabian": 0.12
+            "*-arabian": 0.11
         },
         "mountWalkingSpeedByType": {
-            "*-draft": 0.02,
-            "*-arabian": 0.035
+            "*-draft": 0.03,
+            "*-arabian": 0.0375
         },
         "mountAnimations": {
             "walk": {

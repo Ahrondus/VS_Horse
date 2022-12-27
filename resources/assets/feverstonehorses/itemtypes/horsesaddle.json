@@ -1,7 +1,7 @@
 {
 	"code": "horsesaddle",
 	"class": "ItemPetAccessory",
-	"variantgroups": [ { "code": "type", "states": ["draft", "arabian"] } ],
+	"variantgroups": [ { "code": "breed", "states": ["draft", "arabian"] } ],
 	"shapeByType": {
 		"*-draft": { "base": "item/equipment/back/horsesaddle-draft" },
 		"*-arabian": { "base": "item/equipment/back/horsesaddle-arabian" }		
@@ -20,7 +20,6 @@
 			"backpackslots": 8
 		}
 	},
-	"heldTpIdleAnimation": "holdunderarm",	
 	"maxstacksize": 1,
 	"creativeinventory": {
 		"general": [ "*" ],

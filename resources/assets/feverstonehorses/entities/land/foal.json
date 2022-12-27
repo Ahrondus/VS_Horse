@@ -18,20 +18,24 @@
     
     "client": {
         "renderer": "Shape",
-        "shape": { "base": "entity/land/foal" },
-        "texture": {
-            "base": "entity/horse/horse10",
-            "alternates": [ { "base": "entity/horse/horse1" }, { "base": "entity/horse/horse2" },
-                            { "base": "entity/horse/horse3" }, { "base": "entity/horse/horse4" }, 
-                            { "base": "entity/horse/horse5" }, { "base": "entity/horse/horse6" },
-							{ "base": "entity/horse/horse7" }, { "base": "entity/horse/horse8" },
-                            { "base": "entity/horse/horse9" },  { "base": "entity/horse/horse11" },
-							{ "base": "entity/horse/horse12" }, { "base": "entity/horse/horse13" },
-                            { "base": "entity/horse/horse14" }, { "base": "entity/horse/horse15" },
-							{ "base": "entity/horse/horse16" }, { "base": "entity/horse/horse17" },
-                            { "base": "entity/horse/horse18" }, { "base": "entity/horse/horse19" },
-							{ "base": "entity/horse/horse20" }
-                          ]
+        "shapeByType":{
+            "*-draft": { "base": "entity/land/foal" },
+            "*-arabian": { "base": "entity/land/foal" }
+        },
+        "textureByType": {
+            "*-draft": { "base": "entity/horse/horse10",
+                         "alternates": [ { "base": "entity/horse/horse2" }, { "base": "entity/horse/horse3" },
+                            { "base": "entity/horse/horse5" }, { "base": "entity/horse/horse6" }, { "base": "entity/horse/horse7" },
+                            { "base": "entity/horse/horse8" }, { "base": "entity/horse/horse9" }, { "base": "entity/horse/horse1" }, 
+                            { "base": "entity/horse/horse11" }, { "base": "entity/horse/horse12" }, { "base": "entity/horse/horse15" },
+							{ "base": "entity/horse/horse16" }, { "base": "entity/horse/horse18" },	{ "base": "entity/horse/horse20" }
+                          ] },
+            "*-arabian": { "base": "entity/horse/horse14", 
+                           "alternates": [ { "base": "entity/horse/horse4" }, { "base": "entity/horse/horse13" },
+                            { "base": "entity/horse/horse17" }, { "base": "entity/horse/horse19" } ]},
+
+            "__comment": "More horse breeds to come!"
+            
         },
         "behaviors": [
             { "code": "nametag" },
@@ -259,7 +263,7 @@
             },
 			{
 				"hoursToGrow": 336,
-				"adultEntityCodes": [ "feverstonehorses:horse-male-{type}", "feverstonehorses:horse-female-{type}" ],
+				"adultEntityCodes": [ "feverstonehorses:horse-{gender}-{type}", "feverstonehorses:horse-{gender}-{type}" ],
 				"code": "raisable"
 			},
             {

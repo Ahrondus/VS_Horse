@@ -32,7 +32,7 @@
     {
         "op": "add",
         "path": "/attributes/contentConfig/17/foodFor/0",
-        "value": "feverstonehorses:horse-female-*",
+        "value": "feverstonhorses:horse-female-*",
         "file": "game:blocktypes/wood/trough-large.json"
     }
 ]
