@@ -3,9 +3,9 @@
     "modid": "feverstonehorses",
     "name": "Feverstone's Horses",
 	  "side": "universal",
-    "description" : "A horse mod made by the Feverstone Modding Team",
+    "description" : "A horse mod made by the Feverstone Modding Team, includes various breeds of horses each with their own unique stats and uses!",
     "authors": ["Feverstone", "Ahrondus and Verlia"],
-    "version": "1.3.9v2",
+    "version": "1.4.0",
     "dependencies": { 
       "game": "1.17.0",
       "petai": "1.5.4"

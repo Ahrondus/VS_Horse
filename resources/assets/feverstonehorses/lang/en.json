@@ -1,4 +1,5 @@
 {	
+	// Draft
 	"item-creature-horse-male-draft": "Draft Stallion",
 	"item-dead-creature-horse-male-draft": "Dead Stallion",
 	"itemdesc-creature-horse-male-draft": "A reliable and hefty steed.",	
@@ -6,14 +7,6 @@
 	"item-creature-horse-female-draft": "Draft Mare",	
 	"item-dead-creature-horse-female-draft": "Dead Mare",
 	"itemdesc-creature-horse-female-draft": "A reliable and hefty steed.",
-
-	"item-creature-horse-male-arabian": "Arabian Stallion",
-	"item-dead-creature-horse-male-arabian": "Dead Stallion",
-	"itemdesc-creature-horse-male-arabian": "A reliable and swift steed, found in arid climates.",	
-	
-	"item-creature-horse-female-arabian": "Arabian Mare",	
-	"item-dead-creature-horse-female-arabian": "Dead Mare",
-	"itemdesc-creature-horse-female-arabian": "A reliable and swift steed, found in arid climates.",
 	
 	"item-creature-foal-male-draft": "Male Draft Foal",
 	"item-dead-creature-foal-male-draft": "Dead Foal",
@@ -22,6 +15,15 @@
 	"item-creature-foal-female-draft": "Female Draft Foal",
 	"item-dead-creature-foal-female-draft": "Dead Foal",
 	"itemdesc-creature-foal-female-draft": "A young female draft horse.",
+
+	// Arabian
+	"item-creature-horse-male-arabian": "Arabian Stallion",
+	"item-dead-creature-horse-male-arabian": "Dead Stallion",
+	"itemdesc-creature-horse-male-arabian": "A reliable and swift steed, found in arid climates.",	
+	
+	"item-creature-horse-female-arabian": "Arabian Mare",	
+	"item-dead-creature-horse-female-arabian": "Dead Mare",
+	"itemdesc-creature-horse-female-arabian": "A reliable and swift steed, found in arid climates.",
 	
 	"item-creature-foal-male-arabian": "Male Arabian Foal",
 	"item-dead-creature-foal-male-arabian": "Dead Foal",
@@ -30,25 +32,49 @@
 	"item-creature-foal-female-arabian": "Female Arabian Foal",
 	"item-dead-creature-foal-female-arabian": "Dead Foal",
 	"itemdesc-creature-foal-female-arabian": "A young female arabian horse.",
+
+	// Donkey
+	"item-creature-horse-male-donkey": "Jack",
+	"item-dead-creature-horse-male-donkey": "Dead Jack",
+	"itemdesc-creature-horse-male-donkey": "A reliable and swift steed, found in arid climates.",	
 	
+	"item-creature-horse-female-donkey": "Jenney",	
+	"item-dead-creature-horse-female-donkey": "Dead Jenney",
+	"itemdesc-creature-horse-female-donkey": "A reliable and swift steed, found in arid climates.",
+	
+	"item-creature-foal-male-donkey": "Male Donkey Foal",
+	"item-dead-creature-foal-male-donkey": "Dead Foal",
+	"itemdesc-creature-foal-male-donkey": "A young male arabian horse.",
+	
+	"item-creature-foal-female-donkey": "Female Donkey Foal",
+	"item-dead-creature-foal-female-donkey": "Dead Foal",
+	"itemdesc-creature-foal-female-donkey": "A young female arabian horse.",
+	
+	// Taming Foods
 	"item-carrotbundle": "Carrot Bundle",
 	"itemdesc-carrotbundle": "A small bundle of carrots for taming! Horses like these!",
 	
 	"item-haybundle": "Hay Bundle",
 	"itemdesc-haybundle": "A bundle of dry grass used for taming. Horses will eat these!",
 
+	// Saddles
 	"item-horsesaddle-draft": "Draft Horse Saddle",
 	"itemdesc-horsesaddle-draft": "A sturdy leather saddle for your steed, with saddlebags!",
 	"item-horsesaddle-arabian": "Arabian Horse Saddle",
 	"itemdesc-horsesaddle-arabian": "A sturdy leather saddle for your steed, with saddlebags!",
+	"item-horsesaddle-donkey": "Donkey Horse Saddle",
+	"itemdesc-horsesaddle-donkey": "A sturdy leather saddle for your steed, with saddlebags!",
 
+	// Guide
 	"horsetamingguide-title": "Taming Horses",
 	"horsetamingguide-text": "<strong>A Guide to Horse Taming:\n-----by Verlia</strong>\n\nTaming a horse is fairly simple!\nFirst, you will need to find a food that horses will enjoy! Dry grass is a good start, but other foods will be preferred.\nTry out a variety!\n\nRight clicking a wild horse with a compatible food item will start the taming process.\nEach feed will increase taming percentage until the process is complete. Now you can name your new horse!\nFeeding your horse after taming is complete will increase its obedience, so when you give it a command it will be more inclined to listen.\n\n<strong>--Now you're ready for adventure!--</strong>\nMount up on your new horse by right clicking on it! An empty hand is needed.\nDismount your horse by sneaking/crouching.\n\nHorses can eat from troughs and breed just like other domesticated animals.\nSome of their favorite foods are carrots, apples, and grains, and each will affect them differently!\n\n\n<strong>Keep an eye out for more saddles, saddlebags, and attachments in the future!</strong>",
 
+	// Game Messages
 	"deathmsg-horsemale-1": "Player {0} was trampled by a horse.",
 	"deathmsg-horsemale-2": "Player {0} was kicked to death.",
 	"deathmsg-horsefemale-1": "Player {0} was trampled by a horse.",
 	"deathmsg-horsefemale-2": "Player {0} was kicked to death.",
 
+	// Creature Kill Descriptions
 	"deadcreature-horsetrampled": "Appears to be trampled by a horse."
 }
