@@ -8,13 +8,9 @@
 	"item-dead-creature-horse-female-draft": "Dead Mare",
 	"itemdesc-creature-horse-female-draft": "A reliable and hefty steed.",
 	
-	"item-creature-foal-male-draft": "Male Draft Foal",
-	"item-dead-creature-foal-male-draft": "Dead Foal",
-	"itemdesc-creature-foal-male-draft": "A young male draft horse.",
-	
-	"item-creature-foal-female-draft": "Female Draft Foal",
-	"item-dead-creature-foal-female-draft": "Dead Foal",
-	"itemdesc-creature-foal-female-draft": "A young female draft horse.",
+	"item-creature-foal-draft": "Draft Foal",
+	"item-dead-creature-foal-draft": "Dead Foal",
+	"itemdesc-creature-foal-draft": "A young draft horse.",
 
 	// Arabian
 	"item-creature-horse-male-arabian": "Arabian Stallion",
@@ -25,13 +21,9 @@
 	"item-dead-creature-horse-female-arabian": "Dead Mare",
 	"itemdesc-creature-horse-female-arabian": "A reliable and swift steed, found in arid climates.",
 	
-	"item-creature-foal-male-arabian": "Male Arabian Foal",
-	"item-dead-creature-foal-male-arabian": "Dead Foal",
-	"itemdesc-creature-foal-male-arabian": "A young male arabian horse.",
-	
-	"item-creature-foal-female-arabian": "Female Arabian Foal",
-	"item-dead-creature-foal-female-arabian": "Dead Foal",
-	"itemdesc-creature-foal-female-arabian": "A young female arabian horse.",
+	"item-creature-foal-arabian": "Arabian Foal",
+	"item-dead-creature-foal-arabian": "Dead Foal",
+	"itemdesc-creature-foal-arabian": "A young arabian horse.",
 
 	// Donkey
 	"item-creature-horse-male-donkey": "Jack",

@@ -4,8 +4,7 @@
 	"variantgroups": [ { "code": "breed", "states": ["draft", "arabian"] } ],
 	"shapeByType": {
 		"*-draft": { "base": "item/equipment/back/horsesaddle-draft" },
-		"*-arabian": { "base": "item/equipment/back/horsesaddle-arabian" },
-		"*-donkey": { "base": "item/equipment/back/horsesaddle-donkey" }
+		"*-arabian": { "base": "item/equipment/back/horsesaddle-arabian" }		
 	},
 	"attributesByType": {
 		"*-draft": {
@@ -18,12 +17,6 @@
 			"wearableAttachment": true,
 			"cothingType": "midbody",
 			"validPets": [ "horse-female-arabian", "horse-male-arabian" ],
-			"backpackslots": 8
-		},
-		"*-donkey": {
-			"wearableAttachment": true,
-			"cothingType": "midbody",
-			"validPets": [ "horse-female-donkey", "horse-male-donkey" ],
 			"backpackslots": 8
 		}
 	},

@@ -2,37 +2,37 @@
     {
         "op": "add",
         "path": "/attributes/contentConfig/0/foodFor/0",
-        "value": "feverstonehorses:horse-female-*",
+        "value": "feverstonehorses:horse-*",
         "file": "game:blocktypes/wood/trough-large.json"
     },
     {
         "op": "add",
         "path": "/attributes/contentConfig/2/foodFor/0",
-        "value": "feverstonehorses:horse-female-*",
+        "value": "feverstonehorses:horse-*",
         "file": "game:blocktypes/wood/trough-large.json"
     },
     {
         "op": "add",
         "path": "/attributes/contentConfig/3/foodFor/0",
-        "value": "feverstonehorses:horse-female-*",
+        "value": "feverstonehorses:horse-*",
         "file": "game:blocktypes/wood/trough-large.json"
     },
     {
         "op": "add",
         "path": "/attributes/contentConfig/8/foodFor/0",
-        "value": "feverstonehorses:horse-female-*",
+        "value": "feverstonehorses:horse-*",
         "file": "game:blocktypes/wood/trough-large.json"
     },
     {
         "op": "add",
         "path": "/attributes/contentConfig/16/foodFor/0",
-        "value": "feverstonehorses:horse-female-*",
+        "value": "feverstonehorses:horse-*",
         "file": "game:blocktypes/wood/trough-large.json"
     },
     {
         "op": "add",
         "path": "/attributes/contentConfig/17/foodFor/0",
-        "value": "feverstonhorses:horse-female-*",
+        "value": "feverstonhorses:horse-*",
         "file": "game:blocktypes/wood/trough-large.json"
     }
 ]
