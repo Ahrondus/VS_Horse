@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"skin": "entity/horse/horse14"
 	},
 	"elements": [
 		{

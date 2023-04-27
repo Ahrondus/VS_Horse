@@ -28,19 +28,15 @@
 	// Donkey
 	"item-creature-horse-male-donkey": "Jack",
 	"item-dead-creature-horse-male-donkey": "Dead Jack",
-	"itemdesc-creature-horse-male-donkey": "A reliable and swift steed, found in arid climates.",	
+	"itemdesc-creature-horse-male-donkey": "The worker's steed.",	
 	
 	"item-creature-horse-female-donkey": "Jenney",	
 	"item-dead-creature-horse-female-donkey": "Dead Jenney",
-	"itemdesc-creature-horse-female-donkey": "A reliable and swift steed, found in arid climates.",
+	"itemdesc-creature-horse-female-donkey": "The worker's steed.",
 	
-	"item-creature-foal-male-donkey": "Male Donkey Foal",
-	"item-dead-creature-foal-male-donkey": "Dead Foal",
-	"itemdesc-creature-foal-male-donkey": "A young male arabian horse.",
-	
-	"item-creature-foal-female-donkey": "Female Donkey Foal",
-	"item-dead-creature-foal-female-donkey": "Dead Foal",
-	"itemdesc-creature-foal-female-donkey": "A young female arabian horse.",
+	"item-creature-foal-donkey": "Donkey Foal",
+	"item-dead-creature-foal-donkey": "Dead Foal",
+	"itemdesc-creature-foal-donkey": "A young donkey.",
 	
 	// Taming Foods
 	"item-carrotbundle": "Carrot Bundle",
