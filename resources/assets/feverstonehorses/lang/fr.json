@@ -1,0 +1,72 @@
+{
+    // Draft
+    "item-creature-horse-male-draft": "Cheval de trait (Étalon)",
+    "item-dead-creature-horse-male-draft": "Étalon mort",
+    "itemdesc-creature-horse-male-draft": "Un destrier fiable et costaud.",
+    
+    "item-creature-horse-female-draft": "Cheval de trait (Jument)",
+    "item-dead-creature-horse-female-draft": "Jument morte",
+    "itemdesc-creature-horse-female-draft": "Un destrier fiable et costaud.",
+    
+    "item-creature-foal-draft": "Cheval de trait (Poulain)",
+    "item-dead-creature-foal-draft": "Poulain mort",
+    "itemdesc-creature-foal-draft": "Un jeune cheval de trait.",
+    
+    // Arabian
+    "item-creature-horse-male-arabian": "Cheval arabe (Étalon)",
+    "item-dead-creature-horse-male-arabian": "Étalon mort",
+    "itemdesc-creature-horse-male-arabian": "Un coursier fiable et rapide, trouvé dans les climats arides.",
+    
+    "item-creature-horse-female-arabian": "Cheval arabe (Jument)",
+    "item-dead-creature-horse-female-arabian": "Jument morte",
+    "itemdesc-creature-horse-female-arabian": "Un coursier fiable et rapide, trouvé dans les climats arides.",
+    
+    "item-creature-foal-arabian": "Cheval arabe (Poulain)",
+    "item-dead-creature-foal-arabian": "Poulain mort",
+    "itemdesc-creature-foal-arabian": "Un jeune cheval arabe.",
+    
+    // Donkey
+    "item-creature-horse-male-donkey": "Âne",
+    "item-dead-creature-horse-male-donkey": "Âne mort",
+    "itemdesc-creature-horse-male-donkey": "Une monture robuste mais lente.",
+    
+    "item-creature-horse-female-donkey": "Ânesse",
+    "item-dead-creature-horse-female-donkey": "Ânesse morte",
+    "itemdesc-creature-horse-female-donkey": "Une monture robuste mais lente.",
+    
+    "item-creature-foal-male-donkey": "Ânon (Mâle)",
+    "item-dead-creature-foal-male-donkey": "Ânon mort",
+    "itemdesc-creature-foal-male-donkey": "Un jeune âne.",
+    
+    "item-creature-foal-female-donkey": "Ânon (Femelle)",
+    "item-dead-creature-foal-female-donkey": "Ânon mort",
+    "itemdesc-creature-foal-female-donkey": "Une jeune ânesse.",
+    
+    // Taming Foods
+    "item-carrotbundle": "Bouquet de carottes",
+    "itemdesc-carrotbundle": "Un petit bouquet de carottes pour apprivoiser ! Les chevaux les aiment !",
+    
+    "item-haybundle": "Paquet de foin",
+    "itemdesc-haybundle": "Un paquet d'herbe sèche utilisé pour l'apprivoisement. Les chevaux vont en manger !",
+    
+    // Saddles
+    "item-horsesaddle-draft": "Selle de cheval de trait",
+    "itemdesc-horsesaddle-draft": "Une selle en cuir robuste pour votre destrier, avec des sacoches !",
+    "item-horsesaddle-arabian": "Selle de cheval arabe",
+    "itemdesc-horsesaddle-arabian": "Une selle en cuir robuste pour votre destrier, avec des sacoches !",
+    "item-horsesaddle-donkey": "Selle d'âne",
+    "itemdesc-horsesaddle-donkey": "Une selle en cuir robuste pour votre destrier, avec des sacoches !",
+    
+    // Guide
+    "horsetamingguide-title": "Apprivoiser les chevaux",
+    "horsetamingguide-text": "<strong>Guide pour apprivoiser les chevaux :\n-----par Verlia</strong>\n\nApprivoiser un cheval est assez simple !\nD'abord, vous devrez trouver de la nourriture que les chevaux apprécieront ! L'herbe sèche est un bon début, mais d'autres aliments seront préférés.\nEssayez en une variété !\n\nCliquez avec le bouton droit sur un cheval sauvage avec un aliment compatible pour lancer le processus d'apprivoisement.\nChaque aliment augmentera le pourcentage d'apprivoisement jusqu'à ce que le processus soit terminé. Vous pouvez maintenant donner un nom à votre nouveau cheval !\nLe nourrir une fois l'apprivoisement terminé augmentera son obéissance. Ainsi, lorsque vous lui donnerez un ordre, il sera plus enclin à écouter.\n\n<strong>--Maintenant, vous êtes prêt pour l'aventure !--</strong>\nMontez sur votre nouveau cheval en faisant un clic droit dessus ! Une main vide est nécessaire.\nDescendez de votre cheval en vous accroupissant.\n\nLes chevaux peuvent manger dans les mangeoires et se reproduire comme les autres animaux domestiques.\nCertains de leurs aliments préférés sont les carottes, les pommes et les céréales, et chacun les affectera différemment !\n\n\n<strong>Gardez un œil sur d'autres selles, sacoches et accessoires à l'avenir !</strong>",
+    
+    // Game Messages
+    "deathmsg-horsemale-1": "Le joueur {0} a été piétiné par un cheval.",
+    "deathmsg-horsemale-2": "Le joueur {0} est mort d'un coup de pied.",
+    "deathmsg-horsefemale-1": "Le joueur {0} a été piétiné par un cheval.",
+    "deathmsg-horsefemale-2": "Le joueur {0} est mort d'un coup de pied",
+    
+    // Creature Kill Descriptions
+    "deadcreature-horsetrampled": "Semble avoir été piétiné par un cheval."
+    }

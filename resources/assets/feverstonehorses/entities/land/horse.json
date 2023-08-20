@@ -244,7 +244,7 @@
                     "portionsEatenForMultiply": 14
                 },
                 { "code": "tameable",
-                    "disobediencePerDay": 0.1,
+                    "disobediencePerDay": 0.05,
                     "treat": [
                         { "code": "vegetable-carrot", "progress": 0.05, "cooldown": 0.3 },
                         { "code": "carrotbundle", "progress": 0.125, "cooldown": 0.4 },
@@ -512,19 +512,18 @@
         "spawnconditionsByType": {
             "horse-male-*": {
                 "worldgen": {
-                    "TriesPerChunk": { "avg": 0.025, "var": 0.005 },
+                    "TriesPerChunk": { "avg": 0.015, "var": 0.005 },
                     "tryOnlySurface": true,
-                    "minLightLevel": 10,
-                    "groupSize": { "dist": "verynarrowgaussian", "avg": 1, "var": 1 },
+                    "groupSize": { "dist": "verynarrowgaussian", "avg": 1.5, "var": 0.5 },
                     "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                     "minTempByType": {
                         "*-draft": -10,
-                        "*-arabian": 0,
+                        "*-arabian": 5,
                         "*-donkey": -5
                     },
                     "maxTempByType": {
                         "*-draft": 20,
-                        "*-arabian": 28,
+                        "*-arabian": 35,
                         "*-donkey": 24
                     },
                     "minRainByType": {
@@ -547,20 +546,20 @@
                 "runtime": {
                     "group": "neutral",
                     "tryOnlySurface": true,
-                    "chance": 0.00004,
-                    "maxQuantity": 4,
+                    "chance": 0.000035,
+                    "maxQuantity": 3,
                     "maxLightLevel": 10,
                     "lightLevelType": "onlyBlockLight",
-                    "groupSize": { "dist": "verynarrowgaussian", "avg": 1, "var": 1 },
+                    "groupSize": { "dist": "verynarrowgaussian", "avg": 1.5, "var": 0.5 },
                     "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                     "minTempByType": {
                         "*-draft": -10,
-                        "*-arabian": 0,
+                        "*-arabian": 5,
                         "*-donkey": -5
                     },
                     "maxTempByType": {
                         "*-draft": 20,
-                        "*-arabian": 28,
+                        "*-arabian": 35,
                         "*-donkey": 24
                     },
                     "minRainByType": {
@@ -590,5 +589,4 @@
     },
     "idleSoundChance": 0.025,
     "hurtSoundChance": 0.05
-
 }
