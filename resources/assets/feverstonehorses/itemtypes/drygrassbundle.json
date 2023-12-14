@@ -1,0 +1,33 @@
+{
+	"code": "drygrassbundle",
+	"shape": { "base": "item/drygrassbundle" },
+	
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	
+	"maxStackSize": 16,
+	
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 83 },
+		"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+		"scale": 4.4
+	},
+	"guiTransform": {
+		"translation": { "x": 2, "y": 1, "z": 0 },
+		"rotation": { "x": 180, "y": 44, "z": 56 },
+		"origin": { "x": 0.5, "y": 0.26, "z": 0.5 },
+		"scale": 1.5
+	},
+	"fpHandTransform": {
+		"rotation": { "x": 85, "y": 47, "z": -30 },
+		"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+		"scale": 1.9
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+		"rotation": { "x": 0, "y": 0, "z": -42 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.85
+	}
+	
+}

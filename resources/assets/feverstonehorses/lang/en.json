@@ -42,8 +42,8 @@
 	"item-carrotbundle": "Carrot Bundle",
 	"itemdesc-carrotbundle": "A small bundle of carrots for taming! Horses like these!",
 	
-	"item-haybundle": "Hay Bundle",
-	"itemdesc-haybundle": "A bundle of dry grass used for taming. Horses will eat these!",
+	"item-drygrassbundle": "Dry Grass Bundle",
+	"itemdesc-drygrassbundle": "A bundle of dry grass used for taming. Horses and Bison will eat these!",
 
 	// Saddles
 	"item-horsesaddle-draft": "Draft Horse Saddle",
@@ -58,10 +58,19 @@
 	"horsetamingguide-text": "<strong>A Guide to Horse Taming:\n-----by Verlia</strong>\n\nTaming a horse is fairly simple!\nFirst, you will need to find a food that horses will enjoy! Dry grass is a good start, but other foods will be preferred.\nTry out a variety!\n\nRight clicking a wild horse with a compatible food item will start the taming process.\nEach feed will increase taming percentage until the process is complete. Now you can name your new horse!\nFeeding your horse after taming is complete will increase its obedience, so when you give it a command it will be more inclined to listen.\n\n<strong>--Now you're ready for adventure!--</strong>\nMount up on your new horse by right clicking on it! An empty hand is needed.\nDismount your horse by sneaking/crouching.\n\nHorses can eat from troughs and breed just like other domesticated animals.\nSome of their favorite foods are carrots, apples, and grains, and each will affect them differently!\n\n\n<strong>Keep an eye out for more saddles, saddlebags, and attachments in the future!</strong>",
 
 	// Game Messages
-	"deathmsg-horsemale-1": "Player {0} was trampled by a horse.",
-	"deathmsg-horsemale-2": "Player {0} was kicked to death.",
-	"deathmsg-horsefemale-1": "Player {0} was trampled by a horse.",
-	"deathmsg-horsefemale-2": "Player {0} was kicked to death.",
+
+	"game:deathmsg-horsemaledraft-1": "Player {0} was trampled by a horse.",
+	"game:deathmsg-horsemaledraft-2": "Player {0} was kicked to death.",
+	"game:deathmsg-horsefemaledraft-1": "Player {0} was trampled by a horse.",
+	"game:deathmsg-horsefemaledraft-2": "Player {0} was kicked to death.",
+	"game:deathmsg-horsemalearabian-1": "Player {0} was trampled by a horse.",
+	"game:deathmsg-horsemalearabian-2": "Player {0} was kicked to death.",
+	"game:deathmsg-horsefemalearabian-1": "Player {0} was trampled by a horse.",
+	"game:deathmsg-horsefemalearabian-2": "Player {0} was kicked to death.",
+	"game:deathmsg-horsemaledonkey-1": "Player {0} was trampled by a donkey.",
+	"game:deathmsg-horsemaledonkey-2": "Player {0} was kicked to death.",
+	"game:deathmsg-horsefemaledonkey-1": "Player {0} was trampled by a donkey.",
+	"game:deathmsg-horsefemaledonkey-2": "Player {0} was kicked to death.",
 
 	// Creature Kill Descriptions
 	"deadcreature-horsetrampled": "Appears to be trampled by a horse."

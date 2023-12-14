@@ -1,0 +1,25 @@
+[
+    // Carrot Bundle
+    {
+        "ingredientPattern": "C,C",
+        "width": 2,
+        "height": 1,
+        
+        "ingredients": {
+            "C": { "type": "item", "code": "game:vegetable-carrot" }
+        },
+        "output": { "type": "item", "code": "feverstonewilds:carrotbundle" }
+    },
+
+    // Dry Grass Bundle
+    {
+        "ingredientPattern": "G_G, _G_",
+        "width": 3,
+        "height": 2,
+        
+        "ingredients": {
+            "C": { "type": "item", "code": "game:drygrass" }
+        },
+        "output": { "type": "item", "code": "feverstonewilds:drygrassbundle" }
+    }
+]

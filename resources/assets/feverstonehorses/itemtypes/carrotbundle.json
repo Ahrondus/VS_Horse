@@ -10,7 +10,7 @@
 		"freshHours": { "avg": 168 },
 		"transitionHours": { "avg": 36 },
 		"transitionedStack": { "type": "item", "code": "game:rot" },
-		"transitionRatio": 1
+		"transitionRatio": 2
 	}],
 	
 	"groundTransform": {

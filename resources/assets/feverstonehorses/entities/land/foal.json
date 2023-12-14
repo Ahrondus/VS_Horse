@@ -52,6 +52,7 @@
                 "treat": [
                     { "code": "vegetable-carrot", "progress": 0.075, "cooldown": 0.6 },
 					{ "code": "carrotbundle", "progress": 0.125, "cooldown": 0.75 },
+					{ "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.5 },
 					{ "code": "drygrass", "progress": 0.05, "cooldown": 0.5 },
 					{ "code": "fruit-pinkapple", "progress": 0.25, "cooldown": 1 },
 					{ "code": "fruit-redapple", "progress": 0.25, "cooldown": 1 },
@@ -66,6 +67,7 @@
                 "acceptStacks": [
                     { "type": "item", "code": "vegetable-carrot" },
 					{ "type": "item", "code": "feverstonehorses:carrotbundle" },
+					{ "type": "item", "code": "feverstonewilds:drygrassbundle" },
 					{ "type": "item", "code": "drygrass" },
 					{ "type": "item", "code": "fruit-pinkapple" },
 					{ "type": "item", "code": "fruit-redapple" },
@@ -131,6 +133,7 @@
                 "treat": [
                     { "code": "vegetable-carrot", "progress": 0.075, "cooldown": 0.6 },
 					{ "code": "carrotbundle", "progress": 0.125, "cooldown": 0.75 },
+					{ "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.5 },
 					{ "code": "drygrass", "progress": 0.05, "cooldown": 0.5 },
 					{ "code": "fruit-pinkapple", "progress": 0.25, "cooldown": 1 },
 					{ "code": "fruit-redapple", "progress": 0.25, "cooldown": 1 },
@@ -145,6 +148,7 @@
                 "acceptStacks": [
                     { "type": "item", "code": "vegetable-carrot" },
 					{ "type": "item", "code": "feverstonehorses:carrotbundle" },
+					{ "type": "item", "code": "feverstonewilds:drygrassbundle" },
 					{ "type": "item", "code": "drygrass" },
 					{ "type": "item", "code": "fruit-pinkapple" },
 					{ "type": "item", "code": "fruit-redapple" },
@@ -278,7 +282,7 @@
                         "priority": 1.6,
                         "priorityForCancel": 1.7,
 						"eatItemCategories": [ "Vegetable", "Grain", "Fruit" ],
-                        "eatItemCodes": [ "drygrass", "feverstonehorses:carrotbundle" ],
+                        "eatItemCodes": [ "drygrass", "feverstonehorses:carrotbundle", "feverstonewilds:drygrassbundle" ],
                         "eatSound": "feverstonehorses:horse/horseeating",
                         "soundRange": 2,
                         "soundStartMs": 600,

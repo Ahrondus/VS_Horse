@@ -1,11 +1,12 @@
 [
+    // Draft Saddle
     {
         "ingredientPattern": "BLB,MLM,_C_",
         "ingredients": {
             "L": {
                 "type": "item",
                 "code": "game:leather-plain",
-                "quantity": 1
+                "quantity": 2
             },
             "C": {
                 "type": "item",
@@ -19,25 +20,27 @@
             },
             "M": {
                 "type": "item",
-                "code": "game:metalbit-copper",
-                "quantity": 1
+                "code": "game:metalbit-*",
+                "quantity": 2
             }
         },
         "width": 3,
         "height": 3,
         "output": {
             "type": "item",
-            "code": "feverstonehorses:horsesaddle-draft",
+            "code": "feverstonewilds:saddle-draft",
             "quantity": 1
         }
     },
+
+    // Arabian Saddle
     {
         "ingredientPattern": "BLB,MLM,_C_",
         "ingredients": {
             "L": {
                 "type": "item",
                 "code": "game:leather-plain",
-                "quantity": 1
+                "quantity": 2
             },
             "C": {
                 "type": "item",
@@ -51,15 +54,49 @@
             },
             "M": {
                 "type": "item",
-                "code": "game:metalbit-copper",
-                "quantity": 1
+                "code": "game:metalbit-*",
+                "quantity": 2
             }
         },
         "width": 3,
         "height": 3,
         "output": {
             "type": "item",
-            "code": "feverstonehorses:horsesaddle-arabian",
+            "code": "feverstonewilds:saddle-arabian",
+            "quantity": 1
+        }
+    },
+
+    // Donkey Saddle
+    {
+        "ingredientPattern": "MLM,BLB,CCC",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-plain",
+                "quantity": 2
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-plain",
+                "quantity": 2
+            },
+            "B": {
+                "type": "item",
+                "code": "game:linensack",
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalbit-*",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "feverstonewilds:saddle-donkey",
             "quantity": 1
         }
     }
