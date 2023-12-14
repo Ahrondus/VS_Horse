@@ -591,6 +591,6 @@
         "death": "feverstonehorses:horse/horsedamage",
         "idle": "feverstonehorses:horse/neigh"
     },
-    "idleSoundChance": 0.025,
+    "idleSoundChance": 0.015,
     "hurtSoundChance": 0.05
 }
