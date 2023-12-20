@@ -3,14 +3,14 @@
     {
         "op": "add",
         "path": "/server/behaviors/9/aitasks/0/entityCodesByType/*/0",
-        "value": "feverstonewilds:horse-female-*",
+        "value": "feverstonehorses:horse-female-*",
         "file": "game:entities/land/bear.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/9/aitasks/3/entityCodesByType/*/0",
-        "value": "feverstonewilds:horse-male-*",
+        "value": "feverstonehorses:horse-male-*",
         "file": "game:entities/land/bear.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
@@ -19,126 +19,126 @@
     {
         "op": "add",
         "path": "/server/behaviors/10/aitasks/0/entityCodes/0",
-        "value": "feverstonewilds:horse-female-*",
+        "value": "feverstonehorses:horse-female-*",
         "file": "game:entities/land/wolf-female.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/10/aitasks/1/entityCodes/0",
-        "value": "feverstonewilds:horse-female-*",
+        "value": "feverstonehorses:horse-female-*",
         "file": "game:entities/land/wolf-female.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/10/aitasks/2/entityCodes/0",
-        "value": "feverstonewilds:horse-female-*",
+        "value": "feverstonehorses:horse-female-*",
         "file": "game:entities/land/wolf-female.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/9/aitasks/0/entityCodes/0",
-        "value": "feverstonewilds:horse-female-*",
+        "value": "feverstonehorses:horse-female-*",
         "file": "game:entities/land/wolf-male.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/9/aitasks/1/entityCodes/0",
-        "value": "feverstonewilds:horse-female-*",
+        "value": "feverstonehorses:horse-female-*",
         "file": "game:entities/land/wolf-male.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/9/aitasks/2/entityCodes/0",
-        "value": "feverstonewilds:horse-female-*",
+        "value": "feverstonehorses:horse-female-*",
         "file": "game:entities/land/wolf-male.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/10/aitasks/0/entityCodes/0",
-        "value": "feverstonewilds:horse-male-*",
+        "value": "feverstonehorses:horse-male-*",
         "file": "game:entities/land/wolf-female.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/10/aitasks/1/entityCodes/0",
-        "value": "feverstonewilds:horse-male-*",
+        "value": "feverstonehorses:horse-male-*",
         "file": "game:entities/land/wolf-female.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/10/aitasks/2/entityCodes/0",
-        "value": "feverstonewilds:horse-male-*",
+        "value": "feverstonehorses:horse-male-*",
         "file": "game:entities/land/wolf-female.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/9/aitasks/0/entityCodes/0",
-        "value": "feverstonewilds:horse-male-*",
+        "value": "feverstonehorses:horse-male-*",
         "file": "game:entities/land/wolf-male.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/9/aitasks/1/entityCodes/0",
-        "value": "feverstonewilds:horse-male-*",
+        "value": "feverstonehorses:horse-male-*",
         "file": "game:entities/land/wolf-male.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/9/aitasks/2/entityCodes/0",
-        "value": "feverstonewilds:horse-male-*",
+        "value": "feverstonehorses:horse-male-*",
         "file": "game:entities/land/wolf-male.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/10/aitasks/0/entityCodes/0",
-        "value": "feverstonewilds:foal-*",
+        "value": "feverstonehorses:foal-*",
         "file": "game:entities/land/wolf-female.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/10/aitasks/1/entityCodes/0",
-        "value": "feverstonewilds:foal-*",
+        "value": "feverstonehorses:foal-*",
         "file": "game:entities/land/wolf-female.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/10/aitasks/2/entityCodes/0",
-        "value": "feverstonewilds:foal-*",
+        "value": "feverstonehorses:foal-*",
         "file": "game:entities/land/wolf-female.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/9/aitasks/0/entityCodes/0",
-        "value": "feverstonewilds:foal-*",
+        "value": "feverstonehorses:foal-*",
         "file": "game:entities/land/wolf-male.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/9/aitasks/1/entityCodes/0",
-        "value": "feverstonewilds:foal-*",
+        "value": "feverstonehorses:foal-*",
         "file": "game:entities/land/wolf-male.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
     {
         "op": "add",
         "path": "/server/behaviors/9/aitasks/2/entityCodes/0",
-        "value": "feverstonewilds:foal-*",
+        "value": "feverstonehorses:foal-*",
         "file": "game:entities/land/wolf-male.json",
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     }

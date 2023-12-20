@@ -8,7 +8,7 @@
         "ingredients": {
             "C": { "type": "item", "code": "game:vegetable-carrot" }
         },
-        "output": { "type": "item", "code": "feverstonewilds:carrotbundle" }
+        "output": { "type": "item", "code": "feverstonehorses:carrotbundle" }
     },
 
     // Dry Grass Bundle
@@ -20,6 +20,6 @@
         "ingredients": {
             "C": { "type": "item", "code": "game:drygrass" }
         },
-        "output": { "type": "item", "code": "feverstonewilds:drygrassbundle" }
+        "output": { "type": "item", "code": "feverstonehorses:drygrassbundle" }
     }
 ]

@@ -28,7 +28,7 @@
         "height": 3,
         "output": {
             "type": "item",
-            "code": "feverstonewilds:saddle-draft",
+            "code": "feverstonehorses:saddle-draft",
             "quantity": 1
         }
     },
@@ -62,7 +62,7 @@
         "height": 3,
         "output": {
             "type": "item",
-            "code": "feverstonewilds:saddle-arabian",
+            "code": "feverstonehorses:saddle-arabian",
             "quantity": 1
         }
     },
@@ -96,7 +96,7 @@
         "height": 3,
         "output": {
             "type": "item",
-            "code": "feverstonewilds:saddle-donkey",
+            "code": "feverstonehorses:saddle-donkey",
             "quantity": 1
         }
     }
