@@ -8,6 +8,13 @@
     "deadHitboxSize": { "x": 1.0, "y": 0.4 },
     "eyeHeight": 0.9,
     "drops": [],
+    "attributes":{
+        "creatureDiet": {
+            "foodCategories": [ "Grain" ],
+            "foodTags": [ "grass", "tamingfeedbundle", "carrot", "cabbage", "turnip", "redapple", "yellowapple", "pinkapple" ],
+            "skipFoodTags": [ "rice", "amaranth", "sunflower" ]
+        }
+    },
     
     "client": {
         "renderer": "Shape",
@@ -43,39 +50,41 @@
             { "code": "nametag" },
             { "code": "receivecommand",
                 "availableCommands": [
-                    { "commandName": "followmaster", "commandType": "COMPLEX", "minObedience": 0.6 },
-                    { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.1 }
+                    { "commandName": "followmaster", "commandType": "COMPLEX", "minObedience": 0.4 },
+                    { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.2 }
                 ]
             },
-            {
-                "code": "tameable",
+            { "code": "tameable",
                 "treat": [
-                    { "code": "vegetable-carrot", "progress": 0.075, "cooldown": 0.6 },
-					{ "code": "carrotbundle", "progress": 0.125, "cooldown": 0.75 },
-					{ "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.5 },
-					{ "code": "drygrass", "progress": 0.05, "cooldown": 0.5 },
-					{ "code": "fruit-pinkapple", "progress": 0.25, "cooldown": 1 },
-					{ "code": "fruit-redapple", "progress": 0.25, "cooldown": 1 },
-					{ "code": "fruit-yellowapple", "progress": 0.25, "cooldown": 1 },
-					{ "code": "grain-flax", "progress": 0.2, "cooldown": 0.8 },
-					{ "code": "grain-rye", "progress": 0.2, "cooldown": 0.8 },
-					{ "code": "grain-spelt", "progress": 0.2, "cooldown": 0.8 }
+                    { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
+                    { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
+                    { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
+                    { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
+                    { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
+                    { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
+                    { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-yellowapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "grain-flax", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-rye", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-spelt", "progress": 0.075, "cooldown": 0.45 }
                 ]
             },
-            {
-                "code": "mouthinventory",
+            { "code": "mouthinventory",
                 "acceptStacks": [
                     { "type": "item", "code": "vegetable-carrot" },
-					{ "type": "item", "code": "feverstonehorses:carrotbundle" },
-					{ "type": "item", "code": "feverstonehorses:drygrassbundle" },
-					{ "type": "item", "code": "drygrass" },
-					{ "type": "item", "code": "fruit-pinkapple" },
-					{ "type": "item", "code": "fruit-redapple" },
-					{ "type": "item", "code": "fruit-yellowapple" },
+                    { "type": "item", "code": "vegetable-cabbage" },
+                    { "type": "item", "code": "vegetable-turnip" },
+                    { "type": "item", "code": "feverstonehorses:carrotbundle" },
+                    { "type": "item", "code": "feverstonehorses:drygrassbundle" },
+                    { "type": "item", "code": "drygrass" },
+                    { "type": "item", "code": "fruit-pinkapple" },
+                    { "type": "item", "code": "fruit-redapple" },
+                    { "type": "item", "code": "fruit-yellowapple" },
                     { "type": "item", "code": "grain-flax" },
                     { "type": "item", "code": "grain-rye" },
                     { "type": "item", "code": "grain-spelt" }
-				]
+                ]
             },
             { "code": "repulseagents"  },
 			{ "code": "harvestable" },
@@ -127,41 +136,43 @@
         },
         "behaviors": [
             { "code": "nametag" },
-            {
-                "code": "tameable",
-                "disobediencePerDay": 0.1,
+            { "code": "tameable",
+                "disobediencePerDay": 0.025,
                 "treat": [
-                    { "code": "vegetable-carrot", "progress": 0.075, "cooldown": 0.6 },
-					{ "code": "carrotbundle", "progress": 0.125, "cooldown": 0.75 },
-					{ "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.5 },
-					{ "code": "drygrass", "progress": 0.05, "cooldown": 0.5 },
-					{ "code": "fruit-pinkapple", "progress": 0.25, "cooldown": 1 },
-					{ "code": "fruit-redapple", "progress": 0.25, "cooldown": 1 },
-					{ "code": "fruit-yellowapple", "progress": 0.25, "cooldown": 1 },
-					{ "code": "grain-flax", "progress": 0.2, "cooldown": 0.8 },
-					{ "code": "grain-rye", "progress": 0.2, "cooldown": 0.8 },
-					{ "code": "grain-spelt", "progress": 0.2, "cooldown": 0.8 }
+                    { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
+                    { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
+                    { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
+                    { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
+                    { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
+                    { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
+                    { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-yellowapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "grain-flax", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-rye", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-spelt", "progress": 0.075, "cooldown": 0.45 }
                 ]
             },
-            {
-                "code": "mouthinventory",
+            { "code": "mouthinventory",
                 "acceptStacks": [
                     { "type": "item", "code": "vegetable-carrot" },
-					{ "type": "item", "code": "feverstonehorses:carrotbundle" },
-					{ "type": "item", "code": "feverstonehorses:drygrassbundle" },
-					{ "type": "item", "code": "drygrass" },
-					{ "type": "item", "code": "fruit-pinkapple" },
-					{ "type": "item", "code": "fruit-redapple" },
-					{ "type": "item", "code": "fruit-yellowapple" },
+                    { "type": "item", "code": "vegetable-cabbage" },
+                    { "type": "item", "code": "vegetable-turnip" },
+                    { "type": "item", "code": "feverstonehorses:carrotbundle" },
+                    { "type": "item", "code": "feverstonehorses:drygrassbundle" },
+                    { "type": "item", "code": "drygrass" },
+                    { "type": "item", "code": "fruit-pinkapple" },
+                    { "type": "item", "code": "fruit-redapple" },
+                    { "type": "item", "code": "fruit-yellowapple" },
                     { "type": "item", "code": "grain-flax" },
                     { "type": "item", "code": "grain-rye" },
                     { "type": "item", "code": "grain-spelt" }
-				]
+                ]
             },
             { "code": "receivecommand",
                 "availableCommands": [
-                    { "commandName": "followmaster", "commandType": "COMPLEX", "minObedience": 0.6 },
-                    { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.1 }
+                    { "commandName": "followmaster", "commandType": "COMPLEX", "minObedience": 0.4 },
+                    { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.2 }
                 ]
             },
             { "code": "repulseagents" },
