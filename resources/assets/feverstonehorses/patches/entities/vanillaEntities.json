@@ -1,6 +1,7 @@
 [
-    // Bears
+    
     {
+        "__comment": "===Bears===",
         "op": "add",
         "path": "/server/behaviors/9/aitasks/0/entityCodesByType/*/0",
         "value": "feverstonehorses:horse-female-*",
@@ -15,8 +16,8 @@
         "condition": { "when": "FSWHorseEnabled", "isValue": "true" }
     },
 
-    // Wolves
     {
+        "__comment": "===Wolves===",
         "op": "add",
         "path": "/server/behaviors/10/aitasks/0/entityCodes/0",
         "value": "feverstonehorses:horse-female-*",

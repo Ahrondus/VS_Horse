@@ -1,5 +1,4 @@
 [
-    // Draft Saddle
     {
         "ingredientPattern": "BLB,MLM,_C_",
         "ingredients": {
@@ -28,12 +27,10 @@
         "height": 3,
         "output": {
             "type": "item",
-            "code": "feverstonehorses:saddle-draft",
+            "code": "feverstonehorses:horsesaddle-draft",
             "quantity": 1
         }
     },
-
-    // Arabian Saddle
     {
         "ingredientPattern": "BLB,MLM,_C_",
         "ingredients": {
@@ -62,12 +59,10 @@
         "height": 3,
         "output": {
             "type": "item",
-            "code": "feverstonehorses:saddle-arabian",
+            "code": "feverstonehorses:horsesaddle-arabian",
             "quantity": 1
         }
     },
-
-    // Donkey Saddle
     {
         "ingredientPattern": "MLM,BLB,CCC",
         "ingredients": {
@@ -96,7 +91,7 @@
         "height": 3,
         "output": {
             "type": "item",
-            "code": "feverstonehorses:saddle-donkey",
+            "code": "feverstonehorses:horsesaddle-donkey",
             "quantity": 1
         }
     }
