@@ -7,7 +7,7 @@
     "authors": ["Feverstone", "Ahrondus and Verlia"],
     "version": "1.6.0-rc.1",
     "dependencies": { 
-      "game": "1.19.10",
+      "game": "1.19.0",
       "petai": "2.2.0"
     }
   }
