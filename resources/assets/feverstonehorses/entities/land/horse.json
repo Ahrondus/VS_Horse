@@ -82,7 +82,10 @@
             "foodCategories": [ "Grain" ],
             "foodTags": [ "grass", "tamingfeedbundle", "carrot", "cabbage", "turnip", "redapple", "yellowapple", "pinkapple" ],
             "skipFoodTags": [ "rice", "amaranth", "sunflower" ]
-        }
+        },
+        "handbook": {
+			"groupcode": "feverstonehorses:creaturegroup-horse"
+		}
     },
     "client": {
         "renderer": "Shape",
@@ -123,7 +126,7 @@
         "behaviors": [ 
                 { "code": "multiply",
                     "enabledByType": { "*-male-*": false, "*-female-*": true } },
-                { "code": "nametag" },
+                { "code": "nametag", "showtagonlywhentargeted": true },
                 { "code": "receivecommand",
                     "availableCommands": [
                         {
@@ -229,13 +232,13 @@
             }
         },
         "behaviors": [
-                { "code": "nametag" },
+                { "code": "nametag", "showtagonlywhentargeted": true },
                 {
                     "code": "multiply",
                     "enabledByType": { "*-male-*": false, "*-female-draft": true, "*-female-arabian": true, "*-female-donkey": true },
-                    "spawnEntityCodeByType": { "*-female-draft": "feverstonehorses:foal-draft", 
-                                                "*-female-arabian": "feverstonehorses:foal-arabian", 
-                                                "*-female-donkey": "feverstonehorses:foal-donkey" },
+                    "spawnEntityCodesByType": { "*-female-draft": [ { "code": "feverstonehorses:foal-draft" } ], 
+                                                "*-female-arabian": [ { "code": "feverstonehorses:foal-arabian" } ], 
+                                                "*-female-donkey": [ { "code": "feverstonehorses:foal-donkey" } ] },
                     "requiresNearbyEntityCodeByType": { "*-female-draft": "feverstonehorses:horse-male-draft", 
                                                         "*-female-arabian": "feverstonehorses:horse-male-arabian", 
                                                         "*-female-donkey": "feverstonehorses:horse-male-donkey" },
@@ -368,7 +371,7 @@
                         },
                         {
                             "code": "fleeentity",
-                            "entityCodes": [ "player", "wolf-*" ],
+                            "entityCodes": [ "player", "wolf-*", "bear-*" ],
                             "priority": 1.7,
                             "movespeed": 0.055,
                             "seekingRange": 18,
@@ -491,7 +494,8 @@
                             "maxcooldown": 160000,
                             "animation": "idleFlickL",
                             "animationSpeed": 0.85,
-                            "easeOutSpeed": 0.8,
+                            "easeInSpeed": 1.2,
+                            "easeOutSpeed": 1.8,
                             "whenNotInEmotionState": "aggressiveondamage"
                         },
                         {
@@ -499,7 +503,7 @@
                             "priority": 1.0,
                             "priorityForCancel": 1.35,
                             "movespeed": 0.006,
-                            "animationSpeed": 1.2,
+                            "animationSpeed": 1.1,
                             "animation": "walk",
                             "preferredLightLevel": 16
                         },
@@ -587,6 +591,6 @@
         "death": "feverstonehorses:horse/horsedamage",
         "idle": "feverstonehorses:horse/neigh"
     },
-    "idleSoundChance": 0.015,
+    "idleSoundChance": 0.005,
     "hurtSoundChance": 0.05
 }

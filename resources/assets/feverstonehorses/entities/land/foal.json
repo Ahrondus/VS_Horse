@@ -13,7 +13,10 @@
             "foodCategories": [ "Grain" ],
             "foodTags": [ "grass", "tamingfeedbundle", "carrot", "cabbage", "turnip", "redapple", "yellowapple", "pinkapple" ],
             "skipFoodTags": [ "rice", "amaranth", "sunflower" ]
-        }
+        },
+        "handbook": {
+			"groupcode": "feverstonehorses:creaturegroup-horse"
+		}
     },
     
     "client": {
@@ -47,7 +50,7 @@
             "foal-donkey": 0.52
         },
         "behaviors": [
-            { "code": "nametag" },
+            { "code": "nametag", "showtagonlywhentargeted": true },
             { "code": "receivecommand",
                 "availableCommands": [
                     { "commandName": "followmaster", "commandType": "COMPLEX", "minObedience": 0.4 },
@@ -135,7 +138,7 @@
             }
         },
         "behaviors": [
-            { "code": "nametag" },
+            { "code": "nametag", "showtagonlywhentargeted": true },
             { "code": "tameable",
                 "disobediencePerDay": 0.025,
                 "treat": [
