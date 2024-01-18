@@ -12,6 +12,9 @@
 		"transitionedStack": { "type": "item", "code": "game:rot" },
 		"transitionRatio": 2
 	}],
+	"attributes":{
+		"foodTags": [ "tamingfeedbundle" ]
+	},
 	
 	"groundTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },

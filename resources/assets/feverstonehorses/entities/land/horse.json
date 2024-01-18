@@ -5,7 +5,7 @@
         { "code": "gender", "states": ["male", "female"] },
         { "code": "type", "states": ["draft", "arabian", "donkey"] }
     ],
-    "collisionBoxSizeByType": {
+    "hitBoxSizeByType": {
         "horse-male-draft": { "x": 1.75, "y": 1.9 },
         "horse-female-draft": { "x":1.65, "y": 1.9 },
 
@@ -15,7 +15,7 @@
         "horse-male-donkey": { "x": 1.3, "y": 1.45 },
         "horse-female-donkey": { "x": 1.25, "y": 1.40 }
     },
-    "deadCollisionBoxSizeByType": {
+    "deadhitBoxSizeByType": {
         "horse-male-draft": { "x": 1.9, "y": 0.8 },
         "horse-female-draft": { "x": 1.8, "y": 0.8 },
 
@@ -25,22 +25,16 @@
         "horse-male-donkey": { "x": 1.45, "y": 0.5 },
         "horse-female-donkey": { "x": 1.40, "y": 0.47 }
     },
-    "selectionBoxSizeByType": {
-        "*-draft": { "x": 1.7, "y": 2.0 },
-        "*-arabian": { "x": 1.5, "y": 1.6 },
-        "*-donkey": { "x": 1.5, "y": 1.5 }
-    },
-    "deadSelectionBoxSizeByType": {        
-        "*-draft": { "x": 1.9, "y": 1 },
-        "*-arabian": { "x": 1.5, "y": 0.75 },
-        "*-donkey": { "x": 1.45, "y": 0.6 }
-    },
     "knockbackResistanceByType": {
         "*-draft": 0.25,
         "*-arabian": 0.15,
-        "*-donkey": 0.125
+        "*-donkey": 0.175
     },
-    "eyeHeight": 1.7,
+    "eyeHeightByType": {
+        "*-draft": 1.8,
+        "*-arabian": 1.5,
+        "*-donkey": 1.4
+    },
     "drops": [],
     "fallDamage": false,
     "attributes": {
@@ -83,7 +77,15 @@
                 "mulWithWalkSpeed": true,
                 "animationSpeed": 0.6
             }
-        }
+        },
+        "creatureDiet": {
+            "foodCategories": [ "Grain" ],
+            "foodTags": [ "grass", "tamingfeedbundle", "carrot", "cabbage", "turnip", "redapple", "yellowapple", "pinkapple" ],
+            "skipFoodTags": [ "rice", "amaranth", "sunflower" ]
+        },
+        "handbook": {
+			"groupcode": "feverstonehorses:creaturegroup-horse"
+		}
     },
     "client": {
         "renderer": "Shape",
@@ -124,13 +126,13 @@
         "behaviors": [ 
                 { "code": "multiply",
                     "enabledByType": { "*-male-*": false, "*-female-*": true } },
-                { "code": "nametag" },
+                { "code": "nametag", "showtagonlywhentargeted": true },
                 { "code": "receivecommand",
                     "availableCommands": [
                         {
                             "commandName": "followmaster",
                             "commandType": "COMPLEX",
-                            "minObedience": 0.6
+                            "minObedience": 0.4
                         },
                         {
                             "commandName": "stay",
@@ -141,9 +143,11 @@
                 },
                 { "code": "tameable",
                     "treat": [
-                        { "code": "vegetable-carrot", "progress": 0.05, "cooldown": 0.3 },
-                        { "code": "carrotbundle", "progress": 0.125, "cooldown": 0.4 },
-                        { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.5 },
+                        { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
+                        { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
+                        { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
+                        { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
+                        { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
                         { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
                         { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
                         { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
@@ -156,6 +160,8 @@
                 { "code": "mouthinventory",
                     "acceptStacks": [
                         { "type": "item", "code": "vegetable-carrot" },
+                        { "type": "item", "code": "vegetable-cabbage" },
+                        { "type": "item", "code": "vegetable-turnip" },
                         { "type": "item", "code": "feverstonehorses:carrotbundle" },
                         { "type": "item", "code": "feverstonehorses:drygrassbundle" },
                         { "type": "item", "code": "drygrass" },
@@ -226,13 +232,13 @@
             }
         },
         "behaviors": [
-                { "code": "nametag" },
+                { "code": "nametag", "showtagonlywhentargeted": true },
                 {
                     "code": "multiply",
                     "enabledByType": { "*-male-*": false, "*-female-draft": true, "*-female-arabian": true, "*-female-donkey": true },
-                    "spawnEntityCodeByType": { "*-female-draft": "feverstonehorses:foal-draft", 
-                                                "*-female-arabian": "feverstonehorses:foal-arabian", 
-                                                "*-female-donkey": "feverstonehorses:foal-donkey" },
+                    "spawnEntityCodesByType": { "*-female-draft": [ { "code": "feverstonehorses:foal-draft" } ], 
+                                                "*-female-arabian": [ { "code": "feverstonehorses:foal-arabian" } ], 
+                                                "*-female-donkey": [ { "code": "feverstonehorses:foal-donkey" } ] },
                     "requiresNearbyEntityCodeByType": { "*-female-draft": "feverstonehorses:horse-male-draft", 
                                                         "*-female-arabian": "feverstonehorses:horse-male-arabian", 
                                                         "*-female-donkey": "feverstonehorses:horse-male-donkey" },
@@ -248,9 +254,11 @@
                 { "code": "tameable",
                     "disobediencePerDay": 0.05,
                     "treat": [
-                        { "code": "vegetable-carrot", "progress": 0.05, "cooldown": 0.3 },
-                        { "code": "carrotbundle", "progress": 0.125, "cooldown": 0.4 },
-                        { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.5 },
+                        { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
+                        { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
+                        { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
+                        { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
+                        { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
                         { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
                         { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
                         { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
@@ -263,6 +271,8 @@
                 { "code": "mouthinventory",
                     "acceptStacks": [
                         { "type": "item", "code": "vegetable-carrot" },
+                        { "type": "item", "code": "vegetable-cabbage" },
+                        { "type": "item", "code": "vegetable-turnip" },
                         { "type": "item", "code": "feverstonehorses:carrotbundle" },
                         { "type": "item", "code": "feverstonehorses:drygrassbundle" },
                         { "type": "item", "code": "drygrass" },
@@ -279,7 +289,7 @@
                         {
                             "commandName": "followmaster",
                             "commandType": "COMPLEX",
-                            "minObedience": 0.6
+                            "minObedience": 0.4
                         },
                         {
                             "commandName": "stay",
@@ -347,7 +357,8 @@
                             "slot": 1,
                             "damageByType":{
                                 "*-draft": 4,
-                                "*-arabian": 2.5
+                                "*-arabian": 2.5,
+                                "*-donkey": 2.0
                             },
                             "damageTier": 2,
                             "mincooldown": 1500,
@@ -359,20 +370,8 @@
                             "whenInEmotionState": "aggressiveondamage"
                         },
                         {
-                            "code": "seekentity",
-                            "entityCodes": [ "player", "wolf-*" ],
-                            "priority": 1.6,
-                            "mincooldown": 1000,
-                            "maxcooldown": 1500,
-                            "seekingRange": 12,
-                            "movespeed": 0.045,
-                            "animation": "run",
-                            "animationSpeed": 2,
-                            "whenInEmotionState": "aggressiveondamage"
-                        },
-                        {
                             "code": "fleeentity",
-                            "entityCodes": [ "player", "wolf-*" ],
+                            "entityCodes": [ "player", "wolf-*", "bear-*" ],
                             "priority": 1.7,
                             "movespeed": 0.055,
                             "seekingRange": 18,
@@ -461,7 +460,7 @@
                             "code": "seekfoodandeat",
                             "movespeed": 0.004,
                             "priority": 1.35,
-                            "eatSound": "horse/horseeating",
+                            "eatSound": "game:creature/animal-eat-small",
                             "soundRange": 3,
                             "soundStartMs": 800,
                             "eatTime": 1.5,
@@ -495,7 +494,8 @@
                             "maxcooldown": 160000,
                             "animation": "idleFlickL",
                             "animationSpeed": 0.85,
-                            "easeOutSpeed": 0.8,
+                            "easeInSpeed": 1.2,
+                            "easeOutSpeed": 1.8,
                             "whenNotInEmotionState": "aggressiveondamage"
                         },
                         {
@@ -503,7 +503,7 @@
                             "priority": 1.0,
                             "priorityForCancel": 1.35,
                             "movespeed": 0.006,
-                            "animationSpeed": 1.2,
+                            "animationSpeed": 1.1,
                             "animation": "walk",
                             "preferredLightLevel": 16
                         },
@@ -591,6 +591,6 @@
         "death": "feverstonehorses:horse/horsedamage",
         "idle": "feverstonehorses:horse/neigh"
     },
-    "idleSoundChance": 0.015,
+    "idleSoundChance": 0.005,
     "hurtSoundChance": 0.05
 }

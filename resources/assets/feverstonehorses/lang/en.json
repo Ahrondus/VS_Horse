@@ -72,6 +72,8 @@
 	"game:deathmsg-horsefemaledonkey-1": "Player {0} was trampled by a donkey.",
 	"game:deathmsg-horsefemaledonkey-2": "Player {0} was kicked to death.",
 
+	"creaturegroup-horse": "Horses",
+
 	// Creature Kill Descriptions
 	"deadcreature-horsetrampled": "Appears to be trampled by a horse."
 }
