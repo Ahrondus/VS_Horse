@@ -1,5 +1,5 @@
 {	
-	// Draft
+	
 	"item-creature-horse-male-draft": "Draft Stallion",
 	"item-dead-creature-horse-male-draft": "Dead Stallion",
 	"itemdesc-creature-horse-male-draft": "A reliable and hefty steed.",	
@@ -12,7 +12,7 @@
 	"item-dead-creature-foal-draft": "Dead Foal",
 	"itemdesc-creature-foal-draft": "A young draft horse.",
 
-	// Arabian
+	
 	"item-creature-horse-male-arabian": "Arabian Stallion",
 	"item-dead-creature-horse-male-arabian": "Dead Stallion",
 	"itemdesc-creature-horse-male-arabian": "A reliable and swift steed, found in arid climates.",	
@@ -25,7 +25,7 @@
 	"item-dead-creature-foal-arabian": "Dead Foal",
 	"itemdesc-creature-foal-arabian": "A young arabian horse.",
 
-	// Donkey
+	
 	"item-creature-horse-male-donkey": "Jack",
 	"item-dead-creature-horse-male-donkey": "Dead Jack",
 	"itemdesc-creature-horse-male-donkey": "The worker's steed.",	
@@ -38,26 +38,26 @@
 	"item-dead-creature-foal-donkey": "Dead Foal",
 	"itemdesc-creature-foal-donkey": "A young donkey.",
 	
-	// Taming Foods
+	
 	"item-carrotbundle": "Carrot Bundle",
 	"itemdesc-carrotbundle": "A small bundle of carrots for taming! Horses like these!",
 	
+
 	"item-drygrassbundle": "Dry Grass Bundle",
 	"itemdesc-drygrassbundle": "A bundle of dry grass used for taming. Horses and Bison will eat these!",
+ 
 
-	// Saddles
 	"item-horsesaddle-draft": "Draft Horse Saddle",
 	"itemdesc-horsesaddle-draft": "A sturdy leather saddle for your steed, with saddlebags!",
 	"item-horsesaddle-arabian": "Arabian Horse Saddle",
 	"itemdesc-horsesaddle-arabian": "A sturdy leather saddle for your steed, with saddlebags!",
 	"item-horsesaddle-donkey": "Donkey Horse Saddle",
 	"itemdesc-horsesaddle-donkey": "A sturdy leather saddle for your steed, with saddlebags!",
-
-	// Guide
+ 
 	"horsetamingguide-title": "Taming Horses",
 	"horsetamingguide-text": "<strong>A Guide to Horse Taming:\n-----by Verlia</strong>\n\nTaming a horse is fairly simple!\nFirst, you will need to find a food that horses will enjoy! Dry grass is a good start, but other foods will be preferred.\nTry out a variety!\n\nRight clicking a wild horse with a compatible food item will start the taming process.\nEach feed will increase taming percentage until the process is complete. Now you can name your new horse!\nFeeding your horse after taming is complete will increase its obedience, so when you give it a command it will be more inclined to listen.\n\n<strong>--Now you're ready for adventure!--</strong>\nMount up on your new horse by right clicking on it! An empty hand is needed.\nDismount your horse by sneaking/crouching.\n\nHorses can eat from troughs and breed just like other domesticated animals.\nSome of their favorite foods are carrots, apples, and grains, and each will affect them differently!\n\n\n<strong>Keep an eye out for more saddles, saddlebags, and attachments in the future!</strong>",
+ 
 
-	// Game Messages
 
 	"game:deathmsg-horsemaledraft-1": "Player {0} was trampled by a horse.",
 	"game:deathmsg-horsemaledraft-2": "Player {0} was kicked to death.",
@@ -73,7 +73,6 @@
 	"game:deathmsg-horsefemaledonkey-2": "Player {0} was kicked to death.",
 
 	"creaturegroup-horse": "Horses",
-
-	// Creature Kill Descriptions
+ 
 	"deadcreature-horsetrampled": "Appears to be trampled by a horse."
 }
