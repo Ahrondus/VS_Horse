@@ -550,7 +550,7 @@
                 "runtime": {
                     "group": "neutral",
                     "tryOnlySurface": true,
-                    "chance": 0.000035,
+                    "chance": 0.0000125,
                     "maxQuantity": 3,
                     "maxLightLevel": 10,
                     "lightLevelType": "onlyBlockLight",
