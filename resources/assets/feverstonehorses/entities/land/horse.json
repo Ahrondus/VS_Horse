@@ -785,7 +785,11 @@
                             "animationSpeed": 1.6,
                             "animation": "Trot",
                             "minduration": 20000,
-                            "chance": 0.02
+                            "chance": 0.02,
+                            "enabledByType": {
+                                "*-shire": true,
+                                "*": false
+                            }
                         },
                         { "code": "lookaround", "priority": 0.5 }
                     ]

@@ -9,8 +9,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"mane": "entity/land/horse/horsemane2",
-		"skin": "entity/land/horse/horseskin17"
 	},
 	"elements": [
 		{
@@ -5901,8 +5899,8 @@
 		},
 
 		{
-			"name": "Run",
-			"code": "run",
+			"name": "Gallop",
+			"code": "gallop",
 			"quantityframes": 30,
 			"onActivityStopped": "EaseOut",
 			"onAnimationEnd": "Repeat",
