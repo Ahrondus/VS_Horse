@@ -3,7 +3,7 @@
     "class": "EntityAgent",
     "variantgroups": [
         { "code": "tame", "states": ["wild", "tamed"] },
-        { "code": "type", "states": ["draft", "arabian", "donkey", "shire", "quarter" ] }
+        { "code": "type", "states": ["percheron", "arabian", "donkey", "shire", "quarter" ] }
     ],
     "enabledByType": {
         "*-shire": true,
@@ -28,14 +28,14 @@
     "client": {
         "renderer": "Shape",
         "shapeByType": {
-            "*-draft": { "base": "entity/land/horse-draft" },
+            "*-percheron": { "base": "entity/land/horse-percheron" },
             "*-arabian": { "base": "entity/land/horse-arabian" },
             "*-donkey": { "base": "entity/land/horse-donkey" },
             "*-shire": { "base": "entity/land/horse-shire" },
             "*-quarter": { "base": "entity/land/horse-quarter" }
         },
         "textureByType": {
-            "*-draft": { "base": "entity/land/horse/horse10",
+            "*-percheron": { "base": "entity/land/horse/horse10",
                             "alternates": [ { "base": "entity/land/horse/horse2" }, { "base": "entity/land/horse/horse3" },
                             { "base": "entity/land/horse/horse5" }, { "base": "entity/land/horse/horse6" }, { "base": "entity/land/horse/horse7" },
                             { "base": "entity/land/horse/horse8" }, { "base": "entity/land/horse/horse9" }, { "base": "entity/land/horse/horse1" }, 
@@ -58,10 +58,10 @@
             
         },
         "sizeByType": {
-            "foal-draft": 0.6,
+            "foal-percheron": 0.6,
             "foal-arabian": 0.55,
             "foal-donkey": 0.52,
-            "foal-shire": 0.58,
+            "foal-shire": 0.62,
             "foal-quarter": 0.56
         },
         "behaviors": [
@@ -245,7 +245,7 @@
                 ]
             },
 			{ "code": "grow", "hoursToGrow": 178,
-				"adultEntityCodesByType": { "*-draft": ["feverstonehorses:horse-{tame}-male-draft", "feverstonehorses:horse-{tame}-female-draft"],
+				"adultEntityCodesByType": { "*-percheron": ["feverstonehorses:horse-{tame}-male-percheron", "feverstonehorses:horse-{tame}-female-percheron"],
                                             "*-arabian": ["feverstonehorses:horse-{tame}-male-arabian", "feverstonehorses:horse-{tame}-female-arabian"],
                                             "*-donkey": [ "feverstonehorses:horse-{tame}-male-donkey", "feverstonehorses:horse-{tame}-female-donkey" ],
                                             "*-shire": [ "feverstonehorses:horse-{tame}-male-shire", "feverstonehorses:horse-{tame}-female-shire" ],
@@ -269,7 +269,7 @@
                         "code": "stayclosetoentity",
                         "priority": 1.3,
                         "entityCodesByType":{
-                            "*-draft": [ "feverstonehorses:horse-{tame}-male-draft", "feverstonehorses:horse-{tame}-female-draft" ],
+                            "*-percheron": [ "feverstonehorses:horse-{tame}-male-percheron", "feverstonehorses:horse-{tame}-female-percheron" ],
                             "*-arabian": [ "feverstonehorses:horse-{tame}-male-arabian", "feverstonehorses:horse-{tame}-female-arabian" ],
                             "*-donkey": [ "feverstonehorses:horse-{tame}-male-donkey", "feverstonehorses:horse-{tame}-female-donkey" ],
                             "*-shire": [ "feverstonehorses:horse-{tame}-male-shire", "feverstonehorses:horse-{tame}-female-shire" ],

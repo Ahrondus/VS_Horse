@@ -1,12 +1,12 @@
 {
 
-	"item-creature-horse-wild-male-draft": "Wild Draft Stallion",
-	"item-dead-creature-horse-wild-male-draft": "Dead Stallion",
-	"itemdesc-creature-horse-wild-male-draft": "A reliable and hefty steed.",
+	"item-creature-horse-wild-male-percheron": "Wild Percheron Stallion",
+	"item-dead-creature-horse-wild-male-percheron": "Dead Stallion",
+	"itemdesc-creature-horse-wild-male-percheron": "A reliable and hefty steed.",
 
-	"item-creature-horse-wild-female-draft": "Wild Draft Mare",
-	"item-dead-creature-horse-wild-female-draft": "Dead Mare",
-	"itemdesc-creature-horse-wild-female-draft": "A reliable and hefty steed.",
+	"item-creature-horse-wild-female-percheron": "Wild Percheron Mare",
+	"item-dead-creature-horse-wild-female-percheron": "Dead Mare",
+	"itemdesc-creature-horse-wild-female-percheron": "A reliable and hefty steed.",
 
 	"item-creature-horse-wild-male-arabian": "Wild Arabian Stallion",
 	"item-dead-creature-horse-wild-male-arabian": "Dead Stallion",
@@ -40,9 +40,9 @@
 	"item-dead-creature-horse-wild-female-quarter": "Dead Mare",
 	"itemdesc-creature-horse-wild-female-quarter": "A reliable and trusty quarter-horse.",
 
-	"item-creature-foal-wild-draft": "Wild Draft Foal",
-	"item-dead-creature-foal-wild-draft": "Dead Foal",
-	"itemdesc-creature-foal-wild-draft": "A young draft horse.",
+	"item-creature-foal-wild-percheron": "Wild Percheron Foal",
+	"item-dead-creature-foal-wild-percheron": "Dead Foal",
+	"itemdesc-creature-foal-wild-percheron": "A young Percheron horse.",
 
 	"item-creature-foal-wild-arabian": "Wild Arabian Foal",
 	"item-dead-creature-foal-wild-arabian": "Dead Foal",
@@ -60,13 +60,13 @@
 	"item-dead-creature-foal-wild-donkey": "Dead Foal",
 	"itemdesc-creature-foal-wild-donkey": "A young donkey.",
 
-	"item-creature-horse-tamed-male-draft": "Tamed Draft Stallion",
-	"item-dead-creature-horse-tamed-male-draft": "Dead Stallion",
-	"itemdesc-creature-horse-tamed-male-draft": "A reliable and hefty steed.",
+	"item-creature-horse-tamed-male-percheron": "Tamed Percheron Stallion",
+	"item-dead-creature-horse-tamed-male-percheron": "Dead Stallion",
+	"itemdesc-creature-horse-tamed-male-percheron": "A reliable and hefty steed.",
 
-	"item-creature-horse-tamed-female-draft": "Tamed Draft Mare",
-	"item-dead-creature-horse-tamed-female-draft": "Dead Mare",
-	"itemdesc-creature-horse-tamed-female-draft": "A reliable and hefty steed.",
+	"item-creature-horse-tamed-female-percheron": "Tamed Percheron Mare",
+	"item-dead-creature-horse-tamed-female-percheron": "Dead Mare",
+	"itemdesc-creature-horse-tamed-female-percheron": "A reliable and hefty steed.",
 
 	"item-creature-horse-tamed-male-arabian": "Tamed Arabian Stallion",
 	"item-dead-creature-horse-tamed-male-arabian": "Dead Stallion",
@@ -100,9 +100,9 @@
 	"item-dead-creature-horse-tamed-female-quarter": "Dead Mare",
 	"itemdesc-creature-horse-tamed-female-quarter": "A reliable and trusty quarter-horse.",
 
-	"item-creature-foal-tamed-draft": "Tamed Draft Foal",
-	"item-dead-creature-foal-tamed-draft": "Dead Foal",
-	"itemdesc-creature-foal-tamed-draft": "A young draft horse.",
+	"item-creature-foal-tamed-percheron": "Tamed Percheron Foal",
+	"item-dead-creature-foal-tamed-percheron": "Dead Foal",
+	"itemdesc-creature-foal-tamed-percheron": "A young Percheron horse.",
 
 	"item-creature-foal-tamed-arabian": "Tamed Arabian Foal",
 	"item-dead-creature-foal-tamed-arabian": "Dead Foal",
@@ -128,8 +128,8 @@
 	"itemdesc-drygrassbundle": "A bundle of dry grass used for taming. Horses and Bison will eat these!",
  
 
-	"item-draft-middlebackupper-saddle": "Draft Saddle",
-	"itemdesc-draft-middlebackupper-saddle": "A sturdy leather saddle for a Draft steed.",
+	"item-percheron-middlebackupper-saddle": "Percheron Saddle",
+	"itemdesc-percheron-middlebackupper-saddle": "A sturdy leather saddle for a Percheron steed.",
 	"item-arabian-middlebackupper-saddle": "Arabian Horse Saddle",
 	"itemdesc-arabian-middlebackupper-saddle": "A sturdy leather saddle for an Arabian steed.",
 	"item-shire-middlebackupper-saddle": "Shire Horse Saddle",

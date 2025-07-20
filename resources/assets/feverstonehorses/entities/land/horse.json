@@ -4,7 +4,7 @@
     "variantgroups": [
         { "code": "tamed", "states": ["wild", "tamed"] },
         { "code": "gender", "states": ["male", "female"] },
-        { "code": "type", "states": ["draft", "arabian", "donkey", "shire", "quarter"] }
+        { "code": "type", "states": ["percheron", "arabian", "donkey", "shire", "quarter"] }
     ],
     "enabledByType": {
         "*-shire": true,
@@ -12,14 +12,14 @@
         "*": false
     },
     "hitBoxSizeByType": {
-        "*-male-draft": { "x": 1.75, "y": 1.9 },
-        "*-female-draft": { "x":1.65, "y": 1.9 },
+        "*-male-percheron": { "x": 1.75, "y": 1.9 },
+        "*-female-percheron": { "x":1.65, "y": 1.9 },
 
         "*-male-arabian": { "x": 1.4, "y": 1.55 },
         "*-female-arabian": { "x": 1.3, "y": 1.5 },
 
-        "*-male-shire": { "x": 1.8, "y": 1.65 },
-        "-female-shire": { "x": 1.75, "y": 1.55 },
+        "*-male-shire": { "x": 1.8, "y": 2.15 },
+        "-female-shire": { "x": 1.75, "y": 2.05 },
 
         "*-male-quarter": { "x": 1.8, "y": 1.65 },
         "-female-quarter": { "x": 1.75, "y": 1.55 },
@@ -28,14 +28,14 @@
         "*-female-donkey": { "x": 1.25, "y": 1.40 }
     },
     "deadhitBoxSizeByType": {
-        "*-male-draft": { "x": 1.9, "y": 0.8 },
-        "*-female-draft": { "x": 1.8, "y": 0.8 },
+        "*-male-percheron": { "x": 1.9, "y": 0.8 },
+        "*-female-percheron": { "x": 1.8, "y": 0.8 },
 
         "*-male-arabian": { "x": 1.55, "y": 0.7 },
         "*-female-arabian": { "x": 1.5, "y": 0.7 },
 
-        "*-male-shire": { "x": 1.6, "y": 0.65 },
-        "*-female-shire": { "x": 1.55, "y": 0.6 },
+        "*-male-shire": { "x": 1.95, "y": 0.95 },
+        "*-female-shire": { "x": 1.9, "y": 0.9 },
 
         "*-male-quarter": { "x": 1.6, "y": 0.65 },
         "*-female-quarter": { "x": 1.55, "y": 0.6 },
@@ -44,17 +44,17 @@
         "*-female-donkey": { "x": 1.40, "y": 0.47 }
     },
     "knockbackResistanceByType": {
-        "*-draft": 0.25,
+        "*-percheron": 0.25,
         "*-arabian": 0.15,
         "*-donkey": 0.175,
-        "*-shire": 0.20,
+        "*-shire": 0.28,
         "*-quarter": 0.22
     },
     "eyeHeightByType": {
-        "*-draft": 1.8,
+        "*-percheron": 1.8,
         "*-arabian": 1.5,
         "*-donkey": 1.4,
-        "*-shire": 1.70,
+        "*-shire": 1.85,
         "*-quarter": 1.6
     },
     "drops": [],
@@ -299,14 +299,14 @@
         },
         "health": {
             "currenthealthByType": {
-                "*-draft": 32,
+                "*-percheron": 31,
                 "*-arabian": 26,
                 "*-donkey": 24,
                 "*-shire": 34,
                 "*-quarter": 28
             },
             "maxhealthByType": {
-                "*-draft": 32,
+                "*-percheron": 31,
                 "*-arabian": 26,
                 "*-donkey": 24,
                 "*-shire": 34,
@@ -317,44 +317,57 @@
     "client": {
         "renderer": "Shape",
         "shapeByType": {
-            "*-draft": { "base": "entity/land/horse-draft" },
+            "*-percheron": { "base": "entity/land/horse-percheron" },
             "*-arabian": { "base": "entity/land/horse-arabian" },
             "*-donkey": { "base": "entity/land/horse-donkey" },
             "*-shire": { "base": "entity/land/horse-shire" },
             "*-quarter": { "base": "entity/land/horse-quarter" }
         },
-        "textureByType": {
-            "*-draft": { "base": "entity/land/horse/horseskin10",
-                            "alternates": [ { "base": "entity/land/horse/horseskin2" }, { "base": "entity/land/horse/horseskin3" },
-                            { "base": "entity/land/horse/horseskin5" }, { "base": "entity/land/horse/horseskin6" }, { "base": "entity/land/horse/horseskin7" },
-                            { "base": "entity/land/horse/horseskin8" }, { "base": "entity/land/horse/horseskin9" }, { "base": "entity/land/horse/horseskin1" }, 
-                            { "base": "entity/land/horse/horseskin11" }, { "base": "entity/land/horse/horseskin12" }, { "base": "entity/land/horse/horseskin13" },
-							{ "base": "entity/land/horse/horseskin14" }, { "base": "entity/land/horse/horseskin15" },	{ "base": "entity/land/horse/horseskin20" }
-                          ] },
-            "*-arabian": { "base": "entity/land/horse/horse14", 
-                            "alternates": [ { "base": "entity/land/horse/horse4" }, { "base": "entity/land/horse/horse13" },
-                            { "base": "entity/land/horse/horse17" }, { "base": "entity/land/horse/horse19" } ] },
-            "*-donkey": { "base": "entity/land/donkey/donkeyskin1",
-                            "alternates": [ { "base": "entity/land/donkey/donkeyskin2" }, { "base": "entity/land/donkey/donkeyskin3" },
-                            { "base": "entity/land/donkey/donkeyskin4" }, { "base": "entity/land/donkey/donkeyskin5" }, 
-                            { "base": "entity/land/donkey/donkeyskin6" } ] },
-            "*-shire": { "base": "entity/land/horse/horseskin8",
-                            "alternates": [ { "base":"entity/land/horse/horseskin*" } ] },
-            "*-quarter": { "base": "entity/land/horse/horseskin1",
-                            "alternates": [ { "base":"entity/land/horse/horseskin*" } ] },
+        "texturesByType": {
+            "*-shire": { "skin": { "base": "entity/land/horse/horseskin1", 
+                            "alternates": [ { "base": "entity/land/horse/horseskin2" }, { "base": "entity/land/horse/horseskin4"},
+                                            { "base": "entity/land/horse/horseskin6" }, { "base": "entity/land/horse/horseskin10"},
+                                            { "base": "entity/land/horse/horseskin18" }, { "base": "entity/land/horse/horseskin22"},
+                                            { "base": "entity/land/horse/horseskin21" }, { "base": "entity/land/horse/horseskin12"},
+                                            { "base": "entity/land/horse/horseskin20" }, { "base": "entity/land/horse/horseskin23"},
+                                            { "base": "entity/land/horse/horseskin24" }, { "base": "entity/land/horse/horseskin25"},
+                                            { "base": "entity/land/horse/horseskin26" } ] },
+                         "mane": { "base": "entity/land/horse/horsemane", 
+                            "alternates": [ { "base": "entity/land/horse/horsemane2" }, { "base": "entity/land/horse/horsemane3" },
+                                            { "base": "entity/land/horse/horsemane4" }, { "base": "entity/land/horse/horsemane5" },
+                                            { "base": "entity/land/horse/horsemane6" }, { "base": "entity/land/horse/horsemane7" },
+                                            { "base": "entity/land/horse/horsemane8" }, { "base": "entity/land/horse/horsemane9" },
+                                            { "base": "entity/land/horse/horsemane10" }, { "base": "entity/land/horse/horsemane11" },
+                                            { "base": "entity/land/horse/horsemane12" } ] } },
+            "*-quarter": { "skin": { "base": "entity/land/horse/horseskin3", 
+                            "alternates": [ { "base": "entity/land/horse/horseskin5" }, { "base": "entity/land/horse/horseskin7"},
+                                            { "base": "entity/land/horse/horseskin8" }, { "base": "entity/land/horse/horseskin9"},
+                                            { "base": "entity/land/horse/horseskin11" }, { "base": "entity/land/horse/horseskin13"},
+                                            { "base": "entity/land/horse/horseskin14" }, { "base": "entity/land/horse/horseskin15"},
+                                            { "base": "entity/land/horse/horseskin21" }, { "base": "entity/land/horse/horseskin12"},
+                                            { "base": "entity/land/horse/horseskin20" }, { "base": "entity/land/horse/horseskin23"},
+                                            { "base": "entity/land/horse/horseskin24" }, { "base": "entity/land/horse/horseskin25"},
+                                            { "base": "entity/land/horse/horseskin26" } ] },
+                         "mane": { "base": "entity/land/horse/horsemane", 
+                            "alternates": [ { "base": "entity/land/horse/horsemane2" }, { "base": "entity/land/horse/horsemane3" },
+                                            { "base": "entity/land/horse/horsemane4" }, { "base": "entity/land/horse/horsemane5" },
+                                            { "base": "entity/land/horse/horsemane6" }, { "base": "entity/land/horse/horsemane7" },
+                                            { "base": "entity/land/horse/horsemane8" }, { "base": "entity/land/horse/horsemane9" },
+                                            { "base": "entity/land/horse/horsemane10" }, { "base": "entity/land/horse/horsemane11" },
+                                            { "base": "entity/land/horse/horsemane12" } ] } },
 
             "__comment": "More horse breeds to come!"
             
         },
         "sizeByType": {
-            "*-male-draft": 0.9,
-            "*-female-draft": 0.85,
+            "*-male-percheron": 0.85,
+            "*-female-percheron": 0.80,
 
             "*-male-arabian": 1,
             "*-female-arabian": 0.925,
 
-            "*-male-shire": 0.8,
-            "*-female-shire": 0.725,
+            "*-male-shire": 0.9,
+            "*-female-shire": 0.875,
 
             "*-male-donkey": 0.85,
             "*-female-donkey": 0.81,
@@ -532,13 +545,13 @@
                 { "code": "nametag", "showtagonlywhentargeted": true },
                 {
                     "code": "multiply",
-                    "enabledByType": { "*-male-*": false, "*-female-draft": true, "*-female-arabian": true, "*-female-donkey": true, "*-female-shire": true },
-                    "spawnEntityCodesByType": { "*-female-draft": [ { "code": "feverstonehorses:foal-draft" } ], 
+                    "enabledByType": { "*-male-*": false, "*-female-percheron": true, "*-female-arabian": true, "*-female-donkey": true, "*-female-shire": true },
+                    "spawnEntityCodesByType": { "*-female-percheron": [ { "code": "feverstonehorses:foal-percheron" } ], 
                                                 "*-female-arabian": [ { "code": "feverstonehorses:foal-arabian" } ], 
                                                 "*-female-donkey": [ { "code": "feverstonehorses:foal-donkey" } ], 
                                                 "*-female-shire": [ { "code": "feverstonehorses:foal-shire" } ],
                                                 "*-famale-quarter": [ { "code": "feverstonehorses:foal-quater" } ] },
-                    "requiresNearbyEntityCodeByType": { "*-female-draft": "feverstonehorses:horse-{tamed}-male-draft", 
+                    "requiresNearbyEntityCodeByType": { "*-female-percheron": "feverstonehorses:horse-{tamed}-male-percheron", 
                                                         "*-female-arabian": "feverstonehorses:horse-{tamed}-male-arabian", 
                                                         "*-female-donkey": "feverstonehorses:horse-{tamed}-male-donkey", 
                                                         "*-female-shire": "feverstonehorses:horse-{tamed}-male-shire", 
@@ -599,7 +612,7 @@
                     "drops": [
                         { "type": "item", "code": "redmeat-raw",
                             "quantityByType": {
-                                "*-draft": { "avg": 15, "var": 4 },
+                                "*-percheron": { "avg": 15, "var": 4 },
                                 "*-arabian": { "avg": 13, "var": 3 },
                                 "*-donkey": { "avg": 11, "var": 2 },
                                 "*-shire": { "avg": 14, "var": 4 },
@@ -609,7 +622,7 @@
                         },
                         { "type": "item", "code": "hide-raw-large",
                             "quantityByType": {
-                                "*-draft": { "avg": 1.5, "var": 0.5 },
+                                "*-percheron": { "avg": 1.5, "var": 0.5 },
                                 "*-arabian": { "avg": 1.5, "var": 0.5 },
                                 "*-donkey": { "avg": 1.5, "var": 0.5 },
                                 "*-shire": { "avg": 1.5, "var": 0.5 },
@@ -618,7 +631,7 @@
                         },
                         { "type": "item", "code": "fat",
                             "quantityByType": {
-                                "*-draft": { "avg": 3, "var": 1 },
+                                "*-percheron": { "avg": 3, "var": 1 },
                                 "*-arabian": { "avg": 2, "var": 1 },
                                 "*-donkey": { "avg": 2, "var": 1 },
                                 "*-shire": { "avg": 2, "var": 1 },
@@ -657,7 +670,7 @@
                             "priority": 2,
                             "slot": 1,
                             "damageByType":{
-                                "*-draft": 4,
+                                "*-percheron": 4,
                                 "*-arabian": 2.5,
                                 "*-donkey": 2.0
                             },
@@ -676,7 +689,7 @@
                             "priority": 1.7,
                             "movespeed": 0.055,
                             "seekingRange": 18,
-                            "animation": "run",
+                            "animation": "gallop",
                             "animationSpeed": 2.2,
                             "whenInEmotionState": "fleeondamage"
                         },
@@ -693,10 +706,11 @@
                             "animation": "trot",
                             "animationSpeed": 1.25,
                             "movespeedByType": {
-                                "*-draft": 0.040,
+                                "*-percheron": 0.040,
                                 "*-arabian": 0.045,
                                 "*-donkey": 0.035,
-                                "*-shire": 0.042
+                                "*-shire": 0.038, 
+                                "*-quarter": 0.0425
                             }
                         },
                         {
@@ -810,35 +824,35 @@
                     "groupSize": { "dist": "verynarrowgaussian", "avg": 1.5, "var": 0.5 },
                     "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                     "minTempByType": {
-                        "*-draft": -10,
+                        "*-percheron": -10,
                         "*-arabian": 5,
                         "*-donkey": -5,
                         "*-shire": -8,
                         "*-quarter": 2
                     },
                     "maxTempByType": {
-                        "*-draft": 20,
+                        "*-percheron": 20,
                         "*-arabian": 35,
                         "*-donkey": 24,
                         "*-shire": 26,
                         "*-quarter": 28
                     },
                     "minRainByType": {
-                        "*-draft": 0.25,
+                        "*-percheron": 0.25,
                         "*-arabian": 0,
                         "*-donkey": 0.25,
                         "*-shire": 0.25,
                         "*-quarter": 0.25
                     },
                     "minForestOrShrubsByType": {
-                        "*-draft": 0.1,
+                        "*-percheron": 0.1,
                         "*-arabian": 0.1,
                         "*-donkey": 0.1,
                         "*-shire": 0.1,
                         "*-quarter": 0.1
                     },
                     "maxForestByType": {
-                        "*-draft": 0.25,
+                        "*-percheron": 0.25,
                         "*-arabian": 0.25,
                         "*-donkey": 0.25,
                         "*-shire": 0.25,
@@ -856,35 +870,35 @@
                     "groupSize": { "dist": "verynarrowgaussian", "avg": 1.5, "var": 0.5 },
                     "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
                     "minTempByType": {
-                        "*-draft": -10,
+                        "*-percheron": -10,
                         "*-arabian": 5,
                         "*-donkey": -5,
                         "*-shire": -8,
                         "*-quarter": 2
                     },
                     "maxTempByType": {
-                        "*-draft": 20,
+                        "*-percheron": 20,
                         "*-arabian": 35,
                         "*-donkey": 24,
                         "*-shire": 26,
                         "*-quarter": 28
                     },
                     "minRainByType": {
-                        "*-draft": 0.25,
+                        "*-percheron": 0.25,
                         "*-arabian": 0,
                         "*-donkey": 0.25,
                         "*-shire": 0.25,
                         "*-quarter": 0.25
                     },
                     "minForestOrShrubsByType": {
-                        "*-draft": 0.1,
+                        "*-percheron": 0.1,
                         "*-arabian": 0.1,
                         "*-donkey": 0.1,
                         "*-shire": 0.1,
                         "*-quarter": 0.1
                     },
                     "maxForestByType": {
-                        "*-draft": 0.25,
+                        "*-percheron": 0.25,
                         "*-arabian": 0.25,
                         "*-donkey": 0.25,
                         "*-shire": 0.25,

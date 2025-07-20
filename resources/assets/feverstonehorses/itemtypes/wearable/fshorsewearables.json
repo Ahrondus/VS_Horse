@@ -2,7 +2,7 @@
 	"code": "fshorsewearables",
 	"variantgroups": [
 		{ "code": "breed",
-			"states": [ "draft", "arabian", "donkey", "shire", "quarter"]
+			"states": [ "percheron", "arabian", "donkey", "shire", "quarter"]
 		},
 		{ "code": "category",
 			"states": [ "head", "middlebackupper", "lowerbackside" ]
@@ -12,11 +12,11 @@
 		}
 	],
 	"allowedVariants": [
-		"fshorsewearables-draft-head-bridle", "fshorsewearables-arabian-head-bridle", "fshorsewearables-donkey-head-bridle", "fshorsewearables-shire-head-bridle",
+		"fshorsewearables-percheron-head-bridle", "fshorsewearables-arabian-head-bridle", "fshorsewearables-donkey-head-bridle", "fshorsewearables-shire-head-bridle",
 		"fshorsewearables-quarter-head-bridle",
-		"fshorsewearables-draft-middlebackupper-saddle", "fshorsewearables-arabian-middlebackupper-saddle", "fshorsewearables-donkey-middlebackupper-saddle",
+		"fshorsewearables-percheron-middlebackupper-saddle", "fshorsewearables-arabian-middlebackupper-saddle", "fshorsewearables-donkey-middlebackupper-saddle",
 		"fshorsewearables-shire-middlebackupper-saddle", "fshorsewearables-quarter-middlebackupper-saddle",
-		"fshorsewearables-draft-lowerbackside-saddlebags", "fshorsewearables-arabian-lowerbackside-saddlebags", "fshorsewearables-donkey-lowerbackside-saddlebags",
+		"fshorsewearables-percheron-lowerbackside-saddlebags", "fshorsewearables-arabian-lowerbackside-saddlebags", "fshorsewearables-donkey-lowerbackside-saddlebags",
 		"fshorsewearables-shire-lowerbackside-saddlebags", "fshorsewearables-quarter-middlebackupper-saddle"
 	],
 	"attributes": {
@@ -42,7 +42,7 @@
 			"*-head-bridle": true
 		},
 		"backpackByType": {
-			"*-draft-lowerbackside-saddlebags": { "quantitySlots": 24 },
+			"*-percheron-lowerbackside-saddlebags": { "quantitySlots": 24 },
 			"*-arabian-lowerbackside-saddlebags": { "quantitySlots": 12 },
 			"*-shire-lowerbackside-saddlebags": { "quantitySlots": 18 },
 			"*-quarter-lowerbackside-saddlebags": { "quantitySlots": 14 },
