@@ -12,12 +12,12 @@
 		}
 	],
 	"allowedVariants": [
-		"fsmountwearables-draft-head-bridle", "fsmountwearables-arabian-head-bridle", "fsmountwearables-donkey-head-bridle", "fsmountwearables-shire-head-bridle",
-		"fsmountwearables-quarter-head-bridle",
-		"fsmountwearables-draft-middlebackupper-saddle", "fsmountwearables-arabian-middlebackupper-saddle", "fsmountwearables-donkey-middlebackupper-saddle",
-		"fsmountwearables-shire-middlebackupper-saddle", "fsmountwearables-quarter-middlebackupper-saddle",
-		"fsmountwearables-draft-lowerbackside-saddlebags", "fsmountwearables-arabian-lowerbackside-saddlebags", "fsmountwearables-donkey-lowerbackside-saddlebags",
-		"fsmountwearables-shire-lowerbackside-saddlebags", "fsmountwearables-quarter-middlebackupper-saddle"
+		"fshorsewearables-draft-head-bridle", "fshorsewearables-arabian-head-bridle", "fshorsewearables-donkey-head-bridle", "fshorsewearables-shire-head-bridle",
+		"fshorsewearables-quarter-head-bridle",
+		"fshorsewearables-draft-middlebackupper-saddle", "fshorsewearables-arabian-middlebackupper-saddle", "fshorsewearables-donkey-middlebackupper-saddle",
+		"fshorsewearables-shire-middlebackupper-saddle", "fshorsewearables-quarter-middlebackupper-saddle",
+		"fshorsewearables-draft-lowerbackside-saddlebags", "fshorsewearables-arabian-lowerbackside-saddlebags", "fshorsewearables-donkey-lowerbackside-saddlebags",
+		"fshorsewearables-shire-lowerbackside-saddlebags", "fshorsewearables-quarter-middlebackupper-saddle"
 	],
 	"attributes": {
 		"attachableToEntity": {

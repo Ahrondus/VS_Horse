@@ -49,10 +49,10 @@
                             "alternates": [ { "base": "entity/land/donkey/donkeyskin2" }, { "base": "entity/land/donkey/donkeyskin3" },
                             { "base": "entity/land/donkey/donkeyskin4" }, { "base": "entity/land/donkey/donkeyskin5" }, 
                             { "base": "entity/land/donkey/donkeyskin6" } ] },
-            "*-shire": { "skin": { "base": "entity/land/horse/horseskin8" }, "mane": { "base": "entity/land/horse/horsemane1" },
-                            "alternates": [ { "skin": { "base":"entity/land/horse/horseskin*" } }, { "mane": { "base": "entity/land/horse/horsemane*" } } ] },
-            "*-quarter": { "skin": { "base": "entity/land/horse/horseskin1" }, "mane": { "base": "entity/land/horse/horsemane2" },
-                            "alternates": [ { "skin": { "base":"entity/land/horse/horseskin*" } }, { "mane": { "base": "entity/land/horse/horsemane*" } } ] },
+            "*-shire": { "base": "entity/land/horse/horseskin8",
+                            "alternates": [ { "base":"entity/land/horse/horseskin*" } ] },
+            "*-quarter": { "base": "entity/land/horse/horseskin1",
+                            "alternates": [ { "base":"entity/land/horse/horseskin*" } ] },
 
             "__comment": "More horse breeds to come!"
             

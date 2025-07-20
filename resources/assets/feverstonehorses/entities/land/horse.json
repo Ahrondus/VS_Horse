@@ -324,9 +324,9 @@
             "*-quarter": { "base": "entity/land/horse-quarter" }
         },
         "textureByType": {
-            "*-draft": { "skin": { "base": "entity/land/horse/horseskin10" },
-                            "alternates": [ { "skin": { "base": "entity/land/horse/horseskin2" } }, { "skin": { "base": "entity/land/horse/horseskin3" } },
-                            {"skin": { "base": "entity/land/horse/horseskin5" } }, { "base": "entity/land/horse/horseskin6" }, { "base": "entity/land/horse/horseskin7" },
+            "*-draft": { "base": "entity/land/horse/horseskin10",
+                            "alternates": [ { "base": "entity/land/horse/horseskin2" }, { "base": "entity/land/horse/horseskin3" },
+                            { "base": "entity/land/horse/horseskin5" }, { "base": "entity/land/horse/horseskin6" }, { "base": "entity/land/horse/horseskin7" },
                             { "base": "entity/land/horse/horseskin8" }, { "base": "entity/land/horse/horseskin9" }, { "base": "entity/land/horse/horseskin1" }, 
                             { "base": "entity/land/horse/horseskin11" }, { "base": "entity/land/horse/horseskin12" }, { "base": "entity/land/horse/horseskin13" },
 							{ "base": "entity/land/horse/horseskin14" }, { "base": "entity/land/horse/horseskin15" },	{ "base": "entity/land/horse/horseskin20" }
@@ -338,10 +338,10 @@
                             "alternates": [ { "base": "entity/land/donkey/donkeyskin2" }, { "base": "entity/land/donkey/donkeyskin3" },
                             { "base": "entity/land/donkey/donkeyskin4" }, { "base": "entity/land/donkey/donkeyskin5" }, 
                             { "base": "entity/land/donkey/donkeyskin6" } ] },
-            "*-shire": { "skin": { "base": "entity/land/horse/horseskin8" }, "mane": { "base": "entity/land/horse/horsemane1" },
-                            "alternates": [ { "skin": { "base":"entity/land/horse/horseskin*" } }, { "mane": { "base": "entity/land/horse/horsemane*" } } ] },
-            "*-quarter": { "skin": { "base": "entity/land/horse/horse1" }, "mane": { "base": "entity/land/horse/horsemane2" },
-                            "alternates": [ { "skin": { "base":"entity/land/horse/horseskin*" } }, { "mane": { "base": "entity/land/horse/horsemane*" } } ] },
+            "*-shire": { "base": "entity/land/horse/horseskin8",
+                            "alternates": [ { "base":"entity/land/horse/horseskin*" } ] },
+            "*-quarter": { "base": "entity/land/horse/horseskin1",
+                            "alternates": [ { "base":"entity/land/horse/horseskin*" } ] },
 
             "__comment": "More horse breeds to come!"
             
