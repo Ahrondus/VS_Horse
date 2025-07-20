@@ -1,0 +1,583 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/ahron/OneDrive/Documents/GitHub/VS_FeverstoneWilds/feverstonewilds/resources/assets/feverstonewilds/shapes/entity/land/ostrich",
+		"collapsedPaths": "Root/Cube2/Cube72,Root/Cube2/Cube71,Root/Origin/body/rleg18,Root/saddle/saddleseat1,Root/saddle/Cube3/Cube19,Root/saddle/Cube3/Cube18,Root/Origin/body/head0,Root/Origin/body/Cube31/lwing,Root/saddle/Cube3/Cube12,Root/Origin/body/tail,Root/saddle/Cube3/Cube12/Cube19,Root/saddle/Cube3/Cube12/Cube18,Root/saddle/saddlestrap1bottom,Root/saddle/saddlebasefrontlower/saddlehandletop,Root/Origin/body/lleg,Root/Cube2,Root/saddle/saddleseat1/saddleseat3,Root/Cube3,Root/saddle/saddleseat1/saddleseat4,Root/saddle/Cube69,Root/Origin/body/tail/tailrow1/tailfeather146,Root/Origin/body/Cube31/rwing,Root/Cube2/Cube66,Root/Cube2/Cube69,Root/Cube2/Cube65",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"ostrichsaddle": "items/ostrichsaddle"
+	},
+	"elements": [
+		{
+			"name": "saddle",
+			"stepParentName": "body",
+			"from": [ 4.4, 3.0, 0.5 ],
+			"to": [ 11.4, 4.0, 8.5 ],
+			"rotationOrigin": [ 6.0, 3.0, 4.0 ],
+			"faces": {
+				"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 8.0 ], "rotation": 90 },
+				"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 8.5 ], "rotation": 90 },
+				"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 2.0, 9.5, 9.0 ], "rotation": 90 },
+				"west": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.75, 8.5 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#ostrichsaddle", "uv": [ 10.5, 2.75, 12.75, 5.0 ], "autoUv": false },
+				"down": { "texture": "#ostrichsaddle", "uv": [ 0.0, 0.0, 7.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "saddlebasepart1",
+					"from": [ 0.0, -0.5, -1.0 ],
+					"to": [ 8.0, 0.8, 0.0 ],
+					"rotationOrigin": [ 0.0, -1.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 8.5 ], "rotation": 90 },
+						"east": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.25, 1.75 ] },
+						"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 8.5 ], "rotation": 90 },
+						"west": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.75, 1.75 ] },
+						"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 9.0 ], "rotation": 90 },
+						"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 8.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "saddlebasepart2",
+					"from": [ 0.0, -0.5, 8.0 ],
+					"to": [ 8.0, 0.8, 9.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"faces": {
+						"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 8.5 ], "rotation": 90 },
+						"east": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.25, 1.75 ] },
+						"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 8.5 ], "rotation": 90 },
+						"west": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.75, 1.75 ] },
+						"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 9.0 ], "rotation": 90 },
+						"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 8.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "saddlebaserear",
+					"from": [ 6.9, -0.51, 0.0 ],
+					"to": [ 7.9, 0.79, 8.0 ],
+					"rotationOrigin": [ 7.0, 1.0, 4.0 ],
+					"faces": {
+						"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 2.0 ], "rotation": 90 },
+						"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 8.5 ], "rotation": 90 },
+						"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 1.5 ], "rotation": 90 },
+						"west": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 8.5 ], "rotation": 90 },
+						"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.75, 9.5, 8.75 ] },
+						"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 8.5 ] }
+					}
+				},
+				{
+					"name": "saddlebase1",
+					"from": [ 1.0, 0.6, 0.2 ],
+					"to": [ 7.2, 1.6, 7.8 ],
+					"rotationOrigin": [ 1.0, 1.0, 5.0 ],
+					"faces": {
+						"north": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 6.5 ], "rotation": 90 },
+						"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 8.0 ], "rotation": 90 },
+						"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 6.5 ], "rotation": 90 },
+						"west": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 8.0 ], "rotation": 90 },
+						"up": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.75, 2.75 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#ostrichsaddle", "uv": [ 1.5, 0.75, 7.5, 8.25 ] }
+					}
+				},
+				{
+					"name": "saddleseat1",
+					"from": [ 5.0, 1.5, 1.0 ],
+					"to": [ 7.0, 2.5, 7.0 ],
+					"rotationOrigin": [ 5.0, 2.0, 4.0 ],
+					"rotationZ": 10.0,
+					"faces": {
+						"north": { "texture": "#ostrichsaddle", "uv": [ 1.0, 10.75, 3.0, 11.75 ] },
+						"east": { "texture": "#ostrichsaddle", "uv": [ 1.0, 10.75, 7.0, 11.75 ] },
+						"south": { "texture": "#ostrichsaddle", "uv": [ 0.75, 10.75, 2.75, 11.75 ] },
+						"west": { "texture": "#ostrichsaddle", "uv": [ 0.75, 10.75, 6.75, 11.75 ] },
+						"up": { "texture": "#ostrichsaddle", "uv": [ 1.5, 10.25, 7.25, 12.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#ostrichsaddle", "uv": [ 1.75, 10.75, 7.0, 11.5 ], "rotation": 90, "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "saddleseatedge1",
+							"from": [ -1.0, 0.2, -0.6 ],
+							"to": [ 2.0, 1.1, 0.6 ],
+							"rotationOrigin": [ -1.0, 0.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 9.0, 2.0, 9.5, 5.0 ], "rotation": 90 },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 8.25, 1.5, 9.25, 2.25 ] },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.5, 9.0, 4.5 ], "rotation": 90 },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.75, 9.5, 1.5 ] },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 4.0 ], "rotation": 90 },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 3.5 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "saddleseatedge2",
+							"from": [ -1.0, 0.2, 5.4 ],
+							"to": [ 2.0, 1.1, 6.6 ],
+							"rotationOrigin": [ -1.0, 0.0, 6.0 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 9.0, 2.0, 9.5, 5.0 ], "rotation": 90 },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 8.25, 1.5, 9.25, 2.25 ] },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.5, 9.0, 4.5 ], "rotation": 90 },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.75, 9.5, 1.5 ] },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 4.0 ], "rotation": 90 },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 3.5 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "saddleseat2",
+							"from": [ 2.0, 0.0, 0.2 ],
+							"to": [ 4.0, 1.0, 5.7 ],
+							"rotationOrigin": [ 2.0, 0.5, 4.0 ],
+							"rotationZ": 10.0,
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 1.0, 10.75, 3.0, 11.75 ] },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 1.0, 10.75, 6.5, 11.75 ] },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 0.75, 10.75, 2.75, 11.75 ] },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 0.75, 10.75, 6.25, 11.75 ] },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 1.5, 10.25, 7.25, 12.0 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 1.75, 10.75, 7.0, 11.5 ], "rotation": 90, "autoUv": false }
+							}
+						},
+						{
+							"name": "saddleseat3",
+							"from": [ 4.0, 0.5, 0.5 ],
+							"to": [ 6.0, 1.5, 5.5 ],
+							"rotationOrigin": [ 4.0, 0.5, 4.0 ],
+							"rotationZ": 22.5,
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 1.0, 10.75, 3.0, 11.75 ] },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 1.0, 10.75, 6.0, 11.75 ] },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 0.75, 10.75, 2.75, 11.75 ] },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 0.75, 10.75, 5.75, 11.75 ] },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 1.5, 10.25, 7.25, 12.0 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 1.75, 10.75, 7.0, 11.5 ], "rotation": 90, "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "saddleseatedge3",
+									"from": [ -2.0, 0.2, -1.0 ],
+									"to": [ 2.0, 1.2, 0.0 ],
+									"rotationOrigin": [ -2.0, 0.7, -0.5 ],
+									"rotationY": -5.0,
+									"faces": {
+										"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 5.0 ], "rotation": 90 },
+										"east": { "texture": "#ostrichsaddle", "uv": [ 8.75, 1.75, 9.75, 2.75 ] },
+										"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 4.5 ], "rotation": 90 },
+										"west": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.75, 1.5 ] },
+										"up": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 4.5 ], "rotation": 90 },
+										"down": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 4.5 ], "rotation": 90 }
+									}
+								},
+								{
+									"name": "saddleseatedge4",
+									"from": [ -2.0, 0.2, 5.0 ],
+									"to": [ 2.0, 1.2, 6.0 ],
+									"rotationOrigin": [ -2.0, 0.7, 5.5 ],
+									"rotationY": 5.0,
+									"faces": {
+										"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 5.0 ], "rotation": 90 },
+										"east": { "texture": "#ostrichsaddle", "uv": [ 8.75, 1.75, 9.75, 2.75 ] },
+										"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 4.5 ], "rotation": 90 },
+										"west": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.75, 1.5 ] },
+										"up": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 4.5 ], "rotation": 90 },
+										"down": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 4.5 ], "rotation": 90 }
+									}
+								}
+							]
+						},
+						{
+							"name": "saddleseat4",
+							"from": [ 5.8, 1.5, 1.0 ],
+							"to": [ 7.8, 2.5, 5.0 ],
+							"rotationOrigin": [ 6.0, 1.5, 4.0 ],
+							"rotationZ": 45.0,
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 1.0, 10.75, 3.0, 11.75 ] },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 1.0, 10.75, 5.0, 11.75 ] },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 0.75, 10.75, 2.75, 11.75 ] },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 0.75, 10.75, 4.75, 11.75 ] },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 1.5, 10.25, 7.25, 12.0 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 1.75, 10.75, 7.0, 11.5 ], "rotation": 90, "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "saddleseat5",
+									"from": [ 2.0, 0.0, -0.5 ],
+									"to": [ 3.0, 1.0, 4.5 ],
+									"rotationOrigin": [ 3.0, 0.0, 2.0 ],
+									"faces": {
+										"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 2.0 ] },
+										"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 6.0 ], "rotation": 90 },
+										"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 1.5 ] },
+										"west": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 5.5 ], "rotation": 90 },
+										"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 6.0 ] },
+										"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.75, 9.5, 5.75 ] }
+									}
+								},
+								{
+									"name": "saddleseatedge5",
+									"from": [ 0.0, -0.1, -0.9 ],
+									"to": [ 2.0, 1.1, 0.1 ],
+									"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 3.0 ], "rotation": 90 },
+										"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 2.0 ], "rotation": 90 },
+										"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 2.5 ], "rotation": 90 },
+										"west": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 1.5 ], "rotation": 90 },
+										"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 3.0 ], "rotation": 90 },
+										"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 3.0 ], "rotation": 90 }
+									}
+								},
+								{
+									"name": "saddleseatedge6",
+									"from": [ 0.0, -0.1, 4.0 ],
+									"to": [ 2.0, 1.1, 5.0 ],
+									"rotationOrigin": [ 1.0, 0.0, 5.0 ],
+									"faces": {
+										"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 3.0 ], "rotation": 90 },
+										"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 2.0 ], "rotation": 90 },
+										"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 2.5 ], "rotation": 90 },
+										"west": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 1.5 ], "rotation": 90 },
+										"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 3.0 ], "rotation": 90 },
+										"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 3.0 ], "rotation": 90 }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "saddleseatbaseback1",
+					"from": [ 0.0, 1.51, 1.2 ],
+					"to": [ 6.0, 2.51, 6.8 ],
+					"rotationOrigin": [ 0.0, 2.0, 4.0 ],
+					"faces": {
+						"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 6.5 ], "rotation": 90 },
+						"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 6.0 ], "rotation": 90 },
+						"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 6.5 ], "rotation": 90 },
+						"west": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 6.0 ], "rotation": 90 },
+						"up": { "texture": "#ostrichsaddle", "uv": [ 0.25, 10.25, 1.75, 12.0 ], "autoUv": false },
+						"down": { "texture": "#ostrichsaddle", "uv": [ 1.5, 0.75, 7.5, 6.25 ] }
+					}
+				},
+				{
+					"name": "saddlestrap1bottom",
+					"from": [ 0.1, -9.5, -0.8 ],
+					"to": [ 1.1, -8.9, 8.8 ],
+					"rotationOrigin": [ 0.0, -9.0, 4.0 ],
+					"rotationZ": -5.0,
+					"faces": {
+						"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.0, 1.5 ], "rotation": 90 },
+						"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.0, 10.0 ], "rotation": 90 },
+						"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.0, 1.5 ], "rotation": 90 },
+						"west": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 9.5, 10.0 ], "rotation": 90 },
+						"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.75, 9.5, 10.25 ] },
+						"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 10.0 ] }
+					},
+					"children": [
+						{
+							"name": "saddlestrap1right",
+							"from": [ -0.0019, 0.3436, -0.2 ],
+							"to": [ 0.9981, 9.1436, 0.4 ],
+							"rotationOrigin": [ 0.3981, 0.5436, 0.8 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.25, 9.5, 9.0 ] },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.0, 9.25 ] },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 9.25 ] },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.25, 9.25 ] },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.75, 9.5, 1.25 ] },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 1.0 ] }
+							}
+						},
+						{
+							"name": "saddlestrap1left",
+							"from": [ -0.0019, 0.3436, 9.2 ],
+							"to": [ 0.9981, 9.1436, 9.8 ],
+							"rotationOrigin": [ 0.3981, 0.5436, 9.8 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.25, 9.5, 9.0 ] },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.0, 9.25 ] },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 9.25 ] },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.25, 9.25 ] },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.75, 9.5, 1.25 ] },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 1.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "saddlestrap2bottom",
+					"from": [ -7.9, -7.5, 0.2 ],
+					"to": [ -6.9, -6.9, 8.0 ],
+					"rotationOrigin": [ -8.0, -7.0, 5.0 ],
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.0, 1.5 ], "rotation": 90 },
+						"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.0, 8.0 ], "rotation": 90 },
+						"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.0, 1.5 ], "rotation": 90 },
+						"west": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 9.5, 8.0 ], "rotation": 90 },
+						"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.75, 9.5, 8.5 ] },
+						"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 8.25 ] }
+					},
+					"children": [
+						{
+							"name": "saddlestrap2right",
+							"from": [ -0.0019, 0.3436, -0.2 ],
+							"to": [ 0.9981, 9.1436, 0.4 ],
+							"rotationOrigin": [ 0.3981, 0.5436, 0.8 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.25, 9.5, 9.0 ] },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.0, 9.25 ] },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 9.25 ] },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.25, 9.25 ] },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.75, 9.5, 1.25 ] },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 1.0 ] }
+							}
+						},
+						{
+							"name": "saddlestrap2left",
+							"from": [ -0.0019, 0.3436, 7.2 ],
+							"to": [ 0.9981, 9.1436, 7.8 ],
+							"rotationOrigin": [ 0.3981, 0.5436, 7.8 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.25, 9.5, 9.0 ] },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.0, 9.25 ] },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 9.25 ] },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.25, 9.25 ] },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.75, 9.5, 1.25 ] },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 1.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "saddlebasefrontlower",
+					"from": [ -4.0, 0.6, 0.5 ],
+					"to": [ 1.0, 1.6, 7.5 ],
+					"rotationOrigin": [ -4.0, 2.0, 4.0 ],
+					"faces": {
+						"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 6.0 ], "rotation": 90 },
+						"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 8.0 ], "rotation": 90 },
+						"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 6.0 ], "rotation": 90 },
+						"west": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 7.5 ], "rotation": 90 },
+						"up": { "texture": "#ostrichsaddle", "uv": [ 0.5, 10.25, 2.0, 12.0 ], "autoUv": false },
+						"down": { "texture": "#ostrichsaddle", "uv": [ 0.0, 0.0, 5.0, 7.0 ] }
+					},
+					"children": [
+						{
+							"name": "saddlehandletop",
+							"from": [ -0.5, 6.0, 1.3 ],
+							"to": [ 0.3, 7.0, 5.9 ],
+							"rotationOrigin": [ 0.0, 2.2, 3.5 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.75, 2.5 ], "autoUv": false },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.75, 2.5 ], "autoUv": false },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.75, 2.75 ], "autoUv": false },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.25, 9.75, 2.25 ], "autoUv": false },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.25, 10.0, 2.25 ], "autoUv": false },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 10.0, 2.5 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "saddlehandleright",
+									"from": [ -0.09, -4.95, -1.5 ],
+									"to": [ 0.91, -0.45, -0.3 ],
+									"rotationOrigin": [ 0.61, -5.35, -1.8 ],
+									"faces": {
+										"north": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.75, 2.5 ], "autoUv": false },
+										"east": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.75, 2.5 ], "autoUv": false },
+										"south": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.75, 2.75 ], "autoUv": false },
+										"west": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.25, 9.75, 2.25 ], "autoUv": false },
+										"up": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.25, 9.75, 2.25 ], "autoUv": false },
+										"down": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.5, 2.5 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "saddlehandleright2",
+											"from": [ 0.1, 4.2, -1.2 ],
+											"to": [ 0.9, 5.2, 0.8 ],
+											"rotationOrigin": [ 0.5, 4.5, 0.5 ],
+											"rotationX": 135.0,
+											"faces": {
+												"north": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.25, 9.5, 1.25 ] },
+												"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 2.5 ], "rotation": 90 },
+												"south": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.5, 1.5 ] },
+												"west": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 2.5 ], "rotation": 90 },
+												"up": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.25, 9.5, 2.25 ] },
+												"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.25, 9.25, 2.25 ] }
+											}
+										}
+									]
+								},
+								{
+									"name": "saddlehandleleft",
+									"from": [ -0.09, -4.95, 4.7 ],
+									"to": [ 0.91, -0.45, 5.9 ],
+									"rotationOrigin": [ 0.61, -4.35, 5.2 ],
+									"faces": {
+										"north": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.75, 2.5 ], "autoUv": false },
+										"east": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.75, 2.5 ], "autoUv": false },
+										"south": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.75, 2.75 ], "autoUv": false },
+										"west": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.25, 9.75, 2.25 ], "autoUv": false },
+										"up": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.25, 9.75, 2.25 ], "autoUv": false },
+										"down": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.5, 2.5 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "saddlehandleleft2",
+											"from": [ 0.1, 4.0, -1.0 ],
+											"to": [ 0.9, 5.0, 1.0 ],
+											"rotationOrigin": [ 0.5, 4.5, 0.5 ],
+											"rotationX": 50.0,
+											"faces": {
+												"north": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.25, 9.5, 1.25 ] },
+												"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 2.5 ], "rotation": 90 },
+												"south": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.5, 1.5 ] },
+												"west": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 2.5 ], "rotation": 90 },
+												"up": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.25, 9.5, 2.25 ] },
+												"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.25, 9.25, 2.25 ] }
+											}
+										}
+									]
+								},
+								{
+									"name": "saddlehandlemiddle",
+									"from": [ 0.1, -3.0, -0.3 ],
+									"to": [ 0.8, -2.2, 4.7 ],
+									"rotationOrigin": [ 0.21, -3.1, 1.2 ],
+									"faces": {
+										"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.75, 2.5 ], "autoUv": false },
+										"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.75, 2.5 ], "autoUv": false },
+										"south": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.75, 2.75 ], "autoUv": false },
+										"west": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.25, 9.75, 2.25 ], "autoUv": false },
+										"up": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.25, 10.0, 2.25 ], "autoUv": false },
+										"down": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 10.0, 2.5 ], "autoUv": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "saddlesidefrontright",
+							"from": [ -1.0, -0.3, -1.0 ],
+							"to": [ 5.0, 1.0, 0.0 ],
+							"rotationOrigin": [ -1.0, 0.2, -0.5 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 6.5 ], "rotation": 90 },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.25, 1.75 ] },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 6.5 ], "rotation": 90 },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.75, 1.75 ] },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 7.0 ], "rotation": 90 },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 6.5 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "saddlesidefrontleft",
+							"from": [ -1.0, -0.3, 7.0 ],
+							"to": [ 5.0, 1.0, 8.0 ],
+							"rotationOrigin": [ -1.0, 0.2, 7.5 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 6.5 ], "rotation": 90 },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 9.25, 1.75 ] },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 6.5 ], "rotation": 90 },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 8.75, 0.5, 9.75, 1.75 ] },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 8.5, 1.0, 9.5, 7.0 ], "rotation": 90 },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 6.5 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "saddlehandlebase",
+							"from": [ -1.0, 0.2, 0.0 ],
+							"to": [ 1.0, 1.5, 7.0 ],
+							"rotationOrigin": [ -1.0, 1.2, 3.5 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 2.5 ], "rotation": 90 },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 7.5 ], "rotation": 90 },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 2.5 ], "rotation": 90 },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 8.5, 0.5, 9.5, 7.5 ], "rotation": 90 },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.75, 10.0, 7.75 ], "autoUv": false },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 8.25, 0.5, 10.0, 7.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "saddleupperfront",
+							"from": [ 0.0, 1.0, 1.0 ],
+							"to": [ 4.0, 2.0, 6.0 ],
+							"rotationOrigin": [ 0.0, 1.2, 4.5 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 9.0, 1.0, 10.0, 5.0 ], "rotation": 90 },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 9.0, 0.5, 10.0, 5.5 ], "rotation": 90 },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 9.0, 1.0, 10.0, 5.0 ], "rotation": 90 },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 9.0, 1.0, 10.0, 6.0 ], "rotation": 90 },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 0.25, 10.25, 2.0, 12.0 ], "autoUv": false },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 0.75, 10.5, 2.5, 11.75 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "storage",
+					"from": [ 7.0, 1.0, 1.0 ],
+					"to": [ 10.0, 2.5, 7.0 ],
+					"rotationOrigin": [ 7.0, 1.0, 4.0 ],
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#ostrichsaddle", "uv": [ 10.0, 0.0, 12.25, 1.75 ], "autoUv": false },
+						"east": { "texture": "#ostrichsaddle", "uv": [ 10.0, 0.0, 12.25, 2.0 ], "autoUv": false },
+						"south": { "texture": "#ostrichsaddle", "uv": [ 10.25, 0.0, 12.25, 2.0 ], "autoUv": false },
+						"west": { "texture": "#ostrichsaddle", "uv": [ 10.0, 0.25, 12.0, 1.75 ], "autoUv": false },
+						"up": { "texture": "#ostrichsaddle", "uv": [ 12.5, 0.25, 15.75, 1.75 ], "rotation": 270, "autoUv": false },
+						"down": { "texture": "#ostrichsaddle", "uv": [ 10.0, 0.25, 12.5, 2.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "storageflap",
+							"from": [ 0.0, 1.4, 0.4 ],
+							"to": [ 2.0, 1.8, 5.6 ],
+							"rotationOrigin": [ 0.0, 2.0, 3.0 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 13.5, 1.5, 15.5, 1.75 ] },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 12.75, 1.5, 15.5, 1.75 ], "autoUv": false },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 13.5, 1.75, 15.5, 2.0 ] },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 12.75, 1.5, 15.25, 1.75 ], "autoUv": false },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 12.5, 0.0, 15.75, 1.75 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 10.75, 0.75, 11.75, 1.25 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "storagelatch",
+							"from": [ 2.0, 1.4, 2.4 ],
+							"to": [ 3.0, 1.8, 3.6 ],
+							"rotationOrigin": [ 2.0, 2.0, 3.0 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 13.5, 1.5, 14.5, 1.75 ] },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 12.75, 1.5, 15.5, 1.75 ], "autoUv": false },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 13.5, 1.75, 14.5, 2.0 ] },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 12.75, 1.5, 15.25, 1.75 ], "autoUv": false },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 12.5, 0.25, 15.75, 2.0 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 10.75, 0.75, 11.75, 1.25 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "storagelatch2",
+							"from": [ 3.0, 0.0, 2.4 ],
+							"to": [ 3.5, 1.7, 3.6 ],
+							"rotationOrigin": [ 3.0, 1.0, 3.0 ],
+							"faces": {
+								"north": { "texture": "#ostrichsaddle", "uv": [ 13.5, 1.75, 15.0, 2.0 ], "rotation": 90, "autoUv": false },
+								"east": { "texture": "#ostrichsaddle", "uv": [ 10.25, 0.25, 12.25, 1.75 ], "autoUv": false },
+								"south": { "texture": "#ostrichsaddle", "uv": [ 13.5, 1.75, 14.5, 2.0 ], "rotation": 90, "autoUv": false },
+								"west": { "texture": "#ostrichsaddle", "uv": [ 12.75, 1.5, 15.25, 1.75 ], "autoUv": false },
+								"up": { "texture": "#ostrichsaddle", "uv": [ 13.25, 1.75, 15.0, 2.0 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#ostrichsaddle", "uv": [ 13.75, 1.75, 15.0, 1.75 ], "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

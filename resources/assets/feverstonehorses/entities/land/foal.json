@@ -1,9 +1,15 @@
 {
     "code": "foal",
-    "class": "EntityPet",
+    "class": "EntityAgent",
     "variantgroups": [
-        { "code": "type", "states": ["draft", "arabian", "donkey"] }
+        { "code": "tame", "states": ["wild", "tamed"] },
+        { "code": "type", "states": ["draft", "arabian", "donkey", "shire", "quarter" ] }
     ],
+    "enabledByType": {
+        "*-shire": true,
+        "*-quarter": true,
+        "*": false
+    },
     "hitboxSize": { "x": 0.7, "y": 1.0 },
     "deadHitboxSize": { "x": 1.0, "y": 0.4 },
     "eyeHeight": 0.9,
@@ -15,7 +21,7 @@
             "skipFoodTags": [ "rice", "amaranth", "sunflower" ]
         },
         "handbook": {
-			"groupcode": "feverstonehorses:creaturegroup-horse"
+			"groupcode": "feverstonehorses:creaturegroup-fswhorse"
 		}
     },
     
@@ -24,22 +30,29 @@
         "shapeByType": {
             "*-draft": { "base": "entity/land/horse-draft" },
             "*-arabian": { "base": "entity/land/horse-arabian" },
-            "*-donkey": { "base": "entity/land/horse-donkey" }
+            "*-donkey": { "base": "entity/land/horse-donkey" },
+            "*-shire": { "base": "entity/land/horse-shire" },
+            "*-quarter": { "base": "entity/land/horse-quarter" }
         },
         "textureByType": {
-            "*-draft": { "base": "entity/horse/horse10",
-                         "alternates": [ { "base": "entity/horse/horse2" }, { "base": "entity/horse/horse3" },
-                            { "base": "entity/horse/horse5" }, { "base": "entity/horse/horse6" }, { "base": "entity/horse/horse7" },
-                            { "base": "entity/horse/horse8" }, { "base": "entity/horse/horse9" }, { "base": "entity/horse/horse1" }, 
-                            { "base": "entity/horse/horse11" }, { "base": "entity/horse/horse12" }, { "base": "entity/horse/horse15" },
-							{ "base": "entity/horse/horse16" }, { "base": "entity/horse/horse18" },	{ "base": "entity/horse/horse20" }
+            "*-draft": { "base": "entity/land/horse/horse10",
+                            "alternates": [ { "base": "entity/land/horse/horse2" }, { "base": "entity/land/horse/horse3" },
+                            { "base": "entity/land/horse/horse5" }, { "base": "entity/land/horse/horse6" }, { "base": "entity/land/horse/horse7" },
+                            { "base": "entity/land/horse/horse8" }, { "base": "entity/land/horse/horse9" }, { "base": "entity/land/horse/horse1" }, 
+                            { "base": "entity/land/horse/horse11" }, { "base": "entity/land/horse/horse12" }, { "base": "entity/land/horse/horse15" },
+							{ "base": "entity/land/horse/horse16" }, { "base": "entity/land/horse/horse18" },	{ "base": "entity/land/horse/horse20" }
                           ] },
-            "*-arabian": { "base": "entity/horse/horse14", 
-                           "alternates": [ { "base": "entity/horse/horse4" }, { "base": "entity/horse/horse13" },
-                            { "base": "entity/horse/horse17" }, { "base": "entity/horse/horse19" } ] },
-            "*-donkey": { "base": "entity/donkey/donkeyskin1", 
-                          "alternates": [ { "base": "entity/donkey/donkeyskin2" }, { "base": "entity/donkey/donkeyskin3" },
-             { "base": "entity/donkey/donkeyskin4" }, { "base": "entity/donkey/donkeyskin5" }, { "base": "entity/donkey/donkeyskin6" } ] },
+            "*-arabian": { "base": "entity/land/horse/horse14", 
+                            "alternates": [ { "base": "entity/land/horse/horse4" }, { "base": "entity/land/horse/horse13" },
+                            { "base": "entity/land/horse/horse17" }, { "base": "entity/land/horse/horse19" } ] },
+            "*-donkey": { "base": "entity/land/donkey/donkeyskin1",
+                            "alternates": [ { "base": "entity/land/donkey/donkeyskin2" }, { "base": "entity/land/donkey/donkeyskin3" },
+                            { "base": "entity/land/donkey/donkeyskin4" }, { "base": "entity/land/donkey/donkeyskin5" }, 
+                            { "base": "entity/land/donkey/donkeyskin6" } ] },
+            "*-shire": { "skin": { "base": "entity/land/horse/horseskin8" }, "mane": { "base": "entity/land/horse/horsemane1" },
+                            "alternates": [ { "skin": { "base":"entity/land/horse/horseskin*" } }, { "mane": { "base": "entity/land/horse/horsemane*" } } ] },
+            "*-quarter": { "skin": { "base": "entity/land/horse/horseskin1" }, "mane": { "base": "entity/land/horse/horsemane2" },
+                            "alternates": [ { "skin": { "base":"entity/land/horse/horseskin*" } }, { "mane": { "base": "entity/land/horse/horsemane*" } } ] },
 
             "__comment": "More horse breeds to come!"
             
@@ -47,7 +60,9 @@
         "sizeByType": {
             "foal-draft": 0.6,
             "foal-arabian": 0.55,
-            "foal-donkey": 0.52
+            "foal-donkey": 0.52,
+            "foal-shire": 0.58,
+            "foal-quarter": 0.56
         },
         "behaviors": [
             { "code": "nametag", "showtagonlywhentargeted": true },
@@ -230,12 +245,15 @@
                 ]
             },
 			{ "code": "grow", "hoursToGrow": 178,
-				"adultEntityCodesByType": { "*-draft": ["feverstonehorses:horse-male-draft", "feverstonehorses:horse-female-draft"],
-                                            "*-arabian": ["feverstonehorses:horse-male-arabian", "feverstonehorses:horse-female-arabian"],
-                                            "*-donkey": [ "feverstonehorses:horse-male-donkey", "feverstonehorses:horse-female-donkey" ] }
+				"adultEntityCodesByType": { "*-draft": ["feverstonehorses:horse-{tame}-male-draft", "feverstonehorses:horse-{tame}-female-draft"],
+                                            "*-arabian": ["feverstonehorses:horse-{tame}-male-arabian", "feverstonehorses:horse-{tame}-female-arabian"],
+                                            "*-donkey": [ "feverstonehorses:horse-{tame}-male-donkey", "feverstonehorses:horse-{tame}-female-donkey" ],
+                                            "*-shire": [ "feverstonehorses:horse-{tame}-male-shire", "feverstonehorses:horse-{tame}-female-shire" ],
+                                            "*-quarter": [ "feverstonehorses:horse-{tame}-male-quarter", "feverstonehorses:horse-{tame}-female-quarter" ]  }
 			},
             {
                 "code": "taskai",
+                "aiCreatureType": "LandCreature",
                 "aitasks": [
                     {
                         "code": "fleeentity",
@@ -251,9 +269,11 @@
                         "code": "stayclosetoentity",
                         "priority": 1.3,
                         "entityCodesByType":{
-                            "*-draft": [ "feverstonehorses:horse-male-draft", "feverstonehorses:horse-female-draft" ],
-                            "*-arabian": [ "feverstonehorses:horse-male-arabian", "feverstonehorses:horse-female-arabian" ],
-                            "*-donkey": [ "feverstonehorses:horse-male-donkey", "feverstonehorses:horse-female-donkey" ]
+                            "*-draft": [ "feverstonehorses:horse-{tame}-male-draft", "feverstonehorses:horse-{tame}-female-draft" ],
+                            "*-arabian": [ "feverstonehorses:horse-{tame}-male-arabian", "feverstonehorses:horse-{tame}-female-arabian" ],
+                            "*-donkey": [ "feverstonehorses:horse-{tame}-male-donkey", "feverstonehorses:horse-{tame}-female-donkey" ],
+                            "*-shire": [ "feverstonehorses:horse-{tame}-male-shire", "feverstonehorses:horse-{tame}-female-shire" ],
+                            "*-quarter": [ "feverstonehorses:horse-{tame}-male-quarter", "feverstonehorses:horse-{tame}-female-quarter" ]
                         },
                         "maxDistance": 12,
                         "searchRange": 30,
@@ -358,7 +378,7 @@
                 ]
             },
             { "code": "ropetieable", "minGeneration": 2 },
-            { "code": "pettableextended", "minGeneration": 1 }
+            { "code": "pettable", "minGeneration": 1 }
         ]
     },
     "sounds": {
@@ -366,5 +386,5 @@
         "death": "feverstonehorses:horse/horsedamage",
         "idle": "feverstonehorses:horse/neigh"
     },
-    "idleSoundChance": 0
+    "idleSoundChance": 0.002
 }
