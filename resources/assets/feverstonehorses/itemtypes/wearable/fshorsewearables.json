@@ -17,7 +17,7 @@
 		"fshorsewearables-percheron-middlebackupper-saddle", "fshorsewearables-arabian-middlebackupper-saddle", "fshorsewearables-donkey-middlebackupper-saddle",
 		"fshorsewearables-shire-middlebackupper-saddle", "fshorsewearables-quarter-middlebackupper-saddle",
 		"fshorsewearables-percheron-lowerbackside-saddlebags", "fshorsewearables-arabian-lowerbackside-saddlebags", "fshorsewearables-donkey-lowerbackside-saddlebags",
-		"fshorsewearables-shire-lowerbackside-saddlebags", "fshorsewearables-quarter-middlebackupper-saddle"
+		"fshorsewearables-shire-lowerbackside-saddlebags", "fshorsewearables-quarter-lowerbackside-saddlebags"
 	],
 	"attributes": {
 		"attachableToEntity": {

@@ -1,6 +1,5 @@
 {
 	"editor": {
-		"backDropShape": "entity/horsetest",
 		"collapsedPaths": ",Root/Root/Saddle/seatR,Root/Root/Saddle/R_fender,Root/Saddle/R_curb/Cube30,Root/Saddle/R_fender/R_strap,Root/Saddle/L_curb/Cube25,Root/Saddle/straps,Root/Saddle/straps/L_strap1/Ring1,Root/Saddle/Cube32,Root/Saddle/L_fender/Cube2,Root/Saddle/L_fender/L_Srap,Root/Root/Saddle/L_fender,Root/Saddle/straps/R_strap_,Root/Root/Saddle/L_saddlebag,Root/Saddle/L_fender/Stitching,Root/Saddle/R_fender,Root/Saddle/L_fender/L_Strap,Root/Saddle/L_curb/Stiching4,Root/Root/Saddle/L_Cube65,Root/Saddle/L_curb/Stiching3,Root/Root/Saddle/straps/R_strap2,Root/Saddle/R_fender/Stitching2,Root,Root/Saddle/L_fender/Stitching2,Root/Root/Saddle/L_fender/L_Stirrup,Root/Saddle/R_curb,Root/Saddle/L_fender/L_Stirrup,Root/Saddle/R_fender/R_side4,Root/Root/Saddle/Blanket,Root/Saddle/R_curb/Stitching6,Root/Root/Saddle/straps/L_strap2,Root/Root/Saddle/straps/R_strap_,Root/Saddle/Pomel,Root/Root/Saddle/straps/L_strap1,Root/Saddle/straps/L_strap2,Root/Root/Saddle/Pomel,Root/Saddle/Stitching8,Root/Root/Saddle/R_fender/R_side4,Root/Root/Saddle,Root/Saddle/straps/R_strap2,Root/Root/Saddle/R_saddlebag",
 		"allAngles": false,
 		"entityTextureMode": false
@@ -1702,7 +1701,4 @@
 				}
 			]
 		}
-	],
-	"animations": [
-	]
-}
+	]}
