@@ -67,11 +67,40 @@
 		"clothing": [ "*" ]
 	},
 	"guiTransformByType": {
-		"*-saddle": {
+		"*-quarter-*-saddle": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -21, "y": -50, "z": 180 },
+			"origin": { "x": -0.2, "y": 0.5, "z": 0.5 },
+			"scale": 1.25
+		},
+		"*-shire-*-saddle": {
 			"translation": { "x": 0, "y": 0, "z": 0 },
 			"rotation": { "x": -21, "y": -50, "z": 180 },
 			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
-			"scale": 0.9
+			"scale": 1.10
+		},
+		"*-shire-*-bridle": {
+			"translation": { "x": 3, "y": 0, "z": 0 },
+			"rotation": { "x": 59, "y": -128, "z": -38 },
+			"origin": { "x": 0.2, "y": 0.8, "z": 0.1 },
+			"scale": 1.25
+		},
+		"*-quarter-*-bridle": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 26, "y": -150, "z": 0 },
+			"origin": { "x": 0, "y": -0.5, "z": 1 },
+			"scale": 1.15
+		},
+		"*-shire-*-saddlebags": {
+			"translation": { "x": 1, "y": 1, "z": 0 },
+			"rotation": { "x": 0, "y": -15, "z": -150 },
+			"origin": { "x": 0.4, "y": 0.45, "z": 0 },
+			"scale": 1.87
+		},
+		"*-quarter-*-saddlebags": {
+			"rotation": { "x": -7, "y": -24, "z": -167 },
+			"origin": { "x": 0.36, "y": 0.4, "z": 0 },
+			"scale": 1.9
 		}
 	},
 	"groundTransform": {
@@ -81,9 +110,16 @@
 		"translation": { "x": -0.3, "y": 0.2, "z": 0 },
 		"rotation": { "x": -180, "y": -113, "z": 171 }
 	},
-	"tpHandTransform": {
-		"translation": { "x": -1, "y": -0.75, "z": -1.25 },
-		"rotation": { "x": 90, "y": 0, "z": -156 },
-		"scale": 0.45
+	"tpHandTransformByType": {
+		"*-shire-*-bridle": {
+			"translation": { "x": -0.45, "y": -0.95, "z": -0.75 },
+			"rotation": { "x": 90, "y": -90, "z": 125 },
+			"scale": 0.6
+		},
+		"*-quarter-*-bridle": {
+			"translation": { "x": -1, "y": -0.6, "z": -1.65 },
+			"rotation": { "x": 90, "y": 0, "z": -156 },
+			"scale": 0.55
+		}
 	}
 }

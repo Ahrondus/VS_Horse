@@ -245,11 +245,17 @@
                 ]
             },
 			{ "code": "grow", "hoursToGrow": 178,
-				"adultEntityCodesByType": { "*-percheron": ["feverstonehorses:horse-{tame}-male-percheron", "feverstonehorses:horse-{tame}-female-percheron"],
-                                            "*-arabian": ["feverstonehorses:horse-{tame}-male-arabian", "feverstonehorses:horse-{tame}-female-arabian"],
-                                            "*-donkey": [ "feverstonehorses:horse-{tame}-male-donkey", "feverstonehorses:horse-{tame}-female-donkey" ],
-                                            "*-shire": [ "feverstonehorses:horse-{tame}-male-shire", "feverstonehorses:horse-{tame}-female-shire" ],
-                                            "*-quarter": [ "feverstonehorses:horse-{tame}-male-quarter", "feverstonehorses:horse-{tame}-female-quarter" ]  }
+                "orPortionsEatenForGrowing": 16,
+				"fedAdultEntityCodesByType": { "*-percheron": ["feverstonehorses:taminghorse-male-percheron", "feverstonehorses:taminghorse-female-percheron"],
+                                            "*-arabian": ["feverstonehorses:taminghorse-male-arabian", "feverstonehorses:taminghorse-female-arabian"],
+                                            "*-donkey": [ "feverstonehorses:taminghorse-male-donkey", "feverstonehorses:taminghorse-female-donkey" ],
+                                            "*-shire": [ "feverstonehorses:taminghorse-male-shire", "feverstonehorses:taminghorse-female-shire" ],
+                                            "*-quarter": [ "feverstonehorses:taminghorse-male-quarter", "feverstonehorses:taminghorse-female-quarter" ]  },
+				"adultEntityCodesByType": { "*-percheron": ["feverstonehorses:horse-wild-male-percheron", "feverstonehorses:horse-wild-female-percheron"],
+                                            "*-arabian": ["feverstonehorses:horse-wild-male-arabian", "feverstonehorses:horse-wild-female-arabian"],
+                                            "*-donkey": [ "feverstonehorses:horse-wild-male-donkey", "feverstonehorses:horse-wild-female-donkey" ],
+                                            "*-shire": [ "feverstonehorses:horse-wild-male-shire", "feverstonehorses:horse-wild-female-shire" ],
+                                            "*-quarter": [ "feverstonehorses:horse-wild-male-quarter", "feverstonehorses:horse-wild-female-quarter" ]  }
 			},
             {
                 "code": "taskai",

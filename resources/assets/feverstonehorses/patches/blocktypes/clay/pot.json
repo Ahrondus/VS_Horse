@@ -9,6 +9,6 @@
                 "frontleftsidehorse": { "base": "feverstonehorses:item/equipment/front/cookpotl-horse" }
             },
             
-        "file": "game:blocktypes/clay/pot.json"
+        "file": "game:blocktypes/clay/fired/pot.json"
     }
 ]

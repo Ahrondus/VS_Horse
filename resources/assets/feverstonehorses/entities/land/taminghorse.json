@@ -1,0 +1,70 @@
+{
+	"code": "taminghorse",
+	"tags": ["animal", "huntable", "habitat-land", "semitamed"],
+	"inheritFrom": "entities/land/horse",
+    "allowedVariants": ["taminghorse-wild-male-percheron","taminghorse-wild-female-percheron",
+                        "taminghorse-wild-male-arabian","taminghorse-wild-female-arabian",
+                        "taminghorse-wild-male-donkey","taminghorse-wild-female-donkey",
+                        "taminghorse-wild-male-shire","taminghorse-wild-female-shire",
+                        "taminghorse-wild-male-quarter","taminghorse-wild-female-quarter"],
+	"behaviorConfigs": {
+		"selectionboxes": {
+			"selectionBoxes": ["HeadAP", "MidAP"]
+		},		
+		"rideableaccessories": {
+			"wearableSlots": [
+				{ "code": "head", "forCategoryCodes": ["bridle"], "attachmentPointCode": "HeadAP" }, 
+				{ "code": "middlebackupper", "forCategoryCodes": ["saddle"], "attachmentPointCode": "MidUpperAP" }
+			]
+		},
+		"rideable": {
+			"saddleBreakGait": "sprint",
+			"saddleBreaksRequired": { "avg": 18, "var": 5 }, 
+			"saddleBreakDayInterval": 1,
+			"tamedEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}"
+		}
+	},
+	"client": {
+		"texturesByType": {
+			"*": {
+				"skin": { "base": "game:entity/animal/mammal/hooved/deer/elkalbino-adult" }
+			}
+		},
+		"behaviors": [
+			{ "code": "repulseagents" },
+			{ "code": "controlledphysics" },
+			{ "code": "mortallywoundable" },
+			{ "code": "health" },
+			{ "code": "interpolateposition" },
+			{ "code": "floatupwhenstuck" },
+			{ "code": "harvestable" },
+			{ "code": "selectionboxes" },
+			{ "code": "rideableaccessories" },
+			{ "code": "gait" },
+			{ "code": "rideable" },
+			{ "code": "ropetieable" }
+		]
+	},
+	"server": {
+		"behaviors": [
+			{ "code": "repulseagents" },
+			{ "code": "controlledphysics" },
+			{ "code": "mortallywoundable", "whenBelowHealth": 7 },
+			{ "code": "health" },
+			{ "code": "deaddecay" },
+			{ "code": "floatupwhenstuck" },
+			{ "code": "harvestable" },
+			{ "code": "breathe" },
+			{ "code": "emotionstates" },
+			{ "code": "taskai" },
+			{ "code": "pettable" },
+			{ "code": "selectionboxes" },
+			{ "code": "ownable" },
+			{ "code": "rideableaccessories" },
+			{ "code": "gait" },
+			{ "code": "rideable" },
+			{ "code": "ropetieable" },
+			{ "code": "entitystatetags" }
+		]
+	}
+}

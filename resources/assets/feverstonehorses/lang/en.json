@@ -120,13 +120,39 @@
 	"item-dead-creature-foal-tamed-donkey": "Dead Foal",
 	"itemdesc-creature-foal-tamed-donkey": "A young donkey.",
 
+	"item-creature-taminghorse-wild-male-percheron": "Partially Tamed Male Percheron",
+	"item-creature-taminghorse-wild-male-arabian": "Partially Tamed Male Arabian",
+	"item-creature-taminghorse-wild-male-donkey": "Partially Tamed Male Donkey",
+	"item-creature-taminghorse-wild-male-shire": "Partially Tamed Male Shire",
+	"item-creature-taminghorse-wild-male-quarter": "Partially Tamed Male Quarter-Horse",
+
+	"item-creature-taminghorse-wild-female-percheron": "Partially Tamed Female Percheron",
+	"item-creature-taminghorse-wild-female-arabian": "Partially Tamed Female Arabian",
+	"item-creature-taminghorse-wild-female-donkey": "Partially Tamed Female Donkey",
+	"item-creature-taminghorse-wild-female-shire": "Partially Tamed Female Shire",
+	"item-creature-taminghorse-wild-female-quarter": "Partially Tamed Female Quarter-Horse",
+
 	"item-carrotbundle": "Carrot Bundle",
 	"itemdesc-carrotbundle": "A small bundle of carrots for taming! Horses like these!",
 	
 
 	"item-drygrassbundle": "Dry Grass Bundle",
 	"itemdesc-drygrassbundle": "A bundle of dry grass used for taming. Horses and Bison will eat these!",
- 
+
+	"creature-feverstonehorses:horse-*-selectionbox-HeadAP": "Bridle Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-FaceAP": "Medallion Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-MidUpperAP": "Saddle Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-MidLowerAP": "Blanket Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-RearUpperAP": "Rear Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-RearSideAP": "SaddleBags Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-RFrontAP": "Utility Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-LFrontAP": "Utility Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-TempGear1AP": "Temporal Gear Slot (top)",
+	"creature-feverstonehorses:horse-*-selectionbox-TempGear2AP": "Temporal Gear Slot (middle)",
+	"creature-feverstonehorses:horse-*-selectionbox-TempGear3AP": "Temporal Gear Slot (bottom)",
+
+	"creature-feverstonehorses:taminghorse-*-selectionbox-HeadAP": "Bridle Slot",
+	"creature-feverstonehorses:taminghorse-*-selectionbox-MidUpperAP": "Saddle Slot",
 
 	"item-fshorsewearables-percheron-middlebackupper-saddle": "Percheron Saddle",
 	"itemdesc-fshorsewearables-percheron-middlebackupper-saddle": "A sturdy leather saddle for a Percheron steed.",
