@@ -1,72 +1,189 @@
-{	
-	// Draft
-	"item-creature-horse-male-draft": "Draft Stallion",
-	"item-dead-creature-horse-male-draft": "Dead Stallion",
-	"itemdesc-creature-horse-male-draft": "A reliable and hefty steed.",	
-	
-	"item-creature-horse-female-draft": "Draft Mare",	
-	"item-dead-creature-horse-female-draft": "Dead Mare",
-	"itemdesc-creature-horse-female-draft": "A reliable and hefty steed.",
-	
-	"item-creature-foal-draft": "Draft Foal",
-	"item-dead-creature-foal-draft": "Dead Foal",
-	"itemdesc-creature-foal-draft": "A young draft horse.",
+{
 
-	// Arabian
-	"item-creature-horse-male-arabian": "Arabian Stallion",
-	"item-dead-creature-horse-male-arabian": "Dead Stallion",
-	"itemdesc-creature-horse-male-arabian": "A reliable and swift steed, found in arid climates.",	
-	
-	"item-creature-horse-female-arabian": "Arabian Mare",	
-	"item-dead-creature-horse-female-arabian": "Dead Mare",
-	"itemdesc-creature-horse-female-arabian": "A reliable and swift steed, found in arid climates.",
-	
-	"item-creature-foal-arabian": "Arabian Foal",
-	"item-dead-creature-foal-arabian": "Dead Foal",
-	"itemdesc-creature-foal-arabian": "A young arabian horse.",
+	"item-creature-horse-wild-male-percheron": "Wild Percheron Stallion",
+	"item-dead-creature-horse-wild-male-percheron": "Dead Stallion",
+	"itemdesc-creature-horse-wild-male-percheron": "A reliable and hefty steed.",
 
-	// Donkey
-	"item-creature-horse-male-donkey": "Jack",
-	"item-dead-creature-horse-male-donkey": "Dead Jack",
-	"itemdesc-creature-horse-male-donkey": "A reliable and swift steed, found in arid climates.",	
-	
-	"item-creature-horse-female-donkey": "Jenney",	
-	"item-dead-creature-horse-female-donkey": "Dead Jenney",
-	"itemdesc-creature-horse-female-donkey": "A reliable and swift steed, found in arid climates.",
-	
-	"item-creature-foal-male-donkey": "Male Donkey Foal",
-	"item-dead-creature-foal-male-donkey": "Dead Foal",
-	"itemdesc-creature-foal-male-donkey": "A young male arabian horse.",
-	
-	"item-creature-foal-female-donkey": "Female Donkey Foal",
-	"item-dead-creature-foal-female-donkey": "Dead Foal",
-	"itemdesc-creature-foal-female-donkey": "A young female arabian horse.",
-	
-	// Taming Foods
+	"item-creature-horse-wild-female-percheron": "Wild Percheron Mare",
+	"item-dead-creature-horse-wild-female-percheron": "Dead Mare",
+	"itemdesc-creature-horse-wild-female-percheron": "A reliable and hefty steed.",
+
+	"item-creature-horse-wild-male-arabian": "Wild Arabian Stallion",
+	"item-dead-creature-horse-wild-male-arabian": "Dead Stallion",
+	"itemdesc-creature-horse-wild-male-arabian": "A reliable and swift steed, found in arid climates.",
+
+	"item-creature-horse-wild-female-arabian": "Wild Arabian Mare",
+	"item-dead-creature-horse-wild-female-arabian": "Dead Mare",
+	"itemdesc-creature-horse-wild-female-arabian": "A reliable and swift steed, found in arid climates.",
+
+	"item-creature-horse-wild-male-donkey": "Wild Male Donkey",
+	"item-dead-creature-horse-wild-male-donkey": "Dead Donkey",
+	"itemdesc-creature-horse-wild-male-donkey": "A hardy donkey.",
+
+	"item-creature-horse-wild-female-donkey": "Wild Female Donkey",
+	"item-dead-creature-horse-wild-female-donkey": "Dead Donkey",
+	"itemdesc-creature-horse-wild-female-donkey": "A hardy donkey.",
+
+	"item-creature-horse-wild-male-shire": "Wild Shire Stallion",
+	"item-dead-creature-horse-wild-male-shire": "Dead Stallion",
+	"itemdesc-creature-horse-wild-male-shire": "A large and powerful shire horse.",
+
+	"item-creature-horse-wild-female-shire": "Wild Shire Mare",
+	"item-dead-creature-horse-wild-female-shire": "Dead Mare",
+	"itemdesc-creature-horse-wild-female-shire": "A large and powerful shire horse.",
+
+	"item-creature-horse-wild-male-quarter": "Wild Quarter-Horse Stallion",
+	"item-dead-creature-horse-wild-male-quarter": "Dead Stallion",
+	"itemdesc-creature-horse-wild-male-quarter": "A reliable and trusty quarter-horse.",
+
+	"item-creature-horse-wild-female-quarter": "Wild Quarter-Horse Mare",
+	"item-dead-creature-horse-wild-female-quarter": "Dead Mare",
+	"itemdesc-creature-horse-wild-female-quarter": "A reliable and trusty quarter-horse.",
+
+	"item-creature-foal-wild-percheron": "Wild Percheron Foal",
+	"item-dead-creature-foal-wild-percheron": "Dead Foal",
+	"itemdesc-creature-foal-wild-percheron": "A young Percheron horse.",
+
+	"item-creature-foal-wild-arabian": "Wild Arabian Foal",
+	"item-dead-creature-foal-wild-arabian": "Dead Foal",
+	"itemdesc-creature-foal-wild-arabian": "A young arabian horse.",
+
+	"item-creature-foal-wild-shire": "Wild Shire Foal",
+	"item-dead-creature-foal-wild-shire": "Dead Foal",
+	"itemdesc-creature-foal-wild-shire": "A young shire horse.",
+
+	"item-creature-foal-wild-quarter": "Wild Quarter-Horse Foal",
+	"item-dead-creature-foal-wild-quarter": "Dead Foal",
+	"itemdesc-creature-foal-wild-quarter": "A young quarter-horse.",
+
+	"item-creature-foal-wild-donkey": "Wild Donkey Foal",
+	"item-dead-creature-foal-wild-donkey": "Dead Foal",
+	"itemdesc-creature-foal-wild-donkey": "A young donkey.",
+
+	"item-creature-horse-tamed-male-percheron": "Tamed Percheron Stallion",
+	"item-dead-creature-horse-tamed-male-percheron": "Dead Stallion",
+	"itemdesc-creature-horse-tamed-male-percheron": "A reliable and hefty steed.",
+
+	"item-creature-horse-tamed-female-percheron": "Tamed Percheron Mare",
+	"item-dead-creature-horse-tamed-female-percheron": "Dead Mare",
+	"itemdesc-creature-horse-tamed-female-percheron": "A reliable and hefty steed.",
+
+	"item-creature-horse-tamed-male-arabian": "Tamed Arabian Stallion",
+	"item-dead-creature-horse-tamed-male-arabian": "Dead Stallion",
+	"itemdesc-creature-horse-tamed-male-arabian": "A reliable and swift steed, found in arid climates.",
+
+	"item-creature-horse-tamed-female-arabian": "Tamed Arabian Mare",
+	"item-dead-creature-horse-tamed-female-arabian": "Dead Mare",
+	"itemdesc-creature-horse-tamed-female-arabian": "A reliable and swift steed, found in arid climates.",
+
+	"item-creature-horse-tamed-male-donkey": "Tamed Male Donkey",
+	"item-dead-creature-horse-tamed-male-donkey": "Dead Donkey",
+	"itemdesc-creature-horse-tamed-male-donkey": "A hardy donkey.",
+
+	"item-creature-horse-tamed-female-donkey": "Tamed Female Donkey",
+	"item-dead-creature-horse-tamed-female-donkey": "Dead Donkey",
+	"itemdesc-creature-horse-tamed-female-donkey": "A hardy donkey.",
+
+	"item-creature-horse-tamed-male-shire": "Tamed Shire Stallion",
+	"item-dead-creature-horse-tamed-male-shire": "Dead Stallion",
+	"itemdesc-creature-horse-tamed-male-shire": "A large and powerful shire horse.",
+
+	"item-creature-horse-tamed-female-shire": "Tamed Shire Mare",
+	"item-dead-creature-horse-tamed-female-shire": "Dead Mare",
+	"itemdesc-creature-horse-tamed-female-shire": "A large and powerful shire horse.",
+
+	"item-creature-horse-tamed-male-quarter": "Tamed Quarter-Horse Stallion",
+	"item-dead-creature-horse-tamed-male-quarter": "Dead Stallion",
+	"itemdesc-creature-horse-tamed-male-quarter": "A reliable and trusty quarter-horse.",
+
+	"item-creature-horse-tamed-female-quarter": "Tamed Quarter-Horse Mare",
+	"item-dead-creature-horse-tamed-female-quarter": "Dead Mare",
+	"itemdesc-creature-horse-tamed-female-quarter": "A reliable and trusty quarter-horse.",
+
+	"item-creature-foal-tamed-percheron": "Tamed Percheron Foal",
+	"item-dead-creature-foal-tamed-percheron": "Dead Foal",
+	"itemdesc-creature-foal-tamed-percheron": "A young Percheron horse.",
+
+	"item-creature-foal-tamed-arabian": "Tamed Arabian Foal",
+	"item-dead-creature-foal-tamed-arabian": "Dead Foal",
+	"itemdesc-creature-foal-tamed-arabian": "A young arabian horse.",
+
+	"item-creature-foal-tamed-shire": "Tamed Shire Foal",
+	"item-dead-creature-foal-tamed-shire": "Dead Foal",
+	"itemdesc-creature-foal-tamed-shire": "A young shire horse.",
+
+	"item-creature-foal-tamed-quarter": "Tamed Quarter-Horse Foal",
+	"item-dead-creature-foal-tamed-quarter": "Dead Foal",
+	"itemdesc-creature-foal-tamed-quarter": "A young quarter-horse.",
+
+	"item-creature-foal-tamed-donkey": "Tamed Donkey Foal",
+	"item-dead-creature-foal-tamed-donkey": "Dead Foal",
+	"itemdesc-creature-foal-tamed-donkey": "A young donkey.",
+
+	"item-creature-taminghorse-wild-male-percheron": "Partially Tamed Male Percheron",
+	"item-creature-taminghorse-wild-male-arabian": "Partially Tamed Male Arabian",
+	"item-creature-taminghorse-wild-male-donkey": "Partially Tamed Male Donkey",
+	"item-creature-taminghorse-wild-male-shire": "Partially Tamed Male Shire",
+	"item-creature-taminghorse-wild-male-quarter": "Partially Tamed Male Quarter-Horse",
+
+	"item-creature-taminghorse-wild-female-percheron": "Partially Tamed Female Percheron",
+	"item-creature-taminghorse-wild-female-arabian": "Partially Tamed Female Arabian",
+	"item-creature-taminghorse-wild-female-donkey": "Partially Tamed Female Donkey",
+	"item-creature-taminghorse-wild-female-shire": "Partially Tamed Female Shire",
+	"item-creature-taminghorse-wild-female-quarter": "Partially Tamed Female Quarter-Horse",
+
 	"item-carrotbundle": "Carrot Bundle",
 	"itemdesc-carrotbundle": "A small bundle of carrots for taming! Horses like these!",
 	
-	"item-haybundle": "Hay Bundle",
-	"itemdesc-haybundle": "A bundle of dry grass used for taming. Horses will eat these!",
 
-	// Saddles
-	"item-horsesaddle-draft": "Draft Horse Saddle",
-	"itemdesc-horsesaddle-draft": "A sturdy leather saddle for your steed, with saddlebags!",
-	"item-horsesaddle-arabian": "Arabian Horse Saddle",
-	"itemdesc-horsesaddle-arabian": "A sturdy leather saddle for your steed, with saddlebags!",
-	"item-horsesaddle-donkey": "Donkey Horse Saddle",
-	"itemdesc-horsesaddle-donkey": "A sturdy leather saddle for your steed, with saddlebags!",
+	"item-drygrassbundle": "Dry Grass Bundle",
+	"itemdesc-drygrassbundle": "A bundle of dry grass used for taming. Horses and Bison will eat these!",
 
-	// Guide
+	"creature-feverstonehorses:horse-*-selectionbox-HeadAP": "Bridle Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-FaceAP": "Medallion Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-MidUpperAP": "Saddle Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-MidLowerAP": "Blanket Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-RearUpperAP": "Rear Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-RearSideAP": "SaddleBags Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-RFrontAP": "Utility Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-LFrontAP": "Utility Slot",
+	"creature-feverstonehorses:horse-*-selectionbox-TempGear1AP": "Temporal Gear Slot (top)",
+	"creature-feverstonehorses:horse-*-selectionbox-TempGear2AP": "Temporal Gear Slot (middle)",
+	"creature-feverstonehorses:horse-*-selectionbox-TempGear3AP": "Temporal Gear Slot (bottom)",
+
+	"creature-feverstonehorses:taminghorse-*-selectionbox-HeadAP": "Bridle Slot",
+	"creature-feverstonehorses:taminghorse-*-selectionbox-MidUpperAP": "Saddle Slot",
+
+	"item-fshorsewearables-percheron-middlebackupper-saddle": "Percheron Saddle",
+	"itemdesc-fshorsewearables-percheron-middlebackupper-saddle": "A sturdy leather saddle for a Percheron steed.",
+	"item-fshorsewearables-arabian-middlebackupper-saddle": "Arabian Horse Saddle",
+	"itemdesc-fshorsewearables-arabian-middlebackupper-saddle": "A sturdy leather saddle for an Arabian steed.",
+	"item-fshorsewearables-shire-middlebackupper-saddle": "Shire Horse Saddle",
+	"itemdesc-fshorsewearables-shire-middlebackupper-saddle": "A sturdy leather saddle for a Shire steed.",
+	"item-fshorsewearables-quarter-middlebackupper-saddle": "Quarter-Horse Saddle",
+	"itemdesc-fshorsewearables-quarter-middlebackupper-saddle": "A sturdy leather saddle for a Quarter-Horse steed.",
+	"item-fshorsewearables-donkey-middlebackupper-saddle": "Donkey Saddle",
+	"itemdesc-fshorsewearables-donkey-middlebackupper-saddle": "A sturdy leather saddle for a Donkey.",
+	
+	"item-fshorsewearables-shire-head-bridle": "Bridle - Shire Horse",
+	"itemdesc-fshorsewearables-shire-head-bridle": "A bridle fit for a shire horse.",
+	"item-fshorsewearables-quarter-head-bridle": "Bridle - Quarter-Horse",
+	"itemdesc-fshorsewearables-quarter-head-bridle": "A bridle fit for a quarter-horse.",
+
+	"item-fshorsewearables-shire-lowerbackside-saddlebags": "Saddlebags - Shire Horse",
+	"itemdesc-fshorsewearables-shire-lowerbackside-saddlebags": "A pair of saddlebags fit for a shire horse.",
+	"item-fshorsewearables-quarter-lowerbackside-saddlebags": "Saddlebags - Quarter-Horse",
+	"itemdesc-fshorsewearables-quarter-lowerbackside-saddlebags": "A pair of saddlebags fit for a quarter-horse.",
+
 	"horsetamingguide-title": "Taming Horses",
 	"horsetamingguide-text": "<strong>A Guide to Horse Taming:\n-----by Verlia</strong>\n\nTaming a horse is fairly simple!\nFirst, you will need to find a food that horses will enjoy! Dry grass is a good start, but other foods will be preferred.\nTry out a variety!\n\nRight clicking a wild horse with a compatible food item will start the taming process.\nEach feed will increase taming percentage until the process is complete. Now you can name your new horse!\nFeeding your horse after taming is complete will increase its obedience, so when you give it a command it will be more inclined to listen.\n\n<strong>--Now you're ready for adventure!--</strong>\nMount up on your new horse by right clicking on it! An empty hand is needed.\nDismount your horse by sneaking/crouching.\n\nHorses can eat from troughs and breed just like other domesticated animals.\nSome of their favorite foods are carrots, apples, and grains, and each will affect them differently!\n\n\n<strong>Keep an eye out for more saddles, saddlebags, and attachments in the future!</strong>",
+ 
+	"game:deathmsg-horsemale*-1": "Player {0} was trampled by a horse.",
+	"game:deathmsg-horsemale*-2": "Player {0} was kicked to death.",
+	"game:deathmsg-horsefemale*-1": "Player {0} was trampled by a horse.",
+	"game:deathmsg-horsefemale*-2": "Player {0} was kicked to death.",
 
-	// Game Messages
-	"deathmsg-horsemale-1": "Player {0} was trampled by a horse.",
-	"deathmsg-horsemale-2": "Player {0} was kicked to death.",
-	"deathmsg-horsefemale-1": "Player {0} was trampled by a horse.",
-	"deathmsg-horsefemale-2": "Player {0} was kicked to death.",
-
-	// Creature Kill Descriptions
+	"creaturegroup-fshorse": "Horses",
+ 
 	"deadcreature-horsetrampled": "Appears to be trampled by a horse."
 }

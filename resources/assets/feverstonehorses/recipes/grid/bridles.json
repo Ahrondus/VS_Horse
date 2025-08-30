@@ -1,0 +1,56 @@
+[
+    {
+        "ingredientPattern": "LRL,RLR,LML",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 1
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rope",
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-tinbronze",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "feverstonehorses:fshorsewearables-quarter-head-bridle",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "RLR,LRL,LML",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 1
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rope",
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-tinbronze",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "feverstonehorses:fshorsewearables-shire-head-bridle",
+            "quantity": 1
+        }
+    }
+]

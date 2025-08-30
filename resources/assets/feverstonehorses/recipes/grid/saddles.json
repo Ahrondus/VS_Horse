@@ -1,0 +1,150 @@
+[
+    {
+        "ingredientPattern": "_L_,MLM,_C_",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 2
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-plain",
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "feverstonehorses:fshorsewearables-percheron-middlebackupper-saddle",
+            "quantity": 1
+        },
+        "enabled": false
+    },
+    {
+        "ingredientPattern": "_L_,MLM,_C_",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 2
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-plain",
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "feverstonehorses:fshorsewearables-arabian-middlebackupper-saddle",
+            "quantity": 1
+        },
+        "enabled": false
+    },
+    {
+        "ingredientPattern": "LLL,MLM,ECE",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 2
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-plain",
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*",
+                "quantity": 1
+            },
+            "E": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "feverstonehorses:fshorsewearables-shire-middlebackupper-saddle",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "LLL,MLM,_C_",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 2
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-plain",
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "feverstonehorses:fshorsewearables-quarter-middlebackupper-saddle",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "MLM,BLB,CCC",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 2
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-plain",
+                "quantity": 2
+            },
+            "B": {
+                "type": "item",
+                "code": "game:linensack",
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "feverstonehorses:fshorsewearables-donkey-middlebackupper-saddle",
+            "quantity": 1
+        },
+        "enabled": false
+    }
+]

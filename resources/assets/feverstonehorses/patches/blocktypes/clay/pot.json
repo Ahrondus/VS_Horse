@@ -1,0 +1,14 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/attachableToEntity/attachedShapeBySlotCode",
+        "side": "server",
+        "value": 
+            {
+                "frontrightsidehorse": { "base": "feverstonehorses:item/equipment/front/cookpotr-horse" },
+                "frontleftsidehorse": { "base": "feverstonehorses:item/equipment/front/cookpotl-horse" }
+            },
+            
+        "file": "game:blocktypes/clay/fired/pot.json"
+    }
+]

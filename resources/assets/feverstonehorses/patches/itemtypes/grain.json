@@ -2,11 +2,13 @@
     {
         "op": "add",
         "path": "/behaviors",
+        "side": "server",
         "value": [
             {
                 "name": "considerpetfood"
             }
         ],
-        "file": "game:itemtypes/food/grain.json"
+        "file": "game:itemtypes/food/grain.json",
+        "dependsOn": [ { "modid": "petai" } ]
     }
 ]

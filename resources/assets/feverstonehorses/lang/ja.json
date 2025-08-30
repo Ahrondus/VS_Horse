@@ -1,0 +1,82 @@
+{
+    "comment_description": "Japanese localization file for 'Feverstone's Horses'.",
+    "comment_version": "Mod Version: v1.6.1",
+    "comment_author": "Translated By: Macoto Hino",
+    "comment_technical_details": "Machine translation using PCOT and DeepL.",
+
+	"item-creature-horse-male-draft": "輓馬(オス)",
+	"item-dead-creature-horse-male-draft": "死んだ輓馬(オス)",
+	"itemdesc-creature-horse-male-draft": "信頼性が高く、重厚な馬。",	
+	
+	"item-creature-horse-female-draft": "輓馬(メス)",	
+	"item-dead-creature-horse-female-draft": "死んだ輓馬(メス)",
+	"itemdesc-creature-horse-female-draft": "信頼性が高く、重厚な馬。",
+
+	"item-creature-foal-draft": "輓馬の子馬",
+	"item-dead-creature-foal-draft": "死んだ輓馬の子馬",
+	"itemdesc-creature-foal-draft": "若い輓馬。",
+
+	
+	"item-creature-horse-male-arabian": "アラビア馬(オス)",
+	"item-dead-creature-horse-male-arabian": "死んだアラビア馬(オス)",
+	"itemdesc-creature-horse-male-arabian": "乾燥地帯に生息し、信頼性が高く、迅速な走りをする馬。",	
+
+	"item-creature-horse-female-arabian": "アラビア馬(メス)",	
+	"item-dead-creature-horse-female-arabian": "死んだアラビア馬(メス)",
+	"itemdesc-creature-horse-female-arabian": "乾燥地帯に生息し、信頼性が高く、迅速な走りをする馬。",
+	
+	"item-creature-foal-arabian": "アラビア馬の子馬",
+	"item-dead-creature-foal-arabian": "死んだアラビア馬の子馬",
+	"itemdesc-creature-foal-arabian": "若いアラビア馬。",
+
+
+	"item-creature-horse-male-donkey": "ロバ(オス)",
+	"item-dead-creature-horse-male-donkey": "死んだロバ(オス)",
+	"itemdesc-creature-horse-male-donkey": "労働者の足となる。※Jack",	
+	
+	"item-creature-horse-female-donkey": "ロバ(メス)",	
+	"item-dead-creature-horse-female-donkey": "死んだロバ(メス)",
+	"itemdesc-creature-horse-female-donkey": "労働者の足となる。※Jenney",
+	
+	"item-creature-foal-donkey": "ロバの子馬",
+	"item-dead-creature-foal-donkey": "死んだロバの子馬",
+	"itemdesc-creature-foal-donkey": "若いロバ。",
+	
+	
+	"item-carrotbundle": "ニンジンの束",
+	"itemdesc-carrotbundle": "手懐け用のニンジンの小束！馬が大好きな奴さ！",
+	
+	"item-drygrassbundle": "干し草の束",
+	"itemdesc-drygrassbundle": "飼い馴らしに使う干し草の束。馬やバイソンが食べる！",
+
+
+	"item-horsesaddle-draft": "輓馬用のサドル",
+	"itemdesc-horsesaddle-draft": "バッグ付きの丈夫な革製のサドルを愛馬にどうぞ!",
+	"item-horsesaddle-arabian": "アラビア馬用のサドル",
+	"itemdesc-horsesaddle-arabian": "バッグ付きの丈夫な革製のサドルを愛馬にどうぞ!",
+	"item-horsesaddle-donkey": "ロバ用のサドル",
+	"itemdesc-horsesaddle-donkey": "バッグ付きの丈夫な革製のサドルを愛馬にどうぞ!",
+
+
+	"horsetamingguide-title": "Feverstone's Horses：馬の飼い慣らし",
+	"horsetamingguide-text": "<strong>馬の飼い方ガイド:<br>-----著： Verlia</strong><br><br>馬の飼い馴らしは、かなり簡単です！<br>まず、馬が喜びそうな餌を探す必要があります。干し草が手っ取り早いですが、他にも好きな食べ物もあるかもしれません。<br>色々と試してみて下さい！<br><br>野生の馬に右クリックで、対応する食べ物を与えると、飼い馴らしが始まります。<br>餌を与える度に飼い馴らし率が上がり、プロセスが完了します。さあ、新しい馬に名前をつけてあげましょう！<br>手懐けが終わった後に餌を与えると、馬の従順さが増し、命令を出した時に反応がよくなります。<br><br><strong>--冒険の準備は完了だ！--</strong><br>何も持っていない手で右クリックして新しい馬に跨がれ！<br>スニーク/しゃがみで馬から降ります。<br><br>馬は他の家畜と同じように餌入れから食事をし、繁殖することが出来ます。<br>好きな食べ物は、ニンジン、リンゴ、穀物などですが、それぞれ違った影響を与えます。<br><br><br><strong>今後もサドル、サドルバッグ、アタッチメントにご注目下さい。</strong>",
+
+
+
+	"game:deathmsg-horsemaledraft-1": "プレイヤー {0} は馬に踏み潰された。",
+	"game:deathmsg-horsemaledraft-2": "プレイヤー {0} は蹴り殺された。",
+	"game:deathmsg-horsefemaledraft-1": "プレイヤー {0} は馬に踏み潰された。",
+	"game:deathmsg-horsefemaledraft-2": "プレイヤー {0} は蹴り殺された。",
+	"game:deathmsg-horsemalearabian-1": "プレイヤー {0} は馬に踏み潰された。",
+	"game:deathmsg-horsemalearabian-2": "プレイヤー {0} は蹴り殺された。",
+	"game:deathmsg-horsefemalearabian-1": "プレイヤー {0} は馬に踏み潰された。",
+	"game:deathmsg-horsefemalearabian-2": "プレイヤー {0} は蹴り殺された。",
+	"game:deathmsg-horsemaledonkey-1": "プレイヤー {0} はロバに踏み潰された。",
+	"game:deathmsg-horsemaledonkey-2": "プレイヤー {0} は蹴り殺された。",
+	"game:deathmsg-horsefemaledonkey-1": "プレイヤー {0} はロバに踏み潰された。",
+	"game:deathmsg-horsefemaledonkey-2": "プレイヤー {0} は蹴り殺された。",
+
+	"creaturegroup-horse": "馬",
+
+	"deadcreature-horsetrampled": "馬に踏み潰された！"
+}

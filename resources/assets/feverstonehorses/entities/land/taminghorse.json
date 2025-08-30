@@ -1,0 +1,98 @@
+{
+	"code": "taminghorse",
+	"tags": ["animal", "huntable", "habitat-land", "semitamed"],
+	"inheritFrom": "entities/land/horse",
+    "allowedVariants": ["taminghorse-wild-male-percheron","taminghorse-wild-female-percheron",
+                        "taminghorse-wild-male-arabian","taminghorse-wild-female-arabian",
+                        "taminghorse-wild-male-donkey","taminghorse-wild-female-donkey",
+                        "taminghorse-wild-male-shire","taminghorse-wild-female-shire",
+                        "taminghorse-wild-male-quarter","taminghorse-wild-female-quarter"],
+	"behaviorConfigs": {
+		"selectionboxes": {
+			"selectionBoxes": ["HeadAP", "MidUpperAP"]
+		},		
+		"rideableaccessories": {
+			"wearableSlots": [
+				{ "code": "head", "forCategoryCodes": ["bridle"], "attachmentPointCode": "HeadAP" }, 
+				{ "code": "middlebackupper", "forCategoryCodes": ["saddle"], "attachmentPointCode": "MidUpperAP" }
+			]
+		},
+		"rideable": {
+			"saddleBreakGait": "sprint",
+			"saddleBreaksRequired": { "avg": 13, "var": 5 },
+			"saddleBreakDayInterval": 1,
+			"tamedEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}"
+		}
+	},
+	"client": {
+		"texturesByType": {
+            "*-shire": { "skin": { "base": "entity/land/horse/horseskin1", 
+                            "alternates": [ { "base": "entity/land/horse/horseskin2" }, { "base": "entity/land/horse/horseskin4"},
+                                            { "base": "entity/land/horse/horseskin6" }, { "base": "entity/land/horse/horseskin10"},
+                                            { "base": "entity/land/horse/horseskin18" }, { "base": "entity/land/horse/horseskin22"},
+                                            { "base": "entity/land/horse/horseskin21" }, { "base": "entity/land/horse/horseskin12"},
+                                            { "base": "entity/land/horse/horseskin20" }, { "base": "entity/land/horse/horseskin23"},
+                                            { "base": "entity/land/horse/horseskin24" }, { "base": "entity/land/horse/horseskin25"},
+                                            { "base": "entity/land/horse/horseskin26" } ] },
+                         "mane": { "base": "entity/land/horse/horsemane", 
+                            "alternates": [ { "base": "entity/land/horse/horsemane2" }, { "base": "entity/land/horse/horsemane3" },
+                                            { "base": "entity/land/horse/horsemane4" }, { "base": "entity/land/horse/horsemane5" },
+                                            { "base": "entity/land/horse/horsemane6" }, { "base": "entity/land/horse/horsemane7" },
+                                            { "base": "entity/land/horse/horsemane8" }, { "base": "entity/land/horse/horsemane9" },
+                                            { "base": "entity/land/horse/horsemane10" }, { "base": "entity/land/horse/horsemane11" },
+                                            { "base": "entity/land/horse/horsemane12" } ] } },
+            "*-quarter": { "skin": { "base": "entity/land/horse/horseskin3", 
+                            "alternates": [ { "base": "entity/land/horse/horseskin5" }, { "base": "entity/land/horse/horseskin7"},
+                                            { "base": "entity/land/horse/horseskin8" }, { "base": "entity/land/horse/horseskin9"},
+                                            { "base": "entity/land/horse/horseskin11" }, { "base": "entity/land/horse/horseskin13"},
+                                            { "base": "entity/land/horse/horseskin14" }, { "base": "entity/land/horse/horseskin15"},
+                                            { "base": "entity/land/horse/horseskin21" }, { "base": "entity/land/horse/horseskin12"},
+                                            { "base": "entity/land/horse/horseskin20" }, { "base": "entity/land/horse/horseskin23"},
+                                            { "base": "entity/land/horse/horseskin24" }, { "base": "entity/land/horse/horseskin25"},
+                                            { "base": "entity/land/horse/horseskin26" } ] },
+                         "mane": { "base": "entity/land/horse/horsemane", 
+                            "alternates": [ { "base": "entity/land/horse/horsemane2" }, { "base": "entity/land/horse/horsemane3" },
+                                            { "base": "entity/land/horse/horsemane4" }, { "base": "entity/land/horse/horsemane5" },
+                                            { "base": "entity/land/horse/horsemane6" }, { "base": "entity/land/horse/horsemane7" },
+                                            { "base": "entity/land/horse/horsemane8" }, { "base": "entity/land/horse/horsemane9" },
+                                            { "base": "entity/land/horse/horsemane10" }, { "base": "entity/land/horse/horsemane11" },
+                                            { "base": "entity/land/horse/horsemane12" } ] } }
+		},
+		"behaviors": [
+			{ "code": "repulseagents" },
+			{ "code": "controlledphysics" },
+			{ "code": "mortallywoundable" },
+			{ "code": "health" },
+			{ "code": "interpolateposition" },
+			{ "code": "floatupwhenstuck" },
+			{ "code": "harvestable" },
+			{ "code": "selectionboxes" },
+			{ "code": "rideableaccessories" },
+			{ "code": "gait" },
+			{ "code": "rideable" },
+			{ "code": "ropetieable" }
+		]
+	},
+	"server": {
+		"behaviors": [
+			{ "code": "repulseagents" },
+			{ "code": "controlledphysics" },
+			{ "code": "mortallywoundable", "whenBelowHealth": 7 },
+			{ "code": "health" },
+			{ "code": "deaddecay" },
+			{ "code": "floatupwhenstuck" },
+			{ "code": "harvestable" },
+			{ "code": "breathe" },
+			{ "code": "emotionstates" },
+			{ "code": "taskai" },
+			{ "code": "pettable" },
+			{ "code": "selectionboxes" },
+			{ "code": "ownable" },
+			{ "code": "rideableaccessories" },
+			{ "code": "gait" },
+			{ "code": "rideable" },
+			{ "code": "ropetieable" },
+			{ "code": "entitystatetags" }
+		]
+	}
+}
