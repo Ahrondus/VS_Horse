@@ -6,6 +6,8 @@
         { "code": "gender", "states": ["male", "female"] },
         { "code": "type", "states": ["percheron", "arabian", "donkey", "shire", "quarter"] }
     ],
+    "skipVariants": [ "horse-wild-male-percheron", "horse-wild-female-percheron",
+                      "horse-wild-male-arabian", "horse-wild-female-arabian" ],
     "tagsByType": {
         "*-tamed": [ "animal", "huntable", "habitat-land", "tamed" ],
         "*": [ "animal", "huntable", "habitat-land" ]
@@ -84,12 +86,13 @@
             ],
             "skipFoodTags": [ "rice", "amaranth", "sunflower" ]
         },
-        "basketCatchable": true,
-        "trapChance": 0.0,
-        "trapDestroyChance": 0.5,
+        "trappable": {
+			"large": { "trapChance": 0.0, "trapDestroyChance": 0.45 }
+		},
         "minGenerationToAllowHealing": 0,
+        
         "handbook": {
-			"groupcode": "feverstonehorses:creaturegroup-fswhorse"
+			"groupcode": "feverstonehorses:creaturegroup-fshorse"
 		}
     },
     "behaviorConfigs": {
@@ -98,9 +101,8 @@
             "stepUpSpeed": 0.1
         },
         "floatupwhenstuck": { "onlyWhenDead": true },
-        "rideableaccessoriesByType": {
-            "*-tamed-*": {
-                "wearableSlots": [
+        "rideableaccessories": {
+            "wearableSlots": [
                     { "code": "head", "forCategoryCodes": ["bridle"], "attachmentPointCode": "HeadAP" }, 
                     { "code": "face", "forCategoryCodes": ["face"], "attachmentPointCode": "FaceAP" }, 
                     { "code": "middlebackupper", "forCategoryCodes": ["saddle"], "attachmentPointCode": "MidUpperAP" },
@@ -113,14 +115,10 @@
                     { "code": "gearback", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear2AP" }, 
                     { "code": "gearright", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear3AP" }
                 ]
-            },
-            "*-wild-*": {}
         },
-        "selectionboxesByType": {
-            "*-tamed-*": {
-                "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", "MidLowerAP", "RearUpperAP", "RearSideAP", "RFrontAP", "LFrontAP", "TempGear1AP", "TempGear2AP", "TempGear3AP"]
-            },
-            "*-wild-*": {}
+        "selectionboxes": {
+                "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", "MidLowerAP", "RearUpperAP",
+                                    "RearSideAP", "RFrontAP", "LFrontAP", "TempGear1AP", "TempGear2AP", "TempGear3AP"]
         },
         "gait": {
 			"idleGait": "idle",
@@ -287,7 +285,7 @@
                 },
                 "walkback": {
                     "animation": "walkback",
-                    "animationSpeed": 2.7,
+                    "animationSpeed": 1.4,
                     "weight": 10,
                     "movespeed": 0.011,
                     "easeInSpeed": 1,
@@ -398,6 +396,14 @@
                 "*-shire": 34,
                 "*-quarter": 28
             }
+        },
+        "emotionstates": {
+            "states": [
+                { "code": "aggressiveondamage", "duration": 30, "chance": 0.10, "slot": 0, "priority": 2, "accumType": "noaccum", "whenHealthRelBelow": 0.4 },
+                { "code": "fleeondamage", "duration": 30, "chance": 1, "slot": 0, "priority": 1, "accumType": "max" }, 
+                { "code": "saturated", "duration": 600, "chance": 0.4, "slot": 0, "priority": 1, "accumType": "sum" },
+                { "code": "alarmherdondamage", "chance": 1, "slot": 1, "priority": 1, "accumType": "max" }
+            ]
         }
     },
     "client": {
@@ -515,6 +521,27 @@
                 "animationSpeed": 0.5
             },
             {
+                "code": "sleep",
+                "animation": "Sleep",
+                "blendMode": "Average",
+                "easeOutSpeed": 3,
+                "easeInSpeed": 3
+            },
+            {
+                "code": "sleeplie",
+                "animation": "SleepLie",
+                "blendMode": "Average",
+                "easeOutSpeed": 3,
+                "easeInSpeed": 3
+            },
+            {
+                "code": "sleepstand",
+                "animation": "SleepStand",
+                "blendMode": "Average",
+                "easeInSpeed": 3,
+                "easeOutSpeed": 3
+            },
+            {
 				"code": "hurt",
 				"animation": "Hurt",
 				"animationSpeed": 1.2,
@@ -529,6 +556,26 @@
                 "blendMode": "Average",
                 "triggeredBy": { "onControls": [ "dead" ] }
             },
+            {
+                "code": "dead",
+                "animation": "Dead",
+                "blendMode": "Average",
+                "weight": 10,
+                "easeInSpeed": 3
+            },
+			{
+				"code": "wounded-idle",
+				"animation": "wounded-idle",
+				"easeInSpeed": 3,
+				"weight": 10,
+				"blendMode": "Average"
+			},
+			{
+				"code": "wounded-stand",
+				"animation": "wounded-stand",
+				"weight": 10,
+				"blendMode": "Average"
+			},
             {
                 "code": "walk",
                 "animation": "walk",
@@ -600,6 +647,42 @@
 					"Neck1": "AddAverage",
 					"Neck2": "AddAverage",
 					"Neck3": "AddAverage"
+				}				
+			},
+			{
+				"code": "idle-turn-left",
+				"animation": "turn-left",
+				"easeInSpeed": 3,
+				"easeOutSpeed": 10,
+				"weight": 0.01,
+				"blendMode": "Average",
+				"elementWeight": {
+					"HeadBase": 5,
+					"Neck1": 5,
+					"Neck2": 5
+				},
+				"elementBlendMode": {
+					"HeadBase": "AddAverage",
+					"Neck1": "AddAverage",
+					"Neck2": "AddAverage"
+				}				
+			},
+			{
+				"code": "idle-turn-right",
+				"animation": "turn-right",
+				"easeInSpeed": 3,
+				"easeOutSpeed": 10,
+				"weight": 0.01,
+				"blendMode": "Average",
+				"elementWeight": {
+					"HeadBase": 5,
+					"Neck1": 5,
+					"Neck2": 5
+				},
+				"elementBlendMode": {
+					"HeadBase": "AddAverage",
+					"Neck1": "AddAverage",
+					"Neck2": "AddAverage"
 				}				
 			}
         ]
@@ -694,14 +777,7 @@
                     ]
                 },
                 { "code": "breathe" },
-                { "code": "emotionstates",
-                    "states": [
-                        { "code": "aggressiveondamage", "duration": 30, "chance": 0.10, "slot": 0, "priority": 2, "accumType": "noaccum", "whenHealthRelBelow": 0.4 },
-                        { "code": "fleeondamage", "duration": 30, "chance": 1, "slot": 0, "priority": 1, "accumType": "max" }, 
-                        { "code": "saturated", "duration": 600, "chance": 0.4, "slot": 0, "priority": 1, "accumType": "sum" },
-                        { "code": "alarmherdondamage", "chance": 1, "slot": 1, "priority": 1, "accumType": "max" }
-                    ]
-                },
+                { "code": "emotionstates" },
                 {
                     "code": "taskai",
                     "aiCreatureType": "LandCreature",
@@ -789,18 +865,18 @@
                             "maxduration": 5000000,
                             "mincooldown": 10000,
                             "maxcooldown": 30000,
-                            "animation": "sleepstand",
+                            "animation": "sleeplie",
                             "easeInSpeed": 0.5,
                             "easeOutSpeed": 0.5,
                             "whenNotInEmotionState": "aggressiveondamage",
                             "duringDayTimeFrames": [
                                 {
-                                    "fromHour": 22,
+                                    "fromHour": 23,
                                     "toHour": 24
                                 },
                                 {
                                     "fromHour": 0,
-                                    "toHour": 5
+                                    "toHour": 7
                                 }
                             ],
                             "stopOnNearbyEntityCodes": [ "player", "wolf-*" ],
@@ -866,13 +942,13 @@
                 { "code": "rideableaccessories" },
                 { "code": "rideable",
                     "enabledByType": { "*-wild-*": false, "*-tamed-*": true } },
-                { "code": "ropetieable", "minGeneration": 2 },
+                { "code": "ropetieable" },
                 { "code": "pettable", "minGeneration": 1 }
             ],
         "spawnconditionsByType": {
             "horse-wild-male-*": {
                 "worldgen": {
-                    "TriesPerChunk": { "avg": 0.015, "var": 0.005 },
+                    "TriesPerChunk": { "avg": 0.010, "var": 0.005 },
                     "tryOnlySurface": true,
                     "groupSize": { "dist": "verynarrowgaussian", "avg": 1.5, "var": 0.5 },
                     "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
@@ -911,7 +987,7 @@
                         "*-shire": 0.25,
                         "*-quarter": 0.25
                     },
-                    "companions": [ "horse-wild-female-{type}", "feverstonehorses:foal-*-{type}" ]
+                    "companions": [ "horse-wild-female-{type}", "feverstonehorses:foal-wild-{type}" ]
                 },
                 "runtime": {
                     "group": "neutral",
@@ -957,7 +1033,7 @@
                         "*-shire": 0.25,
                         "*-quarter": 0.25
                     },
-                    "companions": [ "horse-wild-female-{type}", "feverstonehorses:foal-*-{type}" ]
+                    "companions": [ "horse-wild-female-{type}", "feverstonehorses:foal-wild-{type}" ]
                 }
             }
         }

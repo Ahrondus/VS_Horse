@@ -46,7 +46,7 @@
 
 	"item-creature-foal-wild-arabian": "Wild Arabian Foal",
 	"item-dead-creature-foal-wild-arabian": "Dead Foal",
-	"itemdesc-creature-foal-wild-arabian": "A young Shire horse.",
+	"itemdesc-creature-foal-wild-arabian": "A young arabian horse.",
 
 	"item-creature-foal-wild-shire": "Wild Shire Foal",
 	"item-dead-creature-foal-wild-shire": "Dead Foal",
@@ -106,7 +106,7 @@
 
 	"item-creature-foal-tamed-arabian": "Tamed Arabian Foal",
 	"item-dead-creature-foal-tamed-arabian": "Dead Foal",
-	"itemdesc-creature-foal-tamed-arabian": "A young Shire horse.",
+	"itemdesc-creature-foal-tamed-arabian": "A young arabian horse.",
 
 	"item-creature-foal-tamed-shire": "Tamed Shire Foal",
 	"item-dead-creature-foal-tamed-shire": "Dead Foal",
@@ -183,7 +183,7 @@
 	"game:deathmsg-horsefemale*-1": "Player {0} was trampled by a horse.",
 	"game:deathmsg-horsefemale*-2": "Player {0} was kicked to death.",
 
-	"creaturegroup-horse": "Horses",
+	"creaturegroup-fshorse": "Horses",
  
 	"deadcreature-horsetrampled": "Appears to be trampled by a horse."
 }

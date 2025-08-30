@@ -2,49 +2,107 @@
     
     {
         "__comment": "===Add PetAI Compatible Behaviors===",
-        "op": "add",
+        "op": "addeach",
         "path": "/client/behaviors/0",
-        "value": { "code": "tameable",
-                    "treat": [
-                        { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
-                        { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
-                        { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
-                        { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
-                        { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
-                        { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
-                        { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
-                        { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
-                        { "code": "fruit-yellowapple", "progress": 0.169, "cooldown": 0.55 },
-                        { "code": "grain-flax", "progress": 0.075, "cooldown": 0.45 },
-                        { "code": "grain-rye", "progress": 0.075, "cooldown": 0.45 },
-                        { "code": "grain-spelt", "progress": 0.075, "cooldown": 0.45 }
-                    ]
-                },
-        "file": "feverstonehorses:entities/land/horse.json",
+        "values": [
+            { "code": "nametag", "showOnlyWhenTargeted": true },
+            { "code": "tameable",
+                "treat": [
+                    { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
+                    { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
+                    { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
+                    { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
+                    { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
+                    { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
+                    { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-yellowapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "grain-flax", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-rye", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-spelt", "progress": 0.075, "cooldown": 0.45 }
+                ]
+            }
+        ],
+        "files": [ "feverstonehorses:entities/land/horse.json"],
         "dependsOn": [ { "modid": "petai" } ]
     },
     {
-        "op": "add",
+        "op": "addeach",
+        "path": "/client/behaviors/0",
+        "values": [
+            { "code": "nametag", "showOnlyWhenTargeted": true },
+            { "code": "tameable",
+                "treat": [
+                    { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
+                    { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
+                    { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
+                    { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
+                    { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
+                    { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
+                    { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-yellowapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "grain-flax", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-rye", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-spelt", "progress": 0.075, "cooldown": 0.45 }
+                ]
+            }
+        ],
+        "files": [  "feverstonehorses:entities/land/foal.json" ],
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "addeach",
         "path": "/server/behaviors/0",
-        "value": { "code": "tameable",
-                    "disobediencePerDay": 0.05,
-                    "tameEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}",
-                    "treat": [
-                        { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
-                        { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
-                        { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
-                        { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
-                        { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
-                        { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
-                        { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
-                        { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
-                        { "code": "fruit-yellowapple", "progress": 0.169, "cooldown": 0.55 },
-                        { "code": "grain-flax", "progress": 0.075, "cooldown": 0.45 },
-                        { "code": "grain-rye", "progress": 0.075, "cooldown": 0.45 },
-                        { "code": "grain-spelt", "progress": 0.075, "cooldown": 0.45 }
-                    ]
-                },
-        "file": "feverstonehorses:entities/land/horse.json",
+        "values": [
+            { "code": "nametag", "showOnlyWhenTargeted": true },
+            { "code": "tameable",
+                "disobediencePerDay": 0.05,
+                "tameEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}",
+                "treat": [
+                    { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
+                    { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
+                    { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
+                    { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
+                    { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
+                    { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
+                    { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-yellowapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "grain-flax", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-rye", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-spelt", "progress": 0.075, "cooldown": 0.45 }
+                ]
+            }
+        ],
+        "files": [ "feverstonehorses:entities/land/horse.json" ],
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "addeach",
+        "path": "/server/behaviors/0",
+        "values": [
+            { "code": "nametag", "showOnlyWhenTargeted": true },
+            { "code": "tameable",
+                "disobediencePerDay": 0.05,
+                "tameEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}",
+                "treat": [
+                    { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
+                    { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
+                    { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
+                    { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
+                    { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
+                    { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
+                    { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-yellowapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "grain-flax", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-rye", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-spelt", "progress": 0.075, "cooldown": 0.45 }
+                ]
+            }
+        ],
+        "files": [ "feverstonehorses:entities/land/foal.json" ],
         "dependsOn": [ { "modid": "petai" } ]
     },
     {
@@ -56,7 +114,19 @@
                         { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.3 }
                     ]
                 },
-        "file": "feverstonehorses:entities/land/horse.json",
+        "files": [ "feverstonehorses:entities/land/horse.json" ],
+        "dependsOn": [ {"modid": "petai"} ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/0",
+        "value": { "code": "receivecommand",
+                    "availableCommands": [
+                        { "commandName": "followmaster", "commandType": "COMPLEX", "minObedience": 0.1 },
+                        { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.3 }
+                    ]
+                },
+        "files": [ "feverstonehorses:entities/land/foal.json" ],
         "dependsOn": [ {"modid": "petai"} ]
     },
     {
@@ -68,12 +138,24 @@
                         { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.3 }
                     ]
                 },
-        "file": "feverstonehorses:entities/land/horse.json",
+        "files": [ "feverstonehorses:entities/land/horse.json" ],
+        "dependsOn": [ {"modid": "petai"} ]
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/0",
+        "value": { "code": "receivecommand",
+                    "availableCommands": [
+                        { "commandName": "followmaster", "commandType": "COMPLEX", "minObedience": 0.1 },
+                        { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.3 }
+                    ]
+                },
+        "files": [ "feverstonehorses:entities/land/foal.json" ],
         "dependsOn": [ {"modid": "petai"} ]
     },
     {
         "op": "addeach",
-        "path": "/server/behaviors/15/aitasks/-",
+        "path": "/server/behaviors/14/aitasks/-",
         "values": [ 
                 {
                     "code": "followmaster",
@@ -99,6 +181,36 @@
                 }
             ],
         "file": "feverstonehorses:entities/land/horse.json",
+        "dependsOn": [ {"modid": "petai"}]
+    },
+    {
+        "op": "addeach",
+        "path": "/server/behaviors/11/aitasks/-",
+        "values": [ 
+                {
+                    "code": "followmaster",
+                    "priority": 2,
+                    "priorityForCancel": 1.9,
+                    "command": "followmaster",
+                    "movespeed": 0.045,
+                    "animationSpeed": 2.2,
+                    "maxDistance": 8,
+                    "searchRange": 40,
+                    "animation": "Gallop",
+                    "allowTeleport": true
+                },
+                {
+                    "code": "stay",
+                    "priority": 2,
+                    "priorityForCancel": 1.9,
+                    "command": "stay",
+                    "movespeed": 0.006,
+                    "maxDistance": 5,
+                    "searchRange": 20,
+                    "animation": "Walk"
+                }
+            ],
+        "file": "feverstonehorses:entities/land/foal.json",
         "dependsOn": [ {"modid": "petai"}]
     }
 

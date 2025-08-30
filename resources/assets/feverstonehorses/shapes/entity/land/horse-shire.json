@@ -5058,9 +5058,9 @@
 		{
 			"name": "Dead",
 			"code": "dead",
-			"quantityframes": 1,
-			"onActivityStopped": "Rewind",
-			"onAnimationEnd": "Repeat",
+			"quantityframes": 2,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Hold",
 			"keyframes": [
 				{
 					"frame": 0,
@@ -5098,11 +5098,11 @@
 		},
 
 		{
-			"name": "Death",
-			"code": "death",
+			"name": "Die",
+			"code": "die",
 			"quantityframes": 111,
-			"onActivityStopped": "PlayTillEnd",
-			"onAnimationEnd": "EaseOut",
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Hold",
 			"keyframes": [
 				{
 					"frame": 0,
@@ -5769,8 +5769,8 @@
 			"name": "Hurt",
 			"code": "hurt",
 			"quantityframes": 6,
-			"onActivityStopped": "Rewind",
-			"onAnimationEnd": "Repeat",
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "EaseOut",
 			"keyframes": [
 				{
 					"frame": 0,
@@ -6283,8 +6283,8 @@
 		},
 
 		{
-			"name": "Wounded-Lie",
-			"code": "wounded-lie",
+			"name": "Wounded-Idle",
+			"code": "wounded-idle",
 			"quantityframes": 110,
 			"onActivityStopped": "Rewind",
 			"onAnimationEnd": "Repeat",

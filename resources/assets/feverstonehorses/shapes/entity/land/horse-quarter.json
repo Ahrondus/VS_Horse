@@ -5380,8 +5380,8 @@
 		},
 
 		{
-			"name": "Sleep",
-			"code": "sleep",
+			"name": "SleepLie",
+			"code": "sleeplie",
 			"quantityframes": 121,
 			"onActivityStopped": "EaseOut",
 			"onAnimationEnd": "Repeat",
@@ -7106,7 +7106,7 @@
 			"code": "dead",
 			"quantityframes": 2,
 			"onActivityStopped": "EaseOut",
-			"onAnimationEnd": "Repeat",
+			"onAnimationEnd": "Hold",
 			"keyframes": [
 				{
 					"frame": 0,
