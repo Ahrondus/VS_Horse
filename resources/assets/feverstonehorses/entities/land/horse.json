@@ -13,11 +13,6 @@
         "*": [ "animal", "huntable", "habitat-land" ]
     },
     "weight": 475,
-    "enabledByType": {
-        "*-shire": true,
-        "*-quarter": true,
-        "*": false
-    },
     "hitBoxSizeByType": {
         "*-male-percheron": { "x": 1.75, "y": 1.9 },
         "*-female-percheron": { "x":1.65, "y": 1.9 },
@@ -73,7 +68,7 @@
         },
         "killedbyInfoText": "deadcreature-horsetrampled",
         "creatureDiet": {
-            "foodCategories": [ "Grain" ],
+            "foodCategories": [ "Grain", "Fruit" ],
             "weightedFoodTags": [ 
                 { "weight": 0.1, "code": "grass" },
                 { "weight": 0.85, "code": "tamingfeedbundle"},
@@ -137,20 +132,20 @@
 				{
 					"code": "walk",
 					"movespeed": 0.019,
-					"yawMultiplier": 1,
+					"yawMultiplier": 1.2,
 					"sound": "game:creature/hooved/trot"
 				},
 				{
 					"code": "trot",
 					"movespeed": 0.036,
-					"yawMultiplier": 0.85,
+					"yawMultiplier": 0.90,
 					"fallbackGaitCode": "walk",
 					"sound": "game:creature/hooved/trot"
 				},
 				{
 					"code": "canter",
 					"movespeed": 0.075,
-					"yawMultiplier": 0.75,
+					"yawMultiplier": 0.82,
 					"fallbackGaitCode": "trot",
 					"sound": "game:creature/hooved/trot"
 				},
@@ -690,8 +685,8 @@
     "server": {
         "attributes": {
             "pathfinder": {
-                "minTurnAnglePerSec": 95,
-                "maxTurnAnglePerSec": 145
+                "minTurnAnglePerSec": 105,
+                "maxTurnAnglePerSec": 165
             }
         },
         "behaviors": [

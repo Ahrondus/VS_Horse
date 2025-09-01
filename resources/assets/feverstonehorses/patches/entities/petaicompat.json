@@ -3,9 +3,9 @@
     {
         "__comment": "===Add PetAI Compatible Behaviors===",
         "op": "addeach",
-        "path": "/client/behaviors/0",
-        "values": [
-            { "code": "nametag", "showOnlyWhenTargeted": true },
+        "path": "/client/behaviors/-",
+        "value": [
+            { "code": "nametag", "showtagonlywhentargeted": true },
             { "code": "tameable",
                 "treat": [
                     { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
@@ -23,14 +23,14 @@
                 ]
             }
         ],
-        "files": [ "feverstonehorses:entities/land/horse.json"],
+        "file": "feverstonehorses:entities/land/horse.json",
         "dependsOn": [ { "modid": "petai" } ]
     },
     {
         "op": "addeach",
-        "path": "/client/behaviors/0",
-        "values": [
-            { "code": "nametag", "showOnlyWhenTargeted": true },
+        "path": "/client/behaviors/-",
+        "value": [
+            { "code": "nametag", "showtagonlywhentargeted": true },
             { "code": "tameable",
                 "treat": [
                     { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
@@ -48,41 +48,14 @@
                 ]
             }
         ],
-        "files": [  "feverstonehorses:entities/land/foal.json" ],
+        "file": "feverstonehorses:entities/land/foal.json",
         "dependsOn": [ { "modid": "petai" } ]
     },
     {
         "op": "addeach",
-        "path": "/server/behaviors/0",
-        "values": [
-            { "code": "nametag", "showOnlyWhenTargeted": true },
-            { "code": "tameable",
-                "disobediencePerDay": 0.05,
-                "tameEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}",
-                "treat": [
-                    { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
-                    { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
-                    { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
-                    { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
-                    { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
-                    { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
-                    { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
-                    { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
-                    { "code": "fruit-yellowapple", "progress": 0.169, "cooldown": 0.55 },
-                    { "code": "grain-flax", "progress": 0.075, "cooldown": 0.45 },
-                    { "code": "grain-rye", "progress": 0.075, "cooldown": 0.45 },
-                    { "code": "grain-spelt", "progress": 0.075, "cooldown": 0.45 }
-                ]
-            }
-        ],
-        "files": [ "feverstonehorses:entities/land/horse.json" ],
-        "dependsOn": [ { "modid": "petai" } ]
-    },
-    {
-        "op": "addeach",
-        "path": "/server/behaviors/0",
-        "values": [
-            { "code": "nametag", "showOnlyWhenTargeted": true },
+        "path": "/server/behaviors/-",
+        "value": [
+            { "code": "nametag", "showtagonlywhentargeted": true },
             { "code": "tameable",
                 "disobediencePerDay": 0.05,
                 "tameEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}",
@@ -102,61 +75,88 @@
                 ]
             }
         ],
-        "files": [ "feverstonehorses:entities/land/foal.json" ],
+        "file": "feverstonehorses:entities/land/horse.json",
         "dependsOn": [ { "modid": "petai" } ]
     },
     {
-        "op": "add",
-        "path": "/client/behaviors/0",
+        "op": "addeach",
+        "path": "/server/behaviors/-",
+        "value": [
+            { "code": "nametag", "showtagonlywhentargeted": true },
+            { "code": "tameable",
+                "disobediencePerDay": 0.05,
+                "tameEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}",
+                "treat": [
+                    { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
+                    { "code": "vegetable-cabbage", "progress": 0.03, "cooldown": 0.4 },
+                    { "code": "vegetable-turnip", "progress": 0.04, "cooldown": 0.3 },
+                    { "code": "carrotbundle", "progress": 0.15, "cooldown": 0.25 },
+                    { "code": "drygrassbundle", "progress": 0.075, "cooldown": 0.55 },
+                    { "code": "drygrass", "progress": 0.025, "cooldown": 0.25 },
+                    { "code": "fruit-pinkapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-redapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "fruit-yellowapple", "progress": 0.169, "cooldown": 0.55 },
+                    { "code": "grain-flax", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-rye", "progress": 0.075, "cooldown": 0.45 },
+                    { "code": "grain-spelt", "progress": 0.075, "cooldown": 0.45 }
+                ]
+            }
+        ],
+        "file": "feverstonehorses:entities/land/foal.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/client/behaviors/-",
         "value": { "code": "receivecommand",
                     "availableCommands": [
                         { "commandName": "followmaster", "commandType": "COMPLEX", "minObedience": 0.1 },
                         { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.3 }
                     ]
                 },
-        "files": [ "feverstonehorses:entities/land/horse.json" ],
+        "file": "feverstonehorses:entities/land/horse.json",
         "dependsOn": [ {"modid": "petai"} ]
     },
     {
-        "op": "add",
-        "path": "/client/behaviors/0",
+        "op": "addmerge",
+        "path": "/client/behaviors/-",
         "value": { "code": "receivecommand",
                     "availableCommands": [
                         { "commandName": "followmaster", "commandType": "COMPLEX", "minObedience": 0.1 },
                         { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.3 }
                     ]
                 },
-        "files": [ "feverstonehorses:entities/land/foal.json" ],
+        "file": "feverstonehorses:entities/land/foal.json",
         "dependsOn": [ {"modid": "petai"} ]
     },
     {
-        "op": "add",
-        "path": "/server/behaviors/0",
+        "op": "addmerge",
+        "path": "/server/behaviors/-",
         "value": { "code": "receivecommand",
                     "availableCommands": [
                         { "commandName": "followmaster", "commandType": "COMPLEX", "minObedience": 0.1 },
                         { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.3 }
                     ]
                 },
-        "files": [ "feverstonehorses:entities/land/horse.json" ],
+        "file": "feverstonehorses:entities/land/horse.json",
         "dependsOn": [ {"modid": "petai"} ]
     },
     {
-        "op": "add",
-        "path": "/server/behaviors/0",
+        "op": "addmerge",
+        "path": "/server/behaviors/-",
         "value": { "code": "receivecommand",
                     "availableCommands": [
                         { "commandName": "followmaster", "commandType": "COMPLEX", "minObedience": 0.1 },
                         { "commandName": "stay", "commandType": "COMPLEX", "minObedience": 0.3 }
                     ]
                 },
-        "files": [ "feverstonehorses:entities/land/foal.json" ],
+        "file": "feverstonehorses:entities/land/foal.json",
         "dependsOn": [ {"modid": "petai"} ]
     },
     {
         "op": "addeach",
-        "path": "/server/behaviors/14/aitasks/-",
-        "values": [ 
+        "path": "/server/behaviors/14/aitasks/0",
+        "value": [ 
                 {
                     "code": "followmaster",
                     "priority": 2,
@@ -185,8 +185,8 @@
     },
     {
         "op": "addeach",
-        "path": "/server/behaviors/11/aitasks/-",
-        "values": [ 
+        "path": "/server/behaviors/11/aitasks/0",
+        "value": [ 
                 {
                     "code": "followmaster",
                     "priority": 2,
