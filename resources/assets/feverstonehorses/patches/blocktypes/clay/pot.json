@@ -1,14 +1,22 @@
 [
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/attributes/attachableToEntity/attachedShapeBySlotCode",
-        "side": "server",
         "value": 
             {
-                "frontrightsidehorse": { "base": "feverstonehorses:item/equipment/front/cookpotr-horse" },
+                "frontrightsidehorse": { "base": "feverstonehorses:item/equipment/front/cookpotr-horse" }
+            },
+        "side": "server",
+        "file": "game:blocktypes/clay/fired/pot.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/attachableToEntity/attachedShapeBySlotCode",
+        "value": 
+            {
                 "frontleftsidehorse": { "base": "feverstonehorses:item/equipment/front/cookpotl-horse" }
             },
-            
+        "side": "server",
         "file": "game:blocktypes/clay/fired/pot.json"
     }
 ]

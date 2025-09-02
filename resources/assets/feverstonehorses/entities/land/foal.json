@@ -9,11 +9,6 @@
         "*-tamed": [ "animal", "huntable", "habitat-land", "tamed" ],
         "*": [ "animal", "huntable", "habitat-land" ]
     },
-    "enabledByType": {
-        "*-shire": true,
-        "*-quarter": true,
-        "*": false
-    },
     "hitboxSize": { "x": 0.7, "y": 1.0 },
     "deadHitboxSize": { "x": 1.0, "y": 0.4 },
     "eyeHeight": 0.9,
