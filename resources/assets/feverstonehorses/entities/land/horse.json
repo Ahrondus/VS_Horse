@@ -92,7 +92,7 @@
     },
     "behaviorConfigs": {
         "controlledphysics": { 
-            "stepHeight": 3.1251,
+            "stepHeight": 1.1251,
             "stepUpSpeed": 0.1
         },
         "floatupwhenstuck": { "onlyWhenDead": true },
@@ -101,18 +101,18 @@
                     { "code": "head", "forCategoryCodes": ["bridle"], "attachmentPointCode": "HeadAP" }, 
                     { "code": "face", "forCategoryCodes": ["face"], "attachmentPointCode": "FaceAP" }, 
                     { "code": "middlebackupper", "forCategoryCodes": ["saddle"], "attachmentPointCode": "MidUpperAP" },
-                    { "code": "middlebackunder", "forCategoryCodes": ["blanket"], "attachmentPointCode": "MidLowerAP" },
+                    //{ "code": "middlebackunderfshorse", "forCategoryCodes": ["blanket"], "attachmentPointCode": "MidLowerAP" },
                     { "code": "lowerback", "forCategoryCodes": ["bedroll", "pillion"], "attachmentPointCode": "RearUpperAP" },
                     { "code": "lowerbackside", "forCategoryCodes": ["sidebags"], "attachmentPointCode": "RearSideAP" },
-                    { "code": "frontrightsidehorse", "forCategoryCodes": ["utilities"], "attachmentPointCode": "RFrontAP" },
-                    { "code": "frontleftsidehorse", "forCategoryCodes": ["utilities"], "attachmentPointCode": "LFrontAP" },
+                    { "code": "frontrightsidefshorse", "forCategoryCodes": ["utilities"], "attachmentPointCode": "RFrontAP" },
+                    { "code": "frontleftsidefshorse", "forCategoryCodes": ["utilities"], "attachmentPointCode": "LFrontAP" },
                     { "code": "gearleft", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear1AP" }, 
                     { "code": "gearback", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear2AP" }, 
                     { "code": "gearright", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear3AP" }
                 ]
         },
         "selectionboxes": {
-                "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", "MidLowerAP", "RearUpperAP",
+                "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", /*"MidLowerAP"*/, "RearUpperAP",
                                     "RearSideAP", "RFrontAP", "LFrontAP", "TempGear1AP", "TempGear2AP", "TempGear3AP"]
         },
         "gait": {
@@ -464,10 +464,10 @@
         },
         "behaviors": [ 
                 { "code": "multiply",
-                    "enabledByType": { "*-male-*": false, "*-female-*": true } },
+                    "enabledByType": { "*-female-*": true, "*": false } },
                 { "code": "gait" },
                 { "code": "rideable",
-                    "enabledByType": { "*-wild-*": false, "*-tamed-*": true } },
+                    "enabledByType": { "*-tamed-*": true, "*": false } },
                 { "code": "mouthinventory",
                     "acceptStacks": [
                         { "type": "item", "code": "vegetable-carrot" },
@@ -495,7 +495,7 @@
                 { "code": "mortallywoundable" },
                 { "code": "health" },
                 { "code": "despawn",
-                    "enabledByType": { "*-wild-*": true, "*-tamed-*": false },
+                    "enabledByType": { "*-wild-*": true, "*": false },
                      "minPlayerDistance": 12, "belowLightLevel": 8, "minSeconds": 600 },
                 { "code": "ropetieable" }
             ],
@@ -692,17 +692,9 @@
         "behaviors": [
                 {
                     "code": "multiply",
-                    "enabledByType": { "*-male-*": false, "*-female-percheron": true, "*-female-arabian": true, "*-female-donkey": true, "*-female-shire": true },
-                    "spawnEntityCodesByType": { "*-female-percheron": [ { "code": "feverstonehorses:foal-percheron" } ], 
-                                                "*-female-arabian": [ { "code": "feverstonehorses:foal-arabian" } ], 
-                                                "*-female-donkey": [ { "code": "feverstonehorses:foal-donkey" } ], 
-                                                "*-female-shire": [ { "code": "feverstonehorses:foal-shire" } ],
-                                                "*-famale-quarter": [ { "code": "feverstonehorses:foal-quater" } ] },
-                    "requiresNearbyEntityCodeByType": { "*-female-percheron": "feverstonehorses:horse-{tamed}-male-percheron", 
-                                                        "*-female-arabian": "feverstonehorses:horse-{tamed}-male-arabian", 
-                                                        "*-female-donkey": "feverstonehorses:horse-{tamed}-male-donkey", 
-                                                        "*-female-shire": "feverstonehorses:horse-{tamed}-male-shire", 
-                                                        "*-female-quarter": "feverstonehorses:horse-{tamed}-male-quarter" },
+                    "enabledByType": { "*-female-*": true, "*": false },
+                    "spawnEntityCode": "feverstonehorses:foal-{tamed}-{type}",
+                    "requiresNearbyEntityCode": "feverstonehorses:horse-*-male-*",
                     "requiresNearbyEntityRange": 10,
                     "spawnQuantityMax": 1,
                     "spawnQuantityMin": 1,
@@ -713,7 +705,8 @@
                     "portionsEatenForMultiply": 14
                 },
                 { "code": "gait" },
-                { "code": "rideable" },
+                { "code": "rideable",
+                    "enabledByType": { "*-tamed-*": true, "*": false } },
                 { "code": "mouthinventory",
                     "acceptStacks": [
                         { "type": "item", "code": "vegetable-carrot" },
@@ -732,9 +725,11 @@
                 },
                 { "code": "repulseagents" },
                 { "code": "controlledphysics" },
-                { "code": "mortallywoundable", "whenBelowHealth": 7 },
+                { "code": "mortallywoundable",
+                    "enabledByType": { "*-tamed-*": true, "*": false },
+                    "whenBelowHealth": 7 },
                 { "code": "despawn",
-                    "enabledByType": { "*-wild-*": true, "*-tamed-*": false },
+                    "enabledByType": { "*-wild-*": true, "*": false },
                      "minPlayerDistance": 12, "belowLightLevel": 8, "minSeconds": 600 },
                 { "code": "deaddecay",  "hoursToDecay": 96, "decayedBlock": "carcass-large" },
                 { "code": "floatupwhenstuck" },
@@ -1042,11 +1037,18 @@
             }
         }
     },
-    "sounds": {
-        "hurt": "feverstonehorses:horse/horsedamage",
-        "death": "feverstonehorses:horse/horsedamage",
-        "idle": "feverstonehorses:horse/neigh"
+    "soundsByType": {
+        "*-donkey": {
+            "hurt": "feverstonehorses:horse/horsedamage",
+            "death": "feverstonehorses:horse/horsedamage",
+            "idle": "feverstonehorses:horse/donkeybray"
+        },
+        "*": {
+            "hurt": "feverstonehorses:horse/horsedamage",
+            "death": "feverstonehorses:horse/horsedamage",
+            "idle": "feverstonehorses:horse/neigh"
+        }
     },
     "idleSoundChance": 0.005,
-    "hurtSoundChance": 0.05
+    "hurtSoundChance": 0.01
 }

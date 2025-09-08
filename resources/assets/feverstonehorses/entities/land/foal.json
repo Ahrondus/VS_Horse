@@ -77,7 +77,7 @@
             "foal-*-arabian": 0.55,
             "foal-*-donkey": 0.52,
             "foal-*-shire": 0.62,
-            "foal-*-quarter": 0.56
+            "foal-*-quarter": 0.53
         },
         "behaviors": [
             { "code": "mouthinventory",
@@ -102,7 +102,7 @@
             { "code": "floatupwhenstuck", "onlyWhenDead": true },
             { "code": "interpolateposition" },
             { "code": "despawn",  "minPlayerDistance": 8, "belowLightLevel": 8, "minSeconds": 300 },
-            { "code": "ropetieable", "minGeneration": 2 }
+            { "code": "ropetieable" }
         ],
         "animations": [
             {
@@ -231,7 +231,7 @@
                 "aitasks": [
                     {
                         "code": "fleeentity",
-                        "entityCodes": [ "player", "wolf-*" ],
+                        "entityCodes": [ "player", "wolf-*", "bear-*" ],
                         "priority": 1.5,
                         "movespeed": 0.05,
                         "seekingRange": 12,
@@ -256,25 +256,17 @@
                         "animationSpeed": 2.2
                     },
                     {
-                        "code": "followmaster",
-                        "priority": 2,
-                        "priorityForCancel": 1.9,
-                        "command": "followmaster",
-                        "movespeed": 0.045,
-                        "animationSpeed": 2.2,
-                        "maxDistance": 8,
-                        "searchRange": 40,
-                        "animation": "run"
-                    },
-                    {
-                        "code": "stay",
-                        "priority": 2,
-                        "priorityForCancel": 1.9,
-                        "command": "stay",
-                        "movespeed": 0.006,
-                        "maxDistance": 10,
-                        "searchRange": 40,
-                        "animation": "walk"
+                        "code": "followleadholder",
+                        "priority": 1.45,
+                        "animation": "trot",
+                        "animationSpeed": 1.25,
+                        "movespeedByType": {
+                            "*-percheron": 0.040,
+                            "*-arabian": 0.045,
+                            "*-donkey": 0.035,
+                            "*-shire": 0.038, 
+                            "*-quarter": 0.0425
+                        }
                     },
                     {
                         "code": "getoutofwater",
@@ -351,7 +343,7 @@
                     { "code": "lookaround", "priority": 0.5 }
                 ]
             },
-            { "code": "ropetieable", "minGeneration": 2 },
+            { "code": "ropetieable" },
             { "code": "pettable", "minGeneration": 1 }
         ]
     },

@@ -4,7 +4,7 @@
         "path": "/attributes/attachableToEntity/attachedShapeBySlotCode",
         "value": 
             {
-                "frontrightsidehorse": { "base": "feverstonehorses:item/equipment/front/cookpotr-horse" }
+                "frontrightsidefshorse": { "base": "feverstonehorses:item/equipment/front/cookpotr-horse" }
             },
         "side": "server",
         "file": "game:blocktypes/clay/fired/pot.json"
@@ -14,7 +14,7 @@
         "path": "/attributes/attachableToEntity/attachedShapeBySlotCode",
         "value": 
             {
-                "frontleftsidehorse": { "base": "feverstonehorses:item/equipment/front/cookpotl-horse" }
+                "frontleftsidefshorse": { "base": "feverstonehorses:item/equipment/front/cookpotl-horse" }
             },
         "side": "server",
         "file": "game:blocktypes/clay/fired/pot.json"
