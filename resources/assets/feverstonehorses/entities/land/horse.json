@@ -101,7 +101,6 @@
                     { "code": "head", "forCategoryCodes": ["bridle"], "attachmentPointCode": "HeadAP" }, 
                     { "code": "face", "forCategoryCodes": ["face"], "attachmentPointCode": "FaceAP" }, 
                     { "code": "middlebackupper", "forCategoryCodes": ["saddle"], "attachmentPointCode": "MidUpperAP" },
-                    //{ "code": "middlebackunderfshorse", "forCategoryCodes": ["blanket"], "attachmentPointCode": "MidLowerAP" },
                     { "code": "lowerback", "forCategoryCodes": ["bedroll", "pillion"], "attachmentPointCode": "RearUpperAP" },
                     { "code": "lowerbackside", "forCategoryCodes": ["sidebags"], "attachmentPointCode": "RearSideAP" },
                     { "code": "frontrightsidefshorse", "forCategoryCodes": ["utilities"], "attachmentPointCode": "RFrontAP" },
@@ -112,7 +111,7 @@
                 ]
         },
         "selectionboxes": {
-                "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", /*"MidLowerAP"*/, "RearUpperAP",
+                "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", "RearUpperAP",
                                     "RearSideAP", "RFrontAP", "LFrontAP", "TempGear1AP", "TempGear2AP", "TempGear3AP"]
         },
         "gait": {
@@ -165,6 +164,14 @@
 					"sound": "game:creature/hooved/gallop"
 				},
 				{
+					"code": "swimback",
+					"movespeed": 0.02,
+					"backwards": true,
+					"yawMultiplier": 1,
+					"fallbackGaitCode": "idle",
+					"sound": "game:creature/hooved/gallop"
+				},
+				{
 					"code": "jump",
 					"movespeed": 0.1067,
 					"yawMultiplier": 1,
@@ -195,36 +202,6 @@
                         "animation": "rideelk-idle",
                         "animationSpeed": 1,
                         "weight": 1,
-                        "withFpVariant": true,
-                        "blendMode": "Average", 
-                        "elementWeight": {
-                            "LowerTorso": 80,
-                            "UpperTorso": 80,
-                            "UpperFootR": 80,
-                            "UpperFootL": 80,
-                            "LowerFootR": 80,
-                            "LowerFootL": 80
-                        },
-                        "elementBlendMode": {
-                            "LowerTorso": "Average",
-                            "UpperTorso": "Average",
-                            "UpperFootR": "Average",
-                            "UpperFootL": "Average",
-                            "LowerFootR": "Average",
-                            "LowerFootL": "Average"
-                        }
-                    }
-                },
-                "swim": {
-                    "animation": "Swim",
-                    "animationSpeed": 1,
-                    "movespeed": 0.02,
-                    "weight": 10,
-                    "blendMode": "Average",
-                    "riderAnim": {
-                        "animation": "rideelk-walk",
-                        "animationSpeed": 1,
-                        "weight": 1,	
                         "withFpVariant": true,
                         "blendMode": "Average", 
                         "elementWeight": {
@@ -370,7 +347,67 @@
                             "LowerFootL": "Average"
                         }
                     }
-                }
+                },
+                "swim": {
+					"moveSpeedMultiplier": 1,
+					"animation": "walk",
+					"animationSpeed": 1,
+					"weight": 10,
+					"blendMode": "Average",
+					"riderAnim": {
+						"animation": "rideelk-walk",
+						"animationSpeed": 1,
+						"weight": 1,	
+						"withFpVariant": true,
+						"blendMode": "Average", 
+						"elementWeight": {
+							"LowerTorso": 80,
+							"UpperTorso": 80,
+							"UpperFootR": 80,
+							"UpperFootL": 80,
+							"LowerFootR": 80,
+							"LowerFootL": 80
+						},
+						"elementBlendMode": {
+							"LowerTorso": "Average",
+							"UpperTorso": "Average",
+							"UpperFootR": "Average",
+							"UpperFootL": "Average",
+							"LowerFootR": "Average",
+							"LowerFootL": "Average"
+						}
+					}
+				},
+				"swimback": {
+					"moveSpeedMultiplier": 1,
+					"animation": "walkback",
+					"animationSpeed": 1,
+					"weight": 10,
+					"blendMode": "Average",
+					"riderAnim": {
+						"animation": "rideelk-walk",
+						"animationSpeed": 1,
+						"weight": 1,	
+						"withFpVariant": true,
+						"blendMode": "Average", 
+						"elementWeight": {
+							"LowerTorso": 80,
+							"UpperTorso": 80,
+							"UpperFootR": 80,
+							"UpperFootL": 80,
+							"LowerFootR": 80,
+							"LowerFootL": 80
+						},
+						"elementBlendMode": {
+							"LowerTorso": "Average",
+							"UpperTorso": "Average",
+							"UpperFootR": "Average",
+							"UpperFootL": "Average",
+							"LowerFootR": "Average",
+							"LowerFootL": "Average"
+						}
+					}
+				}
             }
         },
         "ownable": {
@@ -435,6 +472,17 @@
                                             { "base": "entity/land/horse/horseskin20" }, { "base": "entity/land/horse/horseskin23"},
                                             { "base": "entity/land/horse/horseskin24" }, { "base": "entity/land/horse/horseskin25"},
                                             { "base": "entity/land/horse/horseskin26" } ] },
+                         "mane": { "base": "entity/land/horse/horsemane", 
+                            "alternates": [ { "base": "entity/land/horse/horsemane2" }, { "base": "entity/land/horse/horsemane3" },
+                                            { "base": "entity/land/horse/horsemane4" }, { "base": "entity/land/horse/horsemane5" },
+                                            { "base": "entity/land/horse/horsemane6" }, { "base": "entity/land/horse/horsemane7" },
+                                            { "base": "entity/land/horse/horsemane8" }, { "base": "entity/land/horse/horsemane9" },
+                                            { "base": "entity/land/horse/horsemane10" }, { "base": "entity/land/horse/horsemane11" },
+                                            { "base": "entity/land/horse/horsemane12" } ] } },
+            "*-donkey": { "skin": { "base": "entity/land/horse/donkeyskin1", 
+                            "alternates": [ { "base": "entity/land/horse/donkeyskin2" }, { "base": "entity/land/horse/donkeyskin3"},
+                                            { "base": "entity/land/horse/donkeyskin4" }, { "base": "entity/land/horse/donkeyskin5"},
+                                            { "base": "entity/land/horse/donkeyskin6" } ] },
                          "mane": { "base": "entity/land/horse/horsemane", 
                             "alternates": [ { "base": "entity/land/horse/horsemane2" }, { "base": "entity/land/horse/horsemane3" },
                                             { "base": "entity/land/horse/horsemane4" }, { "base": "entity/land/horse/horsemane5" },
@@ -1039,8 +1087,8 @@
     },
     "soundsByType": {
         "*-donkey": {
-            "hurt": "feverstonehorses:horse/horsedamage",
-            "death": "feverstonehorses:horse/horsedamage",
+            "hurt": "feverstonehorses:horse/donkeybray",
+            "death": "feverstonehorses:horse/donkeybray",
             "idle": "feverstonehorses:horse/donkeybray"
         },
         "*": {
