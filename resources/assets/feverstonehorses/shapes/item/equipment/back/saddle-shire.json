@@ -1,5 +1,6 @@
 {
 	"editor": {
+		"backDropShape": "C:/Users/ahron/Documents/GitHub/VS_Horse/resources/assets/feverstonehorses/shapes/entity/land/horse-shire",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -8,15 +9,14 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"horsesaddle": "items/horsesaddle"
 	},
 	"elements": [
 		{
 			"name": "Root",
-			"stepParentName": "MidBody",
-			"from": [ 2.22, 11.61, 3.8475 ],
-			"to": [ 2.22, 11.61, 3.8475 ],
-			"rotationOrigin": [ 3.145, 11.115, 4.275 ],
+			"stepParentName": "MidUpperStorage",
+			"from": [ 2.22, 0.01, 4.75 ],
+			"to": [ 2.22, 0.01, 4.75 ],
+			"rotationOrigin": [ 3.145, -0.485, 5.55 ],
 			"faces": {
 				"north": { "texture": "#Saddle", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
 				"east": { "texture": "#Saddle", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
