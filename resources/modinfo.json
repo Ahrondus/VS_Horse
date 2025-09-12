@@ -5,9 +5,9 @@
 	  "side": "universal",
     "description" : "A horse mod made by the Feverstone Modding Team, includes various breeds of horses each with their own unique stats and uses!",
     "authors": ["Feverstone", "Ahrondus and Verlia"],
-    "version": "2.0.0-rc.8",
+    "version": "2.0.0-rc.10",
     "dependencies": { 
-      "game": "1.21.0"
+      "game": "1.21.1"
     }
   }
   

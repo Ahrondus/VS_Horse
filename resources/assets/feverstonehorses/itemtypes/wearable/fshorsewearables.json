@@ -42,11 +42,11 @@
 			"*-head-bridle": true
 		},
 		"backpackByType": {
-			"*-percheron-lowerbackside-saddlebags": { "quantitySlots": 24 },
-			"*-arabian-lowerbackside-saddlebags": { "quantitySlots": 12 },
-			"*-shire-lowerbackside-saddlebags": { "quantitySlots": 18 },
-			"*-quarter-lowerbackside-saddlebags": { "quantitySlots": 14 },
-			"*-donkey-lowerbackside-saddlebags": { "quantitySlots": 20 }
+			"*-percheron-lowerbackside-saddlebags": { "quantitySlots": 26 },
+			"*-arabian-lowerbackside-saddlebags": { "quantitySlots": 14 },
+			"*-shire-lowerbackside-saddlebags": { "quantitySlots": 20 },
+			"*-quarter-lowerbackside-saddlebags": { "quantitySlots": 16 },
+			"*-donkey-lowerbackside-saddlebags": { "quantitySlots": 22 }
 		},
 		"interactPassthroughByType": {
 			"*-saddle": true
