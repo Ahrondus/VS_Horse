@@ -57,7 +57,7 @@
         "value": [
             { "code": "nametag", "showtagonlywhentargeted": true },
             { "code": "tameable",
-                "disobediencePerDay": 0.05,
+                "disobediencePerDay": 0.025,
                 "tameEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}",
                 "treat": [
                     { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
@@ -84,7 +84,7 @@
         "value": [
             { "code": "nametag", "showtagonlywhentargeted": true },
             { "code": "tameable",
-                "disobediencePerDay": 0.05,
+                "disobediencePerDay": 0.025,
                 "tameEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}",
                 "treat": [
                     { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },

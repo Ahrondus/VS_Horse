@@ -115,7 +115,7 @@
         }
     },
     {
-        "ingredientPattern": "MLM,BLB,CCC",
+        "ingredientPattern": "LLL,MCM,_L_",
         "ingredients": {
             "L": {
                 "type": "item",
@@ -125,17 +125,12 @@
             "C": {
                 "type": "item",
                 "code": "game:cloth-plain",
-                "quantity": 2
-            },
-            "B": {
-                "type": "item",
-                "code": "game:linensack",
                 "quantity": 1
             },
             "M": {
                 "type": "item",
                 "code": "game:metalnailsandstrips-*",
-                "quantity": 2
+                "quantity": 1
             }
         },
         "width": 3,
@@ -144,7 +139,6 @@
             "type": "item",
             "code": "feverstonehorses:fshorsewearables-donkey-middlebackupper-saddle",
             "quantity": 1
-        },
-        "enabled": false
+        }
     }
 ]
