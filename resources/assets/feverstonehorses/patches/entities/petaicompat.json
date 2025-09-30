@@ -57,7 +57,7 @@
         "value": [
             { "code": "nametag", "showtagonlywhentargeted": true },
             { "code": "tameable",
-                "disobediencePerDay": 0.025,
+                "disobediencePerDay": 0.01,
                 "tameEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}",
                 "treat": [
                     { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
@@ -84,7 +84,7 @@
         "value": [
             { "code": "nametag", "showtagonlywhentargeted": true },
             { "code": "tameable",
-                "disobediencePerDay": 0.025,
+                "disobediencePerDay": 0.01,
                 "tameEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}",
                 "treat": [
                     { "code": "vegetable-carrot", "progress": 0.10, "cooldown": 0.2 },
@@ -212,6 +212,31 @@
             ],
         "file": "feverstonehorses:entities/land/foal.json",
         "dependsOn": [ {"modid": "petai"}]
+    },
+    {
+        "op": "remove",
+        "path": "/server/behaviors/20",
+        "file": "feverstonehorses:entities/land/horse.json",
+        "dependsOn": [ {"modid": "petai"}]
+    },
+    {
+        "op": "remove",
+        "path": "/server/behaviors/13",
+        "file": "feverstonehorses:entities/land/foal.json",
+        "dependsOn": [ {"modid": "petai"}]
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "pettableextended" },
+        "file": "feverstonehorses:entities/land/horse.json",
+        "dependsOn": [ {"modid": "petai"}]
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": { "code": "pettableextended" },
+        "file": "feverstonehorses:entities/land/foal.json",
+        "dependsOn": [ {"modid": "petai"}]
     }
-
 ]

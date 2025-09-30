@@ -853,21 +853,12 @@
                         {
                             "code": "fleeentity",
                             "entityCodes": [ "player", "wolf-*", "bear-*" ],
-                            "priority": 1.7,
-                            "movespeed": 0.055,
-                            "seekingRange": 14,
-                            "animation": "gallop",
-                            "animationSpeed": 2.2
-                        },
-                        {
-                            "code": "fleeentity",
-                            "entityCodes": [ "player", "wolf-*", "bear-*" ],
-                            "priority": 1.7,
-                            "movespeed": 0.055,
-                            "seekingRange": 26,
+                            "priority": 1.8,
+                            "movespeed": 0.058,
+                            "seekingRange": 24,
                             "animation": "gallop",
                             "animationSpeed": 2.2,
-                            "whenInEmotionState": "fleeondamage"
+						    "instafleeOnDamageChance": 1
                         },
                         {
                             "code": "getoutofwater",
