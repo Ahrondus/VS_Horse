@@ -9,6 +9,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"horsesaddle": "items/horsesaddle"
 	},
 	"elements": [
 		{

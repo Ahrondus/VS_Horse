@@ -10,7 +10,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"blackguard": "/Users/ahron/AppData/Roaming/Vintagestory/assets/survival/textures/item/wearable/hooved/blanket/blackguard"
+		"blackguard": "game:item/wearable/hooved/blanket/blackguard"
 	},
 	"elements": [
 		{
