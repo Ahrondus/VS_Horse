@@ -232,12 +232,12 @@
                     {
                         "code": "fleeentity",
                         "entityCodes": [ "player", "wolf-*", "bear-*" ],
-                        "priority": 1.5,
-                        "movespeed": 0.05,
-                        "seekingRange": 12,
-                        "animation": "run",
+                        "priority": 1.8,
+                        "movespeed": 0.058,
+                        "seekingRange": 26,
+                        "animation": "gallop",
                         "animationSpeed": 2.2,
-                        "whenInEmotionState": "fleeondamage"
+                        "instafleeOnDamageChance": 1
                     },
                     {
                         "code": "stayclosetoentity",
@@ -312,7 +312,7 @@
                         "code": "seekfoodandeat",
                         "movespeed": 0.004,
                         "priority": 1.35,
-                        "eatSound": "player/eat",
+                        "eatSound": "game:creature/animal-eat-small",
                         "eatTime": 1.5,
                         "animationSpeed": 1.4,
                         "animation": "walk",
