@@ -189,7 +189,10 @@
                         "*-male-shire": { "x": 0, "y": -0.7, "z": 0 },
 
                         "*-female-quarter": { "x": 0, "y": -0.65, "z": 0 },
-                        "*-male-quarter": { "x": 0, "y": -0.6, "z": 0 }
+                        "*-male-quarter": { "x": 0, "y": -0.6, "z": 0 },
+
+                        "*-female-donkey": { "x": 0, "y": -0.85, "z": 0 },
+                        "*-male-donkey": { "x": 0, "y": -0.80, "z": 0 }
                     }
                 }
             ],
