@@ -135,9 +135,8 @@
 	"item-carrotbundle": "Carrot Bundle",
 	"itemdesc-carrotbundle": "A small bundle of carrots for taming! Horses like these!",
 	
-
 	"item-drygrassbundle": "Dry Grass Bundle",
-	"itemdesc-drygrassbundle": "A bundle of dry grass used for taming. Horses and Bison will eat these!",
+	"itemdesc-drygrassbundle": "A bundle of dry grass used for taming. Horses will eat these!",
 
 	"creature-feverstonehorses:horse-*-selectionbox-HeadAP": "Bridle Slot",
 	"creature-feverstonehorses:horse-*-selectionbox-FaceAP": "Medallion Slot",
@@ -169,11 +168,15 @@
 	"itemdesc-fshorsewearables-shire-head-bridle": "A bridle fit for a shire horse.",
 	"item-fshorsewearables-quarter-head-bridle": "Bridle - Quarter-Horse",
 	"itemdesc-fshorsewearables-quarter-head-bridle": "A bridle fit for a quarter-horse.",
+	"item-fshorsewearables-donkey-head-bridle": "Bridle - Donkey",
+	"itemdesc-fshorsewearables-donkey-head-bridle": "A bridle fit for a donkey.",
 
 	"item-fshorsewearables-shire-lowerbackside-saddlebags": "Saddlebags - Shire Horse",
 	"itemdesc-fshorsewearables-shire-lowerbackside-saddlebags": "A pair of saddlebags fit for a shire horse.",
 	"item-fshorsewearables-quarter-lowerbackside-saddlebags": "Saddlebags - Quarter-Horse",
 	"itemdesc-fshorsewearables-quarter-lowerbackside-saddlebags": "A pair of saddlebags fit for a quarter-horse.",
+	"item-fshorsewearables-donkey-lowerbackside-saddlebags": "Saddlebags - Donkey",
+	"itemdesc-fshorsewearables-donkey-lowerbackside-saddlebags": "A pair of saddlebags fit for a donkey.",
 
 	"horsetamingguide-title": "Taming Horses",
 	"horsetamingguide-text": "<strong>A Guide to Horse Taming:\n-----by Verlia</strong>\n\nTaming horses follows a very similar path to taming elks. You'll need to capture a foal to get started! Either bring it home, or build an enclosure around them to get started.\nAfter the foal has eaten enough portions, it will grow into a semi-tamed adult. From here, you'll have to saddlebreak it!\nBuilding a tall wall around the horse is a good idea now, because while saddlebreaking they'll jump around and run all over! Typically, you'll have to saddlebreak them about 15 times, give or take a few (it's random), at least once a day until the process is complete.\nOnce you've reached that final day and complete your last saddlebreak, the horse will convert into a fully tamed horse! At this point, you can equip it with more things, like saddlebags, a medallion, and cooking pots for your adventures! (More attachments WIP).",
