@@ -1,0 +1,14 @@
+[
+    {
+        "op": "add",
+        "path": "/behaviors",
+        "side": "server",
+        "value": [
+            {
+                "name": "considerpetfood"
+            }
+        ],
+        "file": "game:itemtypes/food/fruit.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    }
+]

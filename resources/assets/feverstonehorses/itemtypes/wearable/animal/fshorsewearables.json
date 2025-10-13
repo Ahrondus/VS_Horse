@@ -2,7 +2,7 @@
 	"code": "fshorsewearables",
 	"variantgroups": [
 		{ "code": "breed",
-			"states": [ "percheron", "arabian", "donkey", "shire", "quarter"]
+			"states": [ "percheron", "arabian", "donkey", "shire", "quarter" ]
 		},
 		{ "code": "category",
 			"states": [ "head", "middlebackupper", "lowerbackside" ]
@@ -50,6 +50,9 @@
 		},
 		"interactPassthroughByType": {
 			"*-saddle": true
+		},
+		"handbook": {
+			"groupBy": ["fshorsewearables--{breed}-{category}-*"]
 		}
 	},
 	"behaviorsByType": {
