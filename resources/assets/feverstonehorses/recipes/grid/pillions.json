@@ -1,0 +1,46 @@
+[
+    {
+        "ingredientPattern": "PB",
+        "ingredients": {
+            "P": { "type": "item", "code": "game:hoovedwearables-lowerbackside-pillion-leather" },
+            "B": { "type": "item", "code": "feverstonehorses:fshorsewearables-{breed}-head-bridle",
+			            "returnedStack": { "type": "item", "code": "feverstonehorses:fshorsewearables-{breed}-head-bridle" } } 
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "output": { "type": "item", "code": "feverstonehorses:fshorsewearables-lowerbackside-pillion-leather-{breed}" }
+    },
+    {
+        "ingredientPattern": "PB",
+        "ingredients": {
+            "P": { "type": "item", "code": "game:hoovedwearables-lowerbackside-pillion-sturdyleather" },
+            "B": { "type": "item", "code": "feverstonehorses:fshorsewearables-{breed}-head-bridle",
+			            "returnedStack": { "type": "item", "code": "feverstonehorses:fshorsewearables-{breed}-head-bridle" } } 
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "output": { "type": "item", "code": "feverstonehorses:fshorsewearables-lowerbackside-pillion-sturdyleather-{breed}" }
+    },
+    {
+        "ingredientPattern": "P",
+        "ingredients": {
+            "P": { "type": "item", "code": "feverstonehorses:fshorsewearables-lowerbackside-pillion-leather-{breed}" }
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "output": { "type": "item", "code": "game:hoovedwearables-lowerbackside-pillion-leather" }
+    },
+    {
+        "ingredientPattern": "P",
+        "ingredients": {
+            "P": { "type": "item", "code": "feverstonehorses:fshorsewearables-lowerbackside-pillion-sturdyleather-{breed}" }
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "output": { "type": "item", "code": "game:hoovedwearables-lowerbackside-pillion-sturdyleather" }
+    }
+]

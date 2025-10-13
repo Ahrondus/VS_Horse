@@ -101,7 +101,7 @@
                     { "code": "head", "forCategoryCodes": ["bridle"], "attachmentPointCode": "HeadAP" }, 
                     { "code": "face", "forCategoryCodes": ["face"], "attachmentPointCode": "FaceAP" }, 
                     { "code": "middlebackupper", "forCategoryCodes": ["saddle"], "attachmentPointCode": "MidUpperAP" },
-                    { "code": "lowerback", "forCategoryCodes": ["bedroll", "pillion"], "attachmentPointCode": "RearUpperAP" },
+                    { "code": "lowerback", "forCategoryCodes": ["bedroll", "fspillion"], "attachmentPointCode": "RearUpperAP" },
                     { "code": "lowerbackside", "forCategoryCodes": ["sidebags"], "attachmentPointCode": "RearSideAP" },
                     { "code": "frontrightsidefshorse", "forCategoryCodes": ["utilities"], "attachmentPointCode": "RFrontAP" },
                     { "code": "frontleftsidefshorse", "forCategoryCodes": ["utilities"], "attachmentPointCode": "LFrontAP" },
@@ -417,13 +417,6 @@
             "groupCode": "mountableanimal"
         },
         "health": {
-            "currenthealthByType": {
-                "*-percheron": 31,
-                "*-arabian": 26,
-                "*-donkey": 24,
-                "*-shire": 34,
-                "*-quarter": 28
-            },
             "maxhealthByType": {
                 "*-percheron": 31,
                 "*-arabian": 26,
@@ -781,7 +774,7 @@
                     "whenBelowHealth": 7 },
                 { "code": "despawn",
                     "enabledByType": { "*-wild-*": true, "*": false },
-                     "minPlayerDistance": 12, "belowLightLevel": 8, "minSeconds": 600 },
+                     "minPlayerDistance": 24, "belowLightLevel": 8, "minSeconds": 600 },
                 { "code": "deaddecay",  "hoursToDecay": 96, "decayedBlock": "carcass-large" },
                 { "code": "floatupwhenstuck" },
                 { "code": "health" },
@@ -841,6 +834,8 @@
                             "slot": 1,
                             "damageByType":{
                                 "*-percheron": 4,
+                                "*-shire": 3.6,
+                                "*-quarter": 2.8,
                                 "*-arabian": 2.5,
                                 "*-donkey": 2.0
                             },
@@ -993,41 +988,6 @@
                     "tryOnlySurface": true,
                     "groupSize": { "dist": "verynarrowgaussian", "avg": 1.5, "var": 0.5 },
                     "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
-                    "minTempByType": {
-                        "*-percheron": -10,
-                        "*-arabian": 5,
-                        "*-donkey": -5,
-                        "*-shire": -8,
-                        "*-quarter": 2
-                    },
-                    "maxTempByType": {
-                        "*-percheron": 20,
-                        "*-arabian": 35,
-                        "*-donkey": 24,
-                        "*-shire": 26,
-                        "*-quarter": 28
-                    },
-                    "minRainByType": {
-                        "*-percheron": 0.25,
-                        "*-arabian": 0,
-                        "*-donkey": 0.25,
-                        "*-shire": 0.25,
-                        "*-quarter": 0.25
-                    },
-                    "minForestOrShrubsByType": {
-                        "*-percheron": 0.1,
-                        "*-arabian": 0.1,
-                        "*-donkey": 0.1,
-                        "*-shire": 0.1,
-                        "*-quarter": 0.1
-                    },
-                    "maxForestByType": {
-                        "*-percheron": 0.25,
-                        "*-arabian": 0.25,
-                        "*-donkey": 0.25,
-                        "*-shire": 0.25,
-                        "*-quarter": 0.25
-                    },
                     "companions": [ "horse-wild-female-{type}", "feverstonehorses:foal-wild-{type}" ]
                 },
                 "runtime": {
@@ -1039,6 +999,9 @@
                     "lightLevelType": "onlyBlockLight",
                     "groupSize": { "dist": "verynarrowgaussian", "avg": 1.5, "var": 0.5 },
                     "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
+                    "companions": [ "horse-wild-female-{type}", "feverstonehorses:foal-wild-{type}" ]
+                },
+                "climate": {
                     "minTempByType": {
                         "*-percheron": -10,
                         "*-arabian": 5,
@@ -1073,8 +1036,7 @@
                         "*-donkey": 0.25,
                         "*-shire": 0.25,
                         "*-quarter": 0.25
-                    },
-                    "companions": [ "horse-wild-female-{type}", "feverstonehorses:foal-wild-{type}" ]
+                    }
                 }
             }
         }
