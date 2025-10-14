@@ -150,7 +150,7 @@
 				},
 				{
 					"code": "sprint",
-					"movespeed": 0.1067,
+					"movespeed": 0.095,
 					"yawMultiplier": 1,
 					"isSprint": true,
 					"fallbackGaitCode": "walk",
@@ -964,11 +964,7 @@
                             "animationSpeed": 1.6,
                             "animation": "Trot",
                             "minduration": 20000,
-                            "chance": 0.02,
-                            "enabledByType": {
-                                "*-shire": true,
-                                "*": false
-                            }
+                            "chance": 0.02
                         },
                         { "code": "lookaround", "priority": 0.5 }
                     ]
