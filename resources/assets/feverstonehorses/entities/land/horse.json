@@ -160,16 +160,14 @@
 					"code": "swim",
 					"movespeed": 0.02,
 					"yawMultiplier": 1,
-					"fallbackGaitCode": "idle",
-					"sound": "game:creature/hooved/gallop"
+					"fallbackGaitCode": "idle"
 				},
 				{
 					"code": "swimback",
 					"movespeed": 0.02,
 					"backwards": true,
 					"yawMultiplier": 1,
-					"fallbackGaitCode": "idle",
-					"sound": "game:creature/hooved/gallop"
+					"fallbackGaitCode": "idle"
 				},
 				{
 					"code": "jump",
