@@ -1,385 +1,494 @@
 [
     {
+        "enabled": false,
         "op": "addmerge",
-        "path": "/behaviorConfigs/-",
+        "path": "/client/behaviors/-",
         "file": "feverstonehorses:entities/land/horse.json",
-        "value": { "code": "stamina",
-                     "maxStamina": 100,
-                     "sprintFatigue": 0.2,
-                     "swimFatigue": 0.2,
-                     "baseFatigueRate": 1,
-                     "staminaRegenRate": 1,
-                     "dontFleeWhenExhausted": true,
-                     "regenPenaltyWounded": 0.5,
-                     "regenPenaltyMounted": 0.3,
-                     "exhaustionThreshold": 0.1
-                }
-    },
-    {
-        "op": "addmerge",
-        "path": "/behaviorConfigs/gait/-",
-        "file": "feverstonehorses:entities/land/horse.json",
+        "side": "universal",
         "value": {
-            "groundGaitDrag": 0
-        }
+            "code": "jaunt:stamina"
+        },
+        "dependsOn": [ { "modid": "jaunt" } ]
     },
     {
+        "enabled": false,
         "op": "addmerge",
-        "path": "/behaviorConfigs/gait/gaits/0",
+        "path": "/server/behaviors/-",
         "file": "feverstonehorses:entities/land/horse.json",
+        "side": "universal",
         "value": {
-            "staminaCost": 0.0,
-            "iconTexture": "jaunt:hud/walkback.svg",
-            "environment": "land"
-        }
+            "code": "jaunt:stamina"
+        },
+        "dependsOn": [ { "modid": "jaunt" } ]
     },
     {
+        "enabled": false,
         "op": "addmerge",
-        "path": "/behaviorConfigs/gait/gaits/1",
+        "path": "/behaviorConfigs",
         "file": "feverstonehorses:entities/land/horse.json",
-        "value": {
-            "iconTexture": "jaunt:hud/idle.svg",
-            "environment": "land"
-        }
+        "side": "server",
+        "value":
+            { "jaunt:stamina": {
+                    "maxStamina": 100,
+                    "sprintFatigue": 0.2,
+                    "swimFatigue": 0.2,
+                    "baseFatigueRate": 1,
+                    "staminaRegenRate": 1,
+                    "dontFleeWhenExhausted": true,
+                    "regenPenaltyWounded": 0.5,
+                    "regenPenaltyMounted": 0.3,
+                    "exhaustionThreshold": 0.1
+            }
+        },
+        "dependsOn": [ { "modid": "jaunt" } ]
     },
     {
-        "op": "addmerge",
-        "path": "/behaviorConfigs/gait/gaits/2",
+        "enabled": false,
+        "op": "remove",
+        "path": "/behaviorConfigs/gait",
         "file": "feverstonehorses:entities/land/horse.json",
-        "value": {
-            "staminaCost": 0.0,
-            "iconTexture": "jaunt:hud/walk.svg",
-            "environment": "land"
-        }
+        "dependsOn": [ { "modid": "jaunt" } ]
     },
     {
-        "op": "addmerge",
-        "path": "/behaviorConfigs/gait/gaits/3",
-        "file": "feverstonehorses:entities/land/horse.json",
-        "value": {
-            "staminaCost": 0.1,
-            "iconTexture": "jaunt:hud/trot.svg",
-            "environment": "land"
-        }
-    },
-    {
-        "op": "addmerge",
-        "path": "/behaviorConfigs/gait/gaits/4",
-        "file": "feverstonehorses:entities/land/horse.json",
-        "value": {
-            "staminaCost": 0.2,
-            "iconTexture": "jaunt:hud/canter.svg",
-            "environment": "land"
-        }
-    },
-    {
-        "op": "addmerge",
-        "path": "/behaviorConfigs/gait/gaits/5",
-        "file": "feverstonehorses:entities/land/horse.json",
-        "value": {
-            "staminaCost": 0.0,
-            "iconTexture": "jaunt:hud/gallop.svg",
-            "environment": "land"
-        }
-    },
-    {
-        "op": "addmerge",
-        "path": "/behaviorConfigs/gait/gaits/0",
-        "file": "feverstonehorses:entities/land/horse.json",
-        "value": {
-            "staminaCost": 0.05,
-            "environment": "sea"
-        }
-    },
-    {
+        "enabled": false,
         "op": "replace",
-        "path": "/behaviorConfigs/rideable/rideableGaitOrder",
+        "path": "/client/behaviors/1",
         "file": "feverstonehorses:entities/land/horse.json",
-        "value": { "rideableGaitOrder": [ "walkback" , "idle", "walk", "trot", "canter", "sprint" ] }
+        "value": { "code": "jaunt:gait" },
+        "dependsOn": [ { "modid": "jaunt" } ]
     },
     {
+        "enabled": false,
         "op": "replace",
-        "path": "/behaviorConfigs/rideable/controls",
+        "path": "/server/behaviors/1",
+        "file": "feverstonehorses:entities/land/horse.json",
+        "value": { "code": "jaunt:gait" },
+        "dependsOn": [ { "modid": "jaunt" } ]
+    },
+    {
+        "enabled": false,
+        "op": "addmerge",
+        "path": "/behaviorConfigs",
+        "file": "feverstonehorses:entities/land/horse.json",
+        "value": {
+            "jaunt:gait": {
+                "idleGait": "idle",
+                "groundGaitDrag": 0,
+                "gaits": [
+                    {
+                        "code": "walkback",
+                        "movespeed": 0.011,
+                        "backwards": true,
+                        "yawMultiplier": 1,
+                        "sound": "game:creature/hooved/trot",
+                        "staminaCost": 0.0,
+                        "iconTexture": "jaunt:hud/walkback.svg",
+                        "environment": "land"
+                    },
+                    {
+                        "code": "idle",
+                        "yawMultiplier": 1,
+                        "iconTexture": "jaunt:hud/idle.svg",
+                        "environment": "land"
+                    },
+                    {
+                        "code": "walk",
+                        "movespeed": 0.019,
+                        "yawMultiplier": 1.2,
+                        "sound": "game:creature/hooved/trot",
+                        "staminaCost": 0.0,
+                        "iconTexture": "jaunt:hud/walk.svg",
+                        "environment": "land"
+                    },
+                    {
+                        "code": "trot",
+                        "movespeed": 0.036,
+                        "yawMultiplier": 0.90,
+                        "fallbackGaitCode": "walk",
+                        "sound": "game:creature/hooved/trot",
+                        "staminaCost": 0.1,
+                        "iconTexture": "jaunt:hud/trot.svg",
+                        "environment": "land"
+                    },
+                    {
+                        "code": "canter",
+                        "movespeed": 0.075,
+                        "yawMultiplier": 0.82,
+                        "fallbackGaitCode": "trot",
+                        "sound": "game:creature/hooved/trot",
+                        "staminaCost": 0.2,
+                        "iconTexture": "jaunt:hud/canter.svg",
+                        "environment": "land"
+                    },
+                    {
+                        "code": "sprint",
+                        "movespeed": 0.095,
+                        "yawMultiplier": 1,
+                        "isSprint": true,
+                        "fallbackGaitCode": "walk",
+                        "sound": "game:creature/hooved/gallop",
+                        "staminaCost": 0.0,
+                        "iconTexture": "jaunt:hud/gallop.svg",
+                        "environment": "land"
+                    },
+                    {
+                        "code": "swim",
+                        "movespeed": 0.02,
+                        "yawMultiplier": 1,
+                        "fallbackGaitCode": "idle",
+                        "staminaCost": 0.05,
+                        "environment": "sea"
+                    },
+                    {
+                        "code": "swimback",
+                        "movespeed": 0.02,
+                        "backwards": true,
+                        "yawMultiplier": 1,
+                        "fallbackGaitCode": "idle",
+                        "staminaCost": 0.075,
+                        "environment": "sea"
+                    },
+                    {
+                        "code": "jump",
+                        "movespeed": 0.1067,
+                        "yawMultiplier": 1,
+                        "fallbackGaitCode": "walk",
+                        "sound": "game:creature/hooved/gallop"
+                    }
+                ]
+		    }
+        },
+        "dependsOn": [ { "modid": "jaunt" } ]
+    },
+    {
+        "enabled": false,
+        "op": "remove",
+        "path": "/behaviorConfigs/rideable",
+        "file": "feverstonehorses:entities/land/horse.json",
+        "dependsOn": [ { "modid": "jaunt" } ]
+    },
+    {
+        "enabled": false,
+        "op": "replace",
+        "path": "/client/behaviors/2",
+        "file": "feverstonehorses:entities/land/horse.json",
+        "value": { "code": "jaunt:rideable" },
+        "dependsOn": [ { "modid": "jaunt" } ]
+    },
+    {
+        "enabled": false,
+        "op": "replace",
+        "path": "/server/behaviors/2",
+        "file": "feverstonehorses:entities/land/horse.json",
+        "value": { "code": "jaunt:rideable" },
+        "dependsOn": [ { "modid": "jaunt" } ]
+    },
+    {
+        "enabled": false,
+        "op": "addmerge",
+        "path": "/behaviorConfigs",
         "file": "feverstonehorses:entities/land/horse.json",
         "value": { 
-            "idle": {
-                "animation": "Idle",
-                "weight": 1,
-                "riderAnim": {
-                    "animation": "rideelk-idle",
-                    "animationSpeed": 1,
-                    "weight": 1,
-                    "withFpVariant": true,
-                    "blendMode": "Average", 
-                    "elementWeight": {
-                        "LowerTorso": 80,
-                        "UpperTorso": 80,
-                        "UpperFootR": 80,
-                        "UpperFootL": 80,
-                        "LowerFootR": 80,
-                        "LowerFootL": 80
+            "jaunt:rideable": {
+                "interactMountAnySeat": true,
+                "seats": [
+                    { "apName": "Rider", "selectionBox": "MidUpperAP", "bodyYawLimit": 0.2, "controllable": true,
+                        "mountOffsetByType": {
+                            "*-female-shire": { "x": 0, "y": -0.75, "z": 0 },
+                            "*-male-shire": { "x": 0, "y": -0.7, "z": 0 },
+
+                            "*-female-quarter": { "x": 0, "y": -0.65, "z": 0 },
+                            "*-male-quarter": { "x": 0, "y": -0.6, "z": 0 },
+
+                            "*-female-donkey": { "x": 0, "y": -0.85, "z": 0 },
+                            "*-male-donkey": { "x": 0, "y": -0.80, "z": 0 }
+                        }
+                    }
+                ],
+                "rideableGaitOrder": [ "walkback" , "idle", "walk", "trot", "canter", "gallop" ],
+                "controls": {
+                    "idle": {
+                        "animation": "Idle",
+                        "weight": 1,
+                        "riderAnim": {
+                            "animation": "rideelk-idle",
+                            "animationSpeed": 1,
+                            "weight": 1,
+                            "withFpVariant": true,
+                            "blendMode": "Average", 
+                            "elementWeight": {
+                                "LowerTorso": 80,
+                                "UpperTorso": 80,
+                                "UpperFootR": 80,
+                                "UpperFootL": 80,
+                                "LowerFootR": 80,
+                                "LowerFootL": 80
+                            },
+                            "elementBlendMode": {
+                                "LowerTorso": "Average",
+                                "UpperTorso": "Average",
+                                "UpperFootR": "Average",
+                                "UpperFootL": "Average",
+                                "LowerFootR": "Average",
+                                "LowerFootL": "Average"
+                            }
+                        }
                     },
-                    "elementBlendMode": {
-                        "LowerTorso": "Average",
-                        "UpperTorso": "Average",
-                        "UpperFootR": "Average",
-                        "UpperFootL": "Average",
-                        "LowerFootR": "Average",
-                        "LowerFootL": "Average"
+                    "walk": {
+                        "animation": "Walk",
+                        "animationSpeedByType": {
+                            "*-shire": 1.1,
+                            "*-quarter": 1.3
+                        },
+                        "weight": 10,
+                        "movespeed": 0.012,
+                        "blendMode": "Average",
+                        "riderAnim": {
+                            "animation": "rideelk-walk",
+                            "animationSpeed": 1,
+                            "weight": 1,	
+                            "withFpVariant": true,
+                            "blendMode": "Average", 
+                            "elementWeight": {
+                                "LowerTorso": 80,
+                                "UpperTorso": 80,
+                                "UpperFootR": 80,
+                                "UpperFootL": 80,
+                                "LowerFootR": 80,
+                                "LowerFootL": 80
+                            },
+                            "elementBlendMode": {
+                                "LowerTorso": "Average",
+                                "UpperTorso": "Average",
+                                "UpperFootR": "Average",
+                                "UpperFootL": "Average",
+                                "LowerFootR": "Average",
+                                "LowerFootL": "Average"
+                            }
+                        }
+                    },
+                    "walkback": {
+                        "animation": "walkback",
+                        "animationSpeed": 1.4,
+                        "weight": 10,
+                        "movespeed": 0.011,
+                        "easeInSpeed": 1,
+                        "easeOutSpeed": 3,
+                        "blendMode": "Average",
+                        "riderAnim": {
+                            "animation": "rideelk-walk",
+                            "animationSpeed": 1,
+                            "weight": 1,
+                            "withFpVariant": true,
+                            "blendMode": "Average", 
+                            "elementWeight": {
+                                "LowerTorso": 80,
+                                "UpperTorso": 80,
+                                "UpperFootR": 80,
+                                "UpperFootL": 80,
+                                "LowerFootR": 80,
+                                "LowerFootL": 80
+                            },
+                            "elementBlendMode": {
+                                "LowerTorso": "Average",
+                                "UpperTorso": "Average",
+                                "UpperFootR": "Average",
+                                "UpperFootL": "Average",
+                                "LowerFootR": "Average",
+                                "LowerFootL": "Average"
+                            }
+                        }
+                    },
+                    "trot": {
+                        "animation": "Trot",
+                        "animationSpeedByType": {
+                            "*-shire": 1.25,
+                            "*-quarter": 1.6
+                        },
+                        "weight": 10,
+                        "movespeed": 0.019,
+                        "blendMode": "Average",
+                        "riderAnim": {
+                            "animation": "rideelk-walk",
+                            "animationSpeed": 1,
+                            "weight": 1,	
+                            "withFpVariant": true,
+                            "blendMode": "Average", 
+                            "elementWeight": {
+                                "LowerTorso": 80,
+                                "UpperTorso": 80,
+                                "UpperFootR": 80,
+                                "UpperFootL": 80,
+                                "LowerFootR": 80,
+                                "LowerFootL": 80
+                            },
+                            "elementBlendMode": {
+                                "LowerTorso": "Average",
+                                "UpperTorso": "Average",
+                                "UpperFootR": "Average",
+                                "UpperFootL": "Average",
+                                "LowerFootR": "Average",
+                                "LowerFootL": "Average"
+                            }
+                        }
+                    },
+                    "canter": {
+                        "animation": "Canter",
+                        "animationSpeedByType": {
+                            "*-shire": 1.1,
+                            "*-quarter": 1.3
+                        },
+                        "weight": 10,
+                        "movespeed": 0.07,
+                        "blendMode": "Average",
+                        "riderAnim": {
+                            "animation": "rideelk-walk",
+                            "animationSpeed": 1,
+                            "weight": 1,	
+                            "withFpVariant": true,
+                            "blendMode": "Average", 
+                            "elementWeight": {
+                                "LowerTorso": 80,
+                                "UpperTorso": 80,
+                                "UpperFootR": 80,
+                                "UpperFootL": 80,
+                                "LowerFootR": 80,
+                                "LowerFootL": 80
+                            },
+                            "elementBlendMode": {
+                                "LowerTorso": "Average",
+                                "UpperTorso": "Average",
+                                "UpperFootR": "Average",
+                                "UpperFootL": "Average",
+                                "LowerFootR": "Average",
+                                "LowerFootL": "Average"
+                            }
+                        }
+                    },
+                    "gallop": {
+                        "animation": "Gallop",
+                        "weight": 10,
+                        "animationSpeed": 2,
+                        "movespeed": 0.095,
+                        "blendMode": "Average",
+                        "riderAnim": {
+                            "animation": "rideelk-run",
+                            "animationSpeed": 1.6,
+                            "weight": 1,
+                            "withFpVariant": true,
+                            "blendMode": "Average", 
+                            "elementWeight": {
+                                "LowerTorso": 80,
+                                "UpperTorso": 80,
+                                "UpperFootR": 80,
+                                "UpperFootL": 80,
+                                "LowerFootR": 80,
+                                "LowerFootL": 80
+                            },
+                            "elementBlendMode": {
+                                "LowerTorso": "Average",
+                                "UpperTorso": "Average",
+                                "UpperFootR": "Average",
+                                "UpperFootL": "Average",
+                                "LowerFootR": "Average",
+                                "LowerFootL": "Average"
+                            }
+                        }
+                    },
+                    "jump": {
+                        "animation": "jump",
+                        "weight": 50,
+                        "easeOutSpeed": 5,
+                        "blendMode": "Average",
+                        "animationSpeed": 1.75,
+                        "movespeed": 0.08,
+                        "riderAnim": {
+                            "animation": "rideelk-jump",
+                            "animationSpeed": 1,
+                            "weight": 10,
+                            "withFpVariant": true,
+                            "blendMode": "Average", 
+                            "elementWeight": {
+                                "LowerTorso": 160,
+                                "UpperTorso": 160,
+                                "UpperFootR": 160,
+                                "UpperFootL": 160,
+                                "LowerFootR": 160,
+                                "LowerFootL": 160
+                            },
+                            "elementBlendMode": {
+                                "LowerTorso": "Average",
+                                "UpperTorso": "Average",
+                                "UpperFootR": "Average",
+                                "UpperFootL": "Average",
+                                "LowerFootR": "Average",
+                                "LowerFootL": "Average"
+                            }
+                        }
+                    },
+                    "swim": {
+                        "moveSpeedMultiplier": 1,
+                        "animation": "walk",
+                        "animationSpeed": 1,
+                        "weight": 10,
+                        "blendMode": "Average",
+                        "riderAnim": {
+                            "animation": "rideelk-walk",
+                            "animationSpeed": 1,
+                            "weight": 1,	
+                            "withFpVariant": true,
+                            "blendMode": "Average", 
+                            "elementWeight": {
+                                "LowerTorso": 80,
+                                "UpperTorso": 80,
+                                "UpperFootR": 80,
+                                "UpperFootL": 80,
+                                "LowerFootR": 80,
+                                "LowerFootL": 80
+                            },
+                            "elementBlendMode": {
+                                "LowerTorso": "Average",
+                                "UpperTorso": "Average",
+                                "UpperFootR": "Average",
+                                "UpperFootL": "Average",
+                                "LowerFootR": "Average",
+                                "LowerFootL": "Average"
+                            }
+                        }
+                    },
+                    "swimback": {
+                        "moveSpeedMultiplier": 1,
+                        "animation": "walkback",
+                        "animationSpeed": 1,
+                        "weight": 10,
+                        "blendMode": "Average",
+                        "riderAnim": {
+                            "animation": "rideelk-walk",
+                            "animationSpeed": 1,
+                            "weight": 1,	
+                            "withFpVariant": true,
+                            "blendMode": "Average", 
+                            "elementWeight": {
+                                "LowerTorso": 80,
+                                "UpperTorso": 80,
+                                "UpperFootR": 80,
+                                "UpperFootL": 80,
+                                "LowerFootR": 80,
+                                "LowerFootL": 80
+                            },
+                            "elementBlendMode": {
+                                "LowerTorso": "Average",
+                                "UpperTorso": "Average",
+                                "UpperFootR": "Average",
+                                "UpperFootL": "Average",
+                                "LowerFootR": "Average",
+                                "LowerFootL": "Average"
+                            }
+                        }
                     }
                 }
-            },
-            "walk": {
-                "animation": "Walk",
-                "animationSpeedByType": {
-                    "*-shire": 1.1,
-                    "*-quarter": 1.3
-                },
-                "weight": 10,
-                "movespeed": 0.012,
-                "blendMode": "Average",
-                "riderAnim": {
-                    "animation": "rideelk-walk",
-                    "animationSpeed": 1,
-                    "weight": 1,	
-                    "withFpVariant": true,
-                    "blendMode": "Average", 
-                    "elementWeight": {
-                        "LowerTorso": 80,
-                        "UpperTorso": 80,
-                        "UpperFootR": 80,
-                        "UpperFootL": 80,
-                        "LowerFootR": 80,
-                        "LowerFootL": 80
-                    },
-                    "elementBlendMode": {
-                        "LowerTorso": "Average",
-                        "UpperTorso": "Average",
-                        "UpperFootR": "Average",
-                        "UpperFootL": "Average",
-                        "LowerFootR": "Average",
-                        "LowerFootL": "Average"
-                    }
-                }
-            },
-            "walkback": {
-                "animation": "walkback",
-                "animationSpeed": 1.4,
-                "weight": 10,
-                "movespeed": 0.011,
-                "easeInSpeed": 1,
-                "easeOutSpeed": 3,
-                "blendMode": "Average",
-                "riderAnim": {
-                    "animation": "rideelk-walk",
-                    "animationSpeed": 1,
-                    "weight": 1,
-                    "withFpVariant": true,
-                    "blendMode": "Average", 
-                    "elementWeight": {
-                        "LowerTorso": 80,
-                        "UpperTorso": 80,
-                        "UpperFootR": 80,
-                        "UpperFootL": 80,
-                        "LowerFootR": 80,
-                        "LowerFootL": 80
-                    },
-                    "elementBlendMode": {
-                        "LowerTorso": "Average",
-                        "UpperTorso": "Average",
-                        "UpperFootR": "Average",
-                        "UpperFootL": "Average",
-                        "LowerFootR": "Average",
-                        "LowerFootL": "Average"
-                    }
-                }
-            },
-            "trot": {
-                "animation": "Trot",
-                "animationSpeedByType": {
-                    "*-shire": 1.25,
-                    "*-quarter": 1.6
-                },
-                "weight": 10,
-                "movespeed": 0.019,
-                "blendMode": "Average",
-                "riderAnim": {
-                    "animation": "rideelk-walk",
-                    "animationSpeed": 1,
-                    "weight": 1,	
-                    "withFpVariant": true,
-                    "blendMode": "Average", 
-                    "elementWeight": {
-                        "LowerTorso": 80,
-                        "UpperTorso": 80,
-                        "UpperFootR": 80,
-                        "UpperFootL": 80,
-                        "LowerFootR": 80,
-                        "LowerFootL": 80
-                    },
-                    "elementBlendMode": {
-                        "LowerTorso": "Average",
-                        "UpperTorso": "Average",
-                        "UpperFootR": "Average",
-                        "UpperFootL": "Average",
-                        "LowerFootR": "Average",
-                        "LowerFootL": "Average"
-                    }
-                }
-            },
-            "canter": {
-                "animation": "Canter",
-                "animationSpeedByType": {
-                    "*-shire": 1.1,
-                    "*-quarter": 1.3
-                },
-                "weight": 10,
-                "movespeed": 0.07,
-                "blendMode": "Average",
-                "riderAnim": {
-                    "animation": "rideelk-walk",
-                    "animationSpeed": 1,
-                    "weight": 1,	
-                    "withFpVariant": true,
-                    "blendMode": "Average", 
-                    "elementWeight": {
-                        "LowerTorso": 80,
-                        "UpperTorso": 80,
-                        "UpperFootR": 80,
-                        "UpperFootL": 80,
-                        "LowerFootR": 80,
-                        "LowerFootL": 80
-                    },
-                    "elementBlendMode": {
-                        "LowerTorso": "Average",
-                        "UpperTorso": "Average",
-                        "UpperFootR": "Average",
-                        "UpperFootL": "Average",
-                        "LowerFootR": "Average",
-                        "LowerFootL": "Average"
-                    }
-                }
-            },
-            "sprint": {
-                "animation": "Gallop",
-                "weight": 10,
-                "animationSpeed": 2,
-                "movespeed": 0.095,
-                "blendMode": "Average",
-                "riderAnim": {
-                    "animation": "rideelk-run",
-                    "animationSpeed": 1.6,
-                    "weight": 1,
-                    "withFpVariant": true,
-                    "blendMode": "Average", 
-                    "elementWeight": {
-                        "LowerTorso": 80,
-                        "UpperTorso": 80,
-                        "UpperFootR": 80,
-                        "UpperFootL": 80,
-                        "LowerFootR": 80,
-                        "LowerFootL": 80
-                    },
-                    "elementBlendMode": {
-                        "LowerTorso": "Average",
-                        "UpperTorso": "Average",
-                        "UpperFootR": "Average",
-                        "UpperFootL": "Average",
-                        "LowerFootR": "Average",
-                        "LowerFootL": "Average"
-                    }
-                }
-            },
-            "jump": {
-                "animation": "jump",
-                "weight": 50,
-                "easeOutSpeed": 5,
-                "blendMode": "Average",
-                "animationSpeed": 1.75,
-                "movespeed": 0.08,
-                "riderAnim": {
-                    "animation": "rideelk-jump",
-                    "animationSpeed": 1,
-                    "weight": 10,
-                    "withFpVariant": true,
-                    "blendMode": "Average", 
-                    "elementWeight": {
-                        "LowerTorso": 160,
-                        "UpperTorso": 160,
-                        "UpperFootR": 160,
-                        "UpperFootL": 160,
-                        "LowerFootR": 160,
-                        "LowerFootL": 160
-                    },
-                    "elementBlendMode": {
-                        "LowerTorso": "Average",
-                        "UpperTorso": "Average",
-                        "UpperFootR": "Average",
-                        "UpperFootL": "Average",
-                        "LowerFootR": "Average",
-                        "LowerFootL": "Average"
-                    }
-                }
-            },
-            "swim": {
-                "moveSpeedMultiplier": 1,
-                "animation": "walk",
-                "animationSpeed": 1,
-                "weight": 10,
-                "blendMode": "Average",
-                "riderAnim": {
-                    "animation": "rideelk-walk",
-                    "animationSpeed": 1,
-                    "weight": 1,	
-                    "withFpVariant": true,
-                    "blendMode": "Average", 
-                    "elementWeight": {
-                        "LowerTorso": 80,
-                        "UpperTorso": 80,
-                        "UpperFootR": 80,
-                        "UpperFootL": 80,
-                        "LowerFootR": 80,
-                        "LowerFootL": 80
-                    },
-                    "elementBlendMode": {
-                        "LowerTorso": "Average",
-                        "UpperTorso": "Average",
-                        "UpperFootR": "Average",
-                        "UpperFootL": "Average",
-                        "LowerFootR": "Average",
-                        "LowerFootL": "Average"
-                    }
-                }
-            },
-            "swimback": {
-                "moveSpeedMultiplier": 1,
-                "animation": "walkback",
-                "animationSpeed": 1,
-                "weight": 10,
-                "blendMode": "Average",
-                "riderAnim": {
-                    "animation": "rideelk-walk",
-                    "animationSpeed": 1,
-                    "weight": 1,	
-                    "withFpVariant": true,
-                    "blendMode": "Average", 
-                    "elementWeight": {
-                        "LowerTorso": 80,
-                        "UpperTorso": 80,
-                        "UpperFootR": 80,
-                        "UpperFootL": 80,
-                        "LowerFootR": 80,
-                        "LowerFootL": 80
-                    },
-                    "elementBlendMode": {
-                        "LowerTorso": "Average",
-                        "UpperTorso": "Average",
-                        "UpperFootR": "Average",
-                        "UpperFootL": "Average",
-                        "LowerFootR": "Average",
-                        "LowerFootL": "Average"
-                    }
-                }
-				} }
+            }
+        },
+        "dependsOn": [ { "modid": "jaunt" } ]
     }
 ]

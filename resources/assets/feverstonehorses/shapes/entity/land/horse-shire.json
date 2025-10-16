@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof/FrontRHoofDefinition3,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof/FrontRHoofDefinition4,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBack/RightEar1,Root/FrontBody/MidBody/RearBody/RearBodyUpperLeft1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle1,Root/FrontBody/ShoulderFrontRightLeg,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle2,Root/FrontBody/FrontBodyLowerChestRight1,Root/FrontBody/FrontRightStorage,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition5,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition6,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadREye1,Root/FrontBody/Neck1,Root/FrontBody/FrontBodyLowerChestLeft1,Root/FrontBody/Neck1/Neck2/Neck3/Neck3Spine,Root/FrontBody/Neck1/Neck1Spine,Root/FrontBody/MidBody/RearBody/LeftLegRear,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition3,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition2,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition4,Root/FrontBody/FrontLeftStorage,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition1,Root/FrontBody/FrontBodyUpperRight1,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/RFrontLegAnkle2,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition5,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition6,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadLEye1/HeadLEye,Root/FrontBody/FrontBodyLShoulder,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof2,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof2,Root/FrontBody/FrontBodyRShoulder,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/FaceStorage,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBack/LeftEar1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof/BackRightHoofDefinition2,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof/BackRightHoofDefinition1,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof/BackLHoofDef2,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof/BackLHoofDef1,Root/FrontBody/FrontBodyUpperLeft1,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof,Root/FrontBody/FrontBodyChestDef,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRightHoof,Root/FrontBody/MidBody/RearBody/TailBase,Root/FrontBody/MidBody/RearBody/RearBodyUpperRight1,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof2,Root/FrontBody/MidBody/RearBody/RightLegRear,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/BackRightHoof/BackRightHoofDefinition1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/BackRightHoof/BackRightHoofDefinition2,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadLEye1,Root/FrontBody/Neck1/Neck2/Neck2Spine,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRightHoof2",
+		"collapsedPaths": "Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition3,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition2,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadREye1,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition4,Root/FrontBody/FrontLeftStorage,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition1,Root/FrontBody/FrontBodyUpperRight1,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof/BackLHoofDef2,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof/BackLHoofDef1,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/RFrontLegAnkle2,Root/FrontBody/FrontBodyUpperLeft1,Root/FrontBody/Neck1,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof/FrontRHoofDefinition3,Root/FrontBody/FrontBodyLowerChestLeft1,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof/FrontRHoofDefinition4,Root/FrontBody/FrontBodyChestDef,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRightHoof,Root/FrontBody/MidBody/RearBody/TailBase,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/RFrontLegAnkle/FrontRightHoof/FrontRightHoofDefinition1,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition5,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition6,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBack/RightEar1,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/RFrontLegAnkle/FrontRightHoof/FrontRightHoofDefinition4,Root/FrontBody/MidBody/RearBody/RearBodyUpperRight1,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadLEye1/HeadLEye,Root/FrontBody/FrontBodyLShoulder,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof2,Root/FrontBody/Neck1/Neck2/Neck3/Neck3Spine,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof2,Root/FrontBody/MidBody/RearBody/RearBodyUpperLeft1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/BackRightHoof/BackRightHoofDefinition1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle/BackRightHoof/BackRightHoofDefinition2,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/BackRightHoof/BackRightHoofDefinition2,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle/BackRightHoof/BackRightHoofDefinition1,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadLEye1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle1,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof2,Root/FrontBody/ShoulderFrontRightLeg,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle2,Root/FrontBody/Neck1/Neck2/Neck2Spine,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/FaceStorage,Root/FrontBody/Neck1/Neck1Spine,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBack/LeftEar1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof/BackRightHoofDefinition2,Root/FrontBody/MidBody/RearBody/LeftLegRear,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof/BackRightHoofDefinition1,Root/FrontBody/FrontBodyLowerChestRight1,Root/FrontBody/FrontRightStorage,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition5,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition6,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRightHoof2",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -2562,9 +2562,11 @@
 					]
 				},
 				{
-					"name": "FrontRightStorage",
-					"from": [ 0.0, 0.0, -1.0 ],
-					"to": [ 10.0, 11.0, 0.0 ],
+					"name": "RightFrontStorage",
+					"from": [ 0.0, 0.0, -1.5 ],
+					"to": [ 10.0, 11.0, -0.5 ],
+					"rotationOrigin": [ 0.0, 0.0, -0.5 ],
+					"rotationX": 3.0,
 					"faces": {
 					},
 					"children": [
@@ -2596,10 +2598,11 @@
 					]
 				},
 				{
-					"name": "FrontLeftStorage",
-					"from": [ 0.0, 0.0, 11.0 ],
-					"to": [ 10.0, 11.0, 12.0 ],
-					"rotationOrigin": [ 0.0, 0.0, 11.0 ],
+					"name": "LeftFrontStorage",
+					"from": [ 0.0, 0.0, 11.5 ],
+					"to": [ 10.0, 11.0, 12.5 ],
+					"rotationOrigin": [ 0.0, 0.0, 11.5 ],
+					"rotationX": -3.0,
 					"faces": {
 					},
 					"children": [
@@ -7521,6 +7524,35 @@
 						"RFrontLegAnkle": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"FrontBodyLShoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.5 },
 						"FrontRightLeg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Swim",
+			"code": "swim",
+			"quantityframes": 30,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "EaseOut",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"FrontBody": { "offsetX": 0.0, "offsetY": -15.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"MidBody": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"RearBody": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"FrontBodyRShoulder": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"FrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"ShoulderFrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
+						"FrontRightLegKnee": { "offsetX": -2.0, "offsetY": -0.5, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 112.5 },
+						"RFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"FrontRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"RightLegRear": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
+						"RLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"RLegRearJoint2": { "offsetX": -1.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0 },
+						"RLegRearJoint1Def": { "offsetX": 0.0, "offsetY": -3.0, "offsetZ": 0.0 },
+						"RLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 90.0 }
 					}
 				}
 			]

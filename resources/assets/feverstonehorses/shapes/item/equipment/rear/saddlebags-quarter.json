@@ -16,7 +16,7 @@
 	"elements": [
 		{
 			"name": "ORIGINsaddlebags",
-			"stepParentName": "Bum",
+			"stepParentName": "Rear",
 			"from": [ 2.1, 9.5, 2.7 ],
 			"to": [ 3.1, 10.5, 3.7 ],
 			"rotationOrigin": [ 2.1, 9.5, 2.7 ],
