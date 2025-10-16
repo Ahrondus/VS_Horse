@@ -98,13 +98,21 @@
         "floatupwhenstuck": { "onlyWhenDead": true },
         "rideableaccessories": {
             "wearableSlots": [
-                    { "code": "head", "forCategoryCodes": ["bridle"], "attachmentPointCode": "HeadAP" }, 
+                    { "code": "head", "forCategoryCodes": ["bridle-{type}"], "attachmentPointCode": "HeadAP" }, 
                     { "code": "face", "forCategoryCodes": ["face"], "attachmentPointCode": "FaceAP" }, 
-                    { "code": "middlebackupper", "forCategoryCodes": ["saddle"], "attachmentPointCode": "MidUpperAP" },
-                    { "code": "lowerback", "forCategoryCodes": ["bedroll", "fspillion"], "attachmentPointCode": "RearUpperAP" },
-                    { "code": "lowerbackside", "forCategoryCodes": ["sidebags"], "attachmentPointCode": "RearSideAP" },
-                    { "code": "frontrightsidefshorse", "forCategoryCodes": ["utilities"], "attachmentPointCode": "RFrontAP" },
-                    { "code": "frontleftsidefshorse", "forCategoryCodes": ["utilities"], "attachmentPointCode": "LFrontAP" },
+                    { "code": "middlebackupper", "forCategoryCodes": ["saddle-{type}"], "attachmentPointCode": "MidUpperAP" },
+                    { "code": "lowerback", "forCategoryCodes": ["bedroll", "fspillion-{type}"], "attachmentPointCode": "RearUpperAP" },
+                    { "code": "lowerbackside", "forCategoryCodes": ["sidebags-{type}"], "attachmentPointCode": "RearSideAP" },
+                    {
+                        "code": "frontrightsidefshorse",
+                        "forCategoryCodes": ["utilities", "pot", "weaponfalx", "weapon1m", "bowshort", "bowlong" ],
+                        "attachmentPointCode": "RFrontAP"
+                    },
+                    {
+                        "code": "frontleftsidefshorse",
+                        "forCategoryCodes": ["utilities", "pot", "weaponfalx", "weapon1m", "bowshort", "bowlong" ],
+                        "attachmentPointCode": "LFrontAP"
+                    },
                     { "code": "gearleft", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear1AP" }, 
                     { "code": "gearback", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear2AP" }, 
                     { "code": "gearright", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear3AP" }

@@ -2327,7 +2327,7 @@
 											]
 										},
 										{
-											"name": "FrontLeftStorage",
+											"name": "LeftFrontStorage",
 											"from": [ -3.0, -7.0, 0.5 ],
 											"to": [ 4.0, 2.0, 2.5 ],
 											"rotationOrigin": [ -3.0, -7.0, 0.0 ],
@@ -3001,7 +3001,7 @@
 											]
 										},
 										{
-											"name": "FrontRightStorage",
+											"name": "RightFrontStorage",
 											"from": [ -3.0, -7.0, -1.5 ],
 											"to": [ 4.0, 2.0, 0.5 ],
 											"rotationOrigin": [ -3.0, -7.0, -2.0 ],

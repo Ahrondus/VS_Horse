@@ -22,9 +22,9 @@
 	"attributes": {
 		"attachableToEntity": {
 			"categoryCodeByType": {
-				"*-head-bridle": "bridle",
-				"*-middlebackupper-saddle": "saddle",
-				"*-lowerbackside-saddlebags": "sidebags"
+				"*-head-bridle": "bridle-{breed}",
+				"*-middlebackupper-saddle": "saddle-{breed}",
+				"*-lowerbackside-saddlebags": "sidebags-{breed}"
 			},
 			"attachedShapeByType": {
 				"*-head-bridle": { "base": "item/equipment/head/bridle-{breed}" },
