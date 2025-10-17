@@ -12,7 +12,7 @@
         "*-tamed": [ "animal", "huntable", "habitat-land", "tamed" ],
         "*": [ "animal", "huntable", "habitat-land" ]
     },
-    "weight": 425,
+    "weight": 355,
     "hitBoxSizeByType": {
         "*-male-percheron": { "x": 1.75, "y": 1.9 },
         "*-female-percheron": { "x":1.65, "y": 1.9 },
@@ -104,12 +104,12 @@
                     { "code": "lowerback", "forCategoryCodes": ["bedroll", "fspillion-{type}"], "attachmentPointCode": "RearUpperAP" },
                     { "code": "lowerbackside", "forCategoryCodes": ["sidebags-{type}"], "attachmentPointCode": "RearSideAP" },
                     {
-                        "code": "frontrightsidefshorse",
+                        "code": "frontrightside",
                         "forCategoryCodes": ["utilities", "pot", "weaponfalx", "weapon1m", "bowshort", "bowlong" ],
                         "attachmentPointCode": "RFrontAP"
                     },
                     {
-                        "code": "frontleftsidefshorse",
+                        "code": "frontleftside",
                         "forCategoryCodes": ["utilities", "pot", "weaponfalx", "weapon1m", "bowshort", "bowlong" ],
                         "attachmentPointCode": "LFrontAP"
                     },
