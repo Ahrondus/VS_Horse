@@ -24,21 +24,21 @@
 			"attachedShape": { "base": "game:item/wearable/hooved/pillion1" },
 			"seatConfigByType": {
 				"*-shire": {
-					"bodyYawLimit": -135,
+					"bodyYawLimit": 0.2,
 					"controllable": false,
 					"mountOffset": { "x": 1, "y": -0.7, "z": 1.45 },
 					"MountRotation": { "y": 0 },
 					"eyeOffsetx": 0.2
 				},
 				"*-quarter": {
-					"bodyYawLimit": -135,
+					"bodyYawLimit": 0.2,
 					"controllable": false,
 					"mountOffset": { "x": 1.15, "y": -0.65, "z": 1.30 },
 					"MountRotation": { "y": 0 },
 					"eyeOffsetx": 0.2
 				},
 				"*-donkey": {
-					"bodyYawLimit": -135,
+					"bodyYawLimit": 0.2,
 					"controllable": false,
 					"mountOffset": { "x": 1, "y": -0.85, "z": 1.30 },
 					"MountRotation": { "y": 0 },

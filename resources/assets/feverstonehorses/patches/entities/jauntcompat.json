@@ -190,7 +190,7 @@
         "file": "feverstonehorses:entities/land/horse.json",
         "value": { 
             "jaunt:rideable": {
-                "interactMountAnySeat": true,
+                "interactMountAnySeat": false,
                 "seats": [
                     { "apName": "Rider", "selectionBox": "MidUpperAP", "bodyYawLimit": 0.2, "controllable": true,
                         "mountOffsetByType": {
@@ -427,7 +427,6 @@
                         }
                     },
                     "swim": {
-                        "moveSpeedMultiplier": 1,
                         "animation": "walk",
                         "animationSpeed": 1,
                         "weight": 10,
@@ -457,7 +456,6 @@
                         }
                     },
                     "swimback": {
-                        "moveSpeedMultiplier": 1,
                         "animation": "walkback",
                         "animationSpeed": 1,
                         "weight": 10,

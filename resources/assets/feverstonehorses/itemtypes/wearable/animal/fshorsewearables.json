@@ -22,14 +22,14 @@
 	"attributes": {
 		"attachableToEntity": {
 			"categoryCodeByType": {
-				"*-head-bridle": "bridle-{breed}",
-				"*-middlebackupper-saddle": "saddle-{breed}",
-				"*-lowerbackside-saddlebags": "sidebags-{breed}"
+				"*-head-bridle": "bridle",
+				"*-middlebackupper-saddle": "saddle",
+				"*-lowerbackside-saddlebags": "sidebags"
 			},
 			"attachedShapeByType": {
-				"*-head-bridle": { "base": "item/equipment/head/bridle-{breed}" },
-				"*-middlebackupper-saddle": { "base": "item/equipment/back/saddle-{breed}" },
-				"*-lowerbackside-saddlebags": { "base": "item/equipment/rear/saddlebags-{breed}" }
+				"*-head-bridle": { "base": "item/equipment/head/bridle" },
+				"*-middlebackupper-saddle": { "base": "item/equipment/back/saddle" },
+				"*-lowerbackside-saddlebags": { "base": "item/equipment/rear/saddlebags" }
 			}
 		},
 		"controlSchemeByType": {
@@ -52,7 +52,7 @@
 			"*-saddle": true
 		},
 		"handbook": {
-			"groupBy": ["fshorsewearables--{breed}-{category}-*"]
+			"groupBy": ["fshorsewearables-{breed}-{category}-*"]
 		}
 	},
 	"behaviorsByType": {
