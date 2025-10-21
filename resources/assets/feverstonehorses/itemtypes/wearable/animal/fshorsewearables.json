@@ -27,9 +27,9 @@
 				"*-lowerbackside-saddlebags": "sidebags"
 			},
 			"attachedShapeByType": {
-				"*-head-bridle": { "base": "item/equipment/head/bridle" },
-				"*-middlebackupper-saddle": { "base": "item/equipment/back/saddle" },
-				"*-lowerbackside-saddlebags": { "base": "item/equipment/rear/saddlebags" }
+				"*-head-bridle": { "base": "item/equipment/head/bridle-{breed}" },
+				"*-middlebackupper-saddle": { "base": "item/equipment/back/saddle-{breed}" },
+				"*-lowerbackside-saddlebags": { "base": "item/equipment/rear/saddlebags-{breed}" }
 			}
 		},
 		"controlSchemeByType": {
