@@ -20,7 +20,7 @@
 	},
 	"attributes": {
 		"attachableToEntity": {
-			"categoryCode": "fspillion-{breed}",
+			"categoryCode": "fspillion",
 			"attachedShape": { "base": "game:item/wearable/hooved/pillion1" },
 			"seatConfigByType": {
 				"*-shire": {
