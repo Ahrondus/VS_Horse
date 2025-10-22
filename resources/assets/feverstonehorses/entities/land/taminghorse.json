@@ -13,8 +13,8 @@
 		},		
 		"rideableaccessories": {
 			"wearableSlots": [
-				{ "code": "head", "forCategoryCodes": ["bridle"], "attachmentPointCode": "HeadAP" }, 
-				{ "code": "middlebackupper", "forCategoryCodes": ["saddle"], "attachmentPointCode": "MidUpperAP" }
+				{ "code": "head", "forCategoryCodes": ["bridle-{type}"], "attachmentPointCode": "HeadAP" }, 
+				{ "code": "middlebackupper", "forCategoryCodes": ["saddle-{type}"], "attachmentPointCode": "MidUpperAP" }
 			]
 		},
 		"rideable": {
