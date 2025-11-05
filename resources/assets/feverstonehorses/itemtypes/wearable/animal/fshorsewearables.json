@@ -22,7 +22,7 @@
 	"attributes": {
 		"attachableToEntity": {
 			"categoryCodeByType": {
-				"*-head-bridle": "bridl-{breed}e",
+				"*-head-bridle": "bridle-{breed}",
 				"*-middlebackupper-saddle": "saddle-{breed}",
 				"*-lowerbackside-saddlebags": "sidebags-{breed}"
 			},
