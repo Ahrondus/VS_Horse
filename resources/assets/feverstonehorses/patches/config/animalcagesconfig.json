@@ -1,0 +1,22 @@
+[
+    {
+        "op": "addeach",
+        "path": "/mediumCatchableEntities/-",
+        "file": "config/defaultconfig.json",
+        "value": [
+            {
+                "name": "foal-*",
+                "scale": 0.8
+            },
+            {
+                "name": "horse-*",
+                "scale": 0.75
+            },
+            {
+                "name": "taminghorse-*",
+                "scale": 0.75
+            }
+        ],
+        "dependsOn": [ { "modid": "animalcages" } ]
+    }
+]
