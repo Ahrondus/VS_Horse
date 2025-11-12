@@ -1,7 +1,7 @@
 {
     "code": "horse",
     "class": "EntityAgent",
-    "enabled": true,
+    "enabled": false,
     "variantgroups": [
         { "code": "tamed", "states": ["wild", "tamed"] },
         { "code": "gender", "states": ["male", "female"] },
@@ -99,10 +99,10 @@
         "floatupwhenstuck": { "onlyWhenDead": true },
         "rideableaccessories": {
             "wearableSlots": [
-                    { "code": "head-{type}", "forCategoryCodes": ["bridle"], "attachmentPointCode": "HeadAP" }, 
+                    { "code": "head", "forCategoryCodes": ["bridle-{type}"], "attachmentPointCode": "HeadAP" }, 
                     { "code": "face", "forCategoryCodes": ["face"], "attachmentPointCode": "FaceAP" }, 
                     { "code": "middlebackupper", "forCategoryCodes": ["saddle-{type}"], "attachmentPointCode": "MidUpperAP" },
-                    { "code": "lowerback", "forCategoryCodes": ["bedroll"], "attachmentPointCode": "RearUpperAP" },
+                    { "code": "lowerback", "forCategoryCodes": ["bedroll", "fspillion-{type}"], "attachmentPointCode": "RearUpperAP" },
                     { "code": "lowerbackside", "forCategoryCodes": ["sidebags-{type}"], "attachmentPointCode": "RearSideAP" },
                     {
                         "code": "frontrightside",
@@ -123,72 +123,90 @@
                 "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", "RearUpperAP",
                                     "RearSideAP", "RFrontAP", "LFrontAP", "TempGear1AP", "TempGear2AP", "TempGear3AP"]
         },
-        "gait": {
+        "jaunt:gait": {
 			"idleGait": "idle",
 			"gaits": [
-				{
-					"code": "walkback",
-					"movespeed": 0.011,
-					"backwards": true,
-					"yawMultiplier": 1.2,
-					"sound": "game:creature/hooved/trot"
-				},
-				{
-					"code": "idle",
-					"yawMultiplier": 1
-				},
-				{
-					"code": "walk",
-					"movespeed": 0.019,
-					"yawMultiplier": 1.3,
-					"sound": "game:creature/hooved/trot"
-				},
-				{
-					"code": "trot",
-					"movespeed": 0.036,
-					"yawMultiplier": 0.90,
-					"fallbackGaitCode": "walk",
-					"sound": "game:creature/hooved/trot"
-				},
-				{
-					"code": "canter",
-					"movespeed": 0.075,
-					"yawMultiplier": 0.82,
-					"fallbackGaitCode": "trot",
-					"sound": "game:creature/hooved/trot"
-				},
-				{
-					"code": "sprint",
-					"movespeed": 0.095,
-					"yawMultiplier": 1,
-					"isSprint": true,
-					"fallbackGaitCode": "walk",
-					"sound": "game:creature/hooved/gallop"
-				},
-				{
-					"code": "swim",
-					"movespeed": 0.02,
-					"yawMultiplier": 1,
-					"fallbackGaitCode": "idle"
-				},
-				{
-					"code": "swimback",
-					"movespeed": 0.02,
-					"backwards": true,
-					"yawMultiplier": 1,
-					"fallbackGaitCode": "idle"
-				},
-				{
-					"code": "jump",
-					"movespeed": 0.1067,
-					"yawMultiplier": 1,
-					"fallbackGaitCode": "walk",
-					"sound": "game:creature/hooved/gallop"
-				}
-			]
+                        {
+                            "code": "walkback",
+                            "movespeed": 0.011,
+                            "backwards": true,
+                            "yawMultiplier": 1,
+                            "sound": "game:creature/hooved/trot",
+                            "staminaCost": 0.0,
+                            "iconTexture": "jaunt:hud/walkback.svg",
+                            "environment": "land"
+                        },
+                        {
+                            "code": "idle",
+                            "yawMultiplier": 1,
+                            "iconTexture": "jaunt:hud/idle.svg",
+                            "environment": "land"
+                        },
+                        {
+                            "code": "walk",
+                            "movespeed": 0.019,
+                            "yawMultiplier": 1.2,
+                            "sound": "game:creature/hooved/trot",
+                            "staminaCost": 0.0,
+                            "iconTexture": "jaunt:hud/walk.svg",
+                            "environment": "land"
+                        },
+                        {
+                            "code": "trot",
+                            "movespeed": 0.036,
+                            "yawMultiplier": 0.90,
+                            "fallbackGaitCode": "walk",
+                            "sound": "game:creature/hooved/trot",
+                            "staminaCost": 0.0,
+                            "iconTexture": "jaunt:hud/trot.svg",
+                            "environment": "land"
+                        },
+                        {
+                            "code": "canter",
+                            "movespeed": 0.075,
+                            "yawMultiplier": 0.82,
+                            "fallbackGaitCode": "trot",
+                            "sound": "game:creature/hooved/trot",
+                            "staminaCost": 0.05,
+                            "iconTexture": "jaunt:hud/canter.svg",
+                            "environment": "land"
+                        },
+                        {
+                            "code": "sprint",
+                            "movespeed": 0.095,
+                            "yawMultiplier": 1,
+                            "isSprint": true,
+                            "fallbackGaitCode": "walk",
+                            "sound": "game:creature/hooved/gallop",
+                            "staminaCost": 0.15,
+                            "iconTexture": "jaunt:hud/gallop.svg",
+                            "environment": "land"
+                        },
+                        {
+                            "code": "swim",
+                            "movespeed": 0.02,
+                            "yawMultiplier": 1,
+                            "fallbackGaitCode": "idle"
+                        },
+                        {
+                            "code": "swimback",
+                            "movespeed": 0.02,
+                            "backwards": true,
+                            "yawMultiplier": 1,
+                            "fallbackGaitCode": "idle"
+                        },
+                        {
+                            "code": "jump",
+                            "movespeed": 0.1067,
+                            "yawMultiplier": 1,
+                            "fallbackGaitCode": "walk",
+                            "sound": "game:creature/hooved/gallop"
+                        }
+			    ]
 		},
-        "rideable": {
+        "jaunt:rideable": {
             "interactMountAnySeat": false,
+            "enabledByType": { "*-tamed-*": true, "*": false },
             "seats": [
                 { "apName": "Rider", "selectionBox": "MidUpperAP", "bodyYawLimit": 0.2, "controllable": true,
                     "mountOffsetByType": {
@@ -203,7 +221,10 @@
                     }
                 }
             ],
-            "rideableGaitOrder": ["walkback", "idle", "walk", "sprint"],
+            "rideableGaitOrderByType":{
+                "*-shire": ["walkback", "idle", "walk", "trot", "canter", "sprint"],
+                "*-quarter": ["walkback", "idle", "walk", "trot", "sprint"]
+            },
             "controls": {
                 "idle": {
                     "animation": "Idle",
@@ -233,6 +254,39 @@
                     }
                 },
                 "walk": {
+                    "animation": "walk",
+                    "animationSpeedByType": {
+                        "*-shire": 1.1,
+                        "*-quarter": 1.1
+                    },
+                    "weight": 10,
+                    "movespeed": 0.012,
+                    "blendMode": "Average",
+                    "riderAnim": {
+                        "animation": "rideelk-walk",
+                        "animationSpeed": 1,
+                        "weight": 1,	
+                        "withFpVariant": true,
+                        "blendMode": "Average", 
+                        "elementWeight": {
+                            "LowerTorso": 80,
+                            "UpperTorso": 80,
+                            "UpperFootR": 80,
+                            "UpperFootL": 80,
+                            "LowerFootR": 80,
+                            "LowerFootL": 80
+                        },
+                        "elementBlendMode": {
+                            "LowerTorso": "Average",
+                            "UpperTorso": "Average",
+                            "UpperFootR": "Average",
+                            "UpperFootL": "Average",
+                            "LowerFootR": "Average",
+                            "LowerFootL": "Average"
+                        }
+                    }
+                },
+                "trot": {
                     "animation": "Trot",
                     "animationSpeedByType": {
                         "*-shire": 1.25,
@@ -240,6 +294,39 @@
                     },
                     "weight": 10,
                     "movespeed": 0.021,
+                    "blendMode": "Average",
+                    "riderAnim": {
+                        "animation": "rideelk-walk",
+                        "animationSpeed": 1,
+                        "weight": 1,	
+                        "withFpVariant": true,
+                        "blendMode": "Average", 
+                        "elementWeight": {
+                            "LowerTorso": 80,
+                            "UpperTorso": 80,
+                            "UpperFootR": 80,
+                            "UpperFootL": 80,
+                            "LowerFootR": 80,
+                            "LowerFootL": 80
+                        },
+                        "elementBlendMode": {
+                            "LowerTorso": "Average",
+                            "UpperTorso": "Average",
+                            "UpperFootR": "Average",
+                            "UpperFootL": "Average",
+                            "LowerFootR": "Average",
+                            "LowerFootL": "Average"
+                        }
+                    }
+                },
+                "canter": {
+                    "animation": "Canter",
+                    "animationSpeedByType": {
+                        "*-shire": 1.25,
+                        "*-quarter": 1.6
+                    },
+                    "weight": 10,
+                    "movespeed": 0.042,
                     "blendMode": "Average",
                     "riderAnim": {
                         "animation": "rideelk-walk",
@@ -421,6 +508,16 @@
         "ownable": {
             "groupCode": "mountableanimal"
         },
+        "jaunt:stamina": {
+			"maxStamina": 100,
+			"sprintFatigue": 0.2,
+			"swimFatigue": 0.2,
+			"baseFatigueRate": 1,
+			"exhaustionThreshold": 0.5,
+			"staminaRegenRate": 1,
+			"regenPenaltyWounded": 0.5,
+			"regenPenaltyMounted": 0.3
+		},
         "health": {
             "maxhealthByType": {
                 "*-percheron": 31,
@@ -514,9 +611,6 @@
         "behaviors": [ 
                 { "code": "multiply",
                     "enabledByType": { "*-female-*": true, "*": false } },
-                { "code": "gait" },
-                { "code": "rideable",
-                    "enabledByType": { "*-tamed-*": true, "*": false } },
                 { "code": "mouthinventory",
                     "acceptStacks": [
                         { "type": "item", "code": "vegetable-carrot" },
@@ -538,6 +632,9 @@
                 { "code": "controlledphysics" },
                 { "code": "floatupwhenstuck" },
                 { "code": "interpolateposition" },
+                { "code": "jaunt:rideable"},
+			    { "code": "jaunt:gait" },
+			    { "code": "jaunt:stamina" },
                 { "code": "ownable" },
                 { "code": "selectionboxes",
                     "enabledByType": { "*-tamed-*": true, "*": false } },
@@ -755,9 +852,6 @@
                     "multiplyCooldownDaysMax": 28,
                     "portionsEatenForMultiply": 14
                 },
-                { "code": "gait" },
-                { "code": "rideable",
-                    "enabledByType": { "*-tamed-*": true, "*": false } },
                 { "code": "mouthinventory",
                     "acceptStacks": [
                         { "type": "item", "code": "vegetable-carrot" },
@@ -982,6 +1076,9 @@
                 { "code": "rideableaccessories",
                     "enabledByType": { "*-tamed-*": true, "*": false } },
                 { "code": "ropetieable" },
+                { "code": "jaunt:rideable"},
+			    { "code": "jaunt:gait" },
+			    { "code": "jaunt:stamina" },
                 { "code": "pettable", "minGeneration": 1 }
             ],
         "spawnconditionsByType": {
