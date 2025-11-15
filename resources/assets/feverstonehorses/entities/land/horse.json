@@ -99,7 +99,7 @@
         "floatupwhenstuck": { "onlyWhenDead": true },
         "rideableaccessories": {
             "wearableSlots": [
-                    { "code": "head-{type}", "forCategoryCodes": ["bridle"], "attachmentPointCode": "HeadAP" }, 
+                    { "code": "head", "forCategoryCodes": ["bridle-{type}"], "attachmentPointCode": "HeadAP" }, 
                     { "code": "face", "forCategoryCodes": ["face"], "attachmentPointCode": "FaceAP" }, 
                     { "code": "middlebackupper", "forCategoryCodes": ["saddle-{type}"], "attachmentPointCode": "MidUpperAP" },
                     { "code": "lowerback", "forCategoryCodes": ["bedroll"], "attachmentPointCode": "RearUpperAP" },
@@ -547,7 +547,7 @@
                 { "code": "health" },
                 { "code": "despawn",
                     "enabledByType": { "*-wild-*": true, "*": false },
-                     "minPlayerDistance": 12, "belowLightLevel": 8, "minSeconds": 600 },
+                     "minPlayerDistance": 28, "belowLightLevel": 8, "minSeconds": 600 },
                 { "code": "ropetieable" }
             ],
         "animations": [
@@ -781,7 +781,7 @@
                     "whenBelowHealth": 7 },
                 { "code": "despawn",
                     "enabledByType": { "*-wild-*": true, "*": false },
-                     "minPlayerDistance": 24, "belowLightLevel": 8, "minSeconds": 600 },
+                     "minPlayerDistance": 28, "belowLightLevel": 8, "minSeconds": 600 },
                 { "code": "deaddecay",  "hoursToDecay": 96, "decayedBlock": "carcass-large" },
                 { "code": "floatupwhenstuck" },
                 { "code": "health" },

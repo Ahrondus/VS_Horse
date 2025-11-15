@@ -644,7 +644,7 @@
                 { "code": "health" },
                 { "code": "despawn",
                     "enabledByType": { "*-wild-*": true, "*": false },
-                     "minPlayerDistance": 12, "belowLightLevel": 8, "minSeconds": 600 },
+                     "minPlayerDistance": 28, "belowLightLevel": 8, "minSeconds": 600 },
                 { "code": "ropetieable" }
             ],
         "animations": [
@@ -875,7 +875,7 @@
                     "whenBelowHealth": 7 },
                 { "code": "despawn",
                     "enabledByType": { "*-wild-*": true, "*": false },
-                     "minPlayerDistance": 24, "belowLightLevel": 8, "minSeconds": 600 },
+                     "minPlayerDistance": 28, "belowLightLevel": 8, "minSeconds": 600 },
                 { "code": "deaddecay",  "hoursToDecay": 96, "decayedBlock": "carcass-large" },
                 { "code": "floatupwhenstuck" },
                 { "code": "health" },
