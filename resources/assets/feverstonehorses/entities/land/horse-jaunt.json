@@ -226,6 +226,38 @@
                 "*-quarter": ["walkback", "idle", "walk", "trot", "sprint"]
             },
             "controls": {
+                "walkback": {
+                    "animation": "walkback",
+                    "animationSpeed": 1.4,
+                    "weight": 10,
+                    "movespeed": 0.011,
+                    "easeInSpeed": 1,
+                    "easeOutSpeed": 3,
+                    "blendMode": "Average",
+                    "riderAnim": {
+                        "animation": "rideelk-walk",
+                        "animationSpeed": 1,
+                        "weight": 1,
+                        "withFpVariant": true,
+                        "blendMode": "Average", 
+                        "elementWeight": {
+                            "LowerTorso": 80,
+                            "UpperTorso": 80,
+                            "UpperFootR": 80,
+                            "UpperFootL": 80,
+                            "LowerFootR": 80,
+                            "LowerFootL": 80
+                        },
+                        "elementBlendMode": {
+                            "LowerTorso": "Average",
+                            "UpperTorso": "Average",
+                            "UpperFootR": "Average",
+                            "UpperFootL": "Average",
+                            "LowerFootR": "Average",
+                            "LowerFootL": "Average"
+                        }
+                    }
+                },
                 "idle": {
                     "animation": "Idle",
                     "weight": 1,
@@ -352,38 +384,7 @@
                         }
                     }
                 },
-                "walkback": {
-                    "animation": "walkback",
-                    "animationSpeed": 1.4,
-                    "weight": 10,
-                    "movespeed": 0.011,
-                    "easeInSpeed": 1,
-                    "easeOutSpeed": 3,
-                    "blendMode": "Average",
-                    "riderAnim": {
-                        "animation": "rideelk-walk",
-                        "animationSpeed": 1,
-                        "weight": 1,
-                        "withFpVariant": true,
-                        "blendMode": "Average", 
-                        "elementWeight": {
-                            "LowerTorso": 80,
-                            "UpperTorso": 80,
-                            "UpperFootR": 80,
-                            "UpperFootL": 80,
-                            "LowerFootR": 80,
-                            "LowerFootL": 80
-                        },
-                        "elementBlendMode": {
-                            "LowerTorso": "Average",
-                            "UpperTorso": "Average",
-                            "UpperFootR": "Average",
-                            "UpperFootL": "Average",
-                            "LowerFootR": "Average",
-                            "LowerFootL": "Average"
-                        }
-                    }
-                },
+                
                 "sprint": {
                     "animation": "Gallop",
                     "weight": 10,
@@ -510,13 +511,13 @@
         },
         "jaunt:stamina": {
 			"maxStamina": 100,
-			"sprintFatigue": 0.2,
+			"sprintFatigue": 0.25,
 			"swimFatigue": 0.2,
-			"baseFatigueRate": 1,
-			"exhaustionThreshold": 0.5,
+			"baseFatigueRate": 0.5,
 			"staminaRegenRate": 1,
-			"regenPenaltyWounded": 0.5,
-			"regenPenaltyMounted": 0.3
+			"regenPenaltyWounded": 0.60,
+			"regenPenaltyMounted": 0.25,
+			"exhaustionThreshold": 0.1
 		},
         "health": {
             "maxhealthByType": {
@@ -644,7 +645,7 @@
                 { "code": "health" },
                 { "code": "despawn",
                     "enabledByType": { "*-wild-*": true, "*": false },
-                     "minPlayerDistance": 12, "belowLightLevel": 8, "minSeconds": 600 },
+                     "minPlayerDistance": 28, "belowLightLevel": 8, "minSeconds": 600 },
                 { "code": "ropetieable" }
             ],
         "animations": [
@@ -875,7 +876,7 @@
                     "whenBelowHealth": 7 },
                 { "code": "despawn",
                     "enabledByType": { "*-wild-*": true, "*": false },
-                     "minPlayerDistance": 24, "belowLightLevel": 8, "minSeconds": 600 },
+                     "minPlayerDistance": 28, "belowLightLevel": 8, "minSeconds": 600 },
                 { "code": "deaddecay",  "hoursToDecay": 96, "decayedBlock": "carcass-large" },
                 { "code": "floatupwhenstuck" },
                 { "code": "health" },
