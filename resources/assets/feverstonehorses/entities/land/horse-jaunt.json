@@ -206,7 +206,6 @@
 		},
         "jaunt:rideable": {
             "interactMountAnySeat": false,
-            "enabledByType": { "*-tamed-*": true, "*": false },
             "seats": [
                 { "apName": "Rider", "selectionBox": "MidUpperAP", "bodyYawLimit": 0.2, "controllable": true,
                     "mountOffsetByType": {
@@ -633,7 +632,8 @@
                 { "code": "controlledphysics" },
                 { "code": "floatupwhenstuck" },
                 { "code": "interpolateposition" },
-                { "code": "jaunt:rideable"},
+                { "code": "jaunt:rideable",
+                    "enabledByType": { "*-tamed-*": true, "*": false }},
 			    { "code": "jaunt:gait" },
 			    { "code": "jaunt:stamina" },
                 { "code": "ownable" },
