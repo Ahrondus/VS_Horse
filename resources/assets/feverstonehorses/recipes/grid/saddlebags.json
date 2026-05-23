@@ -29,11 +29,6 @@
                 "code": "game:leather-normal-plain",
                 "quantity": 2
             },
-            "C": {
-                "type": "item",
-                "code": "game:cloth-plain",
-                "quantity": 1
-            },
             "M": {
                 "type": "item",
                 "code": "game:metalnailsandstrips-*",
@@ -55,11 +50,6 @@
                 "type": "item",
                 "code": "game:leather-normal-plain",
                 "quantity": 2
-            },
-            "C": {
-                "type": "item",
-                "code": "game:cloth-plain",
-                "quantity": 1
             },
             "M": {
                 "type": "item",

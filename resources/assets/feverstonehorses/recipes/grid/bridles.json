@@ -14,7 +14,7 @@
             },
             "M": {
                 "type": "item",
-                "code": "game:metalnailsandstrips-tinbronze",
+                "code": "game:metalnailsandstrips-*",
                 "quantity": 1
             }
         },
@@ -41,7 +41,7 @@
             },
             "M": {
                 "type": "item",
-                "code": "game:metalnailsandstrips-tinbronze",
+                "code": "game:metalnailsandstrips-*",
                 "quantity": 1
             }
         },
@@ -68,7 +68,7 @@
             },
             "M": {
                 "type": "item",
-                "code": "game:metalnailsandstrips-tinbronze",
+                "code": "game:metalnailsandstrips-*",
                 "quantity": 1
             }
         },

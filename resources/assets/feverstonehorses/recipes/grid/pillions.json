@@ -3,28 +3,29 @@
         "ingredientPattern": "PB",
         "ingredients": {
             "P": { "type": "item", "code": "game:hoovedwearables-lowerbackside-pillion-leather" },
-            "B": { "type": "item", "code": "feverstonehorses:fshorsewearables-{breed}-head-bridle",
+            "B": { "type": "item", "code": "feverstonehorses:fshorsewearables-*-head-bridle", "name": "breed", "skipVariants": [ "direwolf", "ostrich" ],
 			            "returnedStack": { "type": "item", "code": "feverstonehorses:fshorsewearables-{breed}-head-bridle" } } 
         },
         "width": 1,
         "height": 2,
         "shapeless": true,
         "output": { "type": "item", "code": "feverstonehorses:fshorsewearables-lowerbackside-pillion-leather-{breed}" },
-        "enabled": false
+	    "enabled": false
     },
     {
         "ingredientPattern": "PB",
         "ingredients": {
             "P": { "type": "item", "code": "game:hoovedwearables-lowerbackside-pillion-sturdyleather" },
-            "B": { "type": "item", "code": "feverstonehorses:fshorsewearables-{breed}-head-bridle",
+            "B": { "type": "item", "code": "feverstonehorses:fshorsewearables-*-head-bridle", "name": "breed", "skipVariants": [ "direwolf", "ostrich" ],
 			            "returnedStack": { "type": "item", "code": "feverstonehorses:fshorsewearables-{breed}-head-bridle" } } 
         },
         "width": 1,
         "height": 2,
         "shapeless": true,
         "output": { "type": "item", "code": "feverstonehorses:fshorsewearables-lowerbackside-pillion-sturdyleather-{breed}" },
-        "enabled": false
+	    "enabled": false
     },
+
     {
         "ingredientPattern": "P",
         "ingredients": {
@@ -34,7 +35,7 @@
         "height": 1,
         "shapeless": true,
         "output": { "type": "item", "code": "game:hoovedwearables-lowerbackside-pillion-leather" },
-        "enabled": false
+	    "enabled": false
     },
     {
         "ingredientPattern": "P",
@@ -45,6 +46,6 @@
         "height": 1,
         "shapeless": true,
         "output": { "type": "item", "code": "game:hoovedwearables-lowerbackside-pillion-sturdyleather" },
-        "enabled": false
+	    "enabled": false
     }
 ]

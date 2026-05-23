@@ -1,19 +1,20 @@
 {
     "code": "horse",
     "class": "EntityAgent",
-    "enabled": true,
     "variantgroups": [
         { "code": "tamed", "states": ["wild", "tamed"] },
         { "code": "gender", "states": ["male", "female"] },
         { "code": "type", "states": ["percheron", "arabian", "donkey", "shire", "quarter"] }
     ],
     "skipVariants": [ "horse-wild-male-percheron", "horse-wild-female-percheron",
-                      "horse-wild-male-arabian", "horse-wild-female-arabian" ],
+                      "horse-wild-male-arabian", "horse-wild-female-arabian",
+                      "horse-tamed-male-percheron", "horse-tamed-female-percheron",
+                      "horse-tamed-male-arabian", "horse-tamed-female-arabian" ],
     "tagsByType": {
-        "*-tamed": [ "animal", "huntable", "habitat-land", "tamed" ],
-        "*": [ "animal", "huntable", "habitat-land" ]
+        "*-tamed-*": [ "animal", "huntable", "habitat-land", "tamed" ],
+        "*": [ "animal", "huntable", "habitat-land", "adult" ]
     },
-    "weight": 355,
+    "weight": 455,
     "hitBoxSizeByType": {
         "*-male-percheron": { "x": 1.75, "y": 1.9 },
         "*-female-percheron": { "x":1.65, "y": 1.9 },
@@ -72,10 +73,11 @@
             "foodCategories": [ "Grain", "Fruit" ],
             "weightedFoodTags": [ 
                 { "weight": 0.1, "code": "grass" },
-                { "weight": 0.85, "code": "tamingfeedbundle"},
-                { "weight": 0.45, "code": "carrot"},
+                { "weight": 0.25, "code": "nibbleCrop" },
                 { "weight": 0.3, "code": "cabbage"},
                 { "weight": 0.35, "code": "turnip"},
+                { "weight": 0.45, "code": "carrot"},
+                { "weight": 0.85, "code": "tamingfeedbundle"},
                 { "weight": 1, "code": "redapple"},
                 { "weight": 1, "code": "yellowapple"},
                 { "weight": 1, "code": "pinkapple"} 
@@ -102,6 +104,8 @@
                     { "code": "head", "forCategoryCodes": ["bridle-{type}"], "attachmentPointCode": "HeadAP" }, 
                     { "code": "face", "forCategoryCodes": ["face"], "attachmentPointCode": "FaceAP" }, 
                     { "code": "middlebackupper", "forCategoryCodes": ["saddle-{type}"], "attachmentPointCode": "MidUpperAP" },
+                    { "code": "fswmiddlebackleft", "forCategoryCodes": [ "lantern" ], "attachmentPointCode": "LLanternAP" },
+                    { "code": "fswmiddlebackright", "forCategoryCodes": [ "lantern" ], "attachmentPointCode": "RLanternAP" },
                     { "code": "lowerback", "forCategoryCodes": ["bedroll"], "attachmentPointCode": "RearUpperAP" },
                     { "code": "lowerbackside", "forCategoryCodes": ["sidebags-{type}"], "attachmentPointCode": "RearSideAP" },
                     {
@@ -120,99 +124,144 @@
                 ]
         },
         "selectionboxes": {
-                "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", "RearUpperAP",
+                "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", "LLanternAP", "RLanternAP", "RearUpperAP",
                                     "RearSideAP", "RFrontAP", "LFrontAP", "TempGear1AP", "TempGear2AP", "TempGear3AP"]
         },
         "gait": {
-			"idleGait": "idle",
+            "enabledByType": { "*-tamed-*": true, "taminghorse-*": true, "*": false },
+			"idleGaits": { "Land": "idle", "Sea": "swimidle" },
 			"gaits": [
 				{
 					"code": "walkback",
 					"movespeed": 0.011,
 					"backwards": true,
-					"yawMultiplier": 1.2,
-					"sound": "game:creature/hooved/trot"
+					"sound": "game:creature/hooved/trot",
+
+                    "animation": "Walkback",
+                    "animationSpeed": 1.4,
+                    "weight": 10,
+                    "easeInSpeed": 1,
+                    "easeOutSpeed": 3,
+                    "blendMode": "Average"
 				},
 				{
 					"code": "idle",
-					"yawMultiplier": 1
+
+                    "animation": "Idle",
+                    "weight": 1
 				},
 				{
 					"code": "walk",
 					"movespeed": 0.019,
-					"yawMultiplier": 1.3,
-					"sound": "game:creature/hooved/trot"
+					"yawMultiplier": 1.2,
+					"sound": "game:creature/hooved/trot",
+
+                    "animation": "Walk",
+                    "animationSpeedByType": {
+                        "*-shire": 1.25,
+                        "*-quarter": 1.6
+                    }
 				},
 				{
 					"code": "trot",
 					"movespeed": 0.036,
 					"yawMultiplier": 0.90,
 					"fallbackGaitCode": "walk",
-					"sound": "game:creature/hooved/trot"
+					"sound": "game:creature/hooved/trot",
+                    
+                    "animation": "Trot",
+                    "blendMode": "Average",
+                    "animationSpeed": 1.25
 				},
 				{
 					"code": "canter",
 					"movespeed": 0.075,
-					"yawMultiplier": 0.82,
+					"yawMultiplier": 1,
 					"fallbackGaitCode": "trot",
-					"sound": "game:creature/hooved/trot"
+					"sound": "game:creature/hooved/trot",
+
+                    "animationByType": {
+                        "*-quarter": "Trot",
+                        "*-donkey": "Trot",
+                        "*-shire": "Canter"
+                    },
+                    "animationSpeed": 1.1
 				},
 				{
 					"code": "sprint",
-					"movespeed": 0.095,
-					"yawMultiplier": 1,
-					"isSprint": true,
-					"fallbackGaitCode": "walk",
-					"sound": "game:creature/hooved/gallop"
+					"movespeed": 0.1067,
+					"yawMultiplier": 0.8,
+					"fallbackGaitCode": "trot",
+					"sound": "game:creature/hooved/gallop",
+                    
+                    "animation": "Gallop",
+                    "weight": 10,
+                    "animationSpeed": 2,
+                    "blendMode": "Average",
+                    "easeOutSpeed": 20
 				},
 				{
-					"code": "swim",
+					"code": "swimforth",
 					"movespeed": 0.02,
-					"yawMultiplier": 1,
-					"fallbackGaitCode": "idle"
+                    "fallbackGaitCode": "swimidle",
+                    "environment": "Sea",
+
+                    "animation": "Swim",
+                    "animationSpeed": 1.2,
+                    "weight": 10,
+                    "blendMode": "Average"
+				},
+				{
+					"code": "swimidle",
+					"movespeed": 0.0,
+                    "environment": "Sea",
+
+                    "animation": "Swim",
+                    "animationSpeed": 1.2,
+                    "weight": 10,
+                    "blendMode": "Average"
 				},
 				{
 					"code": "swimback",
-					"movespeed": 0.02,
+					"movespeed": 0.01,
 					"backwards": true,
-					"yawMultiplier": 1,
-					"fallbackGaitCode": "idle"
+                    "fallbackGaitCode": "swimidle",
+                    "environment": "Sea",
+
+                    "animation": "Swim",
+                    "animationSpeed": 1.2,
+                    "weight": 10,
+                    "blendMode": "Average"
 				},
 				{
 					"code": "jump",
 					"movespeed": 0.1067,
 					"yawMultiplier": 1,
 					"fallbackGaitCode": "walk",
-					"sound": "game:creature/hooved/gallop"
+					"sound": "game:creature/hooved/gallop",
+
+                    "animation": "Jump",
+                    "weight": 50,
+                    "easeOutSpeed": 15,
+                    "blendMode": "Average",
+                    "animationSpeed": 1.75
 				}
 			]
 		},
         "rideable": {
+            "enabledByType": { "*-tamed-*": true, "taminghorse-*": true, "*": false },
             "interactMountAnySeat": false,
             "seats": [
                 { "apName": "Rider", "selectionBox": "MidUpperAP", "bodyYawLimit": 0.2, "controllable": true,
-                    "mountOffsetByType": {
-                        "*-female-shire": { "x": 0, "y": -0.75, "z": 0 },
-                        "*-male-shire": { "x": 0, "y": -0.7, "z": 0 },
-
-                        "*-female-quarter": { "x": 0, "y": -0.65, "z": 0 },
-                        "*-male-quarter": { "x": 0, "y": -0.6, "z": 0 },
-
-                        "*-female-donkey": { "x": 0, "y": -0.85, "z": 0 },
-                        "*-male-donkey": { "x": 0, "y": -0.80, "z": 0 }
-                    }
+                    "riderOffset": { "x": 0, "y": -0.55, "z": 0 }
                 }
             ],
-            "rideableGaitOrder": ["walkback", "idle", "walk", "sprint"],
+            "rideableGaitOrder": {
+                "Land": ["walkback", "idle", "walk", "sprint"],
+                "Sea": ["swimback", "swimidle", "swimforth"]
+            },
             "controls": {
                 "walkback": {
-                    "animation": "walkback",
-                    "animationSpeed": 1.4,
-                    "weight": 10,
-                    "movespeed": 0.011,
-                    "easeInSpeed": 1,
-                    "easeOutSpeed": 3,
-                    "blendMode": "Average",
                     "riderAnim": {
                         "animation": "rideelk-walk",
                         "animationSpeed": 1,
@@ -238,8 +287,6 @@
                     }
                 },
                 "idle": {
-                    "animation": "Idle",
-                    "weight": 1,
                     "riderAnim": {
                         "animation": "rideelk-idle",
                         "animationSpeed": 1,
@@ -265,14 +312,6 @@
                     }
                 },
                 "walk": {
-                    "animation": "Trot",
-                    "animationSpeedByType": {
-                        "*-shire": 1.25,
-                        "*-quarter": 1.6
-                    },
-                    "weight": 10,
-                    "movespeed": 0.021,
-                    "blendMode": "Average",
                     "riderAnim": {
                         "animation": "rideelk-walk",
                         "animationSpeed": 1,
@@ -298,11 +337,6 @@
                     }
                 },
                 "sprint": {
-                    "animation": "Gallop",
-                    "weight": 10,
-                    "animationSpeed": 2,
-                    "movespeed": 0.10,
-                    "blendMode": "Average",
                     "riderAnim": {
                         "animation": "rideelk-run",
                         "animationSpeed": 1.8,
@@ -325,28 +359,20 @@
                             "LowerFootR": "Average",
                             "LowerFootL": "Average"
                         }
-                    }
-                },
-                "jump": {
-                    "animation": "jump",
-                    "weight": 50,
-                    "easeOutSpeed": 5,
-                    "blendMode": "Average",
-                    "animationSpeed": 1.75,
-                    "movespeed": 0.08,
-                    "riderAnim": {
-                        "animation": "rideelk-jump",
-                        "animationSpeed": 1,
-                        "weight": 10,
+                    },
+                    "passengerAnim": {
+                        "animation": "rideelk-run-passenger",
+                        "animationSpeed": 1.2,
+                        "weight": 1,
                         "withFpVariant": true,
                         "blendMode": "Average", 
                         "elementWeight": {
-                            "LowerTorso": 160,
-                            "UpperTorso": 160,
-                            "UpperFootR": 160,
-                            "UpperFootL": 160,
-                            "LowerFootR": 160,
-                            "LowerFootL": 160
+                            "LowerTorso": 80,
+                            "UpperTorso": 80,
+                            "UpperFootR": 80,
+                            "UpperFootL": 80,
+                            "LowerFootR": 80,
+                            "LowerFootL": 80
                         },
                         "elementBlendMode": {
                             "LowerTorso": "Average",
@@ -358,11 +384,32 @@
                         }
                     }
                 },
-                "swim": {
-					"animation": "walk",
-					"animationSpeed": 1,
-					"weight": 10,
-					"blendMode": "Average",
+                "swimforth": {
+					"riderAnim": {
+						"animation": "rideelk-walk",
+						"animationSpeed": 1,
+						"weight": 1,	
+						"withFpVariant": true,
+						"blendMode": "Average", 
+						"elementWeight": {
+							"LowerTorso": 80,
+							"UpperTorso": 80,
+							"UpperFootR": 80,
+							"UpperFootL": 80,
+							"LowerFootR": 80,
+							"LowerFootL": 80
+						},
+						"elementBlendMode": {
+							"LowerTorso": "Average",
+							"UpperTorso": "Average",
+							"UpperFootR": "Average",
+							"UpperFootL": "Average",
+							"LowerFootR": "Average",
+							"LowerFootL": "Average"
+						}
+					}
+				},
+                "swimidle": {
 					"riderAnim": {
 						"animation": "rideelk-walk",
 						"animationSpeed": 1,
@@ -388,10 +435,6 @@
 					}
 				},
 				"swimback": {
-					"animation": "walkback",
-					"animationSpeed": 1,
-					"weight": 10,
-					"blendMode": "Average",
 					"riderAnim": {
 						"animation": "rideelk-walk",
 						"animationSpeed": 1,
@@ -415,7 +458,33 @@
 							"LowerFootL": "Average"
 						}
 					}
-				}
+				},
+                "jump": {
+                    "riderAnim": {
+                        "animation": "rideelk-jump",
+                        "animationSpeed": 1,
+                        "weight": 10,
+                        "withFpVariant": true,
+                        "blendMode": "Average", 
+                        "elementWeight": {
+                            "LowerTorso": 160,
+                            "UpperTorso": 160,
+                            "UpperFootR": 160,
+                            "UpperFootL": 160,
+                            "LowerFootR": 160,
+                            "LowerFootL": 160
+                        },
+                        "elementBlendMode": {
+                            "LowerTorso": "Average",
+                            "UpperTorso": "Average",
+                            "UpperFootR": "Average",
+                            "UpperFootL": "Average",
+                            "LowerFootR": "Average",
+                            "LowerFootL": "Average"
+                        }
+                    },
+                    "passengerAnim": null
+                }
             }
         },
         "ownable": {
@@ -514,7 +583,8 @@
         "behaviors": [ 
                 { "code": "multiply",
                     "enabledByType": { "*-female-*": true, "*": false } },
-                { "code": "gait" },
+                { "code": "gait",
+                    "enabledByType": { "*-tamed-*": true, "*-wild-*": false } },
                 { "code": "rideable",
                     "enabledByType": { "*-tamed-*": true, "*": false } },
                 { "code": "mouthinventory",
@@ -623,28 +693,30 @@
 				"blendMode": "Average"
 			},
             {
+                "code": "swim",
+                "animation": "Swim",
+                "supressDefaultAnimation": true,
+                "blendMode": "Average"
+            },
+            {
                 "code": "walk",
                 "animation": "walk",
-                "blendMode": "Average",
-                "animationSpeed": 1.2
+                "blendMode": "Average"
             },
             {
                 "code": "trot",
                 "animation": "Trot",
-                "blendMode": "Average",
-                "animationSpeed": 1.25
+                "blendMode": "Average"
             },
             {
                 "code": "canter",
                 "animation": "Canter",
-                "blendMode": "Average",
-                "animationSpeed": 1.1
+                "blendMode": "Average"
             },
             {
                 "code": "gallop",
                 "animation": "Gallop",
-                "blendMode": "Average",
-                "animationSpeed": 1.5
+                "blendMode": "Average"
             },
 			{
 				"code": "jump",
@@ -755,7 +827,8 @@
                     "multiplyCooldownDaysMax": 28,
                     "portionsEatenForMultiply": 14
                 },
-                { "code": "gait" },
+                { "code": "gait",
+                    "enabledByType": { "*-tamed-*": true, "*": false } },
                 { "code": "rideable",
                     "enabledByType": { "*-tamed-*": true, "*": false } },
                 { "code": "mouthinventory",
@@ -836,7 +909,10 @@
                         },
                         {
                             "code": "meleeattack",
-                            "entityCodes": [ "player", "wolf-*" ],
+                            "entityCodesbyType": {
+                                "*-tamed-*": [ "wolf-*", "hyena-*" ],
+                                "*": [ "player", "wolf-*", "hyena-*" ]
+                            },
                             "priority": 2,
                             "slot": 1,
                             "damageByType":{
@@ -853,11 +929,15 @@
                             "damagePlayerAtMs": 500,
                             "animation": "attackFront",
                             "animationSpeed": 1.4,
-                            "whenInEmotionState": "aggressiveondamage"
+                            "whenInEmotionState": "aggressiveondamage",
+                            "sound": "horse/horseattack"
                         },
                         {
                             "code": "fleeentity",
-                            "entityCodes": [ "player", "wolf-*", "bear-*" ],
+                            "entityCodesbyType": {
+                                "*-tamed-*": [ "wolf-*", "hyena-*", "bear-*", "direwolf-adult" ],
+                                "*": [ "player", "wolf-*", "hyena-*", "bear-*", "direwolf-adult" ]
+                            },
                             "priority": 1.8,
                             "movespeed": 0.058,
                             "seekingRange": 24,
@@ -982,12 +1062,13 @@
                 { "code": "rideableaccessories",
                     "enabledByType": { "*-tamed-*": true, "*": false } },
                 { "code": "ropetieable" },
-                { "code": "pettable", "minGeneration": 1 }
+                { "code": "pettable", "minGeneration": 1 },
+			    { "code": "entitystatetags" }
             ],
         "spawnconditionsByType": {
             "horse-wild-male-*": {
                 "worldgen": {
-                    "TriesPerChunk": { "avg": 0.010, "var": 0.005 },
+                    "TriesPerChunk": { "avg": 0.005, "var": 0.0005 },
                     "tryOnlySurface": true,
                     "groupSize": { "dist": "verynarrowgaussian", "avg": 1.5, "var": 0.5 },
                     "insideBlockCodes": [ "game:air", "game:tallgrass-*", "game:snowlayer-1" ],
@@ -996,8 +1077,9 @@
                 "runtime": {
                     "group": "neutral",
                     "tryOnlySurface": true,
-                    "chance": 0.000035,
+                    "chance": 0.00003,
                     "maxQuantity": 3,
+				    "maxQuantityByGroup": { "code": "horse-*", "maxQuantity": 3 },
                     "maxLightLevel": 10,
                     "lightLevelType": "onlyBlockLight",
                     "groupSize": { "dist": "verynarrowgaussian", "avg": 1.5, "var": 0.5 },
@@ -1046,16 +1128,16 @@
     },
     "soundsByType": {
         "*-donkey": {
-            "hurt": "feverstonehorses:horse/donkeybray",
-            "death": "feverstonehorses:horse/donkeybray",
-            "idle": "feverstonehorses:horse/donkeybray"
+            "hurt": "feverstonehorses:horse/donkeybray*",
+            "death": "feverstonehorses:horse/donkeybray*",
+            "idle": "feverstonehorses:horse/donkeyidle*"
         },
         "*": {
             "hurt": "feverstonehorses:horse/horsedamage",
             "death": "feverstonehorses:horse/horsedamage",
-            "idle": "feverstonehorses:horse/neigh"
+            "idle": "feverstonehorses:horse/horseidle*"
         }
     },
-    "idleSoundChance": 0.005,
+    "idleSoundChance": 0.001,
     "hurtSoundChance": 0.01
 }
