@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition3,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition2,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadREye1,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition4,Root/FrontBody/FrontLeftStorage,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition1,Root/FrontBody/FrontBodyUpperRight1,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof/BackLHoofDef2,Root/FrontBody/MidBody/RearBody/RearUpperStorage,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof/BackLHoofDef1,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/RFrontLegAnkle2,Root/FrontBody/FrontBodyUpperLeft1,Root/FrontBody/RightFrontStorage,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof/FrontRHoofDefinition3,Root/FrontBody/FrontBodyLowerChestLeft1,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof/FrontRHoofDefinition4,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBack,Root/FrontBody/FrontBodyChestDef,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRightHoof,Root/FrontBody/MidBody/RearBody/TailBase,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/RFrontLegAnkle/FrontRightHoof/FrontRightHoofDefinition1,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition5,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition6,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBack/RightEar1,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/RFrontLegAnkle/FrontRightHoof/FrontRightHoofDefinition4,Root/FrontBody/MidBody/RearBody/RearBodyUpperRight1,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadLEye1/HeadLEye,Root/FrontBody/FrontBodyLShoulder,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof2,Root/FrontBody/Neck1/Neck2/Neck3/Neck3Spine,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof2,Root/FrontBody/MidBody/RearBody/RearBodyUpperLeft1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle/BackRightHoof/BackRightHoofDefinition2,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/BackRightHoof/BackRightHoofDefinition1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle/BackRightHoof/BackRightHoofDefinition1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/BackRightHoof/BackRightHoofDefinition2,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBaseJaw,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadLEye1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle1,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof2,Root/FrontBody/ShoulderFrontRightLeg,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle2,Root/FrontBody/FrontBodyRShoulder,Root/FrontBody/Neck1/Neck2/Neck2Spine,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/FaceStorage,Root/FrontBody/Neck1/Neck1Spine,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBack/LeftEar1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof/BackRightHoofDefinition2,Root/FrontBody/MidBody/RearBody/LeftLegRear,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof/BackRightHoofDefinition1,Root/FrontBody/FrontBodyLowerChestRight1,Root/FrontBody/FrontRightStorage,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition5,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition6,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRightHoof2,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadShapeTop1,Root/FrontBody/LeftFrontStorage",
+		"collapsedPaths": "Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBaseJaw/Jaw2,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof/FrontRHoofDefinition3,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof/FrontRHoofDefinition4,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBack,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBack/RightEar1,Root/FrontBody/MidBody/RearBody/RearBodyUpperLeft1,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBaseJaw,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle1,Root/FrontBody/ShoulderFrontRightLeg,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegAnkle2,Root/FrontBody/FrontBodyLowerChestRight1,Root/FrontBody/FrontRightStorage,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition5,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition6,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadREye1,Root/FrontBody/MidBody/RearBody/RearUpperStorage,Root/FrontBody/Neck1,Root/FrontBody/FrontBodyLowerChestLeft1,Root/FrontBody/Neck1/Neck2/Neck3/Neck3Spine,Root/FrontBody/Neck1/Neck1Spine,Root/FrontBody/MidBody/RearBody/LeftLegRear,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof,Root/FrontBody/LeftFrontStorage,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition3,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition2,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition4,Root/FrontBody/FrontLeftStorage,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLeftHoof/FrontLeftHoofDefinition1,Root/FrontBody/FrontBodyUpperRight1,Root/FrontBody/FrontBodyRShoulder/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/RFrontLegAnkle2,Root/FrontBody/RightFrontStorage,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition5,Root/FrontBody/FrontBodyLShoulder/ShoulderFrontLeftLeg/FrontLeftLeg/FrontLeftLegKnee/FrontLHoof/FrontLHoofDefinition6,Root/FrontBody/MidBody/RearBody/TempGear1,Root/FrontBody/MidBody/RearBody/TempGear3,Root/FrontBody/MidBody/RearBody/TempGear2,Root/FrontBody/MidBody/RearBody,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadLEye1/HeadLEye,Root/FrontBody/FrontBodyLShoulder,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof2,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRHoof2,Root/FrontBody/FrontBodyRShoulder,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadBack/LeftEar1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof/BackRightHoofDefinition2,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/RLegRearJoint2Def/BackRightHoof/BackRightHoofDefinition1,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof/BackLHoofDef2,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof/BackLHoofDef1,Root/FrontBody/FrontBodyUpperLeft1,Root/FrontBody/MidBody/RearBody/LeftLegRear/LLegRearJoint1/LLegRearJoint2/BackLHoof,Root/FrontBody/FrontBodyChestDef,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRightHoof,Root/FrontBody/MidBody/RearBody/TailBase,Root/FrontBody/MidBody/RearBody/RearBodyUpperRight1,Root/FrontBody/ShoulderFrontLeftLeg/FrontLeftLeg1/FrontLeftLegKnee/FrontLHoof2,Root/FrontBody/MidBody/RearBody/RightLegRear,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/BackRightHoof/BackRightHoofDefinition1,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1/RLegRearJoint2/BackRightHoof/BackRightHoofDefinition2,Root/FrontBody/Neck1/Neck2/Neck3/HeadBase/HeadLEye1,Root/FrontBody/Neck1/Neck2/Neck2Spine,Root/FrontBody/MidBody/RearBody/RightLegRear/RLegRearJoint1,Root/FrontBody/ShoulderFrontRightLeg/FrontRightLeg/FrontRightLegKnee/FrontRightHoof2",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -9,8 +9,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"mane": "entity/land/horse/horsemane3",
-		"skin": "entity/land/horse/horseskin18"
+		"skin": "entity/land/horse/horseskin1",
+		"mane": "entity/land/horse/horsemane"
 	},
 	"elements": [
 		{
@@ -715,16 +715,16 @@
 								},
 								{
 									"name": "RearSideStorage",
-									"from": [ 0.0, 0.0, -2.5 ],
-									"to": [ 11.0, 10.5, 14.5 ],
-									"rotationOrigin": [ 0.2, 4.5, 3.5 ],
+									"from": [ 2.0, 0.0, -2.5 ],
+									"to": [ 10.0, 10.5, 14.5 ],
+									"rotationOrigin": [ 2.2, 4.5, 3.5 ],
 									"faces": {
-										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 11.0, 10.5 ], "enabled": false },
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 10.5 ], "enabled": false },
 										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 17.0, 10.5 ], "enabled": false },
-										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 11.0, 10.5 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 10.5 ], "enabled": false },
 										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 17.0, 10.5 ], "enabled": false },
-										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 11.0, 17.0 ], "enabled": false },
-										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 11.0, 17.0 ], "enabled": false }
+										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 17.0 ], "enabled": false },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 17.0 ], "enabled": false }
 									},
 									"attachmentpoints": [
 										{
@@ -781,6 +781,125 @@
 									"attachmentpoints": [
 										{
 											"code": "RearUpperAP",
+											"posX": "0.0","posY": "0.0","posZ": "0.0",
+											"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+										}
+									]
+								},
+								{
+									"name": "TempGear1",
+									"from": [ 7.0, 6.5, -2.4 ],
+									"to": [ 9.0, 8.5, -1.4 ],
+									"rotationOrigin": [ 8.0, 7.5, -1.9 ],
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false, "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 2.0 ], "autoUv": false, "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false, "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 2.0 ], "autoUv": false, "enabled": false },
+										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "autoUv": false, "enabled": false },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "autoUv": false, "enabled": false }
+									},
+									"children": [
+										{
+											"name": "GearParent1",
+											"from": [ -7.8, -6.2, 2.8 ],
+											"to": [ -7.7, -6.1, 2.9 ],
+											"rotationOrigin": [ -7.8, -6.2, 5.8 ],
+											"rotationX": -7.0,
+											"rotationZ": -5.0,
+											"faces": {
+												"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false }
+											}
+										}
+									],
+									"attachmentpoints": [
+										{
+											"code": "TempGear1AP",
+											"posX": "0.0","posY": "0.0","posZ": "0.0",
+											"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+										}
+									]
+								},
+								{
+									"name": "TempGear2",
+									"from": [ 7.8, 3.2, -2.4 ],
+									"to": [ 9.8, 5.2, -1.4 ],
+									"rotationOrigin": [ 8.8, 4.2, -1.9 ],
+									"rotationZ": 8.0,
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false, "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 2.0 ], "autoUv": false, "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false, "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 2.0 ], "autoUv": false, "enabled": false },
+										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "autoUv": false, "enabled": false },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "autoUv": false, "enabled": false }
+									},
+									"children": [
+										{
+											"name": "GearParent2",
+											"from": [ -8.6, -1.7, 2.5 ],
+											"to": [ -8.5, -1.6, 2.6 ],
+											"rotationOrigin": [ -8.6, -1.7, 2.5 ],
+											"rotationX": -7.0,
+											"rotationZ": -15.0,
+											"faces": {
+												"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false }
+											}
+										}
+									],
+									"attachmentpoints": [
+										{
+											"code": "TempGear2AP",
+											"posX": "0.0","posY": "0.0","posZ": "0.0",
+											"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+										}
+									]
+								},
+								{
+									"name": "TempGear3",
+									"from": [ 7.5, 0.5, -2.4 ],
+									"to": [ 9.5, 2.5, -1.4 ],
+									"rotationOrigin": [ 8.5, 1.5, -1.9 ],
+									"rotationZ": 8.0,
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false, "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 2.0 ], "autoUv": false, "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false, "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 2.0 ], "autoUv": false, "enabled": false },
+										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "autoUv": false, "enabled": false },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "autoUv": false, "enabled": false }
+									},
+									"children": [
+										{
+											"name": "GearParent3",
+											"from": [ -8.3, 0.5, 2.2 ],
+											"to": [ -8.2, 0.6, 2.3 ],
+											"rotationOrigin": [ -8.3, 0.5, 2.2 ],
+											"rotationX": -7.0,
+											"rotationZ": -10.0,
+											"faces": {
+												"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+												"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false }
+											}
+										}
+									],
+									"attachmentpoints": [
+										{
+											"code": "TempGear3AP",
 											"posX": "0.0","posY": "0.0","posZ": "0.0",
 											"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 										}
@@ -898,23 +1017,92 @@
 									"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 								}
 							]
+						},
+						{
+							"name": "MidSideStorageL",
+							"from": [ 8.0, 4.0, 10.2 ],
+							"to": [ 13.0, 11.0, 15.2 ],
+							"rotationOrigin": [ 10.5, 10.5, 11.2 ],
+							"rotationX": -7.0,
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 7.0 ], "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 7.0 ], "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 7.0 ], "enabled": false },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 7.0 ], "enabled": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "LanternParentL",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 0.1, 0.1, 0.1 ],
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false }
+									}
+								}
+							],
+							"attachmentpoints": [
+								{
+									"code": "LLanternAP",
+									"posX": "0.0","posY": "0.0","posZ": "0.0",
+									"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+								}
+							]
+						},
+						{
+							"name": "MidSideStorageR",
+							"from": [ 8.0, 4.0, -5.0 ],
+							"to": [ 13.0, 11.0, 0.0 ],
+							"rotationOrigin": [ 10.5, 10.5, -1.0 ],
+							"rotationX": 7.0,
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 7.0 ], "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 7.0 ], "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 7.0 ], "enabled": false },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 7.0 ], "enabled": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "LanternParentR",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 0.1, 0.1, 0.1 ],
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false }
+									}
+								}
+							],
+							"attachmentpoints": [
+								{
+									"code": "RLanternAP",
+									"posX": "0.0","posY": "0.0","posZ": "0.0",
+									"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+								}
+							]
 						}
 					],
 					"attachmentpoints": [
 						{
 							"code": "Rider",
 							"posX": "7.0","posY": "12.5","posZ": "5.0",
-							"rotationX": "0.0","rotationY": "-180.0","rotationZ": "0.0"
+							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.01"
 						},
 						{
 							"code": "Rider2",
-							"posX": "11.0","posY": "12.5","posZ": "5.0",
-							"rotationX": "0.0","rotationY": "-180.0","rotationZ": "0.0"
-						},
-						{
-							"code": "center",
-							"posX": "7.5","posY": "2.0","posZ": "5.0",
-							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+							"posX": "14.0","posY": "12.5","posZ": "5.0",
+							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.01"
 						}
 					]
 				},
@@ -1814,17 +2002,17 @@
 													"children": [
 														{
 															"name": "Nose",
-															"from": [ 2.0, 0.0, 0.0 ],
-															"to": [ 8.0, 0.5, 2.5 ],
-															"rotationOrigin": [ 2.3, 0.0, 0.0 ],
+															"from": [ 2.0, 0.05, 0.0 ],
+															"to": [ 2.5, 0.55, 0.5 ],
+															"rotationOrigin": [ 2.3, 0.0, 0.1 ],
 															"rotationZ": 90.0,
 															"faces": {
-																"north": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 0.5 ], "enabled": false },
-																"east": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
-																"south": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 0.5 ], "enabled": false },
-																"west": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
-																"up": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 2.5 ], "enabled": false },
-																"down": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 2.5 ], "enabled": false }
+																"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+																"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+																"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+																"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+																"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+																"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
 															}
 														}
 													],
@@ -2067,20 +2255,6 @@
 														"west": { "texture": "#skin", "uv": [ 13.25, 0.5, 15.25, 1.0 ], "autoUv": false },
 														"up": { "texture": "#skin", "uv": [ 13.75, 0.75, 15.25, 1.25 ], "autoUv": false },
 														"down": { "texture": "#skin", "uv": [ 13.25, 0.25, 14.75, 0.5 ], "autoUv": false }
-													}
-												},
-												{
-													"name": "Head",
-													"from": [ 4.0, -3.0, 0.0 ],
-													"to": [ 4.0, -3.0, 0.0 ],
-													"rotationOrigin": [ 4.0, -3.0, 0.0 ],
-													"faces": {
-														"north": { "texture": "#mane", "uv": [ 0.0, 0.0, 0.25, 0.25 ] },
-														"east": { "texture": "#mane", "uv": [ 0.0, 0.0, 0.25, 0.25 ] },
-														"south": { "texture": "#mane", "uv": [ 0.0, 0.0, 0.25, 0.25 ] },
-														"west": { "texture": "#mane", "uv": [ 0.0, 0.0, 0.25, 0.25 ] },
-														"up": { "texture": "#mane", "uv": [ 0.0, 0.0, 0.25, 0.25 ] },
-														"down": { "texture": "#mane", "uv": [ 0.0, 0.0, 0.25, 0.25 ] }
 													}
 												}
 											]
@@ -2659,17 +2833,16 @@
 				},
 				{
 					"name": "RightFrontStorage",
-					"from": [ 0.0, 0.0, -1.5 ],
-					"to": [ 10.0, 11.0, -0.5 ],
-					"rotationOrigin": [ 0.0, 0.0, -0.5 ],
-					"rotationX": 3.0,
+					"from": [ 1.0, 0.0, -1.5 ],
+					"to": [ 11.0, 11.0, 0.0 ],
+					"rotationOrigin": [ 1.0, 0.0, -0.5 ],
 					"faces": {
 						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 11.0 ], "enabled": false },
-						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 11.0 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.5, 11.0 ], "enabled": false },
 						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 11.0 ], "enabled": false },
-						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 11.0 ], "enabled": false },
-						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "enabled": false },
-						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "enabled": false }
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.5, 11.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.5 ], "enabled": false }
 					},
 					"children": [
 						{
@@ -2689,10 +2862,10 @@
 						},
 						{
 							"name": "PotParentR",
-							"from": [ 2.0, 3.0, -4.5 ],
-							"to": [ 7.0, 12.0, 0.5 ],
-							"rotationOrigin": [ 4.5, 7.5, -2.5 ],
-							"rotationX": 8.0,
+							"from": [ 3.0, 3.0, -4.8 ],
+							"to": [ 8.0, 12.0, 0.2 ],
+							"rotationOrigin": [ 5.5, 7.5, -2.8 ],
+							"rotationX": 20.0,
 							"faces": {
 								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 9.0 ], "enabled": false },
 								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 9.0 ], "enabled": false },
@@ -2700,6 +2873,21 @@
 								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 9.0 ], "enabled": false },
 								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false },
 								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "CrockParentR",
+							"from": [ -3.0, 5.0, -8.7 ],
+							"to": [ -2.8, 5.2, -8.5 ],
+							"rotationOrigin": [ -0.5, 9.5, -6.7 ],
+							"rotationX": 25.0,
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
 							}
 						}
 					],
@@ -2713,17 +2901,16 @@
 				},
 				{
 					"name": "LeftFrontStorage",
-					"from": [ 0.0, 0.0, 11.5 ],
-					"to": [ 10.0, 11.0, 12.5 ],
-					"rotationOrigin": [ 0.0, 0.0, 11.5 ],
-					"rotationX": -3.0,
+					"from": [ 1.0, 0.0, 11.5 ],
+					"to": [ 11.0, 11.0, 13.0 ],
+					"rotationOrigin": [ 1.0, 0.0, 11.5 ],
 					"faces": {
 						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 11.0 ], "enabled": false },
-						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 11.0 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.5, 11.0 ], "enabled": false },
 						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 11.0 ], "enabled": false },
-						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 11.0 ], "enabled": false },
-						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "enabled": false },
-						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "enabled": false }
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.5, 11.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.5 ], "enabled": false }
 					},
 					"children": [
 						{
@@ -2743,10 +2930,10 @@
 						},
 						{
 							"name": "PotParentL",
-							"from": [ 2.0, 3.0, 0.5 ],
-							"to": [ 7.0, 12.0, 5.5 ],
-							"rotationOrigin": [ 4.5, 7.5, 2.5 ],
-							"rotationX": -8.0,
+							"from": [ 3.0, 3.0, 0.8 ],
+							"to": [ 8.0, 12.0, 5.8 ],
+							"rotationOrigin": [ 5.5, 7.5, 2.8 ],
+							"rotationX": -20.0,
 							"faces": {
 								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 9.0 ], "enabled": false },
 								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 9.0 ], "enabled": false },
@@ -2754,6 +2941,21 @@
 								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 9.0 ], "enabled": false },
 								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false },
 								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "CrockParentL",
+							"from": [ -3.0, 0.0, -4.5 ],
+							"to": [ -2.8, 0.2, -4.3 ],
+							"rotationOrigin": [ -0.5, 4.5, -2.5 ],
+							"rotationX": -28.0,
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
 							}
 						}
 					],
@@ -4812,7 +5014,7 @@
 			"code": "jump",
 			"quantityframes": 49,
 			"onActivityStopped": "EaseOut",
-			"onAnimationEnd": "Repeat",
+			"onAnimationEnd": "EaseOut",
 			"keyframes": [
 				{
 					"frame": 0,
@@ -6428,7 +6630,7 @@
 			"name": "Wounded-Idle",
 			"code": "wounded-idle",
 			"quantityframes": 110,
-			"onActivityStopped": "Rewind",
+			"onActivityStopped": "EaseOut",
 			"onAnimationEnd": "Repeat",
 			"keyframes": [
 				{
@@ -7664,27 +7866,344 @@
 		{
 			"name": "Swim",
 			"code": "swim",
-			"quantityframes": 30,
+			"quantityframes": 40,
 			"onActivityStopped": "EaseOut",
-			"onAnimationEnd": "EaseOut",
+			"onAnimationEnd": "Repeat",
 			"keyframes": [
 				{
 					"frame": 0,
 					"elements": {
-						"FrontBody": { "offsetX": 0.0, "offsetY": -15.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
-						"MidBody": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
-						"RearBody": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
-						"FrontBodyRShoulder": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
-						"FrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
-						"ShoulderFrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
-						"FrontRightLegKnee": { "offsetX": -2.0, "offsetY": -0.5, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 112.5 },
-						"RFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
-						"FrontRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
-						"RightLegRear": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
-						"RLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
-						"RLegRearJoint2": { "offsetX": -1.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0 },
-						"RLegRearJoint1Def": { "offsetX": 0.0, "offsetY": -3.0, "offsetZ": 0.0 },
-						"RLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 90.0 }
+						"FrontBody": { "offsetX": 0.0, "offsetY": -17.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"MidBody": { "rotationX": 1.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RearBody": { "rotationX": 2.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RightLegRear": { "offsetX": -0.2, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -3.0, "rotationY": 0.0, "rotationZ": -5.0 },
+						"RLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 37.0 },
+						"RLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -67.0 },
+						"RLegRearJoint1Def": { "offsetX": -0.2, "offsetY": -3.2, "offsetZ": 0.0 },
+						"RLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"BackRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"LeftLegRear": { "offsetX": 0.2, "offsetY": -1.3, "offsetZ": 0.0, "rotationX": -3.0, "rotationY": 0.0, "rotationZ": 10.0 },
+						"LLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 16.0 },
+						"LLegRearJoint1Def": { "offsetX": 0.1, "offsetY": -1.2, "offsetZ": 0.0 },
+						"LLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -27.0 },
+						"LLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"BackLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"TailBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
+						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"Tail3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"Tail4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -15.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"HeadBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontBodyRShoulder": { "offsetX": 0.2, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"ShoulderFrontRightLeg": { "offsetX": 0.5, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontRightLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontBodyLShoulder": { "offsetX": -0.2, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"ShoulderFrontLeftLeg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 },
+						"FrontLeftLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -40.0 },
+						"FrontLeftLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"LFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 60.0 },
+						"FrontLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 15.0 },
+						"LeftEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RightEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 5,
+					"elements": {
+						"FrontBody": { "offsetX": 0.0, "offsetY": -17.5, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"MidBody": { "rotationX": 1.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"RearBody": { "rotationX": 2.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"RightLegRear": { "offsetX": -0.2, "offsetY": -1.7, "offsetZ": 0.0, "rotationX": -3.0, "rotationY": 0.0, "rotationZ": -24.0 },
+						"RLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"RLegRearJoint1Def": { "offsetX": -0.2, "offsetY": -2.5, "offsetZ": 0.0 },
+						"RLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -52.0 },
+						"RLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"BackRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeftLegRear": { "offsetX": 0.4, "offsetY": -2.3, "offsetZ": 0.0, "rotationX": -3.0, "rotationY": 0.0, "rotationZ": 21.0 },
+						"LLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 16.0 },
+						"LLegRearJoint1Def": { "offsetX": 0.1, "offsetY": -1.2, "offsetZ": 0.0 },
+						"LLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -27.0 },
+						"LLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 35.0 },
+						"BackLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"TailBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 10.0 },
+						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"Tail3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"Tail4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"HeadBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RightEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeftEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontBodyRShoulder": { "offsetX": 0.4, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"ShoulderFrontRightLeg": { "offsetX": 0.5, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"FrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"FrontRightLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 15.0 },
+						"RFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 23.0 },
+						"FrontRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 10.0 },
+						"FrontBodyLShoulder": { "offsetX": -0.2, "offsetY": -0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"ShoulderFrontLeftLeg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
+						"FrontLeftLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -23.0 },
+						"FrontLeftLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 48.0 },
+						"FrontLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"FrontBody": { "offsetX": 0.0, "offsetY": -17.7, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"MidBody": { "rotationX": 1.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"RearBody": { "rotationX": 1.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"RightLegRear": { "offsetX": -0.2, "offsetY": -3.7, "offsetZ": 0.0, "rotationX": -2.0, "rotationY": 0.0, "rotationZ": -16.0 },
+						"RLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"RLegRearJoint1Def": { "offsetX": -0.1, "offsetY": -1.1, "offsetZ": 0.0 },
+						"RLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"RLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"BackRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"LeftLegRear": { "offsetX": 0.2, "offsetY": -2.3, "offsetZ": 0.0, "rotationX": -2.0, "rotationY": 0.0, "rotationZ": 23.0 },
+						"LLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 38.0 },
+						"LLegRearJoint1Def": { "offsetX": -0.4, "offsetY": -2.5, "offsetZ": 0.0 },
+						"LLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -56.0 },
+						"LLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"BackLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"TailBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 16.0 },
+						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"Tail3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"Tail4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"HeadBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"RightEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeftEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontBodyRShoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"ShoulderFrontRightLeg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"FrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -17.0 },
+						"FrontRightLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 62.0 },
+						"RFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 60.0 },
+						"FrontRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 10.0 },
+						"FrontBodyLShoulder": { "offsetX": 0.0, "offsetY": -0.8, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"ShoulderFrontLeftLeg": { "offsetX": 0.0, "offsetY": -1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"FrontLeftLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -18.0 },
+						"FrontLeftLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
+						"LFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 },
+						"FrontLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 15,
+					"elements": {
+						"FrontBody": { "offsetX": 0.0, "offsetY": -17.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"MidBody": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"RearBody": { "rotationX": -1.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"RightLegRear": { "offsetX": 0.0, "offsetY": -1.4, "offsetZ": 0.0, "rotationX": 0.5, "rotationY": 0.0, "rotationZ": -5.0 },
+						"RLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"RLegRearJoint1Def": { "offsetX": -0.1, "offsetY": -1.1, "offsetZ": 0.0 },
+						"RLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"RLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"BackRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 16.0 },
+						"LeftLegRear": { "offsetX": 0.0, "offsetY": -1.3, "offsetZ": 0.0, "rotationX": 0.5, "rotationY": 0.0, "rotationZ": 10.0 },
+						"LLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 55.0 },
+						"LLegRearJoint1Def": { "offsetX": -0.4, "offsetY": -3.2, "offsetZ": 0.0 },
+						"LLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -67.5 },
+						"LLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"BackLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"TailBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 15.0 },
+						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"Tail3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"Tail4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"HeadBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"RightEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeftEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontBodyRShoulder": { "offsetX": -0.2, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"ShoulderFrontRightLeg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 },
+						"FrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -40.0 },
+						"FrontRightLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 70.0 },
+						"RFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 65.0 },
+						"FrontRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 15.0 },
+						"FrontBodyLShoulder": { "offsetX": 0.4, "offsetY": -0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"ShoulderFrontLeftLeg": { "offsetX": 0.0, "offsetY": -0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"FrontLeftLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -12.0 },
+						"FrontLeftLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 10.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"FrontBody": { "offsetX": 0.0, "offsetY": -17.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"MidBody": { "rotationX": -1.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RearBody": { "rotationX": -2.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RightLegRear": { "offsetX": 0.2, "offsetY": -1.3, "offsetZ": 0.0, "rotationX": 3.0, "rotationY": 0.0, "rotationZ": 10.0 },
+						"RLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 16.0 },
+						"RLegRearJoint1Def": { "offsetX": 0.1, "offsetY": -1.2, "offsetZ": 0.0 },
+						"RLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -27.0 },
+						"RLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"BackRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeftLegRear": { "offsetX": -0.2, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 3.0, "rotationY": 0.0, "rotationZ": -5.0 },
+						"LLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 37.0 },
+						"LLegRearJoint1Def": { "offsetX": -0.2, "offsetY": -3.2, "offsetZ": 0.0 },
+						"LLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -67.0 },
+						"LLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"BackLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"TailBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
+						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"Tail3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"Tail4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -15.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"HeadBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RightEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeftEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontBodyRShoulder": { "offsetX": -0.2, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"ShoulderFrontRightLeg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 },
+						"FrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -40.0 },
+						"FrontRightLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"RFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 60.0 },
+						"FrontRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 15.0 },
+						"FrontBodyLShoulder": { "offsetX": 0.2, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"ShoulderFrontLeftLeg": { "offsetX": 0.5, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontLeftLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontLeftLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 25,
+					"elements": {
+						"FrontBody": { "offsetX": 0.0, "offsetY": -17.5, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"MidBody": { "rotationX": -1.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"RearBody": { "rotationX": -2.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"RightLegRear": { "offsetX": 0.4, "offsetY": -2.3, "offsetZ": 0.0, "rotationX": 3.0, "rotationY": 0.0, "rotationZ": 21.0 },
+						"RLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 16.0 },
+						"RLegRearJoint1Def": { "offsetX": 0.1, "offsetY": -1.2, "offsetZ": 0.0 },
+						"RLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -27.0 },
+						"RLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 35.0 },
+						"BackRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeftLegRear": { "offsetX": -0.2, "offsetY": -0.7, "offsetZ": 0.0, "rotationX": 3.0, "rotationY": 0.0, "rotationZ": -24.0 },
+						"LLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"LLegRearJoint1Def": { "offsetX": -0.2, "offsetY": -2.5, "offsetZ": 0.0 },
+						"LLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -52.0 },
+						"LLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"BackLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"TailBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 10.0 },
+						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"Tail3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"Tail4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"HeadBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RightEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeftEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontBodyRShoulder": { "offsetX": -0.2, "offsetY": -0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"ShoulderFrontRightLeg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
+						"FrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -23.0 },
+						"FrontRightLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 48.0 },
+						"FrontRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 },
+						"FrontBodyLShoulder": { "offsetX": 0.4, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"ShoulderFrontLeftLeg": { "offsetX": 0.5, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"FrontLeftLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"FrontLeftLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 15.0 },
+						"LFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 23.0 },
+						"FrontLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 10.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"FrontBody": { "offsetX": 0.0, "offsetY": -17.75, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"MidBody": { "rotationX": -1.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"RearBody": { "rotationX": -1.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"RightLegRear": { "offsetX": 0.2, "offsetY": -2.3, "offsetZ": 0.0, "rotationX": 2.0, "rotationY": 0.0, "rotationZ": 23.0 },
+						"RLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 38.0 },
+						"RLegRearJoint1Def": { "offsetX": -0.4, "offsetY": -2.5, "offsetZ": 0.0 },
+						"RLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -56.0 },
+						"RLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"BackRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"LeftLegRear": { "offsetX": -0.2, "offsetY": -3.7, "offsetZ": 0.0, "rotationX": 2.0, "rotationY": 0.0, "rotationZ": -16.0 },
+						"LLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"LLegRearJoint1Def": { "offsetX": -0.1, "offsetY": -1.1, "offsetZ": 0.0 },
+						"LLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"LLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"BackLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"TailBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 16.0 },
+						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"Tail3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"Tail4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"HeadBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"RightEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeftEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontBodyRShoulder": { "offsetX": 0.0, "offsetY": -0.8, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"ShoulderFrontRightLeg": { "offsetX": 0.0, "offsetY": -1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"FrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -18.0 },
+						"FrontRightLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
+						"RFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 },
+						"FrontRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontBodyLShoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"ShoulderFrontLeftLeg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"FrontLeftLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -17.0 },
+						"FrontLeftLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 62.0 },
+						"LFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 60.0 },
+						"FrontLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 10.0 }
+					}
+				},
+				{
+					"frame": 35,
+					"elements": {
+						"FrontBody": { "offsetX": 0.0, "offsetY": -17.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"MidBody": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"RearBody": { "rotationX": 1.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"RightLegRear": { "offsetX": 0.0, "offsetY": -1.4, "offsetZ": 0.0, "rotationX": -0.5, "rotationY": 0.0, "rotationZ": 10.0 },
+						"RLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 55.0 },
+						"RLegRearJoint1Def": { "offsetX": -0.4, "offsetY": -3.2, "offsetZ": 0.0 },
+						"RLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -67.5 },
+						"RLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"BackRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"LeftLegRear": { "offsetX": 0.0, "offsetY": -1.4, "offsetZ": 0.0, "rotationX": -0.5, "rotationY": 0.0, "rotationZ": -5.0 },
+						"LLegRearJoint1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"LLegRearJoint1Def": { "offsetX": -0.4, "offsetY": -3.2, "offsetZ": 0.0 },
+						"LLegRearJoint2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"LLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"BackLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 16.0 },
+						"TailBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 15.0 },
+						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"Tail3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"Tail4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"HeadBase": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"RightEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeftEar1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontBodyRShoulder": { "offsetX": 0.4, "offsetY": -0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"ShoulderFrontRightLeg": { "offsetX": 0.0, "offsetY": -0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"FrontRightLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -12.0 },
+						"FrontRightLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"FrontRightHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 10.0 },
+						"FrontBodyLShoulder": { "offsetX": -0.2, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"ShoulderFrontLeftLeg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 },
+						"FrontLeftLeg": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -40.0 },
+						"FrontLeftLegKnee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 70.0 },
+						"LFrontLegAnkle": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 65.0 },
+						"FrontLeftHoof": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 15.0 }
 					}
 				}
 			]

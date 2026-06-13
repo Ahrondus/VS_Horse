@@ -2355,10 +2355,9 @@
 				}
 			]
 		},
-
 		{
-			"name": "death",
-			"code": "dead",
+			"name": "Die",
+			"code": "die",
 			"quantityframes": 21,
 			"onActivityStopped": "Stop",
 			"onAnimationEnd": "Hold",
@@ -2493,7 +2492,45 @@
 				}
 			]
 		},
-
+		{
+			"name": "Dead",
+			"code": "dead",
+			"quantityframes": 2,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Hold",
+			"keyframes": [
+				{
+					"frame": 1,
+					"elements": {
+						"Body": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -17.0, "rotationX": -91.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck1": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -3.0, "rotationY": -5.0, "rotationZ": 6.0 },
+						"Skull": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -6.0, "rotationZ": -14.0 },
+						"L_Ear20": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -39.0, "rotationZ": 11.0 },
+						"R_Ear": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -11.0, "rotationY": -33.0, "rotationZ": 6.0 },
+						"Bot mouth": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
+						"L_Shoulder": { "offsetX": 0.0, "offsetY": -1.0, "offsetZ": 0.0, "rotationX": 8.0, "rotationY": 3.0, "rotationZ": 17.0 },
+						"L_Arm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 30.0, "rotationY": 0.0, "rotationZ": -19.0 },
+						"L_Arm 2": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 },
+						"R_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"R_Arm": { "offsetX": 1.0, "offsetY": 0.0, "offsetZ": 1.0, "rotationX": 0.0, "rotationY": -3.0, "rotationZ": -50.0 },
+						"R_Arm 2": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 36.0 },
+						"Mid Body": {  },
+						"R_Flank": { "offsetX": 1.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"R_knee": {  },
+						"R_Leg": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg2": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
+						"L_Flank": { "offsetX": 0.0, "offsetY": -1.0, "offsetZ": 0.0, "rotationX": 11.0, "rotationY": 8.0, "rotationZ": 6.0 },
+						"L_knee": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 17.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"Haunch": {  },
+						"TailBase": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 25.0, "rotationY": 11.0, "rotationZ": 19.0 },
+						"Tail2": {  },
+						"Tail3": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"Tail4": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 8.0, "rotationY": -14.0, "rotationZ": 3.0 },
+						"Tail5": { "offsetX": 0.5, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -14.0, "rotationY": 0.0, "rotationZ": 19.0 }
+					}
+				}
+			]
+		},
 		{
 			"name": "sleepground",
 			"code": "sleeplay",
@@ -2758,7 +2795,7 @@
 			"code": "jump",
 			"quantityframes": 30,
 			"onActivityStopped": "EaseOut",
-			"onAnimationEnd": "Hold",
+			"onAnimationEnd": "EaseOut",
 			"keyframes": [
 				{
 					"frame": 0,

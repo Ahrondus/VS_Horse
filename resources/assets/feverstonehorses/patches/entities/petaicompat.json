@@ -214,7 +214,7 @@
     },
     {
         "op": "remove",
-        "path": "/server/behaviors/20",
+        "path": "/server/behaviors/19",
         "file": "feverstonehorses:entities/land/horse.json",
         "dependsOn": [ { "modid": "petai" }, {"modid": "jaunt", "invert": true} ]
     },
@@ -235,24 +235,6 @@
         "op": "add",
         "path": "/server/behaviors/-",
         "value": { "code": "pettableextended" },
-        "file": "feverstonehorses:entities/land/foal.json",
-        "dependsOn": [ { "modid": "petai" }, {"modid": "jaunt", "invert": true} ]
-    },
-    {
-        "op": "replace",
-        "path": "/server/behaviors/10",
-        "value": { "code": "raisable", "hoursToGrow": 120,
-				"adultEntityCodesByType": { "*-tamed-percheron": ["feverstonehorses:horse-tamed-male-percheron", "feverstonehorses:horse-tamed-female-percheron" ],
-                                            "*-tamed-arabian": ["feverstonehorses:horse-tamed-male-arabian", "feverstonehorses:horse-tamed-female-arabian" ],
-                                            "*-tamed-donkey": [ "feverstonehorses:horse-tamed-male-donkey", "feverstonehorses:horse-tamed-female-donkey" ],
-                                            "*-tamed-shire": [ "feverstonehorses:horse-tamed-male-shire", "feverstonehorses:horse-tamed-female-shire" ],
-                                            "*-tamed-quarter": [ "feverstonehorses:horse-tamed-male-quarter", "feverstonehorses:horse-tamed-female-quarter" ],
-                                            "*-wild-percheron": ["feverstonehorses:horse-wild-male-percheron", "feverstonehorses:horse-wild-female-percheron" ],
-                                            "*-wild-arabian": ["feverstonehorses:horse-wild-male-arabian", "feverstonehorses:horse-wild-female-arabian" ],
-                                            "*-wild-donkey": [ "feverstonehorses:horse-wild-male-donkey", "feverstonehorses:horse-wild-female-donkey" ],
-                                            "*-wild-shire": [ "feverstonehorses:horse-wild-male-shire", "feverstonehorses:horse-wild-female-shire" ],
-                                            "*-wild-quarter": [ "feverstonehorses:horse-wild-male-quarter", "feverstonehorses:horse-wild-female-quarter" ]  }
-			},
         "file": "feverstonehorses:entities/land/foal.json",
         "dependsOn": [ { "modid": "petai" }, {"modid": "jaunt", "invert": true} ]
     }

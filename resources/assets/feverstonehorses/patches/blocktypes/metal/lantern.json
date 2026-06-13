@@ -1,0 +1,20 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-up/attachableToEntityByType/lantern-small-*/attachedShapeBySlotCode",
+        "file": "game:blocktypes/metal/lantern.json",
+        "value": {
+            "fswmiddlebackleft": { "base": "feverstonehorses:item/wearable/lanternl-horse" }
+        },
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-up/attachableToEntityByType/lantern-small-*/attachedShapeBySlotCode",
+        "file": "game:blocktypes/metal/lantern.json",
+        "value": {
+            "fswmiddlebackright": { "base": "feverstonehorses:item/wearable/lanternr-horse" }
+        },
+        "side": "server"
+    }
+]

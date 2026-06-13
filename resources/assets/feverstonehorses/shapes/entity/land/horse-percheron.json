@@ -2282,8 +2282,8 @@
 		},
 
 		{
-			"name": "death",
-			"code": "dead",
+			"name": "Die",
+			"code": "die",
 			"quantityframes": 21,
 			"onActivityStopped": "Stop",
 			"onAnimationEnd": "Hold",
@@ -2683,7 +2683,7 @@
 			"code": "jump",
 			"quantityframes": 30,
 			"onActivityStopped": "EaseOut",
-			"onAnimationEnd": "Hold",
+			"onAnimationEnd": "EaseOut",
 			"keyframes": [
 				{
 					"frame": 0,
