@@ -2,7 +2,7 @@
     {
         "op": "addeach",
         "path": "/mediumCatchableEntities/-",
-        "file": "config/defaultconfig.json",
+        "file": "animalcages:config/defaultconfig.json",
         "value": [
             {
                 "name": "foal-*",
