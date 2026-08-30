@@ -48,7 +48,7 @@
             }
         ],
         "file": "feverstonehorses:entities/land/foal.json",
-        "dependsOn": [ { "modid": "petai" }, {"modid": "jaunt", "invert": true} ]
+        "dependsOn": [ { "modid": "petai" } ]
     },
     {
         "op": "addeach",
@@ -102,7 +102,7 @@
             }
         ],
         "file": "feverstonehorses:entities/land/foal.json",
-        "dependsOn": [ { "modid": "petai" }, {"modid": "jaunt", "invert": true} ]
+        "dependsOn": [ { "modid": "petai" } ]
     },
     {
         "op": "addmerge",
@@ -126,7 +126,7 @@
                     ]
                 },
         "file": "feverstonehorses:entities/land/foal.json",
-        "dependsOn": [ { "modid": "petai" }, {"modid": "jaunt", "invert": true} ]
+        "dependsOn": [ { "modid": "petai" } ]
     },
     {
         "op": "addmerge",
@@ -150,7 +150,7 @@
                     ]
                 },
         "file": "feverstonehorses:entities/land/foal.json",
-        "dependsOn": [ { "modid": "petai" }, {"modid": "jaunt", "invert": true} ]
+        "dependsOn": [ { "modid": "petai" } ]
     },
     {
         "op": "addeach",
@@ -210,7 +210,7 @@
                 }
             ],
         "file": "feverstonehorses:entities/land/foal.json",
-        "dependsOn": [ { "modid": "petai" }, {"modid": "jaunt", "invert": true} ]
+        "dependsOn": [ { "modid": "petai" } ]
     },
     {
         "op": "remove",
@@ -222,7 +222,7 @@
         "op": "remove",
         "path": "/server/behaviors/13",
         "file": "feverstonehorses:entities/land/foal.json",
-        "dependsOn": [ { "modid": "petai" }, {"modid": "jaunt", "invert": true} ]
+        "dependsOn": [ { "modid": "petai" }]
     },
     {
         "op": "add",
@@ -235,6 +235,25 @@
         "op": "add",
         "path": "/server/behaviors/-",
         "value": { "code": "pettableextended" },
+        "file": "feverstonehorses:entities/land/foal.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/server/behaviors/10",
+        "value": { "code": "grow", "hoursToGrow": 178,
+                "orPortionsEatenForGrowing": 12,
+				"fedAdultEntityCodesByType": { "*-percheron": ["feverstonehorses:horse-tamed-male-percheron", "feverstonehorses:horse-tamed-female-percheron"],
+                                               "*-arabian": ["feverstonehorses:horse-tamed-male-arabian", "feverstonehorses:horse-tamed-female-arabian"],
+                                               "*-donkey": [ "feverstonehorses:horse-tamed-male-donkey", "feverstonehorses:horse-tamed-female-donkey" ],
+                                               "*-shire": [ "feverstonehorses:horse-tamed-male-shire", "feverstonehorses:horse-tamed-female-shire" ],
+                                               "*-quarter": [ "feverstonehorses:horse-tamed-male-quarter", "feverstonehorses:horse-tamed-female-quarter" ]  },
+				"adultEntityCodesByType": { "*-percheron": ["feverstonehorses:horse-wild-male-percheron", "feverstonehorses:horse-wild-female-percheron"],
+                                            "*-arabian": ["feverstonehorses:horse-wild-male-arabian", "feverstonehorses:horse-wild-female-arabian"],
+                                            "*-donkey": [ "feverstonehorses:horse-wild-male-donkey", "feverstonehorses:horse-wild-female-donkey" ],
+                                            "*-shire": [ "feverstonehorses:horse-wild-male-shire", "feverstonehorses:horse-wild-female-shire" ],
+                                            "*-quarter": [ "feverstonehorses:horse-wild-male-quarter", "feverstonehorses:horse-wild-female-quarter" ]  }
+			},
         "file": "feverstonehorses:entities/land/foal.json",
         "dependsOn": [ { "modid": "petai" }, {"modid": "jaunt", "invert": true} ]
     }
