@@ -125,7 +125,7 @@
                 ]
         },
         "selectionboxes": {
-                "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", "LLanternAP", "RLanternAP", "RearUpperAP",
+                "selectionBoxes": ["HeadAP", "FaceAP", "NeckAP", "MidAP", "LLanternAP", "RLanternAP", "RearAP",
                                     "RearSideAP", "RFrontAP", "LFrontAP", "TempGear1AP", "TempGear2AP", "TempGear3AP"]
         },
         "gait": {
