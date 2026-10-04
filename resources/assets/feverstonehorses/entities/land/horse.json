@@ -253,7 +253,7 @@
             "enabledByType": { "*-tamed-*": true, "taminghorse-*": true, "*": false },
             "interactMountAnySeat": false,
             "seats": [
-                { "apName": "Rider", "selectionBox": "MidUpperAP", "bodyYawLimit": 0.2, "controllable": true,
+                { "apName": "Rider", "selectionBox": "MidAP", "bodyYawLimit": 0.2, "controllable": true,
                     "riderOffset": { "x": 0, "y": -0.55, "z": 0 }
                 }
             ],
