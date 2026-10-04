@@ -102,12 +102,13 @@
         "floatupwhenstuck": { "onlyWhenDead": true },
         "rideableaccessories": {
             "wearableSlots": [
-                    { "code": "head", "forCategoryCodes": ["bridle-{type}"], "attachmentPointCode": "HeadAP" }, 
+                    { "code": "head-{type}", "forCategoryCodes": ["bridle-{type}"], "attachmentPointCode": "HeadAP" }, 
                     { "code": "face", "forCategoryCodes": ["face"], "attachmentPointCode": "FaceAP" }, 
-                    { "code": "middlebackupper", "forCategoryCodes": ["saddle-{type}"], "attachmentPointCode": "MidUpperAP" },
-                    { "code": "fswmiddlebackleft", "forCategoryCodes": [ "lantern" ], "attachmentPointCode": "LLanternAP" },
-                    { "code": "fswmiddlebackright", "forCategoryCodes": [ "lantern" ], "attachmentPointCode": "RLanternAP" },
-                    { "code": "lowerback", "forCategoryCodes": ["bedroll"], "attachmentPointCode": "RearUpperAP" },
+                    { "code": "neck", "forCategoryCodes": [], "attachmentPointCode": "NeckAP" },
+                    { "code": "middleback-{type}", "forCategoryCodes": ["saddle-{type}"], "attachmentPointCode": "MidAP" },
+                    { "code": "fshmiddlebackleft", "forCategoryCodes": [ "lantern" ], "attachmentPointCode": "LLanternAP" },
+                    { "code": "fshmiddlebackright", "forCategoryCodes": [ "lantern" ], "attachmentPointCode": "RLanternAP" },
+                    { "code": "lowerback", "forCategoryCodes": ["bedroll"], "attachmentPointCode": "RearAP" },
                     { "code": "lowerbackside", "forCategoryCodes": ["sidebags-{type}"], "attachmentPointCode": "RearSideAP" },
                     {
                         "code": "frontrightside",
@@ -125,7 +126,7 @@
                 ]
         },
         "selectionboxes": {
-                "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", "LLanternAP", "RLanternAP", "RearUpperAP",
+                "selectionBoxes": ["HeadAP", "FaceAP", "NeckAP", "MidAP", "LLanternAP", "RLanternAP", "RearAP",
                                     "RearSideAP", "RFrontAP", "LFrontAP", "TempGear1AP", "TempGear2AP", "TempGear3AP"]
         },
         "jaunt:gait": {

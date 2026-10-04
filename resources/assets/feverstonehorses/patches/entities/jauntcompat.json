@@ -1,6 +1,6 @@
 [
     {
-        "op": "replace",
+        "op": "add",
         "file": "entities/land/horse.json",
         "path": "/enabled",
         "value": false,
