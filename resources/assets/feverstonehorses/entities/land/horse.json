@@ -125,7 +125,7 @@
                 ]
         },
         "selectionboxes": {
-                "selectionBoxes": ["HeadAP", "FaceAP", "MidUpperAP", "LLanternAP", "RLanternAP", "RearUpperAP",
+                "selectionBoxes": ["HeadAP", "FaceAP", "NeckAP", "MidAP", "LLanternAP", "RLanternAP", "RearAP",
                                     "RearSideAP", "RFrontAP", "LFrontAP", "TempGear1AP", "TempGear2AP", "TempGear3AP"]
         },
         "gait": {
@@ -253,7 +253,7 @@
             "enabledByType": { "*-tamed-*": true, "taminghorse-*": true, "*": false },
             "interactMountAnySeat": false,
             "seats": [
-                { "apName": "Rider", "selectionBox": "MidUpperAP", "bodyYawLimit": 0.2, "controllable": true,
+                { "apName": "Rider", "selectionBox": "MidAP", "bodyYawLimit": 0.2, "controllable": true,
                     "riderOffset": { "x": 0, "y": -0.55, "z": 0 }
                 }
             ],
