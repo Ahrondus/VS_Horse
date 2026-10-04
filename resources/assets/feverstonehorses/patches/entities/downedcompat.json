@@ -1,16 +1,16 @@
 [
     {
-        "file": "feverstonehorses:horse.json",
+        "file": "feverstonehorses:entities/land/horse.json",
         "op": "add",
         "path": "/client/behaviors/-",
-        "value": { "code": "downedstowage", "rearAttachmentPoint": "RearUpperAP" },
+        "value": { "code": "downedstowage", "rearAttachmentPoint": "RearAP" },
         "dependsOn": [ {"modid": "downed"} ]
     },
     {
-        "file": "feverstonehorses:horse.json",
+        "file": "feverstonehorses:entities/land/horse.json",
         "op": "add",
         "path": "/server/behaviors/-",
-        "value": { "code": "downedstowage", "rearAttachmentPoint": "RearUpperAP" },
+        "value": { "code": "downedstowage", "rearAttachmentPoint": "RearAP" },
         "dependsOn": [ {"modid": "downed"} ]
     }
 ]

@@ -13,16 +13,16 @@
 		},		
 		"rideableaccessories": {
 			"wearableSlots": [
-				{ "code": "head", "forCategoryCodes": ["bridle-{type}"], "attachmentPointCode": "HeadAP" },
+				{ "code": "head-{type}", "forCategoryCodes": ["bridle-{type}"], "attachmentPointCode": "HeadAP" },
 				{ "code": "face", "forCategoryCodes": [], "attachmentPointCode": "FaceAP" },
 				{ "code": "neck", "forCategoryCodes": [], "attachmentPointCode": "NeckAP" },
-				{ "code": "middlebackupper", "forCategoryCodes": ["saddle-{type}"], "attachmentPointCode": "MidUpperAP" }
+				{ "code": "middleback-{type}", "forCategoryCodes": ["saddle-{type}"], "attachmentPointCode": "MidAP" }
 			]
 		},
 		"rideable": {
 			"saddleBreakGait": "sprint",
 			"saddleBreaksRequired": { "avg": 13, "var": 5 },
-			"saddleBreakDayInterval": 1,
+			"saddleBreakDayInterval": 0.5,
 			"tamedEntityCode": "feverstonehorses:horse-tamed-{gender}-{type}"
 		}
 	},
